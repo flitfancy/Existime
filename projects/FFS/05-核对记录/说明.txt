@@ -1,0 +1,1 @@
+﻿此处保存本次本地导出的身份、回执、源码与校验结果。project-versus-live.json 记录打包格式与运行时格式的差异；before-after.json 检查导出期间的 PCB 设计是否变化。

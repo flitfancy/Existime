@@ -1,0 +1,54 @@
+{
+  "readOnly": true,
+  "capturedAt": "2026-10-20T14:00:27.560Z",
+  "projectUuid": "5d0b52d2fda9404096d5e2d234823890",
+  "documents": [
+    {
+      "uuid": "04902445e10c1016",
+      "name": "parts_overview",
+      "file": "01-完整工程/当前文档源码/parts_overview-04902445e10c1016.epru",
+      "bytes": 406030,
+      "sha256": "7ea652920d5b87004aed4e95c148b039f9f2f657e95a041c6e8d9b696e65c72d"
+    },
+    {
+      "uuid": "2eafe3ec832846fa",
+      "name": "POWER_IO",
+      "file": "01-完整工程/当前文档源码/POWER_IO-2eafe3ec832846fa.epru",
+      "bytes": 367058,
+      "sha256": "2f1ecd10ab6725bc82ed4b0bea81899730ae943c20605a685f5bbf6b850f228d"
+    },
+    {
+      "uuid": "a6c2d53d04891a7f",
+      "name": "I2C_CONTROL",
+      "file": "01-完整工程/当前文档源码/I2C_CONTROL-a6c2d53d04891a7f.epru",
+      "bytes": 324580,
+      "sha256": "d39eba6dd86dd04ef2b61d1be5e6a8ac90675eb1584e7c74628a09f77ad73990"
+    },
+    {
+      "uuid": "d0714fc3637b90d7",
+      "name": "SENSOR_CHANNELS",
+      "file": "01-完整工程/当前文档源码/SENSOR_CHANNELS-d0714fc3637b90d7.epru",
+      "bytes": 1380490,
+      "sha256": "696087c22df79fe999b4f798189bbb073cc0af01df215716edd52c73709ee926"
+    },
+    {
+      "uuid": "d9395a196c84811a",
+      "name": "STATUS_LED",
+      "file": "01-完整工程/当前文档源码/STATUS_LED-d9395a196c84811a.epru",
+      "bytes": 299527,
+      "sha256": "e72b26689cbf987dc8b917a64e8b153d92098607109b5a70c10837046a26194f"
+    }
+  ],
+  "restoredPcb": true,
+  "request": {
+    "schemaVersion": 1,
+    "requestId": "6ddcda98-b99f-4b3e-94d5-a205607c7807",
+    "sessionId": "ed6f6178-24bd-41fc-9165-1692a399028a",
+    "windowId": "8e48b45d-847a-4506-b0e3-344420aaf95b",
+    "codeSha256": "02600b30b4fd2a4221f9e3533b336920497e96a5201fc9ff0c9380030abcad0d",
+    "status": "succeeded",
+    "submittedAt": "2026-10-20T14:00:22.073Z",
+    "updatedAt": "2026-10-20T14:00:27.833Z",
+    "completedAt": "2026-10-20T14:00:27.833Z"
+  }
+}

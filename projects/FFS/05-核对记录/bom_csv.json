@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "status": "exported-local-only",
+  "action": "bom_csv",
+  "exportedAt": "2026-10-20T13:53:41.699Z",
+  "project": {
+    "uuid": "5d0b52d2fda9404096d5e2d234823890",
+    "name": "exist01/FIREFLY REAL-WORLD SENSE R1",
+    "friendlyName": "FIREFLY REAL-WORLD SENSE R1"
+  },
+  "document": {
+    "documentType": 3,
+    "uuid": "f1b8026e8b5b8937",
+    "tabId": "f1b8026e8b5b8937@5d0b52d2fda9404096d5e2d234823890",
+    "parentProjectUuid": "5d0b52d2fda9404096d5e2d234823890"
+  },
+  "sourceHash": 2466804959,
+  "sourceUnchanged": true,
+  "file": {
+    "name": "FFS-bom_csv-20261020.csv",
+    "type": "text/csv",
+    "bytes": 5838
+  },
+  "output": {
+    "path": "02-BOM/FFS-BOM.csv",
+    "bytes": 5838,
+    "sha256": "ca681b70f36398974e1c244d26f71e9682e2256b0f9372cbbae809b61961c76b"
+  },
+  "transport": {
+    "requestId": "17a41b0d-f1d3-4ff5-aee0-53a47fbcbc02",
+    "sessionId": "ed6f6178-24bd-41fc-9165-1692a399028a",
+    "windowId": "8e48b45d-847a-4506-b0e3-344420aaf95b",
+    "status": "succeeded"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "exported-local-only",
+  "action": "project",
+  "exportedAt": "2026-10-20T13:57:33.679Z",
+  "project": {
+    "uuid": "1a31211d77504c7e9f3e824221e31fe2",
+    "name": "exist01/FireFly Audio",
+    "friendlyName": "FireFly Audio"
+  },
+  "document": {
+    "documentType": 3,
+    "uuid": "f1f1a80e02b95546",
+    "tabId": "f1f1a80e02b95546@1a31211d77504c7e9f3e824221e31fe2",
+    "parentProjectUuid": "1a31211d77504c7e9f3e824221e31fe2"
+  },
+  "sourceHash": 3094591591,
+  "designHash": 2818888469,
+  "sourceUnchanged": true,
+  "renderingSerializationChanged": false,
+  "file": {
+    "name": "FFA-project-20261020.epro2",
+    "type": "zip",
+    "bytes": 1182218
+  },
+  "output": {
+    "path": "01-完整工程/FFA-20261020.epro2",
+    "bytes": 1182218,
+    "sha256": "04830177455aaf235c96c2b9d3a5f99272b4fb9ad5efcdb83bbb051a764fec0d"
+  },
+  "transport": {
+    "requestId": "74344edf-df2b-49ea-a224-4df7dc3564bf",
+    "sessionId": "ed6f6178-24bd-41fc-9165-1692a399028a",
+    "windowId": "73b15791-c3ce-4a60-9fe1-292ce1571aa3",
+    "status": "succeeded"
+  }
+}

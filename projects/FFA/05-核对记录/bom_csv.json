@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "exported-local-only",
+  "action": "bom_csv",
+  "exportedAt": "2026-10-20T13:57:34.355Z",
+  "project": {
+    "uuid": "1a31211d77504c7e9f3e824221e31fe2",
+    "name": "exist01/FireFly Audio",
+    "friendlyName": "FireFly Audio"
+  },
+  "document": {
+    "documentType": 3,
+    "uuid": "f1f1a80e02b95546",
+    "tabId": "f1f1a80e02b95546@1a31211d77504c7e9f3e824221e31fe2",
+    "parentProjectUuid": "1a31211d77504c7e9f3e824221e31fe2"
+  },
+  "sourceHash": 3094591591,
+  "designHash": 2818888469,
+  "sourceUnchanged": true,
+  "renderingSerializationChanged": false,
+  "file": {
+    "name": "FFA-bom_csv-20261020.csv",
+    "type": "text/csv",
+    "bytes": 5016
+  },
+  "output": {
+    "path": "02-BOM/FFA-BOM.csv",
+    "bytes": 5016,
+    "sha256": "69ce72f6f75a81d52198a625e1cdc2c34cfa921aad7e8272d4c27202077a8fd7"
+  },
+  "transport": {
+    "requestId": "c2f6faf5-67f3-4e5a-a0d0-460543891249",
+    "sessionId": "ed6f6178-24bd-41fc-9165-1692a399028a",
+    "windowId": "73b15791-c3ce-4a60-9fe1-292ce1571aa3",
+    "status": "succeeded"
+  }
+}

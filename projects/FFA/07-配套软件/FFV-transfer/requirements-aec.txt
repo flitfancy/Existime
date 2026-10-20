@@ -1,0 +1,3 @@
+# Windows x64 / CPython 3.11 experiment. Uses CPU, no model download.
+# Install into the existing FFV environment with --only-binary=:all: --no-deps.
+aec-audio-processing==1.0.1 --hash=sha256:89440a4edb6a2dab0e6f89cd6b8097082f028d194b0619474ef51473411840e2

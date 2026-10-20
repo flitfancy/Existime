@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "exported-local-only",
+  "action": "bom_xlsx",
+  "exportedAt": "2026-10-20T13:57:35.078Z",
+  "project": {
+    "uuid": "1a31211d77504c7e9f3e824221e31fe2",
+    "name": "exist01/FireFly Audio",
+    "friendlyName": "FireFly Audio"
+  },
+  "document": {
+    "documentType": 3,
+    "uuid": "f1f1a80e02b95546",
+    "tabId": "f1f1a80e02b95546@1a31211d77504c7e9f3e824221e31fe2",
+    "parentProjectUuid": "1a31211d77504c7e9f3e824221e31fe2"
+  },
+  "sourceHash": 3094591591,
+  "designHash": 2818888469,
+  "sourceUnchanged": true,
+  "renderingSerializationChanged": false,
+  "file": {
+    "name": "FFA-bom_xlsx-20261020.xlsx",
+    "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8",
+    "bytes": 9190
+  },
+  "output": {
+    "path": "02-BOM/FFA-BOM.xlsx",
+    "bytes": 9190,
+    "sha256": "03f007f27b38ccac293e414227080fe0d51ffe70b9b797ea7335683ca5c0c697"
+  },
+  "transport": {
+    "requestId": "5c096f7b-d093-4509-a1fe-54d1a63aad0b",
+    "sessionId": "ed6f6178-24bd-41fc-9165-1692a399028a",
+    "windowId": "73b15791-c3ce-4a60-9fe1-292ce1571aa3",
+    "status": "succeeded"
+  }
+}

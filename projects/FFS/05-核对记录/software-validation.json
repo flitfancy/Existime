@@ -1,0 +1,27 @@
+{
+  "firmwareVersion": "1.3.15",
+  "firmwareCompiled": true,
+  "sourceOriginalsUnchanged": true,
+  "credentialValuesFound": [],
+  "freshEnvironmentInstallation": false,
+  "realDeviceValidation": false,
+  "servicesRestarted": false,
+  "pcReceiverStorageAndReconnect": true,
+  "androidDebugBuild": true,
+  "androidUnitTests": {
+    "tests": 14,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "suites": [
+      "com.flitfancy.mobile.BleProtocolTest",
+      "com.flitfancy.mobile.BluetoothSettingsTest",
+      "com.flitfancy.mobile.FirmwareFixtureTest",
+      "com.flitfancy.mobile.QueueStoreTest",
+      "com.flitfancy.mobile.SampleCodecTest"
+    ]
+  },
+  "heartRateLedAndBleHostTests": true,
+  "windowsBuildUsesAsciiStaging": true,
+  "esptoolPermissionWorkaroundUsed": true
+}

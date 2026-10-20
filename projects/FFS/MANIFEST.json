@@ -1,0 +1,1095 @@
+{
+  "schemaVersion": 1,
+  "board": "FFS",
+  "preparedAt": "2026-10-20T23:05:55+08:00",
+  "status": "open-source-preview",
+  "project": {
+    "uuid": "5d0b52d2fda9404096d5e2d234823890",
+    "name": "exist01/FIREFLY REAL-WORLD SENSE R1",
+    "friendlyName": "FIREFLY REAL-WORLD SENSE R1"
+  },
+  "pcb": {
+    "documentType": 3,
+    "uuid": "f1b8026e8b5b8937",
+    "tabId": "f1b8026e8b5b8937@5d0b52d2fda9404096d5e2d234823890",
+    "parentProjectUuid": "5d0b52d2fda9404096d5e2d234823890"
+  },
+  "edaGerberVersion": "EasyEDA Pro 4.1.78",
+  "schematicPages": [
+    {
+      "uuid": "04902445e10c1016",
+      "name": "parts_overview",
+      "file": "01-完整工程/当前文档源码/parts_overview-04902445e10c1016.epru",
+      "bytes": 406030,
+      "sha256": "7ea652920d5b87004aed4e95c148b039f9f2f657e95a041c6e8d9b696e65c72d"
+    },
+    {
+      "uuid": "2eafe3ec832846fa",
+      "name": "POWER_IO",
+      "file": "01-完整工程/当前文档源码/POWER_IO-2eafe3ec832846fa.epru",
+      "bytes": 367058,
+      "sha256": "2f1ecd10ab6725bc82ed4b0bea81899730ae943c20605a685f5bbf6b850f228d"
+    },
+    {
+      "uuid": "a6c2d53d04891a7f",
+      "name": "I2C_CONTROL",
+      "file": "01-完整工程/当前文档源码/I2C_CONTROL-a6c2d53d04891a7f.epru",
+      "bytes": 324580,
+      "sha256": "d39eba6dd86dd04ef2b61d1be5e6a8ac90675eb1584e7c74628a09f77ad73990"
+    },
+    {
+      "uuid": "d0714fc3637b90d7",
+      "name": "SENSOR_CHANNELS",
+      "file": "01-完整工程/当前文档源码/SENSOR_CHANNELS-d0714fc3637b90d7.epru",
+      "bytes": 1380490,
+      "sha256": "696087c22df79fe999b4f798189bbb073cc0af01df215716edd52c73709ee926"
+    },
+    {
+      "uuid": "d9395a196c84811a",
+      "name": "STATUS_LED",
+      "file": "01-完整工程/当前文档源码/STATUS_LED-d9395a196c84811a.epru",
+      "bytes": 299527,
+      "sha256": "e72b26689cbf987dc8b917a64e8b153d92098607109b5a70c10837046a26194f"
+    }
+  ],
+  "pcbComponents": 128,
+  "bomGroups": 31,
+  "bomQuantity": 128,
+  "cplRows": 128,
+  "boardSizeMm": {
+    "width": 90,
+    "height": 55
+  },
+  "copperLayers": 2,
+  "checks": {
+    "nativeArchiveCrc": true,
+    "gerberArchiveCrc": true,
+    "allCurrentSchematicPagesInArchive": true,
+    "componentFootprintCoverage": true,
+    "bomDesignatorsMatch": true,
+    "cplDesignatorsMatch": true,
+    "cplPositionsAndRotationsMatch": true,
+    "pcbDesignUnchangedDuringExport": true,
+    "nativeProjectImportedForValidation": false,
+    "nativeArchiveAndRuntimeTextIdentical": false,
+    "drcRun": false,
+    "dfmRun": false,
+    "manufacturingRelease": false
+  },
+  "files": [
+    {
+      "path": "01-完整工程/FFS-20261020.epro2",
+      "bytes": 1864760,
+      "sha256": "fa7ff0d29b041ed939ad0131fc1c677c99489af63ad144eeefaec7e42b9db8af"
+    },
+    {
+      "path": "01-完整工程/FFS-PCB-netlist.net",
+      "bytes": 290885,
+      "sha256": "19fc9b8eeac902942a417fa50d7b0da366d82924f066594d0b0999b799fe3289"
+    },
+    {
+      "path": "01-完整工程/工程预览/I2C_CONTROL.webp",
+      "bytes": 86624,
+      "sha256": "42f57e61c4d22821be24509360b6529430262a7c78b24a0979788f99c051e372"
+    },
+    {
+      "path": "01-完整工程/工程预览/parts_overview.webp",
+      "bytes": 54062,
+      "sha256": "1151b577e893f3f766e78c298f3bb6ab6d739f20cbec00df61cd3da4dd9a9ef8"
+    },
+    {
+      "path": "01-完整工程/工程预览/PCB1.webp",
+      "bytes": 293990,
+      "sha256": "ed4e46ffc0d711e8c66d0ff1136f73b3d6ac72880d8a4587c172f3d84cf36258"
+    },
+    {
+      "path": "01-完整工程/工程预览/POWER_IO.webp",
+      "bytes": 84218,
+      "sha256": "a4902f083e78947d1abc6184767ac99931cb1974379a2873f3c3a2563224f964"
+    },
+    {
+      "path": "01-完整工程/工程预览/SENSOR_CHANNELS.webp",
+      "bytes": 203542,
+      "sha256": "0bf1ab46a29f9a603321f2b7c88d7f00175e3d6a4eaf459ce733e5e5315c113c"
+    },
+    {
+      "path": "01-完整工程/工程预览/STATUS_LED.webp",
+      "bytes": 62286,
+      "sha256": "708ea748fb7d77596ac50c2df15ef8592c6adf1a249185d536e08005e088fe00"
+    },
+    {
+      "path": "01-完整工程/当前文档源码/I2C_CONTROL-a6c2d53d04891a7f.epru",
+      "bytes": 324580,
+      "sha256": "d39eba6dd86dd04ef2b61d1be5e6a8ac90675eb1584e7c74628a09f77ad73990"
+    },
+    {
+      "path": "01-完整工程/当前文档源码/parts_overview-04902445e10c1016.epru",
+      "bytes": 406030,
+      "sha256": "7ea652920d5b87004aed4e95c148b039f9f2f657e95a041c6e8d9b696e65c72d"
+    },
+    {
+      "path": "01-完整工程/当前文档源码/PCB1.epru",
+      "bytes": 1689167,
+      "sha256": "fc12c67836849aae79c13f5c5603c3b39de1640823e828758e25868061d05e78"
+    },
+    {
+      "path": "01-完整工程/当前文档源码/POWER_IO-2eafe3ec832846fa.epru",
+      "bytes": 367058,
+      "sha256": "2f1ecd10ab6725bc82ed4b0bea81899730ae943c20605a685f5bbf6b850f228d"
+    },
+    {
+      "path": "01-完整工程/当前文档源码/SENSOR_CHANNELS-d0714fc3637b90d7.epru",
+      "bytes": 1380490,
+      "sha256": "696087c22df79fe999b4f798189bbb073cc0af01df215716edd52c73709ee926"
+    },
+    {
+      "path": "01-完整工程/当前文档源码/STATUS_LED-d9395a196c84811a.epru",
+      "bytes": 299527,
+      "sha256": "e72b26689cbf987dc8b917a64e8b153d92098607109b5a70c10837046a26194f"
+    },
+    {
+      "path": "01-完整工程/说明.txt",
+      "bytes": 130,
+      "sha256": "a635d08c659cdf9448f14f6dc5db85329bf0d074d76b760ac057bfa03c8ab257"
+    },
+    {
+      "path": "02-BOM/FFS-BOM-UTF8.csv",
+      "bytes": 3195,
+      "sha256": "e93fff63834a0808eea0276d04fbeb96d978538820d0d2dd2a7f72187f6cf023"
+    },
+    {
+      "path": "02-BOM/FFS-BOM.csv",
+      "bytes": 5838,
+      "sha256": "ca681b70f36398974e1c244d26f71e9682e2256b0f9372cbbae809b61961c76b"
+    },
+    {
+      "path": "02-BOM/FFS-BOM.xlsx",
+      "bytes": 9409,
+      "sha256": "a1fba854cd3d87aee188a7e55eaba3020a95c55dbca8134379d6cd1373f5d1ff"
+    },
+    {
+      "path": "02-BOM/说明.txt",
+      "bytes": 119,
+      "sha256": "2d58ad593d5d2d206f97e5591a5a0ad56859b2df6155932b7274b433e7edea78"
+    },
+    {
+      "path": "03-PCB制造/FFS-Gerber-20261020.zip",
+      "bytes": 316655,
+      "sha256": "7b3215ba60c752d727c82db942aca350c96d558f6a22f2f1a0f95ce0149c7f69"
+    },
+    {
+      "path": "03-PCB制造/Gerber-结构检查.json",
+      "bytes": 5368,
+      "sha256": "cd44a9f8b060478980733db55413b7f5a37f0dd8db87bf4c702954b4618914b1"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Drill_NPTH_Through.DRL",
+      "bytes": 250,
+      "sha256": "23605435fd8aa31d4fe5a3033251b69d05cde8d540b59e212d6e56fab9c2033a"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Drill_PTH_Through.DRL",
+      "bytes": 4643,
+      "sha256": "395b565e16b16826b5737ffc8be5bc4f012c03a49700f7694faa06d5a60f1cc5"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Drill_PTH_Through_Via.DRL",
+      "bytes": 4362,
+      "sha256": "5c2d3e5e91447ac943c4d577a6d0cea4057dba2cec0c15a26a8f0d6f21ec211a"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/FlyingProbeTesting.json",
+      "bytes": 44215,
+      "sha256": "d5919306ab36f1245b5e32b3786ac90208890ef3313e0376cea2a5b7fc6a0945"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_BoardOutlineLayer.GKO",
+      "bytes": 741,
+      "sha256": "95c3b495f7c0717f73a86df252700574844dd8e70bd63d516f0a61bb73b46a75"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_BottomLayer.GBL",
+      "bytes": 97892,
+      "sha256": "9854692dc1d3b22f91c0643db3d1eced507edbb6f8a4c0ea82ee2f6ba1ab2d6e"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_BottomSilkscreenLayer.GBO",
+      "bytes": 575766,
+      "sha256": "23a90be70aa4e122e6905285be53f053b0ec217970b5a6480c17defedfabb57f"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_BottomSolderMaskLayer.GBS",
+      "bytes": 1497,
+      "sha256": "7a7e562f431c9c4a07ad504328e589833bdb9f17c30a6f5aca9ba45d5b36644b"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_DocumentLayer.GDL",
+      "bytes": 8426,
+      "sha256": "5e686d5d1c4a6910f2a283f0bf575283df92fc5fd7a4413b9227eb5bf1d181d8"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_DrillDrawingLayer.GDD",
+      "bytes": 78964,
+      "sha256": "a9717c9aaadc3e0b42619a971a1450721c6bbe292615b4395b74490500a4e2c7"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_TopLayer.GTL",
+      "bytes": 55281,
+      "sha256": "bc1a448de22831d20cace09ecd8fd39eca515ed00da1f9eb31c203539c16be58"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_TopPasteMaskLayer.GTP",
+      "bytes": 62001,
+      "sha256": "43c74b8672b5ae50447134646a917795d14cb29130c7fcfaec821a2196f4d469"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_TopSilkscreenLayer.GTO",
+      "bytes": 414850,
+      "sha256": "fa0f21d2f929600cbb4bf90eb99b8a733e5080bd04b063fa5ea8d9a01b2aff89"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_TopSolderMaskLayer.GTS",
+      "bytes": 12925,
+      "sha256": "c559a2678e440fbe3f4302ce966dea9fb48200f8334f2a53f32c64eff6c181d9"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/PCB下单必读.txt",
+      "bytes": 94,
+      "sha256": "dcb3ee1c645c17a009d70726ad9ab708b68a074556fabcf75a4a059d3b43ec59"
+    },
+    {
+      "path": "03-PCB制造/说明.txt",
+      "bytes": 173,
+      "sha256": "8688c3097d1818ea0a4fb5cdc245da12e69035fde971774792ac1d052857b109"
+    },
+    {
+      "path": "04-装配资料/FFS-CPL-mm-UTF8.csv",
+      "bytes": 23854,
+      "sha256": "5371ededcc478567d9898fe83e6cceb6d8010cc8f6ad1a5b1ea1f614a8cef690"
+    },
+    {
+      "path": "04-装配资料/FFS-CPL-mm.csv",
+      "bytes": 55988,
+      "sha256": "6bf5a23a09a2471ade5947950bd65628de09a1cfd5bc76b53160392180c4b704"
+    },
+    {
+      "path": "04-装配资料/说明.txt",
+      "bytes": 128,
+      "sha256": "eb2c78a1cc6ad250dbf27c67af734c1625d4e3f6a0029e7d8c5912e9ed7d06aa"
+    },
+    {
+      "path": "05-核对记录/before-after.json",
+      "bytes": 275,
+      "sha256": "c3b484115054466ff675cd649d7d4ac21714473c03221b5d5139d66a8164ca99"
+    },
+    {
+      "path": "05-核对记录/bom_csv.json",
+      "bytes": 1022,
+      "sha256": "e3f14586a682107498ee8c06ae15a129c4d37ae6453b59099948ec7aff53e5ce"
+    },
+    {
+      "path": "05-核对记录/bom_xlsx.json",
+      "bytes": 1097,
+      "sha256": "ccec2470860a2cd9b53cfb0a00d9408af66fb06c16a399870e05716a96459e08"
+    },
+    {
+      "path": "05-核对记录/cpl_csv.json",
+      "bytes": 1032,
+      "sha256": "c2c2eb4ee8785fbaf999211232c7a9b0c00db5046a7fe587ad4a7ca7e29eace5"
+    },
+    {
+      "path": "05-核对记录/gerber-source-reconciliation.json",
+      "bytes": 279,
+      "sha256": "013dea17c7aba1e99e20c6681e4df9514bfb2460fff8ada7a59df8f587cc1a7d"
+    },
+    {
+      "path": "05-核对记录/gerber.json",
+      "bytes": 1115,
+      "sha256": "1f3c67d737f24d9e0bb38de2e11ecb2a9998cbf4f1e1f0846c1ea918e67a4a7c"
+    },
+    {
+      "path": "05-核对记录/netlist.json",
+      "bytes": 1106,
+      "sha256": "42bd3eb06f520b65ab6b0110053cd865b4bab819c6ed2ba9a1d538df968d541b"
+    },
+    {
+      "path": "05-核对记录/package-validation.json",
+      "bytes": 4639,
+      "sha256": "ac2905267b2ee25e84650d90d99291c199545ae9758439627619029c799d7367"
+    },
+    {
+      "path": "05-核对记录/PCB1-archive-source.txt",
+      "bytes": 1770370,
+      "sha256": "0a0d926a351af12e67ee6d483b2a0902a1de37b83ad989404a909146bd228f32"
+    },
+    {
+      "path": "05-核对记录/PCB1-live-source-after.txt",
+      "bytes": 1689167,
+      "sha256": "fc12c67836849aae79c13f5c5603c3b39de1640823e828758e25868061d05e78"
+    },
+    {
+      "path": "05-核对记录/PCB1-live-source-before.txt",
+      "bytes": 1689167,
+      "sha256": "0e98c5a667bcd1ef7a5fbc7ed800b5d1cb343bb003d051ae06b5b23da0c9ef3a"
+    },
+    {
+      "path": "05-核对记录/PCB1-live-source-reconcile.txt",
+      "bytes": 1689167,
+      "sha256": "74af968db88d2d1ddc12ca4c60cf1efe8413e085a25ec5e55b0b14cbdb9d5f4b"
+    },
+    {
+      "path": "05-核对记录/project-versus-live.json",
+      "bytes": 858592,
+      "sha256": "756f1477e6f61fb031afa64784ab0318d293fc4f5cebb17062628d3ebc3dd2dc"
+    },
+    {
+      "path": "05-核对记录/project.json",
+      "bytes": 1041,
+      "sha256": "6a2a56c2a93d4bfd9fe11c186e49e02c6178c367f2984924417c9ced46874b87"
+    },
+    {
+      "path": "05-核对记录/reconcile.json",
+      "bytes": 202165,
+      "sha256": "0cb86af6802c438c4e291774b351ca84f0b496e2b714f5e462102de581cd8fcd"
+    },
+    {
+      "path": "05-核对记录/schematic-capture.json",
+      "bytes": 1975,
+      "sha256": "5b2b28b5a688da38b5c5548d0b7c704bcc36d12a49e78719d5ff987752137796"
+    },
+    {
+      "path": "05-核对记录/snapshot.json",
+      "bytes": 202164,
+      "sha256": "e4d5634a6d4c46d2665133e96553ee44f761691796c3fbf69679613bea4516b4"
+    },
+    {
+      "path": "05-核对记录/software-source-provenance.json",
+      "bytes": 34357,
+      "sha256": "ab1d10c4ee78d3a4cb680dbfa24d21261fcd80b76fbf1a006a22375b195ae7b5"
+    },
+    {
+      "path": "05-核对记录/software-validation.json",
+      "bytes": 810,
+      "sha256": "e78bc330456250a9aeabeeb0ee6cff973940e7431c82c79b2df7432a85c2393b"
+    },
+    {
+      "path": "05-核对记录/verify.json",
+      "bytes": 202232,
+      "sha256": "de6e17d8e9e89ca518d05f8fcff54e68503eb7158537b7babd416b36306fdd6a"
+    },
+    {
+      "path": "05-核对记录/说明.txt",
+      "bytes": 218,
+      "sha256": "1f4b6477fb08bfeb57c3e9f12c35aed343ef66b40e562f64ca932620e8fa79a5"
+    },
+    {
+      "path": "06-固件源码/.gitignore",
+      "bytes": 87,
+      "sha256": "dcbecf2905b3c594a716390ea6b9c8380099eee6ef36e4c31737f2851a1f5281"
+    },
+    {
+      "path": "06-固件源码/build.ps1",
+      "bytes": 971,
+      "sha256": "eda6c569f52d8304ae6bfd0afa3998390b24b678a455f8375e9de303221fb1a5"
+    },
+    {
+      "path": "06-固件源码/FONT_NOTICES.txt",
+      "bytes": 3518,
+      "sha256": "b7915ab7e2b23dc9faf1074132648e093735707eb082e152f27481a9fe49b65d"
+    },
+    {
+      "path": "06-固件源码/lib/Firefly_ST7735/Adafruit_ST7735.cpp",
+      "bytes": 17391,
+      "sha256": "30ff68c260fbfab8361191576bc459015048053ea5a67397c6de22020a1abf2a"
+    },
+    {
+      "path": "06-固件源码/lib/Firefly_ST7735/Adafruit_ST7735.h",
+      "bytes": 2147,
+      "sha256": "89b75e2ee277fd6d9a00513568bac8088d194c93ed06740326759bf512685adc"
+    },
+    {
+      "path": "06-固件源码/lib/Firefly_ST7735/Adafruit_ST77xx.cpp",
+      "bytes": 11082,
+      "sha256": "12249897ac735efc6482f0afc88b186bfe9d7d28e300f4396724e6b145b53d0a"
+    },
+    {
+      "path": "06-固件源码/lib/Firefly_ST7735/Adafruit_ST77xx.h",
+      "bytes": 3960,
+      "sha256": "0be13c52ffa6b896e088a235f3515d87f5841fe208bcd6cae2a08bc5c1bf15ac"
+    },
+    {
+      "path": "06-固件源码/lib/Firefly_ST7735/library.json",
+      "bytes": 283,
+      "sha256": "234f01c43a8f048cc18b7055177a29b3a774005cf71770415e8eb524d33e819b"
+    },
+    {
+      "path": "06-固件源码/lib/Firefly_ST7735/NOTICE.md",
+      "bytes": 943,
+      "sha256": "0603e1ca0c46b2ba4430158725ac5751c29ddf5b35e6af254145caf65ffcb32d"
+    },
+    {
+      "path": "06-固件源码/LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
+    },
+    {
+      "path": "06-固件源码/platformio.ini",
+      "bytes": 2357,
+      "sha256": "19741dd13eff42eb0a10b333cb62ce764ca3cfdb60b715f56260ba06e07e546a"
+    },
+    {
+      "path": "06-固件源码/README.txt",
+      "bytes": 2165,
+      "sha256": "04e88fd27d82568935a3c45bc552b9f5a89556245328a637fc3f9531099c174d"
+    },
+    {
+      "path": "06-固件源码/scripts/build_ota.py",
+      "bytes": 3498,
+      "sha256": "2b36c6a95d8a9d79cd8e5547d59401dd54d12fb7cb424c6678042a80b9d0ed77"
+    },
+    {
+      "path": "06-固件源码/scripts/esptool_safe.py",
+      "bytes": 271,
+      "sha256": "b6c9f2fcefc484b26c1a708a33e7b85026344983bd1d93ae51b7516158c7c613"
+    },
+    {
+      "path": "06-固件源码/scripts/package_upgrade.py",
+      "bytes": 4011,
+      "sha256": "ca4cd3cf9d55d78c15fca10ea8927c61b145238feb79bf4c7bb28538e3e7765b"
+    },
+    {
+      "path": "06-固件源码/scripts/render_tft_ui.py",
+      "bytes": 7845,
+      "sha256": "3e685787468e66fb0f7834ed450c59d06181f2f838c1735289a9301974f17016"
+    },
+    {
+      "path": "06-固件源码/scripts/test_heart_led.py",
+      "bytes": 1164,
+      "sha256": "6d8fc6b1645ffe1bfbc66cd7136d9e4bcec0794c5af3ecf807a58077fda25d52"
+    },
+    {
+      "path": "06-固件源码/scripts/test_heart_rate.py",
+      "bytes": 676,
+      "sha256": "a1a39806a339688b426517665c892be70b17b7341942eeb4410e6a9a732acd94"
+    },
+    {
+      "path": "06-固件源码/scripts/test_ota.py",
+      "bytes": 657,
+      "sha256": "571615c9066e27510ed75cd0ac74d19dad7d758cca2d48057aaab3484cb152cb"
+    },
+    {
+      "path": "06-固件源码/scripts/test_phone_ble.py",
+      "bytes": 1541,
+      "sha256": "ada54b4592fc11268fd631c2ea6b1c3337b185a684ba7218a4ada807a4e4e188"
+    },
+    {
+      "path": "06-固件源码/scripts/test_power_rails.py",
+      "bytes": 1661,
+      "sha256": "23ad478c19c6ce9393ffbc6524595cb46ad3310c7e111d7b4f059d10b400f53d"
+    },
+    {
+      "path": "06-固件源码/scripts/test_recovery.py",
+      "bytes": 1929,
+      "sha256": "2cdda9f33f55235e57faf21e6261c8e388c20fb729fc77a1cf4a5a5b6ff6f01e"
+    },
+    {
+      "path": "06-固件源码/scripts/test_tft_gpio_probe.py",
+      "bytes": 1376,
+      "sha256": "b0de6711dfb4987b3d0ba8c8623edb1d40cba4d4eb643dc5bc667b7b6472f60b"
+    },
+    {
+      "path": "06-固件源码/scripts/test_tft_init.py",
+      "bytes": 4315,
+      "sha256": "e2af7b1e77c764329212729198716a7493304de287c9b5d0ba4c69268b73a20c"
+    },
+    {
+      "path": "06-固件源码/scripts/test_tft_pages.py",
+      "bytes": 1049,
+      "sha256": "3cf48078031d10a4829fb274db557f32453a3415130ee1231136cd79dd4bc899"
+    },
+    {
+      "path": "06-固件源码/scripts/tft_probe.py",
+      "bytes": 2933,
+      "sha256": "8cc571c0c816c1cf756758987eb79b9107d0460f108a0e3b9655674476b43806"
+    },
+    {
+      "path": "06-固件源码/scripts/upload_ota.py",
+      "bytes": 1572,
+      "sha256": "e10ddeee3125e5f1440b197ebcea3dbf37509da86747fee38456d9aee677e80b"
+    },
+    {
+      "path": "06-固件源码/scripts/validate_tft_carousel.py",
+      "bytes": 2502,
+      "sha256": "40d7abfecf17c9ee9a8652c9d5bc18a347acc896d603ce1dcbf2bb8d57749bda"
+    },
+    {
+      "path": "06-固件源码/SOFTWARE-NOTICE.txt",
+      "bytes": 1043,
+      "sha256": "cda756a84695a6fe7687770aa2a3b5096c82ccfd7528767cb5e5e296fa89d2a4"
+    },
+    {
+      "path": "06-固件源码/src/collector.cpp",
+      "bytes": 12752,
+      "sha256": "1332056bd72501043e386296a6d194d16882ca3da5fa7a9375e00d01d3245cbd"
+    },
+    {
+      "path": "06-固件源码/src/collector.h",
+      "bytes": 898,
+      "sha256": "d9b1f5eca91b389e6c4af6c8590254f3f1cb9238aa29d5822b0b326bf23cb174"
+    },
+    {
+      "path": "06-固件源码/src/config.h",
+      "bytes": 8334,
+      "sha256": "32fd12e336fba90457639761409d500139b4404e86de981607101461b904045b"
+    },
+    {
+      "path": "06-固件源码/src/config_eeprom.cpp",
+      "bytes": 5446,
+      "sha256": "2a2cf03dcdcbd4ae48712cedc087c27185c9892933acf00ae7587450702565dc"
+    },
+    {
+      "path": "06-固件源码/src/config_eeprom.h",
+      "bytes": 1446,
+      "sha256": "ff3dea8cd8fe966113e79780ad5b4bca838f05748a18d3a59ebe310976ef7543"
+    },
+    {
+      "path": "06-固件源码/src/heart_rate.cpp",
+      "bytes": 10444,
+      "sha256": "186867f0849107f9fda49eeb4f8b9ab51d82836a2d424b9381eec399469d0901"
+    },
+    {
+      "path": "06-固件源码/src/heart_rate.h",
+      "bytes": 404,
+      "sha256": "9e1b600b857c8ca58cb6572894e183a2c2e597bf7a6977e560b02c7b2c4fd7cb"
+    },
+    {
+      "path": "06-固件源码/src/heart_rate_measurement.h",
+      "bytes": 1410,
+      "sha256": "c932c0ef8e14cb9d3ccdfebdc70abdf8eb57c06d3925084f28145c11446ee464"
+    },
+    {
+      "path": "06-固件源码/src/leds.cpp",
+      "bytes": 6091,
+      "sha256": "1bea09c40f141ccc67ad2563298a7db447d30f1e905e04117d401041b69c2440"
+    },
+    {
+      "path": "06-固件源码/src/leds.h",
+      "bytes": 1208,
+      "sha256": "a7064416580e46a89c5206b105d566413bb638dcbb90f8a6f21190474fe0f055"
+    },
+    {
+      "path": "06-固件源码/src/main.cpp",
+      "bytes": 10592,
+      "sha256": "4361e90dd506ad520268ffd21e3c9576504d93efea25d946d7d8422be0222ed3"
+    },
+    {
+      "path": "06-固件源码/src/ota_session.h",
+      "bytes": 3058,
+      "sha256": "60dd7ec0b4800f648b0ccd60f57f7f87806a7a3e3d93de223571b47ff01263d8"
+    },
+    {
+      "path": "06-固件源码/src/ota_update.cpp",
+      "bytes": 11221,
+      "sha256": "1b7b1539f5c716fecbcc6c402517f275a432643ebc5faf3948b62f1261f7bf44"
+    },
+    {
+      "path": "06-固件源码/src/ota_update.h",
+      "bytes": 195,
+      "sha256": "ed0a4035932eb28785df593bef8a17f0cd311270435bcd9600747dcf14e21f56"
+    },
+    {
+      "path": "06-固件源码/src/phone_ble.cpp",
+      "bytes": 12007,
+      "sha256": "7ad328f2f9465e3aae2fd3a0e5dc1f34fa625c257b80a516d391e62bd25c9ce5"
+    },
+    {
+      "path": "06-固件源码/src/phone_ble.h",
+      "bytes": 212,
+      "sha256": "7dda07c279d279f14c2af2a8997a504e217d5f71f84dabd2e50b5ccfcd7d46fa"
+    },
+    {
+      "path": "06-固件源码/src/phone_ble_protocol.h",
+      "bytes": 4962,
+      "sha256": "97e88dd7bf102f9af6c7fd5c668138618781edbb0bc670f1c90169027afef853"
+    },
+    {
+      "path": "06-固件源码/src/sensors.cpp",
+      "bytes": 22776,
+      "sha256": "45787c0e8341aafe1e5d5ff35c56f42082ab6fe0005aa42bcd697bbf956b57cf"
+    },
+    {
+      "path": "06-固件源码/src/sensors.h",
+      "bytes": 2836,
+      "sha256": "c990059900b7df7464cf82c1f26f94f32f0ee88285bb23d7e69e6a7e2b7f9a70"
+    },
+    {
+      "path": "06-固件源码/src/tft_display.cpp",
+      "bytes": 13944,
+      "sha256": "db607a35a79cf93004f076f1e7ded2f1aa4879c5d52feb7555b07345c650c8a5"
+    },
+    {
+      "path": "06-固件源码/src/tft_display.h",
+      "bytes": 155,
+      "sha256": "de4b1ec54ac632be4fcfa7556d5c6dc23d56e7d974f88157edea9301688c575d"
+    },
+    {
+      "path": "06-固件源码/src/tft_gpio_probe.cpp",
+      "bytes": 1027,
+      "sha256": "853df10b64b8064e3021f13e60a48ba1813cc624c23c0e8e96db244c47f7c712"
+    },
+    {
+      "path": "06-固件源码/src/tft_gpio_probe.h",
+      "bytes": 2828,
+      "sha256": "09454e50ac00cd399b6088c3bf9bb7412ebf511736f93abc6008f5fcd7a81e4e"
+    },
+    {
+      "path": "06-固件源码/src/tft_pages.cpp",
+      "bytes": 4928,
+      "sha256": "8b9c2342c1f8ea558bd2c2226f33e49c60d2aacdc3ac6954709ae8aec8482856"
+    },
+    {
+      "path": "06-固件源码/src/tft_pages.h",
+      "bytes": 1677,
+      "sha256": "5ee3f9e2736c8afaf4b04b7937532ed0fa19103eea53a2950b9ada32194d7c81"
+    },
+    {
+      "path": "06-固件源码/src/tft_ui.cpp",
+      "bytes": 8063,
+      "sha256": "8478be304dda47bcd8a5056e7bb042492fccd57d4d4ab17946759ba35cd47964"
+    },
+    {
+      "path": "06-固件源码/src/tft_ui.h",
+      "bytes": 1058,
+      "sha256": "18110d52131ab4d8414bcc96287e40f39e86d2620ab4e6b378ba7db294dae722"
+    },
+    {
+      "path": "06-固件源码/src/web_panel.cpp",
+      "bytes": 10258,
+      "sha256": "7d35634304ce2a4999f134fd4be7dbb8e2be97b8af394aa8210ce8a022032fd9"
+    },
+    {
+      "path": "06-固件源码/src/web_panel.h",
+      "bytes": 445,
+      "sha256": "83d807ae0029006801190d3ddce87a2ea2fd95dcc710e510eee76732e1b7f33b"
+    },
+    {
+      "path": "06-固件源码/src/wifi_config.example.h",
+      "bytes": 180,
+      "sha256": "2f83ee730f408a0141780ea9fafdb37ae5c9a6b57b72184be373be3a4dd9daf5"
+    },
+    {
+      "path": "06-固件源码/src/wifi_link.cpp",
+      "bytes": 4584,
+      "sha256": "966285606e9b479b459879c07069e4ed908298933357601d12af3e0327225c3a"
+    },
+    {
+      "path": "06-固件源码/src/wifi_link.h",
+      "bytes": 382,
+      "sha256": "7ae8952128f01fde5e13d237b0dbb8a0675f4efc6b12d663a8f4edd1035026d7"
+    },
+    {
+      "path": "06-固件源码/tests/host/Arduino.h",
+      "bytes": 1054,
+      "sha256": "d249f0c2b946b122131b89205b60dd88732da1674aeaa6c34dc16848f09522ee"
+    },
+    {
+      "path": "06-固件源码/tests/host/heart_led_test.cpp",
+      "bytes": 4273,
+      "sha256": "35ea9ac3fca12398fe8da452bfe1a020ad69cc76a960ff03a3d90bd2b06426c4"
+    },
+    {
+      "path": "06-固件源码/tests/host/heart_rate_test.cpp",
+      "bytes": 1836,
+      "sha256": "7bf5397e5cb70817e3c55a15a427f4d41ad9fc75003accbdb525c2b589188364"
+    },
+    {
+      "path": "06-固件源码/tests/host/led/Wire.h",
+      "bytes": 537,
+      "sha256": "1ca45255b60f42cc723cd852e5c58a25f7d8e20664aade019f2cbd0984ab04ac"
+    },
+    {
+      "path": "06-固件源码/tests/host/LittleFS.h",
+      "bytes": 448,
+      "sha256": "e94dc809b6a7a8de1f0ccfe76cb188fe0cbee9c7276223ea3b7d273ae3f1066d"
+    },
+    {
+      "path": "06-固件源码/tests/host/ota_test.cpp",
+      "bytes": 3722,
+      "sha256": "f1c62d70c16fe8ec429f21075d3f8c6127daeebabe3e38505fd7192e561d1afc"
+    },
+    {
+      "path": "06-固件源码/tests/host/phone_ble_test.cpp",
+      "bytes": 3569,
+      "sha256": "bc0aca6853ea2d24daaaf2b0bfc222938af4c67751f878efd2c4c4fca82e8969"
+    },
+    {
+      "path": "06-固件源码/tests/host/power_rails_test.cpp",
+      "bytes": 2656,
+      "sha256": "2294f598ac11e5a63102eac7c29d0877971150da073d678e9fd95ebf0507304e"
+    },
+    {
+      "path": "06-固件源码/tests/host/recovery_test.cpp",
+      "bytes": 11610,
+      "sha256": "d36b2f7353a1eee4de53382b45e77850af07da90558aa9d93c453adc2726544f"
+    },
+    {
+      "path": "06-固件源码/tests/host/tft_gpio_probe_test.cpp",
+      "bytes": 3746,
+      "sha256": "93ea22cb056867d496a39ee2daac8ad8099beb7b1c7069a5b6a799d9e8f62a25"
+    },
+    {
+      "path": "06-固件源码/tests/host/tft_pages_test.cpp",
+      "bytes": 4963,
+      "sha256": "c6380f0e2c5c3fbfcfc33c7c692f006514fbbf4b6f1326160832da1171037203"
+    },
+    {
+      "path": "06-固件源码/原版说明/README.md",
+      "bytes": 19577,
+      "sha256": "47b582b772c903820afda90a709d2a20931d9b61ae07eca25a84524bd5357b9c"
+    },
+    {
+      "path": "06-固件源码/原版说明/UPGRADE_1.3.15.md",
+      "bytes": 1582,
+      "sha256": "44ab728309a7b1f0bd554b2abe2f769ada0abeefef5af56f545813dd990aa7e6"
+    },
+    {
+      "path": "06-固件源码/原版说明/VERSION_MANIFEST.json",
+      "bytes": 7997,
+      "sha256": "f474e9c81dff8daccf63d4a2a4117a045f486522a233bc140a18b8446bb8fd07"
+    },
+    {
+      "path": "07-配套软件/Android采集端/.gitignore",
+      "bytes": 94,
+      "sha256": "3cbcd668b2d957c9b8bfb20988ab004dd2d2c6287e60c9762fa7cef119e2c30d"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/build.gradle.kts",
+      "bytes": 1895,
+      "sha256": "d1615ffb3b4eab499afda917bf447ce32097748d0680519c00b24db627cf39d3"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/AndroidManifest.xml",
+      "bytes": 2356,
+      "sha256": "cff259cf1af66c270f7762cb885d1c38b843804b81576834a2a91b7f83f2cf3b"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/AppSettings.kt",
+      "bytes": 5255,
+      "sha256": "fbc3e3b5541107067d2d5cd9a37032c9528f528d9ca3b65580482a798539aea7"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/BleBoardSource.kt",
+      "bytes": 11572,
+      "sha256": "275a1108862206dd0910f0e24e747485e25ab07fda0b57424d223eff9daa702a"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/BleDiscovery.kt",
+      "bytes": 2590,
+      "sha256": "57d3d0355a3e179cd9e6e858d174d054b223d1913c83b1c0bfd0e0e723cd628f"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/BleProtocol.kt",
+      "bytes": 4966,
+      "sha256": "96857f3cdc09dd4a4e7b4e17f98e56d30aa20ad7e23a810c7736394714ac0913"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/BluetoothAccess.kt",
+      "bytes": 1859,
+      "sha256": "5a9e638862acde510a28bf0fa04c287255b2425332e0eb9b08b411e101ba6a57"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/BoardSource.kt",
+      "bytes": 1044,
+      "sha256": "4f797291a7116d9a6f6abe7273ee8625e7a125b09ea379dae5245c2515730c2f"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/BootReceiver.kt",
+      "bytes": 598,
+      "sha256": "9138673f91499f6ac047384b39003ab2c67764da98945d9de114e4152412c156"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/CollectorService.kt",
+      "bytes": 7697,
+      "sha256": "5727b234852e50319364c1aabc06447f4375c760930e6a8a5628bd0472b00d32"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/HttpTransport.kt",
+      "bytes": 2189,
+      "sha256": "87e21f1c7a420352c1c2155ac1f8ca91d55064b8091e6832bdc6b7ad9293ddcb"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/MainActivity.kt",
+      "bytes": 23437,
+      "sha256": "02b7a33650308940a2b99046eb1e739dd7f0d3b3fd767f298e43158efae347ce"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/QueueStore.kt",
+      "bytes": 1801,
+      "sha256": "533ee02d77ac71a881718792b053ac3c064a43cc06b1398f54c451eec92e23bd"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/SampleCodec.kt",
+      "bytes": 3672,
+      "sha256": "6449b9d2745c133b2522170fcef7644e2252bad487995517e54c37f7a50bc2b4"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/res/drawable/ic_flitfancy.xml",
+      "bytes": 446,
+      "sha256": "b89a2c365f0dd8b6caea529ef497d8a14ee9d86f408697b549fdc1bf1179592f"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/res/values/styles.xml",
+      "bytes": 574,
+      "sha256": "58e5a9a00bb0c32b41578f6432136cc2e08c9f5c432422fcb7d705be52f2896c"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/main/res/xml/network_security_config.xml",
+      "bytes": 400,
+      "sha256": "7ab98a81cee4fe8183dcd84b9db829105bca1667005663d63013d4d1814226a7"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/test/java/com/flitfancy/mobile/BleProtocolTest.kt",
+      "bytes": 4425,
+      "sha256": "da3691b13fa7603d4ceadc4eb1531c3364d0ed93520bfe8e2854c91710a8e882"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/test/java/com/flitfancy/mobile/BluetoothSettingsTest.kt",
+      "bytes": 3556,
+      "sha256": "20cf0f0bf3756150ba26f8905688f93c90d66817be8c07ba993ea4993d7db58a"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/test/java/com/flitfancy/mobile/FirmwareFixtureTest.kt",
+      "bytes": 1428,
+      "sha256": "2d07d4d5cb2143fd1e87c5be3da62118832234788914ecee4673b0f523d4a8cf"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/test/java/com/flitfancy/mobile/QueueStoreTest.kt",
+      "bytes": 1480,
+      "sha256": "45f283bc1dffe0b8225bd17951ce9d7aa3c0cd2c0076bacf9e45632c0aa22c66"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/test/java/com/flitfancy/mobile/SampleCodecTest.kt",
+      "bytes": 2628,
+      "sha256": "7f9540729efb673eb86bce6b9292293f508addd72d4024cbe03885c1c89f1076"
+    },
+    {
+      "path": "07-配套软件/Android采集端/app/src/test/resources/phone-ble-firmware-v1.jsonl",
+      "bytes": 334,
+      "sha256": "bd6c850ce92fa7f1d334ae2e7a36f149c82289a640ed70bd3aad7db426ded001"
+    },
+    {
+      "path": "07-配套软件/Android采集端/BLE_PROTOCOL.md",
+      "bytes": 4044,
+      "sha256": "7db99926a5ef68fd89043dbd60c2d0a6d9b04676427ec28327b483750ce65bb6"
+    },
+    {
+      "path": "07-配套软件/Android采集端/build.gradle.kts",
+      "bytes": 208,
+      "sha256": "c245094bdc1c509f1e5c355d882ef6eb2b42fd09a024d2bd237fd67135338b35"
+    },
+    {
+      "path": "07-配套软件/Android采集端/build.ps1",
+      "bytes": 1398,
+      "sha256": "a8a1c488c1f7b6c31f3667393d749c5206cd4c3985cf0a55af6e59b1663289f9"
+    },
+    {
+      "path": "07-配套软件/Android采集端/CHANGELOG.md",
+      "bytes": 946,
+      "sha256": "78496e463cf2f4504bd493794fe2e4bd9ca0b9d77075da9711c7f7c391710ba6"
+    },
+    {
+      "path": "07-配套软件/Android采集端/gradle.properties",
+      "bytes": 103,
+      "sha256": "f36eb4825f12cb1892b70c34ecf6e2b2b0d1953f6bc87c63936ebea5795d21ac"
+    },
+    {
+      "path": "07-配套软件/Android采集端/LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
+    },
+    {
+      "path": "07-配套软件/Android采集端/README.txt",
+      "bytes": 1465,
+      "sha256": "4961d72c5cffa664ad10b1e2ef356c447f4bcfbbe854d24cd0c6b5f5866d1b49"
+    },
+    {
+      "path": "07-配套软件/Android采集端/settings.gradle.kts",
+      "bytes": 284,
+      "sha256": "558ad27baeb2d1f1049a69f6163b6b1c585b2f9ffa76f08a1bf0429b0146fcde"
+    },
+    {
+      "path": "07-配套软件/Android采集端/SOFTWARE-NOTICE.txt",
+      "bytes": 1048,
+      "sha256": "3bde1b65a8064422880435256268789b843015323ed8d906814e36e6c6229703"
+    },
+    {
+      "path": "07-配套软件/Android采集端/原版说明/README.md",
+      "bytes": 6922,
+      "sha256": "1cc64d8f860b9ba5141c8dee4eff7583a599d675fd0fa5573f6fd53ecc7f90bb"
+    },
+    {
+      "path": "07-配套软件/LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
+    },
+    {
+      "path": "07-配套软件/PC接收端/.gitignore",
+      "bytes": 24,
+      "sha256": "d67fb44f76feef54a916356f10b640c91a36e61cafdbcdb57678c39ec2b71797"
+    },
+    {
+      "path": "07-配套软件/PC接收端/LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
+    },
+    {
+      "path": "07-配套软件/PC接收端/README.txt",
+      "bytes": 1006,
+      "sha256": "426b91b64e21a1b50a1b2b1695d842f46e92e38dc1ae2ad4f17dddfae966bb9b"
+    },
+    {
+      "path": "07-配套软件/PC接收端/scripts/vendor/listen_wifi.ps1",
+      "bytes": 14670,
+      "sha256": "fe0c8ce3acccf7a9beab9e17cad98545dedfdab0addaf1c324bb536bb2d8bf8d"
+    },
+    {
+      "path": "07-配套软件/PC接收端/scripts/watch_sensor_listener.ps1",
+      "bytes": 3316,
+      "sha256": "fab3118cf4b752733a5ebafb600123b57b0dac6a9d8ce3e26f7c6dd42c4864cc"
+    },
+    {
+      "path": "07-配套软件/PC接收端/SOFTWARE-NOTICE.txt",
+      "bytes": 1052,
+      "sha256": "3a6dc09e4e97dc6e66b92b3a6b193609282bef46e1f493f09b27a8c1b7bd1275"
+    },
+    {
+      "path": "07-配套软件/PC接收端/start-listener.ps1",
+      "bytes": 295,
+      "sha256": "725387d4dea5178c3fced4d5bc28960da28c80f7e5e67831a7f33ddc2b04a3a9"
+    },
+    {
+      "path": "07-配套软件/PC接收端/tests/sensor-listener-reconnect.test.ps1",
+      "bytes": 4697,
+      "sha256": "b93b183ad97af5ccef59a7a79b300598ba2adf0f0f699eec346a513b689a5453"
+    },
+    {
+      "path": "07-配套软件/PC接收端/tests/sensor-listener-storage.test.ps1",
+      "bytes": 9622,
+      "sha256": "9743f0642a88bc754a416cf3332cf8b9996670e7c070a1116aaa75d0d0bf1a3f"
+    },
+    {
+      "path": "07-配套软件/README.txt",
+      "bytes": 706,
+      "sha256": "e7176890d6cd1dde32b178d7065c2c8268c095c3319737e3eeb45d81b22b03de"
+    },
+    {
+      "path": "07-配套软件/SOFTWARE-NOTICE.txt",
+      "bytes": 1043,
+      "sha256": "ec645e6b3a14a16b0ae8437253fa147551a3a84a544f32dc5814fb18c362e466"
+    },
+    {
+      "path": "08-实物照片/ffs-front.jpg",
+      "bytes": 231913,
+      "sha256": "f135a9ff7cac1a230816e0eeeb59f043bb91514659e03ef0271eddc36d197cc1"
+    },
+    {
+      "path": "08-实物照片/README.txt",
+      "bytes": 330,
+      "sha256": "917216f837aa252c306ddeb0b9acc73cae897a5876b28f497dc07630c13756c4"
+    },
+    {
+      "path": "HARDWARE-NOTICE.txt",
+      "bytes": 1407,
+      "sha256": "dbcac1501dc6040111b0682a11e4cbfccdadf1f5176757d9bc22821af1502604"
+    },
+    {
+      "path": "LICENSE-HARDWARE.txt",
+      "bytes": 13419,
+      "sha256": "253ad3f89603e728abfa60c36fbcaf8225cf55c1eab12725f19fb3d74d647f3a"
+    },
+    {
+      "path": "LICENSE-SOFTWARE.txt",
+      "bytes": 1066,
+      "sha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2312,
+      "sha256": "7271472f886a6f4caae7d6fb6d23adac07da28f5e534dfa6a3a3ee8eb179f5f9"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 3592,
+      "sha256": "47c6e542140e7bb6b0ae6c245a31082a654dffc5e9d87adabfb1bce9f8e1f829"
+    },
+    {
+      "path": "SOFTWARE-NOTICE.txt",
+      "bytes": 752,
+      "sha256": "927535472f369ba1b136293daa74bab07dbf1e00ebf10424d8ce0e687a5c8fd7"
+    }
+  ],
+  "softwarePackage": {
+    "firmwareVersion": "1.3.15",
+    "firmwareCompiled": true,
+    "sourceOriginalsUnchanged": true,
+    "credentialValuesFound": [],
+    "freshEnvironmentInstallation": false,
+    "realDeviceValidation": false,
+    "servicesRestarted": false,
+    "pcReceiverStorageAndReconnect": true,
+    "androidDebugBuild": true,
+    "androidUnitTests": {
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "suites": [
+        "com.flitfancy.mobile.BleProtocolTest",
+        "com.flitfancy.mobile.BluetoothSettingsTest",
+        "com.flitfancy.mobile.FirmwareFixtureTest",
+        "com.flitfancy.mobile.QueueStoreTest",
+        "com.flitfancy.mobile.SampleCodecTest"
+      ]
+    },
+    "heartRateLedAndBleHostTests": true,
+    "windowsBuildUsesAsciiStaging": true,
+    "esptoolPermissionWorkaroundUsed": true
+  },
+  "licensing": {
+    "hardware": {
+      "spdx": "CERN-OHL-S-2.0",
+      "version": "2 only",
+      "scope": "Original hardware-design contributions by FlitFancy; third-party rights and notices preserved",
+      "notice": "HARDWARE-NOTICE.txt",
+      "text": "LICENSE-HARDWARE.txt",
+      "officialTextSha256": "253ad3f89603e728abfa60c36fbcaf8225cf55c1eab12725f19fb3d74d647f3a",
+      "officialSource": "https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/819d71bea3458f71fba6cf4fb0f2de6b/cern_ohl_s_v2.txt"
+    },
+    "firmwareAndSoftware": {
+      "spdx": "MIT",
+      "scope": "Original software contributions by FlitFancy in 06-固件源码 and 07-配套软件; third-party exceptions preserved",
+      "notice": "SOFTWARE-NOTICE.txt",
+      "text": "LICENSE-SOFTWARE.txt",
+      "existingLicensesPreserved": true
+    },
+    "status": "open-source-preview"
+  },
+  "presentation": {
+    "entry": "README.md",
+    "photo": "08-实物照片/ffs-front.jpg",
+    "photoNotice": "08-实物照片/README.txt",
+    "photoSource": "user-provided attachment",
+    "photoEdited": false,
+    "description": "user-approved",
+    "photoCoveredByHardwareOrSoftwareLicense": false
+  },
+  "release": {
+    "repository": "flitfancy/Existime",
+    "tag": "v0.1.0",
+    "kind": "prerelease",
+    "sourceUrl": "https://github.com/flitfancy/Existime/tree/v0.1.0/projects/FFS",
+    "releaseUrl": "https://github.com/flitfancy/Existime/releases/tag/v0.1.0",
+    "precompiledFirmwareIncluded": false,
+    "manufacturingRelease": false
+  }
+}

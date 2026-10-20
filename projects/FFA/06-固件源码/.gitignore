@@ -1,0 +1,3 @@
+firmware-wifi-transport/wifi_credentials.local.h
+build-wifi-transport/
+arduino-cli.local.yaml

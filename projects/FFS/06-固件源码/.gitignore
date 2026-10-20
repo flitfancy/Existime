@@ -1,0 +1,8 @@
+.pio/
+build-output/
+.ota-build/
+__pycache__/
+*.pyc
+src/wifi_config.h
+.env*
+*.private.*

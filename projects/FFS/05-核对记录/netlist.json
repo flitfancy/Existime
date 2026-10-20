@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "exported-local-only",
+  "action": "netlist",
+  "exportedAt": "2026-10-20T13:55:12.759Z",
+  "project": {
+    "uuid": "5d0b52d2fda9404096d5e2d234823890",
+    "name": "exist01/FIREFLY REAL-WORLD SENSE R1",
+    "friendlyName": "FIREFLY REAL-WORLD SENSE R1"
+  },
+  "document": {
+    "documentType": 3,
+    "uuid": "f1b8026e8b5b8937",
+    "tabId": "f1b8026e8b5b8937@5d0b52d2fda9404096d5e2d234823890",
+    "parentProjectUuid": "5d0b52d2fda9404096d5e2d234823890"
+  },
+  "sourceHash": 3370409065,
+  "designHash": 2007816647,
+  "sourceUnchanged": true,
+  "renderingSerializationChanged": false,
+  "file": {
+    "name": "FFS-netlist-20261020.enet",
+    "type": "",
+    "bytes": 290885
+  },
+  "output": {
+    "path": "01-完整工程/FFS-PCB-netlist.net",
+    "bytes": 290885,
+    "sha256": "19fc9b8eeac902942a417fa50d7b0da366d82924f066594d0b0999b799fe3289"
+  },
+  "transport": {
+    "requestId": "e8b0d99d-7b63-4506-b58d-9de6ed34d073",
+    "sessionId": "ed6f6178-24bd-41fc-9165-1692a399028a",
+    "windowId": "8e48b45d-847a-4506-b0e3-344420aaf95b",
+    "status": "succeeded"
+  }
+}

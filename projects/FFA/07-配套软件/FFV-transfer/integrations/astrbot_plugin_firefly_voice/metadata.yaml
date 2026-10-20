@@ -1,0 +1,6 @@
+name: astrbot_plugin_firefly_voice
+display_name: Firefly Voice 本地语音
+desc: QQ 语音回复与板子语音入口，共用现有 QQ 私聊上下文。
+version: 0.2.2
+author: Yunwe
+repo: ""

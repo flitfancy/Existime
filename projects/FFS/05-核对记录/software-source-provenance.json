@@ -1,0 +1,553 @@
+{
+  "sourceFiles": [
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\collector.cpp",
+      "destination": "projects/FFS/06-固件源码/src/collector.cpp",
+      "sourceSha256": "1332056bd72501043e386296a6d194d16882ca3da5fa7a9375e00d01d3245cbd"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\collector.h",
+      "destination": "projects/FFS/06-固件源码/src/collector.h",
+      "sourceSha256": "d9b1f5eca91b389e6c4af6c8590254f3f1cb9238aa29d5822b0b326bf23cb174"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\config.h",
+      "destination": "projects/FFS/06-固件源码/src/config.h",
+      "sourceSha256": "32fd12e336fba90457639761409d500139b4404e86de981607101461b904045b"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\config_eeprom.cpp",
+      "destination": "projects/FFS/06-固件源码/src/config_eeprom.cpp",
+      "sourceSha256": "2a2cf03dcdcbd4ae48712cedc087c27185c9892933acf00ae7587450702565dc"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\config_eeprom.h",
+      "destination": "projects/FFS/06-固件源码/src/config_eeprom.h",
+      "sourceSha256": "ff3dea8cd8fe966113e79780ad5b4bca838f05748a18d3a59ebe310976ef7543"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\heart_rate.cpp",
+      "destination": "projects/FFS/06-固件源码/src/heart_rate.cpp",
+      "sourceSha256": "186867f0849107f9fda49eeb4f8b9ab51d82836a2d424b9381eec399469d0901"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\heart_rate.h",
+      "destination": "projects/FFS/06-固件源码/src/heart_rate.h",
+      "sourceSha256": "9e1b600b857c8ca58cb6572894e183a2c2e597bf7a6977e560b02c7b2c4fd7cb"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\heart_rate_measurement.h",
+      "destination": "projects/FFS/06-固件源码/src/heart_rate_measurement.h",
+      "sourceSha256": "c932c0ef8e14cb9d3ccdfebdc70abdf8eb57c06d3925084f28145c11446ee464"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\leds.cpp",
+      "destination": "projects/FFS/06-固件源码/src/leds.cpp",
+      "sourceSha256": "1bea09c40f141ccc67ad2563298a7db447d30f1e905e04117d401041b69c2440"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\leds.h",
+      "destination": "projects/FFS/06-固件源码/src/leds.h",
+      "sourceSha256": "a7064416580e46a89c5206b105d566413bb638dcbb90f8a6f21190474fe0f055"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\main.cpp",
+      "destination": "projects/FFS/06-固件源码/src/main.cpp",
+      "sourceSha256": "8e51ee3a10ae96adfd1c3c67abaae57b6cd27bbade14efbf56732cf70c9e7c4e"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\ota_session.h",
+      "destination": "projects/FFS/06-固件源码/src/ota_session.h",
+      "sourceSha256": "60dd7ec0b4800f648b0ccd60f57f7f87806a7a3e3d93de223571b47ff01263d8"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\ota_update.cpp",
+      "destination": "projects/FFS/06-固件源码/src/ota_update.cpp",
+      "sourceSha256": "1b7b1539f5c716fecbcc6c402517f275a432643ebc5faf3948b62f1261f7bf44"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\ota_update.h",
+      "destination": "projects/FFS/06-固件源码/src/ota_update.h",
+      "sourceSha256": "ed0a4035932eb28785df593bef8a17f0cd311270435bcd9600747dcf14e21f56"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\phone_ble.cpp",
+      "destination": "projects/FFS/06-固件源码/src/phone_ble.cpp",
+      "sourceSha256": "7ad328f2f9465e3aae2fd3a0e5dc1f34fa625c257b80a516d391e62bd25c9ce5"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\phone_ble.h",
+      "destination": "projects/FFS/06-固件源码/src/phone_ble.h",
+      "sourceSha256": "7dda07c279d279f14c2af2a8997a504e217d5f71f84dabd2e50b5ccfcd7d46fa"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\phone_ble_protocol.h",
+      "destination": "projects/FFS/06-固件源码/src/phone_ble_protocol.h",
+      "sourceSha256": "97e88dd7bf102f9af6c7fd5c668138618781edbb0bc670f1c90169027afef853"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\sensors.cpp",
+      "destination": "projects/FFS/06-固件源码/src/sensors.cpp",
+      "sourceSha256": "45787c0e8341aafe1e5d5ff35c56f42082ab6fe0005aa42bcd697bbf956b57cf"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\sensors.h",
+      "destination": "projects/FFS/06-固件源码/src/sensors.h",
+      "sourceSha256": "c990059900b7df7464cf82c1f26f94f32f0ee88285bb23d7e69e6a7e2b7f9a70"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\tft_display.cpp",
+      "destination": "projects/FFS/06-固件源码/src/tft_display.cpp",
+      "sourceSha256": "db607a35a79cf93004f076f1e7ded2f1aa4879c5d52feb7555b07345c650c8a5"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\tft_display.h",
+      "destination": "projects/FFS/06-固件源码/src/tft_display.h",
+      "sourceSha256": "de4b1ec54ac632be4fcfa7556d5c6dc23d56e7d974f88157edea9301688c575d"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\tft_gpio_probe.cpp",
+      "destination": "projects/FFS/06-固件源码/src/tft_gpio_probe.cpp",
+      "sourceSha256": "853df10b64b8064e3021f13e60a48ba1813cc624c23c0e8e96db244c47f7c712"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\tft_gpio_probe.h",
+      "destination": "projects/FFS/06-固件源码/src/tft_gpio_probe.h",
+      "sourceSha256": "09454e50ac00cd399b6088c3bf9bb7412ebf511736f93abc6008f5fcd7a81e4e"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\tft_pages.cpp",
+      "destination": "projects/FFS/06-固件源码/src/tft_pages.cpp",
+      "sourceSha256": "8b9c2342c1f8ea558bd2c2226f33e49c60d2aacdc3ac6954709ae8aec8482856"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\tft_pages.h",
+      "destination": "projects/FFS/06-固件源码/src/tft_pages.h",
+      "sourceSha256": "5ee3f9e2736c8afaf4b04b7937532ed0fa19103eea53a2950b9ada32194d7c81"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\tft_ui.cpp",
+      "destination": "projects/FFS/06-固件源码/src/tft_ui.cpp",
+      "sourceSha256": "8478be304dda47bcd8a5056e7bb042492fccd57d4d4ab17946759ba35cd47964"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\tft_ui.h",
+      "destination": "projects/FFS/06-固件源码/src/tft_ui.h",
+      "sourceSha256": "18110d52131ab4d8414bcc96287e40f39e86d2620ab4e6b378ba7db294dae722"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\web_panel.cpp",
+      "destination": "projects/FFS/06-固件源码/src/web_panel.cpp",
+      "sourceSha256": "7d35634304ce2a4999f134fd4be7dbb8e2be97b8af394aa8210ce8a022032fd9"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\web_panel.h",
+      "destination": "projects/FFS/06-固件源码/src/web_panel.h",
+      "sourceSha256": "83d807ae0029006801190d3ddce87a2ea2fd95dcc710e510eee76732e1b7f33b"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\wifi_config.example.h",
+      "destination": "projects/FFS/06-固件源码/src/wifi_config.example.h",
+      "sourceSha256": "2f83ee730f408a0141780ea9fafdb37ae5c9a6b57b72184be373be3a4dd9daf5"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\wifi_link.cpp",
+      "destination": "projects/FFS/06-固件源码/src/wifi_link.cpp",
+      "sourceSha256": "e79d36b59c9ad85fd7ca901a2d3c69e3f3a053a9bedc6e9556b3bc7c3828b130"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\wifi_link.h",
+      "destination": "projects/FFS/06-固件源码/src/wifi_link.h",
+      "sourceSha256": "7ae8952128f01fde5e13d237b0dbb8a0675f4efc6b12d663a8f4edd1035026d7"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\lib\\Firefly_ST7735\\Adafruit_ST7735.cpp",
+      "destination": "projects/FFS/06-固件源码/lib/Firefly_ST7735/Adafruit_ST7735.cpp",
+      "sourceSha256": "30ff68c260fbfab8361191576bc459015048053ea5a67397c6de22020a1abf2a"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\lib\\Firefly_ST7735\\Adafruit_ST7735.h",
+      "destination": "projects/FFS/06-固件源码/lib/Firefly_ST7735/Adafruit_ST7735.h",
+      "sourceSha256": "89b75e2ee277fd6d9a00513568bac8088d194c93ed06740326759bf512685adc"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\lib\\Firefly_ST7735\\Adafruit_ST77xx.cpp",
+      "destination": "projects/FFS/06-固件源码/lib/Firefly_ST7735/Adafruit_ST77xx.cpp",
+      "sourceSha256": "12249897ac735efc6482f0afc88b186bfe9d7d28e300f4396724e6b145b53d0a"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\lib\\Firefly_ST7735\\Adafruit_ST77xx.h",
+      "destination": "projects/FFS/06-固件源码/lib/Firefly_ST7735/Adafruit_ST77xx.h",
+      "sourceSha256": "0be13c52ffa6b896e088a235f3515d87f5841fe208bcd6cae2a08bc5c1bf15ac"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\lib\\Firefly_ST7735\\library.json",
+      "destination": "projects/FFS/06-固件源码/lib/Firefly_ST7735/library.json",
+      "sourceSha256": "234f01c43a8f048cc18b7055177a29b3a774005cf71770415e8eb524d33e819b"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\lib\\Firefly_ST7735\\NOTICE.md",
+      "destination": "projects/FFS/06-固件源码/lib/Firefly_ST7735/NOTICE.md",
+      "sourceSha256": "0603e1ca0c46b2ba4430158725ac5751c29ddf5b35e6af254145caf65ffcb32d"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\build_ota.py",
+      "destination": "projects/FFS/06-固件源码/scripts/build_ota.py",
+      "sourceSha256": "228e6430a3ac1a6ab2c2e3d96e7d5920f0b11df158429789de2a6ce97b30ba40"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\esptool_safe.py",
+      "destination": "projects/FFS/06-固件源码/scripts/esptool_safe.py",
+      "sourceSha256": "b6c9f2fcefc484b26c1a708a33e7b85026344983bd1d93ae51b7516158c7c613"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\package_upgrade.py",
+      "destination": "projects/FFS/06-固件源码/scripts/package_upgrade.py",
+      "sourceSha256": "ca4cd3cf9d55d78c15fca10ea8927c61b145238feb79bf4c7bb28538e3e7765b"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\render_tft_ui.py",
+      "destination": "projects/FFS/06-固件源码/scripts/render_tft_ui.py",
+      "sourceSha256": "3e685787468e66fb0f7834ed450c59d06181f2f838c1735289a9301974f17016"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\test_heart_led.py",
+      "destination": "projects/FFS/06-固件源码/scripts/test_heart_led.py",
+      "sourceSha256": "6d8fc6b1645ffe1bfbc66cd7136d9e4bcec0794c5af3ecf807a58077fda25d52"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\test_heart_rate.py",
+      "destination": "projects/FFS/06-固件源码/scripts/test_heart_rate.py",
+      "sourceSha256": "a1a39806a339688b426517665c892be70b17b7341942eeb4410e6a9a732acd94"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\test_ota.py",
+      "destination": "projects/FFS/06-固件源码/scripts/test_ota.py",
+      "sourceSha256": "571615c9066e27510ed75cd0ac74d19dad7d758cca2d48057aaab3484cb152cb"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\test_phone_ble.py",
+      "destination": "projects/FFS/06-固件源码/scripts/test_phone_ble.py",
+      "sourceSha256": "ada54b4592fc11268fd631c2ea6b1c3337b185a684ba7218a4ada807a4e4e188"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\test_power_rails.py",
+      "destination": "projects/FFS/06-固件源码/scripts/test_power_rails.py",
+      "sourceSha256": "23ad478c19c6ce9393ffbc6524595cb46ad3310c7e111d7b4f059d10b400f53d"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\test_recovery.py",
+      "destination": "projects/FFS/06-固件源码/scripts/test_recovery.py",
+      "sourceSha256": "2cdda9f33f55235e57faf21e6261c8e388c20fb729fc77a1cf4a5a5b6ff6f01e"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\test_tft_gpio_probe.py",
+      "destination": "projects/FFS/06-固件源码/scripts/test_tft_gpio_probe.py",
+      "sourceSha256": "b0de6711dfb4987b3d0ba8c8623edb1d40cba4d4eb643dc5bc667b7b6472f60b"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\test_tft_init.py",
+      "destination": "projects/FFS/06-固件源码/scripts/test_tft_init.py",
+      "sourceSha256": "e2af7b1e77c764329212729198716a7493304de287c9b5d0ba4c69268b73a20c"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\test_tft_pages.py",
+      "destination": "projects/FFS/06-固件源码/scripts/test_tft_pages.py",
+      "sourceSha256": "3cf48078031d10a4829fb274db557f32453a3415130ee1231136cd79dd4bc899"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\tft_probe.py",
+      "destination": "projects/FFS/06-固件源码/scripts/tft_probe.py",
+      "sourceSha256": "8cc571c0c816c1cf756758987eb79b9107d0460f108a0e3b9655674476b43806"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\upload_ota.py",
+      "destination": "projects/FFS/06-固件源码/scripts/upload_ota.py",
+      "sourceSha256": "e10ddeee3125e5f1440b197ebcea3dbf37509da86747fee38456d9aee677e80b"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\scripts\\validate_tft_carousel.py",
+      "destination": "projects/FFS/06-固件源码/scripts/validate_tft_carousel.py",
+      "sourceSha256": "40d7abfecf17c9ee9a8652c9d5bc18a347acc896d603ce1dcbf2bb8d57749bda"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\tests\\host\\Arduino.h",
+      "destination": "projects/FFS/06-固件源码/tests/host/Arduino.h",
+      "sourceSha256": "d249f0c2b946b122131b89205b60dd88732da1674aeaa6c34dc16848f09522ee"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\tests\\host\\heart_led_test.cpp",
+      "destination": "projects/FFS/06-固件源码/tests/host/heart_led_test.cpp",
+      "sourceSha256": "35ea9ac3fca12398fe8da452bfe1a020ad69cc76a960ff03a3d90bd2b06426c4"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\tests\\host\\heart_rate_test.cpp",
+      "destination": "projects/FFS/06-固件源码/tests/host/heart_rate_test.cpp",
+      "sourceSha256": "7bf5397e5cb70817e3c55a15a427f4d41ad9fc75003accbdb525c2b589188364"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\tests\\host\\led\\Wire.h",
+      "destination": "projects/FFS/06-固件源码/tests/host/led/Wire.h",
+      "sourceSha256": "1ca45255b60f42cc723cd852e5c58a25f7d8e20664aade019f2cbd0984ab04ac"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\tests\\host\\LittleFS.h",
+      "destination": "projects/FFS/06-固件源码/tests/host/LittleFS.h",
+      "sourceSha256": "e94dc809b6a7a8de1f0ccfe76cb188fe0cbee9c7276223ea3b7d273ae3f1066d"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\tests\\host\\ota_test.cpp",
+      "destination": "projects/FFS/06-固件源码/tests/host/ota_test.cpp",
+      "sourceSha256": "f1c62d70c16fe8ec429f21075d3f8c6127daeebabe3e38505fd7192e561d1afc"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\tests\\host\\phone_ble_test.cpp",
+      "destination": "projects/FFS/06-固件源码/tests/host/phone_ble_test.cpp",
+      "sourceSha256": "bc0aca6853ea2d24daaaf2b0bfc222938af4c67751f878efd2c4c4fca82e8969"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\tests\\host\\power_rails_test.cpp",
+      "destination": "projects/FFS/06-固件源码/tests/host/power_rails_test.cpp",
+      "sourceSha256": "2294f598ac11e5a63102eac7c29d0877971150da073d678e9fd95ebf0507304e"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\tests\\host\\recovery_test.cpp",
+      "destination": "projects/FFS/06-固件源码/tests/host/recovery_test.cpp",
+      "sourceSha256": "d36b2f7353a1eee4de53382b45e77850af07da90558aa9d93c453adc2726544f"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\tests\\host\\tft_gpio_probe_test.cpp",
+      "destination": "projects/FFS/06-固件源码/tests/host/tft_gpio_probe_test.cpp",
+      "sourceSha256": "93ea22cb056867d496a39ee2daac8ad8099beb7b1c7069a5b6a799d9e8f62a25"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\tests\\host\\tft_pages_test.cpp",
+      "destination": "projects/FFS/06-固件源码/tests/host/tft_pages_test.cpp",
+      "sourceSha256": "c6380f0e2c5c3fbfcfc33c7c692f006514fbbf4b6f1326160832da1171037203"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\platformio.ini",
+      "destination": "projects/FFS/06-固件源码/platformio.ini",
+      "sourceSha256": "19741dd13eff42eb0a10b333cb62ce764ca3cfdb60b715f56260ba06e07e546a"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\FONT_NOTICES.txt",
+      "destination": "projects/FFS/06-固件源码/FONT_NOTICES.txt",
+      "sourceSha256": "b7915ab7e2b23dc9faf1074132648e093735707eb082e152f27481a9fe49b65d"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\.gitignore",
+      "destination": "projects/FFS/06-固件源码/.gitignore",
+      "sourceSha256": "a346f04a126ec171fe81d07f3e6db29ac2ab46baa353b4cceb55c3848f8b14d7"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\README.md",
+      "destination": "projects/FFS/06-固件源码/原版说明/README.md",
+      "sourceSha256": "47b582b772c903820afda90a709d2a20931d9b61ae07eca25a84524bd5357b9c"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\UPGRADE_1.3.15.md",
+      "destination": "projects/FFS/06-固件源码/原版说明/UPGRADE_1.3.15.md",
+      "sourceSha256": "44ab728309a7b1f0bd554b2abe2f769ada0abeefef5af56f545813dd990aa7e6"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\VERSION_MANIFEST.json",
+      "destination": "projects/FFS/06-固件源码/原版说明/VERSION_MANIFEST.json",
+      "sourceSha256": "f474e9c81dff8daccf63d4a2a4117a045f486522a233bc140a18b8446bb8fd07"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY REAL-WORLD SENSE\\FIREFLY REAL-WORLD SENSE-ds\\FIREFLY-SENSE-ds\\src\\wifi_config.example.h",
+      "destination": "projects/FFS/06-固件源码/src/wifi_config.h",
+      "sourceSha256": "2f83ee730f408a0141780ea9fafdb37ae5c9a6b57b72184be373be3a4dd9daf5"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\scripts\\vendor\\listen_wifi.ps1",
+      "destination": "projects/FFS/07-配套软件/PC接收端/scripts/vendor/listen_wifi.ps1",
+      "sourceSha256": "f5a68d8915b06518849de1394e83d4ddd40d55a4920f2e6cb8466d85f900ac17"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\scripts\\watch_sensor_listener.ps1",
+      "destination": "projects/FFS/07-配套软件/PC接收端/scripts/watch_sensor_listener.ps1",
+      "sourceSha256": "f348279a38c3a7e4ca2ea59b053d496112df79a8f66dbf39a60f38fed3b9e602"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\tests\\sensor-listener-storage.test.ps1",
+      "destination": "projects/FFS/07-配套软件/PC接收端/tests/sensor-listener-storage.test.ps1",
+      "sourceSha256": "9743f0642a88bc754a416cf3332cf8b9996670e7c070a1116aaa75d0d0bf1a3f"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\tests\\sensor-listener-reconnect.test.ps1",
+      "destination": "projects/FFS/07-配套软件/PC接收端/tests/sensor-listener-reconnect.test.ps1",
+      "sourceSha256": "b93b183ad97af5ccef59a7a79b300598ba2adf0f0f699eec346a513b689a5453"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\.gitignore",
+      "destination": "projects/FFS/07-配套软件/Android采集端/.gitignore",
+      "sourceSha256": "e3fddabb27317d5a5d480e88e3ac5f79784a64f98714e3bc5d266236ce2efb76"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\build.gradle.kts",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/build.gradle.kts",
+      "sourceSha256": "d1615ffb3b4eab499afda917bf447ce32097748d0680519c00b24db627cf39d3"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\AndroidManifest.xml",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/AndroidManifest.xml",
+      "sourceSha256": "cff259cf1af66c270f7762cb885d1c38b843804b81576834a2a91b7f83f2cf3b"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\java\\com\\flitfancy\\mobile\\AppSettings.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/AppSettings.kt",
+      "sourceSha256": "fbc3e3b5541107067d2d5cd9a37032c9528f528d9ca3b65580482a798539aea7"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\java\\com\\flitfancy\\mobile\\BleBoardSource.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/BleBoardSource.kt",
+      "sourceSha256": "275a1108862206dd0910f0e24e747485e25ab07fda0b57424d223eff9daa702a"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\java\\com\\flitfancy\\mobile\\BleDiscovery.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/BleDiscovery.kt",
+      "sourceSha256": "57d3d0355a3e179cd9e6e858d174d054b223d1913c83b1c0bfd0e0e723cd628f"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\java\\com\\flitfancy\\mobile\\BleProtocol.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/BleProtocol.kt",
+      "sourceSha256": "96857f3cdc09dd4a4e7b4e17f98e56d30aa20ad7e23a810c7736394714ac0913"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\java\\com\\flitfancy\\mobile\\BluetoothAccess.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/BluetoothAccess.kt",
+      "sourceSha256": "5a9e638862acde510a28bf0fa04c287255b2425332e0eb9b08b411e101ba6a57"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\java\\com\\flitfancy\\mobile\\BoardSource.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/BoardSource.kt",
+      "sourceSha256": "4f797291a7116d9a6f6abe7273ee8625e7a125b09ea379dae5245c2515730c2f"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\java\\com\\flitfancy\\mobile\\BootReceiver.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/BootReceiver.kt",
+      "sourceSha256": "9138673f91499f6ac047384b39003ab2c67764da98945d9de114e4152412c156"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\java\\com\\flitfancy\\mobile\\CollectorService.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/CollectorService.kt",
+      "sourceSha256": "5727b234852e50319364c1aabc06447f4375c760930e6a8a5628bd0472b00d32"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\java\\com\\flitfancy\\mobile\\HttpTransport.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/HttpTransport.kt",
+      "sourceSha256": "87e21f1c7a420352c1c2155ac1f8ca91d55064b8091e6832bdc6b7ad9293ddcb"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\java\\com\\flitfancy\\mobile\\MainActivity.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/MainActivity.kt",
+      "sourceSha256": "02b7a33650308940a2b99046eb1e739dd7f0d3b3fd767f298e43158efae347ce"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\java\\com\\flitfancy\\mobile\\QueueStore.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/QueueStore.kt",
+      "sourceSha256": "533ee02d77ac71a881718792b053ac3c064a43cc06b1398f54c451eec92e23bd"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\java\\com\\flitfancy\\mobile\\SampleCodec.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/java/com/flitfancy/mobile/SampleCodec.kt",
+      "sourceSha256": "6449b9d2745c133b2522170fcef7644e2252bad487995517e54c37f7a50bc2b4"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\res\\drawable\\ic_flitfancy.xml",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/res/drawable/ic_flitfancy.xml",
+      "sourceSha256": "b89a2c365f0dd8b6caea529ef497d8a14ee9d86f408697b549fdc1bf1179592f"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\res\\values\\styles.xml",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/res/values/styles.xml",
+      "sourceSha256": "58e5a9a00bb0c32b41578f6432136cc2e08c9f5c432422fcb7d705be52f2896c"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\main\\res\\xml\\network_security_config.xml",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/main/res/xml/network_security_config.xml",
+      "sourceSha256": "7ab98a81cee4fe8183dcd84b9db829105bca1667005663d63013d4d1814226a7"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\test\\java\\com\\flitfancy\\mobile\\BleProtocolTest.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/test/java/com/flitfancy/mobile/BleProtocolTest.kt",
+      "sourceSha256": "da3691b13fa7603d4ceadc4eb1531c3364d0ed93520bfe8e2854c91710a8e882"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\test\\java\\com\\flitfancy\\mobile\\BluetoothSettingsTest.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/test/java/com/flitfancy/mobile/BluetoothSettingsTest.kt",
+      "sourceSha256": "20cf0f0bf3756150ba26f8905688f93c90d66817be8c07ba993ea4993d7db58a"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\test\\java\\com\\flitfancy\\mobile\\FirmwareFixtureTest.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/test/java/com/flitfancy/mobile/FirmwareFixtureTest.kt",
+      "sourceSha256": "2d07d4d5cb2143fd1e87c5be3da62118832234788914ecee4673b0f523d4a8cf"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\test\\java\\com\\flitfancy\\mobile\\QueueStoreTest.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/test/java/com/flitfancy/mobile/QueueStoreTest.kt",
+      "sourceSha256": "45f283bc1dffe0b8225bd17951ce9d7aa3c0cd2c0076bacf9e45632c0aa22c66"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\test\\java\\com\\flitfancy\\mobile\\SampleCodecTest.kt",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/test/java/com/flitfancy/mobile/SampleCodecTest.kt",
+      "sourceSha256": "7f9540729efb673eb86bce6b9292293f508addd72d4024cbe03885c1c89f1076"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\app\\src\\test\\resources\\phone-ble-firmware-v1.jsonl",
+      "destination": "projects/FFS/07-配套软件/Android采集端/app/src/test/resources/phone-ble-firmware-v1.jsonl",
+      "sourceSha256": "bd6c850ce92fa7f1d334ae2e7a36f149c82289a640ed70bd3aad7db426ded001"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\BLE_PROTOCOL.md",
+      "destination": "projects/FFS/07-配套软件/Android采集端/BLE_PROTOCOL.md",
+      "sourceSha256": "7db99926a5ef68fd89043dbd60c2d0a6d9b04676427ec28327b483750ce65bb6"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\build.gradle.kts",
+      "destination": "projects/FFS/07-配套软件/Android采集端/build.gradle.kts",
+      "sourceSha256": "c245094bdc1c509f1e5c355d882ef6eb2b42fd09a024d2bd237fd67135338b35"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\CHANGELOG.md",
+      "destination": "projects/FFS/07-配套软件/Android采集端/CHANGELOG.md",
+      "sourceSha256": "78496e463cf2f4504bd493794fe2e4bd9ca0b9d77075da9711c7f7c391710ba6"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\gradle.properties",
+      "destination": "projects/FFS/07-配套软件/Android采集端/gradle.properties",
+      "sourceSha256": "f36eb4825f12cb1892b70c34ecf6e2b2b0d1953f6bc87c63936ebea5795d21ac"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\settings.gradle.kts",
+      "destination": "projects/FFS/07-配套软件/Android采集端/settings.gradle.kts",
+      "sourceSha256": "558ad27baeb2d1f1049a69f6163b6b1c585b2f9ffa76f08a1bf0429b0146fcde"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\android\\README.md",
+      "destination": "projects/FFS/07-配套软件/Android采集端/原版说明/README.md",
+      "sourceSha256": "1cc64d8f860b9ba5141c8dee4eff7583a599d675fd0fa5573f6fd53ecc7f90bb"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\LICENSE",
+      "destination": "projects/FFS/07-配套软件/PC接收端/LICENSE.txt",
+      "sourceSha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
+    },
+    {
+      "source": "S:\\FlitFancy\\site\\LICENSE",
+      "destination": "projects/FFS/07-配套软件/Android采集端/LICENSE.txt",
+      "sourceSha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
+    }
+  ],
+  "adaptedFiles": [
+    "projects/FFS/06-固件源码/src/main.cpp",
+    "projects/FFS/06-固件源码/src/wifi_link.cpp",
+    "projects/FFS/06-固件源码/scripts/build_ota.py",
+    "projects/FFS/06-固件源码/.gitignore",
+    "projects/FFS/07-配套软件/PC接收端/scripts/vendor/listen_wifi.ps1",
+    "projects/FFS/07-配套软件/PC接收端/scripts/watch_sensor_listener.ps1",
+    "projects/FFS/07-配套软件/Android采集端/.gitignore"
+  ]
+}

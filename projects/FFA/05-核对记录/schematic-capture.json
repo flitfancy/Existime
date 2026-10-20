@@ -1,0 +1,33 @@
+{
+  "readOnly": true,
+  "capturedAt": "2026-10-20T14:00:30.812Z",
+  "projectUuid": "1a31211d77504c7e9f3e824221e31fe2",
+  "documents": [
+    {
+      "uuid": "24f554a3e0e8324c",
+      "name": "P1",
+      "file": "01-完整工程/当前文档源码/P1-24f554a3e0e8324c.epru",
+      "bytes": 590380,
+      "sha256": "9c93d618bbbff4b6aa409b531d0d3fb7f8a0e3d408f73c9b523fe4e0c171f184"
+    },
+    {
+      "uuid": "f634bad50d6bd4ad",
+      "name": "P2",
+      "file": "01-完整工程/当前文档源码/P2-f634bad50d6bd4ad.epru",
+      "bytes": 580796,
+      "sha256": "965372f2a03f3a6732cc5ca6798f34a2d1b9457d044b6a2c21c37b507de903e1"
+    }
+  ],
+  "restoredPcb": true,
+  "request": {
+    "schemaVersion": 1,
+    "requestId": "e746f3a7-248b-4388-b92d-67c2c0915f2f",
+    "sessionId": "ed6f6178-24bd-41fc-9165-1692a399028a",
+    "windowId": "73b15791-c3ce-4a60-9fe1-292ce1571aa3",
+    "codeSha256": "a47028c0b5a18fb55025db499405fe51c589d299d310f403e9577d1dc1d5d331",
+    "status": "succeeded",
+    "submittedAt": "2026-10-20T14:00:28.100Z",
+    "updatedAt": "2026-10-20T14:00:30.986Z",
+    "completedAt": "2026-10-20T14:00:30.986Z"
+  }
+}

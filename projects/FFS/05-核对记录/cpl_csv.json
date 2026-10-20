@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "status": "exported-local-only",
+  "action": "cpl_csv",
+  "exportedAt": "2026-10-20T13:53:42.666Z",
+  "project": {
+    "uuid": "5d0b52d2fda9404096d5e2d234823890",
+    "name": "exist01/FIREFLY REAL-WORLD SENSE R1",
+    "friendlyName": "FIREFLY REAL-WORLD SENSE R1"
+  },
+  "document": {
+    "documentType": 3,
+    "uuid": "f1b8026e8b5b8937",
+    "tabId": "f1b8026e8b5b8937@5d0b52d2fda9404096d5e2d234823890",
+    "parentProjectUuid": "5d0b52d2fda9404096d5e2d234823890"
+  },
+  "sourceHash": 2466804959,
+  "sourceUnchanged": true,
+  "file": {
+    "name": "FFS-cpl_csv-20261020",
+    "type": "text/csv",
+    "bytes": 55988
+  },
+  "output": {
+    "path": "04-装配资料/FFS-CPL-mm.csv",
+    "bytes": 55988,
+    "sha256": "6bf5a23a09a2471ade5947950bd65628de09a1cfd5bc76b53160392180c4b704"
+  },
+  "transport": {
+    "requestId": "8abb099c-6c1b-46b6-875b-dd6bde3e206f",
+    "sessionId": "ed6f6178-24bd-41fc-9165-1692a399028a",
+    "windowId": "8e48b45d-847a-4506-b0e3-344420aaf95b",
+    "status": "succeeded"
+  }
+}

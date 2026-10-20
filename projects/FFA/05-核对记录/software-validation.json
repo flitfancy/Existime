@@ -1,0 +1,13 @@
+{
+  "firmwareVersion": "0.4.1",
+  "firmwareCompiled": true,
+  "sourceOriginalsUnchanged": true,
+  "credentialValuesFound": [],
+  "freshEnvironmentInstallation": false,
+  "realDeviceValidation": false,
+  "servicesRestarted": false,
+  "audioServiceUnitTests": 77,
+  "wifiLoopbackProtocolTest": true,
+  "lyricsStandaloneTest": true,
+  "runtimeModelsAndPairingConfigurationIncluded": false
+}

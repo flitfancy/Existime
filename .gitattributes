@@ -1,0 +1,2 @@
+# Preserve exported files and source bytes so MANIFEST.json stays verifiable.
+* -text

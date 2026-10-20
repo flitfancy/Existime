@@ -1,0 +1,22 @@
+FFA / FireFly Audio / FIREFLY VOICE
+
+Copyright (C) 2026 FlitFancy
+SPDX-License-Identifier: CERN-OHL-S-2.0
+
+FlitFancy's original hardware-design contributions in this project are
+licensed under CERN Open Hardware Licence Version 2 - Strongly Reciprocal.
+The unmodified licence text is provided in LICENSE-HARDWARE.txt.
+
+适用范围
+本项目中由 FlitFancy 原创并有权授权的电路设计、PCB 布局/布线及规则，以及由这些设计生成的硬件制造和装配源资料。
+相关原生工程、BOM、Gerber、钻孔、贴片坐标和硬件设计源码主要位于 01-完整工程、02-BOM、03-PCB制造、04-装配资料；核对记录中相同设计的副本按相同范围处理。
+
+范围与例外
+本声明只授权 FlitFancy 的原创贡献，不把封装、器件符号、字体或其他第三方内容重新授权。
+第三方原有的版权、许可证及其他声明应予保留。
+06-固件源码、07-配套软件的原创软件部分采用 MIT，范围见 SOFTWARE-NOTICE.txt；第三方原授权继续有效。
+个人照片、品牌标识及与硬件设计无关的个人表达不在本次新增授权范围内。
+
+原文中的免责声明、修改记录、源资料提供和其他条件均适用；本说明不修改许可证条款。
+Source Location: https://github.com/flitfancy/Existime/tree/v0.1.0/projects/FFA
+对应首次开源预览版：v0.1.0。

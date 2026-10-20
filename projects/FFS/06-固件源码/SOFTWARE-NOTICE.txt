@@ -1,0 +1,18 @@
+FFS 固件源码
+
+Copyright (c) 2026 FlitFancy
+SPDX-License-Identifier: MIT
+
+FlitFancy 原创并有权授权的本目录软件、脚本、构建配置、测试及直接配套的技术文档采用 MIT License。
+完整条款见本目录 LICENSE.txt。
+
+第三方例外
+third_party/、第三方驱动与库、字体、模型、外部工具及其他第三方材料继续使用其原许可证。
+其他文件中原有的第三方版权和许可声明也继续有效；本声明不把这些内容重新授权为 MIT。
+原有 LICENSE、NOTICE、COPYING、FONT_NOTICES、THIRD_PARTY 等文件均须保留并遵守。
+已带 MIT 许可证的来源代码继续保留原版权声明；衍生贡献的 MIT 授权不删除上游权利。
+
+范围
+此软件授权不覆盖硬件设计、照片、个人文字或品牌标识。FFS、FFA 的原创硬件设计另按 CERN-OHL-S-2.0 授权。
+分发软硬件组合时仍应遵守所有适用许可证，包括硬件许可证的完整源资料要求。
+对应源码版本：Existime v0.1.0。

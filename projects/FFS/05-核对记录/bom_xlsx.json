@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "status": "exported-local-only",
+  "action": "bom_xlsx",
+  "exportedAt": "2026-10-20T13:53:42.225Z",
+  "project": {
+    "uuid": "5d0b52d2fda9404096d5e2d234823890",
+    "name": "exist01/FIREFLY REAL-WORLD SENSE R1",
+    "friendlyName": "FIREFLY REAL-WORLD SENSE R1"
+  },
+  "document": {
+    "documentType": 3,
+    "uuid": "f1b8026e8b5b8937",
+    "tabId": "f1b8026e8b5b8937@5d0b52d2fda9404096d5e2d234823890",
+    "parentProjectUuid": "5d0b52d2fda9404096d5e2d234823890"
+  },
+  "sourceHash": 2466804959,
+  "sourceUnchanged": true,
+  "file": {
+    "name": "FFS-bom_xlsx-20261020.xlsx",
+    "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8",
+    "bytes": 9409
+  },
+  "output": {
+    "path": "02-BOM/FFS-BOM.xlsx",
+    "bytes": 9409,
+    "sha256": "a1fba854cd3d87aee188a7e55eaba3020a95c55dbca8134379d6cd1373f5d1ff"
+  },
+  "transport": {
+    "requestId": "a3fbc40a-d982-4241-bc97-83e16a06a70a",
+    "sessionId": "ed6f6178-24bd-41fc-9165-1692a399028a",
+    "windowId": "8e48b45d-847a-4506-b0e3-344420aaf95b",
+    "status": "succeeded"
+  }
+}

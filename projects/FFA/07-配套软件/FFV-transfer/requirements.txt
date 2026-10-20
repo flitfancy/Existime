@@ -1,0 +1,20 @@
+# Source-package baseline from the existing Windows CPython 3.11 environment.
+# CUDA wheel suffixes are omitted; the service defaults to CPU inference.
+numpy==2.4.6
+scipy==1.17.1
+pyserial==3.5
+fastapi==0.137.1
+uvicorn==0.49.0
+python-multipart==0.0.32
+soundfile==0.14.0
+funasr==1.3.9
+torch==2.11.0
+torchaudio==2.11.0
+aec-audio-processing==1.0.1
+silero-vad==6.2.1
+onnxruntime==1.29.0
+flatbuffers==25.12.19
+sherpa-onnx==1.13.7
+cryptography==49.0.0
+tqdm==4.68.2
+httpx==0.28.1

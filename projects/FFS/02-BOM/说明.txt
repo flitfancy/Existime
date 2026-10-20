@@ -1,0 +1,1 @@
+﻿BOM.xlsx 适合直接查看；BOM-UTF8.csv 为通用 CSV。原生 BOM.csv 保留 EDA 的 UTF-16 制表符格式。

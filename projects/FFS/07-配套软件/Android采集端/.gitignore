@@ -1,0 +1,9 @@
+.gradle/
+.kotlin/
+build-output/
+**/build/
+local.properties
+*.jks
+*.keystore
+*.p12
+*.private.*

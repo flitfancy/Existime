@@ -1,0 +1,152 @@
+{
+  "status": "file-integrity-and-designator-checks-passed",
+  "board": "FFA",
+  "project": {
+    "uuid": "1a31211d77504c7e9f3e824221e31fe2",
+    "name": "exist01/FireFly Audio",
+    "friendlyName": "FireFly Audio"
+  },
+  "pcbComponentCount": 59,
+  "bom": {
+    "groups": 29,
+    "totalQuantity": 59,
+    "matchesAllPcbDesignators": true,
+    "nativeEncoding": "utf-16",
+    "nativeDelimiter": "'\\t'"
+  },
+  "cpl": {
+    "rows": 59,
+    "extraDesignators": [],
+    "allPcbComponentsPresent": true,
+    "positionsAndRotationsMatchLivePcb": true,
+    "unit": "mm",
+    "nativeEncoding": "utf-16",
+    "nativeDelimiter": "'\\t'"
+  },
+  "nativeProject": {
+    "entryNames": [
+      "IMAGE/",
+      "IMAGE/24f554a3e0e8324c.webp",
+      "IMAGE/f1f1a80e02b95546.webp",
+      "IMAGE/f634bad50d6bd4ad.webp",
+      "project2.json",
+      "FireFly Audio.epru"
+    ],
+    "documentTypeCounts": {
+      "FOOTPRINT": 18,
+      "SYMBOL": 31,
+      "DEVICE": 31,
+      "BOARD": 1,
+      "SCH": 1,
+      "SCH_PAGE": 2,
+      "PCB": 1,
+      "PANEL": 1,
+      "CONFIG": 1,
+      "BLOB": 1
+    },
+    "activePcbUuid": "f1f1a80e02b95546",
+    "schematicPagesPresent": 2,
+    "allComponentFootprintsPresent": true,
+    "pcbHistoricalTombstones": 466
+  },
+  "gerber": {
+    "files": [
+      {
+        "name": "Gerber_TopLayer.GTL",
+        "bytes": 37346,
+        "sha256": "1ea4eb390b1f721d70f28c38e85decf99d0a3cd46dc5c7e8f597b2c75583ccdb"
+      },
+      {
+        "name": "Gerber_BottomLayer.GBL",
+        "bytes": 8083,
+        "sha256": "dbfbaa1511965e9778b117eb691f1e6d4fcbd821e776e95d7e9ea800dc0c2941"
+      },
+      {
+        "name": "Gerber_TopSilkscreenLayer.GTO",
+        "bytes": 772664,
+        "sha256": "aafb88ab667ba15180987247ec9e9202b3041ac2da096854632375afb4edbfda"
+      },
+      {
+        "name": "Gerber_BottomSilkscreenLayer.GBO",
+        "bytes": 573606,
+        "sha256": "95bae469361eacf34bc73401e33c4097c25652414c2a9763873721a9b5327e48"
+      },
+      {
+        "name": "Gerber_TopSolderMaskLayer.GTS",
+        "bytes": 23274,
+        "sha256": "160ba601f80eecf8a0b1ba0635541aef79a8fb08cd5192c992557dd5dd5dbfe7"
+      },
+      {
+        "name": "Gerber_BottomSolderMaskLayer.GBS",
+        "bytes": 879,
+        "sha256": "f9316c2471d77a38c2dc2b59295f8f091a5744ffdd2366113228dc4c2cadb9fd"
+      },
+      {
+        "name": "Gerber_TopPasteMaskLayer.GTP",
+        "bytes": 49753,
+        "sha256": "0152baa28a284aae4f2664c219399563d81ba62c8305f096c56ea44d630eb4b1"
+      },
+      {
+        "name": "Gerber_BoardOutlineLayer.GKO",
+        "bytes": 902,
+        "sha256": "07ec646cdae3b207323a6979bba3a3cdd6693af8712c13020eb424c778b4cea9"
+      },
+      {
+        "name": "Gerber_DocumentLayer.GDL",
+        "bytes": 7663,
+        "sha256": "42248c1eaaf823908d86f3d54aeda70f1e8be36ae374c6989d0167ffc086a1ef"
+      },
+      {
+        "name": "Gerber_InnerLayer1.G1",
+        "bytes": 45446,
+        "sha256": "6773b9140bb71f6e27b03e4805c0bcf8b8ed4eba1a6a0c8e7765df7257cc4f03"
+      },
+      {
+        "name": "Gerber_InnerLayer2.G2",
+        "bytes": 45446,
+        "sha256": "e6f045cf2e609222efdb4370662296218b75c62eec8da4241530db07212e44dc"
+      },
+      {
+        "name": "Gerber_DrillDrawingLayer.GDD",
+        "bytes": 120934,
+        "sha256": "8c58a4236a6ca04a7916bfc96a526ab4e4eaa475938b2c67541ac527b716acf1"
+      },
+      {
+        "name": "Drill_PTH_Through.DRL",
+        "bytes": 1658,
+        "sha256": "87404d49d712c4fc5f5fd0798d1d3d9e8440d93b2ef83bfbd7deb21e5993b642"
+      },
+      {
+        "name": "Drill_NPTH_Through.DRL",
+        "bytes": 314,
+        "sha256": "811dbdc2f6837b3e92d5ce902ebe19d9523c08cc5b8737ca48a85d18967f6547"
+      },
+      {
+        "name": "Drill_PTH_Through_Via.DRL",
+        "bytes": 1390,
+        "sha256": "3654e495d33a92c3272a8bf20f0f5c4650fd63bcd1c3967afbbe700afca949ce"
+      },
+      {
+        "name": "FlyingProbeTesting.json",
+        "bytes": 24946,
+        "sha256": "f0aefef1f2e3966c3df2a703b5a318b1468ce3bdd86c0c1e732fec5e5773e592"
+      },
+      {
+        "name": "PCB下单必读.txt",
+        "bytes": 94,
+        "sha256": "dcb3ee1c645c17a009d70726ad9ab708b68a074556fabcf75a4a059d3b43ec59"
+      }
+    ],
+    "copperFiles": [
+      "Gerber_TopLayer.GTL",
+      "Gerber_BottomLayer.GBL",
+      "Gerber_InnerLayer1.G1",
+      "Gerber_InnerLayer2.G2"
+    ]
+  },
+  "limits": [
+    "Archive import not performed",
+    "No board electrical changes, ERC/DRC, DFM, or manufacturing release",
+    "Gerber generation API output; coordinate/rotation data exported without package-specific assembler corrections"
+  ]
+}

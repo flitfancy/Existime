@@ -1,0 +1,450 @@
+{
+  "sourceFiles": [
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\firmware-wifi-transport\\firmware-wifi-transport.ino",
+      "destination": "projects/FFA/06-固件源码/firmware-wifi-transport/firmware-wifi-transport.ino",
+      "sourceSha256": "1364208c24ba236b8cf694d1c8001d47e6cbe8a92fdc9ff09fa12a983b2e2b9e"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\firmware-wifi-transport\\firmware_version.h",
+      "destination": "projects/FFA/06-固件源码/firmware-wifi-transport/firmware_version.h",
+      "sourceSha256": "6b0acc22efbb5fc9743901cb01425f8339b9e9aa6060fc669c4fcabc24ab6f87"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\firmware-wifi-transport\\ota_transport.h",
+      "destination": "projects/FFA/06-固件源码/firmware-wifi-transport/ota_transport.h",
+      "sourceSha256": "567639d6e12c31285dff6d8a43ef523c4fd5162f14b5b1afd46f35ed7b43c02f"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\firmware-wifi-transport\\partitions.csv",
+      "destination": "projects/FFA/06-固件源码/firmware-wifi-transport/partitions.csv",
+      "sourceSha256": "5ed93e6de42ec095d7e19a284dceee6e939688f782a4440ffd455e7da39630b7"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\firmware-wifi-transport\\wifi_credentials.example.h",
+      "destination": "projects/FFA/06-固件源码/firmware-wifi-transport/wifi_credentials.example.h",
+      "sourceSha256": "ac7b6ef3954f74ac5270e9f1b60373b5fa4e68e325081779b71c62535056b14c"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\aec_processor.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/aec_processor.py",
+      "sourceSha256": "eafeba05b78b915430d3dec7be99b8d42aa4fb94141ee6c9655f74206a64fb76"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\aec_runtime.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/aec_runtime.py",
+      "sourceSha256": "b542eea6a2f25761b36707f43ecb54278d4108ffe0853088f59494f575643d24"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\app.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/app.py",
+      "sourceSha256": "8d52d3cc773659b56e9c6e6e340b832011e1a50f017a10e331b49760e7d2765c"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\board_discovery.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/board_discovery.py",
+      "sourceSha256": "41b9af0e614649d4c6f5622dbf13514b723cc8a06e69e66b2caed1f66fed5003"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\character_voice.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/character_voice.py",
+      "sourceSha256": "299794d8c425541a47c9db4acb2021dd28af950b27137840718acb76892df546"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\dialogue_service.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/dialogue_service.py",
+      "sourceSha256": "2104d5460dc6105ac9e8510c62b484d909e67ab2dad894c614a7ccf732abdbf8"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\ffv_v2_client.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/ffv_v2_client.py",
+      "sourceSha256": "3cad9de1390891ba0bb6705629a22d9648cf9df5729a4f6e318da084fb26341c"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\gpt_sovits_worker.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/gpt_sovits_worker.py",
+      "sourceSha256": "a72b3faf8e50af83172e79e1dd1298806ef1cb56d39595d5f30de4b52eb96a1a"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\lyrics.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/lyrics.py",
+      "sourceSha256": "93613ce45ed557b3c006215b9f5885a795f293255c3424000129d64e4e61a042"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\media_decode.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/media_decode.py",
+      "sourceSha256": "185fddc91d94f798c7abf3f7d0373c74bd3c948c285b36f3071c1f9307b696b1"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\microphone_history.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/microphone_history.py",
+      "sourceSha256": "769c9708570cc4c782d784b2c1d6263c004ff3f50fca4dc9caff0cf9d362f802"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\ota_service.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/ota_service.py",
+      "sourceSha256": "59d9fd18ec7e87d11768ead22251769f40c20017610925a0ae549cef9192b253"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\output_scheduler.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/output_scheduler.py",
+      "sourceSha256": "8def50a60ea98888edb14e6f13caa4507d9d4d824d989ba196a420341c5d08c5"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\output_session.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/output_session.py",
+      "sourceSha256": "8b1fa3a4e1433e62bfbaca6d8a76733358f076bd8d334de641cb95e8ae8e0a8c"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\package_firmware.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/package_firmware.py",
+      "sourceSha256": "6cab8f45c9827f91a31c6cff4667aab6ae402d4854b979f29e4ded080db48d36"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\play_file_v2.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/play_file_v2.py",
+      "sourceSha256": "c7a8dff42b409c34c92e748f27dea0039a5cb94771c1ca62e58b5b4ed17642f0"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\playback_routes.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/playback_routes.py",
+      "sourceSha256": "e6ed37cd6327925df35c91cace346031844fd4a53295beb5aa8c8b79489d847f"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\playback_spectrum.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/playback_spectrum.py",
+      "sourceSha256": "eb9d46889efa534599c77bf1a1a4a228eab07cf5b6b1daaf13e29d26d293d5ec"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\protocol_v2.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/protocol_v2.py",
+      "sourceSha256": "e9056235bc80a50bd96e51db020a05530f0ade3a8ec28119f15eaf37e19bb271"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\recognition_segments.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/recognition_segments.py",
+      "sourceSha256": "30577bfdd081af9af8be1d1148aa4a6a20543726546c24600cc449e125420bea"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\ring_protocol.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/ring_protocol.py",
+      "sourceSha256": "c2a834212c0e24d2654f660e192f4f8a2c866b2a016c72f38dcba1e3e0b68570"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\speech_services.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/speech_services.py",
+      "sourceSha256": "cfd64c20b9a4ef68e31d5733a3431e454e0150e24653f097df27932612758aa3"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_aec_alignment.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_aec_alignment.py",
+      "sourceSha256": "a92d4f426e097ea1a351ffcb00d84871a58ff0700ca261992a341a67e027f69f"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_aec_levels.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_aec_levels.py",
+      "sourceSha256": "b7f5336813018fd6ab56b3d17c1379be13493bd8036be1ef0755d63d03ce6240"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_aec_runtime.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_aec_runtime.py",
+      "sourceSha256": "b14063b861071a1b8b157e9d9efade56d93868873e6ff2b8acb89b850a23b9d7"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_character_voice.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_character_voice.py",
+      "sourceSha256": "26b4a5c4fa45a0afac6602d2611ad04625759e12142f1916e1c4c8a542aeeb3c"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_dialogue_service.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_dialogue_service.py",
+      "sourceSha256": "a54ae583fd72b852963e83e9110baee0f226634b6fd3a4c66c4603dc52ba2a19"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_lyrics.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_lyrics.py",
+      "sourceSha256": "66941e27c946b3c761e39f461052c6db7eebec87ea9512993e7615a500e29a3c"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_media_cancel.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_media_cancel.py",
+      "sourceSha256": "c303ab27b7b7a1b8694f70d5e12cc8924225ad65d65d514feeeb87bdfdc1a0a9"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_media_decode.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_media_decode.py",
+      "sourceSha256": "2d43c6635f4a07edfa628434c0abb9bb63f214f42a021926a8cec3a11b83ce4e"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_microphone_history.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_microphone_history.py",
+      "sourceSha256": "7a058ade1260b92655a0c77cf26a3bc187932f968092e87ab9faa850415a84c3"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_music_upload.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_music_upload.py",
+      "sourceSha256": "f0160483d9e5cd89bcc1004665c83d38f08ceff9ea6ac4979c242b1372507bbf"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_ota_service.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_ota_service.py",
+      "sourceSha256": "b7accbeada996aa6d9c14887beac7850d8879f38ccbf82e7ba7ec691e07021f4"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_output_pipeline.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_output_pipeline.py",
+      "sourceSha256": "395cc0a3e6890dbf2c13d496490ed50a37d5fa09a4d425183446986901ee7bd6"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_output_scheduler.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_output_scheduler.py",
+      "sourceSha256": "ad2627a5f8f70157bfd09facc674e4d8b0bdfb050b286fef221f47daf17c7d66"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_pause_protocol.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_pause_protocol.py",
+      "sourceSha256": "356030cef7abea98e633c657b318a0ec891b08c3f1c653d18944b952fa6cbb3e"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_playback_spectrum.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_playback_spectrum.py",
+      "sourceSha256": "40e0380957ae9d1d30ee964dca9dc0d900f6a15cb0de99305610d03aa43210b9"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_protocol_v2.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_protocol_v2.py",
+      "sourceSha256": "8d88bb06819146f6953bd756d6690949ab6fc86f911bbe0e5a0af1e2b061b7fe"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_recognition_pipeline.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_recognition_pipeline.py",
+      "sourceSha256": "e19bed70746e6b989acd78f753ace58bc40551a25471dabbf5c93e2f8d4b5c97"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_recognition_segments.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_recognition_segments.py",
+      "sourceSha256": "dd55914de074ba4af8f2daba93af654046046dbbfe6b1f2ac5416b2c990dbb41"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_speech_services.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_speech_services.py",
+      "sourceSha256": "e1ef5af2aaf2a057bf98589c10dad28b7d60d1b402989c02ac25043f760f5e59"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_vad_observer.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_vad_observer.py",
+      "sourceSha256": "4f230b2902ac91ca2709b314be1148f1e9060801df4d1722d7e2c5149444f9f4"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_voice_events.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_voice_events.py",
+      "sourceSha256": "421e5d35a8259fe8424c6f00893414db935fe9e0ed486fe500128ecf1e20c03d"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_voice_turn.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_voice_turn.py",
+      "sourceSha256": "93560aa44868f3907fb1a750a6ac2e185df77a7bd93dd54c0dd60ea87ddb5761"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_wakeword.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_wakeword.py",
+      "sourceSha256": "386e3064f2ada0435ebef4180b0c7e137376bec470362949d2647b2fd77df37e"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_wifi_transport.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_wifi_transport.py",
+      "sourceSha256": "f411e3f2f8b628897b7aaca18019619ff0f1aa66c0a2bf14a377a9d72a7103aa"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\vad_observer.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/vad_observer.py",
+      "sourceSha256": "ca6a438c549dfa0c8c148cb7bc6daa00b750569c5224fec39f26373e8d8ffeb5"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\voice_client.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/voice_client.py",
+      "sourceSha256": "b5bbc5b9eafdc3a4b6c85eedf1685f2c3484fdaaf428e46a1ee00f6bf84ab876"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\voice_events.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/voice_events.py",
+      "sourceSha256": "c444bb040a8bf0ca45f52124c03f3ccbd362675515bb90125416a13abb4dcac7"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\voice_turn.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/voice_turn.py",
+      "sourceSha256": "128de31e7d32cac17500c86f4567dddd3406e87ca8b6fe8de3f1f45d9b6eede9"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\wakeword.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/wakeword.py",
+      "sourceSha256": "ef0ceb753c06ed4458d80a10e0e7ffb6fa1c027937acb5b659e594f180843fce"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\index.html",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/index.html",
+      "sourceSha256": "ec450abf7da20ec068a26385f2d50322541923b36141c448e31a1291bf2e456c"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\temporary_voice.ps1",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/temporary_voice.ps1",
+      "sourceSha256": "38a8969a1d986ce91ea5750f431ed0ff728bc964e399d572e7c19d4aa693b525"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\wakeword-keywords.txt",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/wakeword-keywords.txt",
+      "sourceSha256": "8c4c20a7de44e406d28d5c75a497c3dffe6eba64651ea54ec0853f1ab7fe836d"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\requirements-aec.txt",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/requirements-aec.txt",
+      "sourceSha256": "f99cea5a9b443b3144f45157aa123fa8f3db540c63853bd55cfa1ee065486fb3"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\requirements-vad.txt",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/requirements-vad.txt",
+      "sourceSha256": "c71483a79d4482f71a8a72a308b06f8a5ef6ad8e686cc6a4a90b69a8d79adb41"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\requirements-wakeword.txt",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/requirements-wakeword.txt",
+      "sourceSha256": "5a61b76a4d64218f7eab94e357a2056ddfafa374dbccdc7a231f4f613990d31a"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\README.md",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/原版说明/README.md",
+      "sourceSha256": "4047c9ce4f95c90f6a96e6bec9300d435b2e12b30c4d56acb0c90ab911052a77"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\API.md",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/API.md",
+      "sourceSha256": "ee00618fc096f29ba18f90321ffbcbd8276ae2d5139e7db0e12744fc98e36520"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\ARCHITECTURE.md",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/ARCHITECTURE.md",
+      "sourceSha256": "75549fc35e964d9b209495bc579f1bcea20d774e1e29838f8929578418c7d554"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\PROTOCOL_V2.md",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/PROTOCOL_V2.md",
+      "sourceSha256": "2b2aedeb0fd76cbc77e870c6719f4ab6c9fd3525caf8fcd06b2034d08a5e6ed9"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\OTA.md",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/OTA.md",
+      "sourceSha256": "ac8d06e86ebd1f82ab5c614f8a12b62274619d6d0e912db678cf3fbe199c32eb"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\THIRD_PARTY.md",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/THIRD_PARTY.md",
+      "sourceSha256": "1b44e75e7db10d858729f106d5a8c5f921c1b835131657457a30ea6b548b15e7"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\TTS.md",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/TTS.md",
+      "sourceSha256": "af1a50e8385324b8e625c54b82f3a9cbabaa8a2a8c60b44ba699cf22bc89d108"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\integrations\\astrbot_plugin_firefly_voice\\__init__.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/integrations/astrbot_plugin_firefly_voice/__init__.py",
+      "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\integrations\\astrbot_plugin_firefly_voice\\local_provider_policy.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/integrations/astrbot_plugin_firefly_voice/local_provider_policy.py",
+      "sourceSha256": "bad985c141464f0e1aad3c9e301097277b04741628b43288ddc9aae5c0fe87f0"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\integrations\\astrbot_plugin_firefly_voice\\main.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/integrations/astrbot_plugin_firefly_voice/main.py",
+      "sourceSha256": "95db02a33d1e48cf7bf5e439ccc7fadf3c4224bfbeccfcf71e228a6b511c367d"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\integrations\\astrbot_plugin_firefly_voice\\metadata.yaml",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/integrations/astrbot_plugin_firefly_voice/metadata.yaml",
+      "sourceSha256": "20f51a41e86a381a130523d2d3ba42a18f61874f7333f3f060d05ee7b95b400f"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\integrations\\install_astrbot_voice.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/integrations/install_astrbot_voice.py",
+      "sourceSha256": "9be5a12f0129f0dcd263e6873a7d03cee267f44e2376b95cf69265b3914aa9fb"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\integrations\\README.md",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/integrations/README.md",
+      "sourceSha256": "32319a09221ce80b1f9ef9396c852bb276ef0b51b2f7be421a6e8af5ac15e835"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\integrations\\test_astrbot_voice.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/integrations/test_astrbot_voice.py",
+      "sourceSha256": "dcb7df12469bdad66c3bad3e0c2ccb5b3e1be4d75d288367ffd65600ec2977f6"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\integrations\\test_local_provider_policy.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/integrations/test_local_provider_policy.py",
+      "sourceSha256": "704863d83f337007b09aeb2f4f1684c7425ffc657375723ebeebe8513650ace4"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\third_party\\aec_audio_processing\\LICENSE",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/third_party/aec_audio_processing/LICENSE",
+      "sourceSha256": "2186c44f0397f7a91b82db415f431dd34b2151ee79946803f4fed3e999f6c718"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\third_party\\av3a\\COPYING.GPLv3.txt",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/third_party/av3a/COPYING.GPLv3.txt",
+      "sourceSha256": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\third_party\\av3a\\README.md",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/third_party/av3a/README.md",
+      "sourceSha256": "ef67ab81438ab55e9f9f5904a1e4ef5cc494b4ae67630a8d795c7158a9fe4da5"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\third_party\\pyNCMDUMP\\LICENSE.txt",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/third_party/pyNCMDUMP/LICENSE.txt",
+      "sourceSha256": "16b32905fd96f496d8adec8f44f2dbeada943c4dacdb2c788b89bf3800b7c95b"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\third_party\\pyNCMDUMP\\ncmdump.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/third_party/pyNCMDUMP/ncmdump.py",
+      "sourceSha256": "45a837f9a3d89fd809f54074d7d19a8c81a91f567178ff927fb4bdc7fe59692b"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\third_party\\pyNCMDUMP\\ncm_converter.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/third_party/pyNCMDUMP/ncm_converter.py",
+      "sourceSha256": "002d62ba3cf70ef9451372be10e9ba574f3c61c78ed5de225e391d999c943adb"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\third_party\\pyNCMDUMP\\README.md",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/third_party/pyNCMDUMP/README.md",
+      "sourceSha256": "0c13751b9e06951b06ced74c1dbd9ee2b59a568445a71d4e385faa6f1e6bf715"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\third_party\\pyNCMDUMP\\requirements.txt",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/third_party/pyNCMDUMP/requirements.txt",
+      "sourceSha256": "cdda87fcdab3bc4163f8a762dd856a7f14e8b115ab103649ab2b98f83f83f992"
+    },
+    {
+      "source": "S:\\NatureCraft\\FIREFLY AUDIO\\FFV-transfer\\test_board_discovery.py",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/test_board_discovery.py",
+      "sourceSha256": "fa1ae8522a3a6dc5fc50a5263dbdd74a985aad09f55dfffced2b8fb92e4342b2"
+    },
+    {
+      "source": "S:\\Fireflys\\WakeWord\\sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20\\download-manifest.json",
+      "destination": "projects/FFA/07-配套软件/FFV-transfer/models/wakeword-download.json",
+      "sourceSha256": "2b8ca6f9bd0786ab3d6b825cf9cfbbb46743657394b500cad6bc1cc5a1dcf08c"
+    }
+  ],
+  "adaptedFiles": [
+    "projects/FFA/06-固件源码/firmware-wifi-transport/firmware-wifi-transport.ino",
+    "projects/FFA/07-配套软件/FFV-transfer/app.py",
+    "projects/FFA/07-配套软件/FFV-transfer/lyrics.py",
+    "projects/FFA/07-配套软件/FFV-transfer/media_decode.py",
+    "projects/FFA/07-配套软件/FFV-transfer/package_firmware.py",
+    "projects/FFA/07-配套软件/FFV-transfer/test_vad_observer.py",
+    "projects/FFA/07-配套软件/FFV-transfer/wakeword.py",
+    "projects/FFA/07-配套软件/FFV-transfer/integrations/test_astrbot_voice.py",
+    "projects/FFA/07-配套软件/FFV-transfer/integrations/test_local_provider_policy.py"
+  ]
+}

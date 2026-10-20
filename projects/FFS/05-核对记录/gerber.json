@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "exported-local-only",
+  "action": "gerber",
+  "exportedAt": "2026-10-20T13:55:11.592Z",
+  "project": {
+    "uuid": "5d0b52d2fda9404096d5e2d234823890",
+    "name": "exist01/FIREFLY REAL-WORLD SENSE R1",
+    "friendlyName": "FIREFLY REAL-WORLD SENSE R1"
+  },
+  "document": {
+    "documentType": 3,
+    "uuid": "f1b8026e8b5b8937",
+    "tabId": "f1b8026e8b5b8937@5d0b52d2fda9404096d5e2d234823890",
+    "parentProjectUuid": "5d0b52d2fda9404096d5e2d234823890"
+  },
+  "sourceHash": 3370409065,
+  "designHash": 2007816647,
+  "sourceUnchanged": true,
+  "renderingSerializationChanged": false,
+  "file": {
+    "name": "FFS-gerber-20261020",
+    "type": "application/zip",
+    "bytes": 316655
+  },
+  "output": {
+    "path": "03-PCB制造/FFS-Gerber-20261020.zip",
+    "bytes": 316655,
+    "sha256": "7b3215ba60c752d727c82db942aca350c96d558f6a22f2f1a0f95ce0149c7f69"
+  },
+  "transport": {
+    "requestId": "41a9166f-1146-4639-b698-00e627bf01d8",
+    "sessionId": "ed6f6178-24bd-41fc-9165-1692a399028a",
+    "windowId": "8e48b45d-847a-4506-b0e3-344420aaf95b",
+    "status": "succeeded"
+  }
+}

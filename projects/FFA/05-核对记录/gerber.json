@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "exported-local-only",
+  "action": "gerber",
+  "exportedAt": "2026-10-20T13:57:40.261Z",
+  "project": {
+    "uuid": "1a31211d77504c7e9f3e824221e31fe2",
+    "name": "exist01/FireFly Audio",
+    "friendlyName": "FireFly Audio"
+  },
+  "document": {
+    "documentType": 3,
+    "uuid": "f1f1a80e02b95546",
+    "tabId": "f1f1a80e02b95546@1a31211d77504c7e9f3e824221e31fe2",
+    "parentProjectUuid": "1a31211d77504c7e9f3e824221e31fe2"
+  },
+  "sourceHash": 3094591591,
+  "designHash": 2818888469,
+  "sourceUnchanged": true,
+  "renderingSerializationChanged": true,
+  "file": {
+    "name": "FFA-gerber-20261020",
+    "type": "application/zip",
+    "bytes": 367338
+  },
+  "output": {
+    "path": "03-PCB制造/FFA-Gerber-20261020.zip",
+    "bytes": 367338,
+    "sha256": "4c6a40436ef4ade2415c57d2160f8e9313890ad86ae3925afb3b04b4e9cac8b7"
+  },
+  "transport": {
+    "requestId": "28be3fcf-fd39-4844-9424-549771fb3e1e",
+    "sessionId": "ed6f6178-24bd-41fc-9165-1692a399028a",
+    "windowId": "73b15791-c3ce-4a60-9fe1-292ce1571aa3",
+    "status": "succeeded"
+  }
+}

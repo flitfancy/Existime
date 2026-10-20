@@ -1,0 +1,5 @@
+# Add to the existing FFV Python environment. Inference uses ONNX CPU only.
+# numpy/scipy are already required by the audio service.
+silero-vad==6.2.1
+onnxruntime==1.29.0
+flatbuffers==25.12.19

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "exported-local-only",
+  "action": "netlist",
+  "exportedAt": "2026-10-20T13:57:41.145Z",
+  "project": {
+    "uuid": "1a31211d77504c7e9f3e824221e31fe2",
+    "name": "exist01/FireFly Audio",
+    "friendlyName": "FireFly Audio"
+  },
+  "document": {
+    "documentType": 3,
+    "uuid": "f1f1a80e02b95546",
+    "tabId": "f1f1a80e02b95546@1a31211d77504c7e9f3e824221e31fe2",
+    "parentProjectUuid": "1a31211d77504c7e9f3e824221e31fe2"
+  },
+  "sourceHash": 4026082949,
+  "designHash": 2818888469,
+  "sourceUnchanged": true,
+  "renderingSerializationChanged": false,
+  "file": {
+    "name": "FFA-netlist-20261020.enet",
+    "type": "",
+    "bytes": 140437
+  },
+  "output": {
+    "path": "01-完整工程/FFA-PCB-netlist.net",
+    "bytes": 140437,
+    "sha256": "819bb9aaf7f7229024c9e68bc88113dc51a5ba30b368b0c31815d46df59be2f7"
+  },
+  "transport": {
+    "requestId": "1f924f08-e4f5-4924-9f10-987f103d90fb",
+    "sessionId": "ed6f6178-24bd-41fc-9165-1692a399028a",
+    "windowId": "73b15791-c3ce-4a60-9fe1-292ce1571aa3",
+    "status": "succeeded"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "status": "exported-local-only",
+  "action": "project",
+  "exportedAt": "2026-10-20T13:53:00.878Z",
+  "project": {
+    "uuid": "5d0b52d2fda9404096d5e2d234823890",
+    "name": "exist01/FIREFLY REAL-WORLD SENSE R1",
+    "friendlyName": "FIREFLY REAL-WORLD SENSE R1"
+  },
+  "document": {
+    "documentType": 3,
+    "uuid": "f1b8026e8b5b8937",
+    "tabId": "f1b8026e8b5b8937@5d0b52d2fda9404096d5e2d234823890",
+    "parentProjectUuid": "5d0b52d2fda9404096d5e2d234823890"
+  },
+  "sourceHash": 2466804959,
+  "sourceUnchanged": true,
+  "file": {
+    "name": "FFS-project-20261020.epro2",
+    "type": "zip",
+    "bytes": 1864760
+  },
+  "output": {
+    "path": "01-完整工程/FFS-20261020.epro2",
+    "bytes": 1864760,
+    "sha256": "fa7ff0d29b041ed939ad0131fc1c677c99489af63ad144eeefaec7e42b9db8af"
+  },
+  "transport": {
+    "requestId": "fe987f6f-e98e-457f-919a-5259f79e0b18",
+    "sessionId": "ed6f6178-24bd-41fc-9165-1692a399028a",
+    "windowId": "8e48b45d-847a-4506-b0e3-344420aaf95b",
+    "status": "succeeded"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "status": "structurally-complete",
+  "diagnosticOnly": true,
+  "inspectedAt": "2026-10-20T14:01:55.931Z",
+  "inputDir": "S:\\Existime\\projects\\FFS\\03-PCB制造\\Gerber解包",
+  "requiredFiles": [
+    "Gerber_TopLayer.GTL",
+    "Gerber_BottomLayer.GBL",
+    "Gerber_TopSolderMaskLayer.GTS",
+    "Gerber_BottomSolderMaskLayer.GBS",
+    "Gerber_TopSilkscreenLayer.GTO",
+    "Gerber_BoardOutlineLayer.GKO",
+    "Drill_PTH_Through.DRL",
+    "Drill_NPTH_Through.DRL",
+    "Drill_PTH_Through_Via.DRL",
+    "FlyingProbeTesting.json"
+  ],
+  "missingFiles": [],
+  "emptyFiles": [],
+  "boardOutline": {
+    "unit": "mm",
+    "coordinateFormat": "4.5",
+    "pointCount": 5,
+    "extents": {
+      "minX": 0,
+      "minY": 0,
+      "maxX": 90,
+      "maxY": 55,
+      "width": 90,
+      "height": 55
+    },
+    "closedOutline": true,
+    "copperAreaHeader": 0,
+    "regionCount": 0
+  },
+  "copperLayers": [
+    {
+      "name": "Gerber_BottomLayer.GBL",
+      "unit": "mm",
+      "coordinateFormat": "4.5",
+      "pointCount": 3909,
+      "extents": {
+        "minX": 0.35814,
+        "minY": 0.35814,
+        "maxX": 89.64186,
+        "maxY": 54.64186,
+        "width": 89.28372,
+        "height": 54.28372
+      },
+      "closedOutline": false,
+      "copperAreaHeader": 16,
+      "regionCount": 8
+    },
+    {
+      "name": "Gerber_TopLayer.GTL",
+      "unit": "mm",
+      "coordinateFormat": "4.5",
+      "pointCount": 2212,
+      "extents": {
+        "minX": 1.7059,
+        "minY": 1.74549,
+        "maxX": 87.46003,
+        "maxY": 52.48293,
+        "width": 85.75413,
+        "height": 50.73744
+      },
+      "closedOutline": false,
+      "copperAreaHeader": 0,
+      "regionCount": 0
+    }
+  ],
+  "drills": [
+    {
+      "name": "Drill_PTH_Through.DRL",
+      "type": "PLATED",
+      "unit": "mm",
+      "tools": [
+        {
+          "tool": "T01",
+          "diameterMm": 0.305,
+          "holes": 10
+        },
+        {
+          "tool": "T02",
+          "diameterMm": 0.305,
+          "holes": 211
+        },
+        {
+          "tool": "T03",
+          "diameterMm": 1.2,
+          "holes": 18
+        }
+      ],
+      "holeCount": 239
+    },
+    {
+      "name": "Drill_NPTH_Through.DRL",
+      "type": "NON_PLATED",
+      "unit": "mm",
+      "tools": [
+        {
+          "tool": "T01",
+          "diameterMm": 2.2,
+          "holes": 4
+        }
+      ],
+      "holeCount": 4
+    },
+    {
+      "name": "Drill_PTH_Through_Via.DRL",
+      "type": "PLATED",
+      "unit": "mm",
+      "tools": [
+        {
+          "tool": "T01",
+          "diameterMm": 0.305,
+          "holes": 10
+        },
+        {
+          "tool": "T02",
+          "diameterMm": 0.305,
+          "holes": 211
+        }
+      ],
+      "holeCount": 221
+    }
+  ],
+  "flyingProbe": {
+    "lengthUnit": "mil",
+    "componentRows": 128,
+    "pinRows": 437
+  },
+  "files": [
+    {
+      "name": "Drill_NPTH_Through.DRL",
+      "byteLength": 250,
+      "sha256": "23605435fd8aa31d4fe5a3033251b69d05cde8d540b59e212d6e56fab9c2033a"
+    },
+    {
+      "name": "Drill_PTH_Through.DRL",
+      "byteLength": 4643,
+      "sha256": "395b565e16b16826b5737ffc8be5bc4f012c03a49700f7694faa06d5a60f1cc5"
+    },
+    {
+      "name": "Drill_PTH_Through_Via.DRL",
+      "byteLength": 4362,
+      "sha256": "5c2d3e5e91447ac943c4d577a6d0cea4057dba2cec0c15a26a8f0d6f21ec211a"
+    },
+    {
+      "name": "FlyingProbeTesting.json",
+      "byteLength": 44215,
+      "sha256": "d5919306ab36f1245b5e32b3786ac90208890ef3313e0376cea2a5b7fc6a0945"
+    },
+    {
+      "name": "Gerber_BoardOutlineLayer.GKO",
+      "byteLength": 741,
+      "sha256": "95c3b495f7c0717f73a86df252700574844dd8e70bd63d516f0a61bb73b46a75"
+    },
+    {
+      "name": "Gerber_BottomLayer.GBL",
+      "byteLength": 97892,
+      "sha256": "9854692dc1d3b22f91c0643db3d1eced507edbb6f8a4c0ea82ee2f6ba1ab2d6e"
+    },
+    {
+      "name": "Gerber_BottomSilkscreenLayer.GBO",
+      "byteLength": 575766,
+      "sha256": "23a90be70aa4e122e6905285be53f053b0ec217970b5a6480c17defedfabb57f"
+    },
+    {
+      "name": "Gerber_BottomSolderMaskLayer.GBS",
+      "byteLength": 1497,
+      "sha256": "7a7e562f431c9c4a07ad504328e589833bdb9f17c30a6f5aca9ba45d5b36644b"
+    },
+    {
+      "name": "Gerber_DocumentLayer.GDL",
+      "byteLength": 8426,
+      "sha256": "5e686d5d1c4a6910f2a283f0bf575283df92fc5fd7a4413b9227eb5bf1d181d8"
+    },
+    {
+      "name": "Gerber_DrillDrawingLayer.GDD",
+      "byteLength": 78964,
+      "sha256": "a9717c9aaadc3e0b42619a971a1450721c6bbe292615b4395b74490500a4e2c7"
+    },
+    {
+      "name": "Gerber_TopLayer.GTL",
+      "byteLength": 55281,
+      "sha256": "bc1a448de22831d20cace09ecd8fd39eca515ed00da1f9eb31c203539c16be58"
+    },
+    {
+      "name": "Gerber_TopPasteMaskLayer.GTP",
+      "byteLength": 62001,
+      "sha256": "43c74b8672b5ae50447134646a917795d14cb29130c7fcfaec821a2196f4d469"
+    },
+    {
+      "name": "Gerber_TopSilkscreenLayer.GTO",
+      "byteLength": 414850,
+      "sha256": "fa0f21d2f929600cbb4bf90eb99b8a733e5080bd04b063fa5ea8d9a01b2aff89"
+    },
+    {
+      "name": "Gerber_TopSolderMaskLayer.GTS",
+      "byteLength": 12925,
+      "sha256": "c559a2678e440fbe3f4302ce966dea9fb48200f8334f2a53f32c64eff6c181d9"
+    },
+    {
+      "name": "PCB下单必读.txt",
+      "byteLength": 94,
+      "sha256": "dcb3ee1c645c17a009d70726ad9ab708b68a074556fabcf75a4a059d3b43ec59"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FIREFLY VOICE 控制台</title>
+<style>
+  :root{color-scheme:dark;--bg:#0c1520;--panel:#172536;--line:#2b4055;--text:#edf4fa;--muted:#a9bac8;--green:#73e0ba;--blue:#76b9ff;--danger:#ff9b9b}
+  *{box-sizing:border-box}body{font:16px/1.5 system-ui,"Microsoft YaHei",sans-serif;max-width:960px;margin:34px auto;padding:0 18px;background:var(--bg);color:var(--text)}
+  h1{margin:0 0 8px}h2{font-size:19px;margin:0 0 14px}.intro,.hint{color:var(--muted)}
+  section{padding:20px;background:var(--panel);border:1px solid var(--line);border-radius:14px;margin:18px 0}
+  button,select{font:inherit;border:1px solid var(--line);border-radius:9px;padding:10px 16px;background:#22364a;color:var(--text)}button{cursor:pointer}button.primary{background:var(--green);color:#07241a;border:0}button:disabled,select:disabled{opacity:.45;cursor:not-allowed}input[type=range]{width:190px;accent-color:var(--blue)}
+  .row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.grow{flex:1;min-width:220px}.meters{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}meter{width:100%;height:18px}
+  #drop{border:2px dashed #54708a;border-radius:12px;padding:34px 18px;text-align:center;cursor:pointer;transition:.15s;background:#101e2b}#drop.active{border-color:var(--green);background:#142e2a}#drop strong{display:block;font-size:18px;margin-bottom:5px}
+  #playBar{height:10px;background:#0b121b;border-radius:99px;overflow:hidden;margin:12px 0}#playFill{height:100%;width:0;background:var(--blue);transition:width .15s}
+  pre{white-space:pre-wrap;min-height:48px;margin:0}.error{color:var(--danger)}audio{width:100%;margin-top:12px}.tag{font-size:13px;color:var(--muted)}
+  @media(max-width:600px){.meters{grid-template-columns:1fr}button{flex:1}}
+</style>
+<h1>FIREFLY VOICE 控制台</h1>
+<div class="intro">音频在本机解码为 48 kHz / 16-bit / 单声道，通过 Wi-Fi 播放；同时支持双麦录音、本地语音检测和 SenseVoice。</div>
+
+<section>
+  <h2>麦克风与识别</h2>
+  <div class="row">
+    <label>采集模式
+      <select id="mic" onchange="setMic(this.value)">
+        <option value="both" selected>双麦 U6 + U7（默认）</option>
+        <option value="left">左麦 U6</option>
+        <option value="right">右麦 U7</option>
+      </select>
+    </label>
+    <label>麦克风增益
+      <select id="gain" onchange="setGain(this.value)">
+        <option value="1">1×</option><option value="2">2×</option><option value="4" selected>4×（默认）</option><option value="8">8×</option>
+      </select>
+    </label>
+    <button id="start" class="primary" aria-pressed="false" onclick="toggleRecognition()">开始语音识别</button>
+    <button id="aec" aria-pressed="true" onclick="toggleAec()">回声消除：开</button>
+    <button id="wake" aria-pressed="true" onclick="toggleWake()">语音唤醒：开</button>
+    <p id="wake-status" role="status">等待“小萤小萤”</p>
+  </div>
+  <div id="status" class="hint">正在连接本地服务…</div>
+  <div class="meters">
+    <div><span>左麦 U6</span><meter id="leftLevel" min="-100" max="0" value="-100"></meter><span id="leftText" class="tag">-100 dBFS</span></div>
+    <div><span>右麦 U7</span><meter id="rightLevel" min="-100" max="0" value="-100"></meter><span id="rightText" class="tag">-100 dBFS</span></div>
+  </div>
+  <div id="stats" class="tag"></div>
+  <p><strong id="vadState" role="status">语音检测正在准备…</strong></p>
+  <div id="vadMetrics" class="tag"></div>
+  <div id="vadNote" class="hint">正在读取回声消除状态…</div>
+</section>
+
+<section>
+  <h2>拖入音频，由板载扬声器播放</h2>
+  <div class="row" style="margin-bottom:14px">
+    <label>播放音量 <input id="volume" type="range" min="0" max="100" value="100" oninput="setVolume(this.value)"></label>
+    <strong id="volumeText">100%</strong>
+  </div>
+  <input id="file" type="file" accept="audio/*,.ncm,.flac,.mp3,.wav,.aac,.m4a,.ogg,.opus" hidden>
+  <div id="drop" tabindex="0"><strong>把音频文件拖到这里</strong><span class="hint">支持 NCM、FLAC、MP3、WAV、AAC、M4A、OGG、Opus 等；本机转为 48 kHz / 16-bit / 单声道后播放</span></div>
+  <div id="playBar"><div id="playFill"></div></div>
+  <div class="row"><span id="playStatus" class="grow hint">等待拖入音频</span><button id="stopPlay" onclick="action('stop-playback')">停止播放</button></div>
+</section>
+
+<section><h2>识别结果</h2><pre id="text">等待语音</pre></section>
+<section><h2>最近一次录音</h2><audio id="audio" controls></audio></section>
+<pre id="error" class="error"></pre>
+<div class="hint">实时语音检测 · 开启识别后同步保存录音（每次最长 10 分钟）</div>
+
+<script>
+const mic=document.getElementById('mic'),gain=document.getElementById('gain'),drop=document.getElementById('drop'),fileInput=document.getElementById('file'),volume=document.getElementById('volume');
+let lastWav='',uploading=false,volumeTimer=null;
+
+async function request(path,options={}){
+  const response=await fetch('/'+path,options);
+  if(!response.ok)throw new Error(await response.text());
+  return response.json();
+}
+async function action(name){
+  try{await request(name,{method:'POST'})}catch(error){alert(error.message)}
+}
+let recognitionActive=false,recognitionPending=false;
+let aecEnabled=true;
+let wakeEnabled=true,wakePending=false;
+async function toggleWake(){
+  if(wakePending)return;
+  wakePending=true;document.getElementById('wake').disabled=true;
+  try{await action('wakeword/'+(wakeEnabled?0:1))}finally{wakePending=false}
+}
+async function toggleAec(){await action('aec/'+(aecEnabled?0:1))}
+async function toggleRecognition(){
+  if(recognitionPending)return;
+  recognitionPending=true;document.getElementById('start').disabled=true;
+  try{await action(recognitionActive?'stop':'start?seconds=600')}
+  finally{recognitionPending=false}
+}
+async function setMic(mode){
+  try{await request('mic/'+mode,{method:'POST'})}catch(error){alert(error.message);poll()}
+}
+async function setGain(value){
+  try{await request('gain/'+value,{method:'POST'})}catch(error){alert(error.message);poll()}
+}
+function setVolume(value){
+  document.getElementById('volumeText').textContent=value+'%';clearTimeout(volumeTimer);
+  volumeTimer=setTimeout(()=>request('volume/'+value,{method:'POST'}).catch(error=>alert(error.message)),60)
+}
+
+drop.onclick=()=>fileInput.click();
+drop.onkeydown=event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();fileInput.click()}};
+fileInput.onchange=()=>{if(fileInput.files[0])playFile(fileInput.files[0]);fileInput.value=''};
+for(const eventName of ['dragenter','dragover'])drop.addEventListener(eventName,event=>{event.preventDefault();drop.classList.add('active')});
+for(const eventName of ['dragleave','drop'])drop.addEventListener(eventName,event=>{event.preventDefault();drop.classList.remove('active')});
+drop.addEventListener('drop',event=>{const file=event.dataTransfer.files[0];if(file)playFile(file)});
+
+async function playFile(file){
+  if(uploading)return;
+  uploading=true;document.getElementById('playStatus').textContent='正在传给本地服务 '+file.name+'…';
+  try{
+    const response=await fetch('play-file?filename='+encodeURIComponent(file.name),{method:'POST',body:file});
+    if(!response.ok)throw new Error(await response.text());
+  }catch(error){alert(error.message);document.getElementById('playStatus').textContent='播放失败：'+error.message}
+  finally{uploading=false}
+}
+
+async function poll(){
+  try{
+    const s=await(await fetch('/status',{cache:'no-store'})).json();
+    recognitionActive=Boolean(s.recording);
+    mic.disabled=s.recording;gain.disabled=s.recording;
+    const toggle=document.getElementById('start');
+    toggle.disabled=recognitionPending||(!s.recording&&(!s.board_connected||s.model!=='ready'||uploading));
+    toggle.textContent=s.recording?'停止语音识别':'开始语音识别';toggle.setAttribute('aria-pressed',String(Boolean(s.recording)));
+    document.getElementById('stopPlay').disabled=!s.playing;
+    if(document.activeElement!==mic)mic.value=s.mic_mode;if(document.activeElement!==gain)gain.value=String(s.gain);
+    document.getElementById('status').textContent=`板子：${s.board_connected?'已连接':'未连接'} · 模型：${s.model} · ${s.mic} · 增益 ${s.gain}× · ${s.recording?'语音识别中':'语音识别已关闭'} · ${s.seconds} 秒`;
+    document.getElementById('leftLevel').value=s.rms_db_left;document.getElementById('rightLevel').value=s.rms_db_right;
+    document.getElementById('leftText').textContent=s.rms_db_left+' dBFS';document.getElementById('rightText').textContent=s.rms_db_right+' dBFS';
+    const v=s.vad||{},vr=s.board_connected&&v.status==='ready';
+    document.getElementById('vadState').textContent=vr?(v.speech?'检测到语音':'未检测到语音'):v.status==='error'?'语音检测暂不可用':'语音检测：等待音频';
+    document.getElementById('vadMetrics').textContent=vr?`左麦 ${Math.round(v.left_probability*100)}% · 右麦 ${Math.round(v.right_probability*100)}% · 已检测 ${v.segments} 段 · 耗时 ${v.processing_ms_per_32ms} ms / 32 ms 双麦音频`:v.error||'';
+    const a=s.aec||{};aecEnabled=Boolean(a.enabled);
+    document.getElementById('aec').textContent='回声消除：'+(aecEnabled?'开':'关');
+    document.getElementById('aec').disabled=!s.board_connected||!s.aec;
+    document.getElementById('aec').setAttribute('aria-pressed',String(aecEnabled));
+    const w=s.wakeword||{};wakeEnabled=Boolean(w.enabled);
+    document.getElementById('wake').textContent='语音唤醒：'+(wakeEnabled?'开':'关');
+    document.getElementById('wake').disabled=!s.wakeword||wakePending;
+    document.getElementById('wake').setAttribute('aria-pressed',String(wakeEnabled));
+    const turn=s.voice_turn;
+    document.getElementById('wake-status').textContent=w.error?'语音唤醒暂不可用：'+w.error:
+      s.recording&&turn?(turn.phase==='cue'?'已唤醒 · 提示音后请说指令':
+        turn.phase==='waiting-speech'?'我在听，请说指令 · 等待 '+turn.wait_remaining+' 秒':'正在听取指令 · 说完稍停，自动提交识别'):
+      s.recording?'正在语音识别 · 点击停止或双击板上按键结束':
+      turn&&turn.phase==='processing'?'正在识别刚才的指令…':
+      !wakeEnabled?'语音唤醒已关闭':!s.board_connected?'语音唤醒：等待板子连接':
+      s.model!=='ready'?'正在准备识别服务':
+      w.status==='armed'?'等待“'+(w.keyword||'小萤小萤')+'” · 唤醒后稍停一下再说指令':
+      w.status==='cooldown'?'稍候即可再次唤醒…':w.status==='loading'?'正在加载唤醒模型…':'等待麦克风音频…';
+    const notes={active:'正在消除播放回声 · 检测与识别使用处理后的声音',aligning:'正在对齐播放参考 · 开头可能仍有播放人声',standby:'回声消除已开启 · 等待扬声器播放',disabled:'回声消除已关闭 · 使用原始收音',error:'回声消除异常 · 已回退原始收音','waiting-reference':'播放参考暂时中断',waiting:'等待麦克风音频'};
+    document.getElementById('vadNote').textContent=notes[a.status]||'正在读取回声消除状态…';
+    document.getElementById('stats').textContent=`音频包 ${s.frames} / CRC错误 ${s.crc_errors} / 序号跳变 ${s.gaps} / 溢出 ${s.overruns} / 队列丢弃 ${s.queue_drops}`;
+    document.getElementById('playFill').style.width=s.play_progress+'%';
+    if(document.activeElement!==volume){volume.value=s.play_volume;document.getElementById('volumeText').textContent=s.play_volume+'%'}
+    const format=s.metadata?` · 实际 ${s.metadata.decoded_rate} Hz / 16-bit / 单声道`:'';
+    const transport=s.playing?` · 缓冲 ${(s.buffered_frames/(s.play_rate||48000)).toFixed(1)} 秒 · 重传 ${s.retry_count} · 重缓存 ${s.rebuffer_events}`:'';
+    if(!uploading)document.getElementById('playStatus').textContent=s.play_name?`${s.play_status} · ${s.play_name} · ${s.play_progress}%${format}${transport}`:s.play_status;
+    document.getElementById('text').textContent=s.texts.map(x=>`[${x.source==='left'?'左麦':x.source==='right'?'右麦':x.source}] ${x.text}`).filter(x=>x.trim()).join('\n')||'等待语音';
+    document.getElementById('error').textContent=s.error||s.play_error||'';
+    if(s.wav&&s.wav!==lastWav){lastWav=s.wav;document.getElementById('audio').src='/recordings/'+encodeURIComponent(s.wav)}
+  }catch(error){document.getElementById('error').textContent='本地服务未连接'}
+  setTimeout(poll,400);
+}
+poll();
+</script>
+</html>
