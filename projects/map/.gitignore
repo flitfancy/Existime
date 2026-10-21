@@ -1,0 +1,6 @@
+# Local compiler and host-test outputs; releases/ contains the intended BINs.
+/06-固件源码/firmware/*/*.elf
+/06-固件源码/firmware/*/*.bin
+/06-固件源码/firmware/*/host-tests*
+/06-固件源码/firmware/*/host-verification.json
+/06-固件源码/firmware/*/build-verification.json

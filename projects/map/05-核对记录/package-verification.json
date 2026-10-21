@@ -1,0 +1,30 @@
+{
+  "date_Asia_Shanghai": "2026-10-20",
+  "passed": true,
+  "relocated_checkout_with_spaces": true,
+  "platform_tested": "Windows x64, Python 3.11.7, ziglang 0.13.0",
+  "host_assertions": 218381,
+  "firmware_sha256": "556e4b6672990dd6f260fcf495fc86cdf640436a2b05c11db336e5b4491fad6d",
+  "firmware_bytes": 12292,
+  "static_ram_bytes": 1060,
+  "accepted_image_reproduced_exactly": true,
+  "original_C_and_header_files_unchanged": 29,
+  "generated_files_reproduced": 4,
+  "original_manufacturing_archive_unchanged": true,
+  "text_files_checked_for_known_local_metadata": 57,
+  "local_document_links_checked": 14,
+  "flash_wrapper_help_checked": true,
+  "flash_wrapper_executed_on_device": false,
+  "device_reprogrammed": false,
+  "native_EDA_source_included": true,
+  "v2_hardware_modified": false,
+  "limitations": [
+    "Uses the installed pinned compiler; not a new dependency installation.",
+    "Linux/macOS builds and the new public flashing wrapper have not been exercised on hardware."
+  ],
+  "native_EDA_archive_sha256": "08bdf1853c87d0d6d9ef5e22f095f979e5076c7d8848cca33d4307525f75707c",
+  "native_EDA_archive_CRC_verified": true,
+  "native_EDA_desktop_import_verified": true,
+  "native_EDA_component_and_pin_baseline_match": true,
+  "desktop_import_method": "Native importer, retitled archive with byte-identical map.epru, independent local map-v2.eprj2 project."
+}

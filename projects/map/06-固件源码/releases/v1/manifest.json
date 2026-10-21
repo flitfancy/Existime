@@ -1,0 +1,12 @@
+{
+  "hardware_version": "1",
+  "application_version": 5,
+  "target": "STM32C011F4P6",
+  "flash_address": "0x08000000",
+  "image": "map-app.bin",
+  "bytes": 12292,
+  "sha256": "556e4b6672990dd6f260fcf495fc86cdf640436a2b05c11db336e5b4491fad6d",
+  "saved_device_readback_matches": true,
+  "physical_acceptance_date": "2026-10-19",
+  "scope": "Accepted v1 application; saved readback compared locally, no new device programming during packaging."
+}

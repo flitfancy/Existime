@@ -1,0 +1,510 @@
+{
+  "address": 536870912,
+  "size": 436,
+  "fields": [
+    {
+      "name": "magic",
+      "offset": 0,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "version",
+      "offset": 4,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "ms",
+      "offset": 8,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "loops",
+      "offset": 12,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "mode",
+      "offset": 16,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "buttons",
+      "offset": 20,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "selected",
+      "offset": 24,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "selected_led",
+      "offset": 28,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "mask_lo",
+      "offset": 32,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "mask_hi",
+      "offset": 36,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "calibrated",
+      "offset": 40,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "heading",
+      "offset": 44,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "heading_valid",
+      "offset": 48,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "direction",
+      "offset": 52,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "mag_samples",
+      "offset": 56,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "acc_samples",
+      "offset": 60,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "mag_errors",
+      "offset": 64,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "acc_errors",
+      "offset": 68,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "i2c_errors",
+      "offset": 72,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "eeprom_loaded",
+      "offset": 76,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "save_busy",
+      "offset": 80,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "save_count",
+      "offset": 84,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "save_errors",
+      "offset": 88,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "dirty",
+      "offset": 92,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "save_sequence",
+      "offset": 96,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "cal_samples",
+      "offset": 100,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "cal_faces",
+      "offset": 104,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "settle_count",
+      "offset": 108,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "mag",
+      "offset": 112,
+      "count": 3,
+      "min_version": 1
+    },
+    {
+      "name": "acc",
+      "offset": 124,
+      "count": 3,
+      "min_version": 1
+    },
+    {
+      "name": "cal_span",
+      "offset": 136,
+      "count": 3,
+      "min_version": 1
+    },
+    {
+      "name": "bias",
+      "offset": 148,
+      "count": 3,
+      "min_version": 1
+    },
+    {
+      "name": "radius",
+      "offset": 160,
+      "count": 3,
+      "min_version": 1
+    },
+    {
+      "name": "output",
+      "offset": 172,
+      "count": 5,
+      "min_version": 1
+    },
+    {
+      "name": "config",
+      "offset": 192,
+      "count": 5,
+      "min_version": 1
+    },
+    {
+      "name": "input",
+      "offset": 212,
+      "count": 5,
+      "min_version": 1
+    },
+    {
+      "name": "led_verified",
+      "offset": 232,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "direct_mask",
+      "offset": 236,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "gpioa_idr",
+      "offset": 240,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "power_flags",
+      "offset": 244,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "max_loop_ms",
+      "offset": 248,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "who_mag",
+      "offset": 252,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "who_acc",
+      "offset": 256,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "sensor_ready",
+      "offset": 260,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "north",
+      "offset": 264,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "cpu_busy_permille",
+      "offset": 268,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "max_loop_us",
+      "offset": 272,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "mag_config",
+      "offset": 276,
+      "count": 3,
+      "min_version": 1
+    },
+    {
+      "name": "acc_config",
+      "offset": 288,
+      "count": 2,
+      "min_version": 1
+    },
+    {
+      "name": "request_save",
+      "offset": 296,
+      "count": 1,
+      "min_version": 1
+    },
+    {
+      "name": "battery_samples",
+      "offset": 300,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_errors",
+      "offset": 304,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_raw",
+      "offset": 308,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_ref_raw",
+      "offset": 312,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_ref_cal",
+      "offset": 316,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_vdda_mv",
+      "offset": 320,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_mv",
+      "offset": 324,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_filtered_mv",
+      "offset": 328,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_percent",
+      "offset": 332,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_bars",
+      "offset": 336,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_state",
+      "offset": 340,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_age_ms",
+      "offset": 344,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_adc_ready",
+      "offset": 348,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_charging",
+      "offset": 352,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_external_power",
+      "offset": 356,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "battery_display_mask",
+      "offset": 360,
+      "count": 1,
+      "min_version": 2
+    },
+    {
+      "name": "heading_window_cdeg",
+      "offset": 364,
+      "count": 1,
+      "min_version": 3
+    },
+    {
+      "name": "battery_steady_mask",
+      "offset": 368,
+      "count": 1,
+      "min_version": 3
+    },
+    {
+      "name": "battery_breath_mask",
+      "offset": 372,
+      "count": 1,
+      "min_version": 3
+    },
+    {
+      "name": "battery_breath_duty",
+      "offset": 376,
+      "count": 1,
+      "min_version": 3
+    },
+    {
+      "name": "battery_revealed_bars",
+      "offset": 380,
+      "count": 1,
+      "min_version": 3
+    },
+    {
+      "name": "pwm_writes",
+      "offset": 384,
+      "count": 1,
+      "min_version": 3
+    },
+    {
+      "name": "ring_max_write_us",
+      "offset": 388,
+      "count": 1,
+      "min_version": 3
+    },
+    {
+      "name": "sensor_poll_paused",
+      "offset": 392,
+      "count": 1,
+      "min_version": 3
+    },
+    {
+      "name": "center_breathing",
+      "offset": 396,
+      "count": 1,
+      "min_version": 4
+    },
+    {
+      "name": "center_duty",
+      "offset": 400,
+      "count": 1,
+      "min_version": 4
+    },
+    {
+      "name": "center_pwm_compare",
+      "offset": 404,
+      "count": 1,
+      "min_version": 4
+    },
+    {
+      "name": "center_pwm_period",
+      "offset": 408,
+      "count": 1,
+      "min_version": 4
+    },
+    {
+      "name": "center_breath_period_ms",
+      "offset": 412,
+      "count": 1,
+      "min_version": 4
+    },
+    {
+      "name": "charge_phase",
+      "offset": 416,
+      "count": 1,
+      "min_version": 5
+    },
+    {
+      "name": "charge_complete_count",
+      "offset": 420,
+      "count": 1,
+      "min_version": 5
+    },
+    {
+      "name": "charge_done_pending",
+      "offset": 424,
+      "count": 1,
+      "min_version": 5
+    },
+    {
+      "name": "charge_done_display",
+      "offset": 428,
+      "count": 1,
+      "min_version": 5
+    },
+    {
+      "name": "charge_done_remaining_ms",
+      "offset": 432,
+      "count": 1,
+      "min_version": 5
+    }
+  ]
+}

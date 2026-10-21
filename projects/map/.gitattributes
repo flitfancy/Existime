@@ -1,0 +1,10 @@
+# Preserve source/export bytes so the file manifest also verifies after cloning.
+* -text
+*.epro2 binary
+*.zip binary
+*.xlsx binary
+*.jpg binary
+*.webp binary
+*.png binary
+# Native plot files are checked against the Gerber ZIP, not as source diffs.
+/03-PCB制造/** -diff

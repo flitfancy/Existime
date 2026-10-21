@@ -4,13 +4,13 @@
 
 这里会放原理图、PCB、固件和制作资料。实物展示和制作记录，也会放到[云萤 · FlitFancy](https://flitfancy.com/resources.html)。
 
-目前整理了 FFS 环境感知板和 FFA 双麦语音交互板，工程和软件会随着使用继续完善。
+目前整理了 FFS 环境感知板、FFA 双麦语音交互板和 map 地图灯，工程和软件会随着使用继续完善。
 
 ## 项目与资料
 
 硬件项目放在 [`projects/`](projects/)，每个项目一个目录。原理图、PCB、BOM、固件、外壳模型和使用说明随项目整理，具体版本、验证进度和许可证在各项目中说明。
 
-首批资料以 [FFS 与 FFA 开源预览版 v0.1.0](https://github.com/flitfancy/Existime/releases/tag/v0.1.0) 提供下载。硬件工程和源码包含在资料包中，预编译固件后续另行发布。
+FFS、FFA的首批资料以 [开源预览版 v0.1.0](https://github.com/flitfancy/Existime/releases/tag/v0.1.0) 提供下载；这两个项目的预编译固件后续另行发布。map的硬件变体与已构建固件见其项目下载入口。
 
 ## 开源项目
 
@@ -30,10 +30,20 @@ ESP32-S3 双麦采音与播放终端，配合电脑端服务完成语音识别�
 
 [项目介绍与照片](projects/FFA/README.md) · [完整资料目录](projects/FFA/README.txt)
 
-这两份资料于 2026-10-20 从当前 EDA 工程整理。每个项目的 `MANIFEST.json` 记录来源、文件校验和已有检查范围；当前作为持续完善的个人硬件项目开放。
+### map · 省份记录与指南针地图灯
+
+![map v1充电版实物，部分省份灯和中心灯点亮。](projects/map/08-实物照片/map-v1-lit.jpg)
+
+34颗省份灯记录、八方向指南针和电量显示。提供v1板载充电版与v2外部电池版，每版都有完整丝印和无背面丝印两种选择，以及全亮测试/正常使用两类固件。v1已有实物功能验证，v2首版供打样测试。
+
+[项目介绍与下载](projects/map/README.md) · [工作逻辑](projects/map/04-装配资料/使用说明/operation-logic.md)
+
+FFS、FFA首批资料于2026-10-20整理；map资料于2026-10-21整理。各项目的 `MANIFEST.json` 记录文件校验和已有检查范围，版本与验证进度以项目说明为准。
 
 ## 授权
 
 FFS、FFA 的原创硬件设计采用 **CERN-OHL-S-2.0**，具体范围和第三方例外见各项目的 `HARDWARE-NOTICE.txt`。
+
+map 的原创硬件设计采用 **CERN-OHL-P-2.0**，软件与原创说明采用 **MIT**；范围及第三方材料说明见[map许可范围](projects/map/LICENSING.md)。
 
 原创固件与配套软件采用 **MIT License**；第三方保留原许可证和声明。软件条款见 [MIT 许可证](LICENSE-SOFTWARE.txt)，完整范围见 [授权说明](LICENSING.txt)。

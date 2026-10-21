@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "assertions": 218381,
+  "summary": "PASS 218381 assertions: buttons/chords, +/-3 degree clockwise heading, calibration/save/auto-return, CRC/power-cut storage, battery reveal/breathing/PWM, center PWM and 3-second charge completion, LED transport recovery and sensor freshness"
+}

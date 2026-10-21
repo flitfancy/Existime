@@ -1,0 +1,59 @@
+{
+  "toolchain": "ziglang==0.13.0",
+  "images": [
+    {
+      "hardware": "v1",
+      "mode": "normal",
+      "physicalValidation": "accepted on v1",
+      "hostTests": {
+        "passed": true,
+        "assertions": 218381,
+        "summary": "PASS 218381 assertions: buttons/chords, +/-3 degree clockwise heading, calibration/save/auto-return, CRC/power-cut storage, battery reveal/breathing/PWM, center PWM and 3-second charge completion, LED transport recovery and sensor freshness"
+      },
+      "image": "map-app.bin",
+      "bytes": 12292,
+      "sha256": "556e4b6672990dd6f260fcf495fc86cdf640436a2b05c11db336e5b4491fad6d",
+      "flashAddress": "0x08000000",
+      "ledMappingMatchesBothHardwareVersions": true,
+      "applicationVersion": 5
+    },
+    {
+      "hardware": "v1",
+      "mode": "all-on",
+      "physicalValidation": "accepted on v1",
+      "image": "all-led-on.bin",
+      "bytes": 1504,
+      "sha256": "e77934ea3cf31170a66a63bd198694ba0863fcebff736a68a644feabdbf6fa21",
+      "flashAddress": "0x08000000",
+      "ledMappingMatchesBothHardwareVersions": true
+    },
+    {
+      "hardware": "v2",
+      "mode": "normal",
+      "physicalValidation": "prototype; not yet tested on v2 hardware",
+      "hostTests": {
+        "passed": true,
+        "assertions": 220951,
+        "summary": "PASS 220951 assertions: buttons/chords, +/-3 degree clockwise heading, calibration/save/auto-return, CRC/power-cut storage, 2x alkaline voltage bars, v2 charge rejection, shared display/PWM, LED transport recovery and sensor freshness"
+      },
+      "image": "map-app.bin",
+      "bytes": 11456,
+      "sha256": "ed56fbea57d7ed92aea4b749ccb92e107064bdf16bc5ade7f810d3a4f5cf4e18",
+      "flashAddress": "0x08000000",
+      "ledMappingMatchesBothHardwareVersions": true,
+      "batteryProfile": "2x alkaline AA/AAA; 1.8-3.2V linear eight-bar voltage indication",
+      "chargerStatusSupported": false,
+      "applicationVersion": 6
+    },
+    {
+      "hardware": "v2",
+      "mode": "all-on",
+      "physicalValidation": "prototype; not yet tested on v2 hardware",
+      "image": "all-led-on.bin",
+      "bytes": 1504,
+      "sha256": "e77934ea3cf31170a66a63bd198694ba0863fcebff736a68a644feabdbf6fa21",
+      "flashAddress": "0x08000000",
+      "ledMappingMatchesBothHardwareVersions": true
+    }
+  ]
+}

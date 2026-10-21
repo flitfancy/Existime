@@ -1,0 +1,10 @@
+{
+  "application_version": 6,
+  "flash_image_bytes": 11456,
+  "flash_sha256": "ed56fbea57d7ed92aea4b749ccb92e107064bdf16bc5ade7f810d3a4f5cf4e18",
+  "stack": "0x20001800",
+  "reset": "0x8000219",
+  "flash_limit": 16384,
+  "allocated_ram_bytes": 1052,
+  "remaining_ram_bytes": 5092
+}

@@ -1,0 +1,8 @@
+map 固件与配套脚本授权
+SPDX-License-Identifier: MIT
+
+本项目06-固件源码内由项目有权授权的原创程序、构建/烧录脚本、测试和直接配套说明采用MIT License。
+项目README及原创使用说明也按MIT提供。完整条款见LICENSE-SOFTWARE.txt；06-固件源码/LICENSE.txt保留原版权文本。
+硬件接线及位置数据按CERN-OHL-P-2.0提供，范围见HARDWARE-NOTICE.txt与LICENSING.md。
+已有第三方版权和许可继续有效。本项目不附带编译器、OpenOCD或可选ESP32下载器的上游代码和工具链。
+实物照片及品牌不因软件许可新增授权。

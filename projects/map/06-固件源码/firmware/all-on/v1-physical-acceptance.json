@@ -1,0 +1,39 @@
+{
+  "magic": 1296126028,
+  "version": 1,
+  "heartbeat": 12,
+  "write_ack_mask": 31,
+  "verified_mask": 31,
+  "errors": 0,
+  "gpioa_idr": 24576,
+  "gpiob_idr": 192,
+  "output": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "config": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "input": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "direct_led_gpio_low": true,
+  "pass": true,
+  "firmware_bytes": 1504,
+  "firmware_sha256": "e77934ea3cf31170a66a63bd198694ba0863fcebff736a68a644feabdbf6fa21",
+  "flash_readback_matches": true,
+  "software_reset_retest_passed": true,
+  "user_confirmed_all_43_leds_lit": true,
+  "empty_flag_cleared_after_first_programming": true
+}

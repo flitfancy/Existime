@@ -1,0 +1,5143 @@
+{
+  "success": true,
+  "hardware_version": 2,
+  "result": {
+    "project": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+    "pcb": "9da6d699202ca91c",
+    "parts": [
+      {
+        "id": "7724f784da6f7738",
+        "ref": "C2",
+        "mpn": "CL21A475KAQNNNE",
+        "code": "C1779",
+        "addIntoBom": true,
+        "x": 3445,
+        "y": -3535,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "7724f784da6f7738e15",
+            "pin": "2",
+            "net": "GND",
+            "x": 3445,
+            "y": -3495.6
+          },
+          {
+            "id": "7724f784da6f7738e16",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 3445,
+            "y": -3574.4
+          }
+        ]
+      },
+      {
+        "id": "d77be04c10890a2c",
+        "ref": "C3",
+        "mpn": "CL21B104KBCNNNC",
+        "code": "C1711",
+        "addIntoBom": true,
+        "x": 2926.811,
+        "y": -463.6614,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "d77be04c10890a2ce15",
+            "pin": "2",
+            "net": "GND",
+            "x": 2966.2,
+            "y": -463.7
+          },
+          {
+            "id": "d77be04c10890a2ce16",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2887.4,
+            "y": -463.7
+          }
+        ]
+      },
+      {
+        "id": "7bc72de25c76bed2",
+        "ref": "C4",
+        "mpn": "CL21A475KAQNNNE",
+        "code": "C1779",
+        "addIntoBom": true,
+        "x": 3123.6614,
+        "y": -463.6614,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "7bc72de25c76bed2e15",
+            "pin": "2",
+            "net": "GND",
+            "x": 3163,
+            "y": -463.7
+          },
+          {
+            "id": "7bc72de25c76bed2e16",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 3084.3,
+            "y": -463.7
+          }
+        ]
+      },
+      {
+        "id": "b45f146eab3c5d21",
+        "ref": "C5",
+        "mpn": "CL21B104KBCNNNC",
+        "code": "C1711",
+        "addIntoBom": true,
+        "x": 3525,
+        "y": -510,
+        "rotation": -90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "b45f146eab3c5d21e15",
+            "pin": "2",
+            "net": "GND",
+            "x": 3525,
+            "y": -549.4
+          },
+          {
+            "id": "b45f146eab3c5d21e16",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 3525,
+            "y": -470.6
+          }
+        ]
+      },
+      {
+        "id": "7a766aa6d8e165cf",
+        "ref": "C6",
+        "mpn": "CL21B104KBCNNNC",
+        "code": "C1711",
+        "addIntoBom": true,
+        "x": 3240,
+        "y": -225,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "7a766aa6d8e165cfe15",
+            "pin": "2",
+            "net": "GND",
+            "x": 3240,
+            "y": -185.6
+          },
+          {
+            "id": "7a766aa6d8e165cfe16",
+            "pin": "1",
+            "net": "KEY_NEXT",
+            "x": 3240,
+            "y": -264.4
+          }
+        ]
+      },
+      {
+        "id": "ae9193ba3d25fa71",
+        "ref": "C7",
+        "mpn": "CL21B104KBCNNNC",
+        "code": "C1711",
+        "addIntoBom": true,
+        "x": 2795,
+        "y": -295,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "ae9193ba3d25fa71e15",
+            "pin": "2",
+            "net": "GND",
+            "x": 2795,
+            "y": -255.6
+          },
+          {
+            "id": "ae9193ba3d25fa71e16",
+            "pin": "1",
+            "net": "KEY_SET",
+            "x": 2795,
+            "y": -334.4
+          }
+        ]
+      },
+      {
+        "id": "848909a89e4ea3c3",
+        "ref": "C8",
+        "mpn": "CL21B104KBCNNNC",
+        "code": "C1711",
+        "addIntoBom": true,
+        "x": 400,
+        "y": -710,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "848909a89e4ea3c3e15",
+            "pin": "2",
+            "net": "GND",
+            "x": 439.4,
+            "y": -710
+          },
+          {
+            "id": "848909a89e4ea3c3e16",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 360.6,
+            "y": -710
+          }
+        ]
+      },
+      {
+        "id": "ed8b85eb9369a895",
+        "ref": "C9",
+        "mpn": "CL21B104KBCNNNC",
+        "code": "C1711",
+        "addIntoBom": true,
+        "x": 866.1417,
+        "y": -708.6614,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "ed8b85eb9369a895e15",
+            "pin": "2",
+            "net": "GND",
+            "x": 905.5,
+            "y": -708.7
+          },
+          {
+            "id": "ed8b85eb9369a895e16",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 826.8,
+            "y": -708.7
+          }
+        ]
+      },
+      {
+        "id": "3756fdf122a5bbcd",
+        "ref": "C10",
+        "mpn": "CL21B104KBCNNNC",
+        "code": "C1711",
+        "addIntoBom": true,
+        "x": 1417.3228,
+        "y": -708.6614,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "3756fdf122a5bbcde15",
+            "pin": "2",
+            "net": "GND",
+            "x": 1456.7,
+            "y": -708.7
+          },
+          {
+            "id": "3756fdf122a5bbcde16",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1378,
+            "y": -708.7
+          }
+        ]
+      },
+      {
+        "id": "e11a2494f19e35c2",
+        "ref": "C11",
+        "mpn": "CL21B104KBCNNNC",
+        "code": "C1711",
+        "addIntoBom": true,
+        "x": 1968.5039000000002,
+        "y": -708.6614,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "e11a2494f19e35c2e15",
+            "pin": "2",
+            "net": "GND",
+            "x": 2007.9,
+            "y": -708.7
+          },
+          {
+            "id": "e11a2494f19e35c2e16",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1929.1,
+            "y": -708.7
+          }
+        ]
+      },
+      {
+        "id": "88b318d42fb5d804",
+        "ref": "C12",
+        "mpn": "CL21B104KBCNNNC",
+        "code": "C1711",
+        "addIntoBom": true,
+        "x": 2519.685,
+        "y": -708.6614,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "88b318d42fb5d804e15",
+            "pin": "2",
+            "net": "GND",
+            "x": 2559.1,
+            "y": -708.7
+          },
+          {
+            "id": "88b318d42fb5d804e16",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2480.3,
+            "y": -708.7
+          }
+        ]
+      },
+      {
+        "id": "d6d41c3dff184acf",
+        "ref": "C13",
+        "mpn": "CL21B104KBCNNNC",
+        "code": "C1711",
+        "addIntoBom": true,
+        "x": 2930,
+        "y": -590,
+        "rotation": 180,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "d6d41c3dff184acfe15",
+            "pin": "2",
+            "net": "GND",
+            "x": 2890.6,
+            "y": -590
+          },
+          {
+            "id": "d6d41c3dff184acfe16",
+            "pin": "1",
+            "net": "NRST",
+            "x": 2969.4,
+            "y": -590
+          }
+        ]
+      },
+      {
+        "id": "83bcb5b3727f1142",
+        "ref": "C17",
+        "mpn": "CL21B104KBCNNNC",
+        "code": "C1711",
+        "addIntoBom": true,
+        "x": 3035,
+        "y": -720,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "83bcb5b3727f1142e15",
+            "pin": "2",
+            "net": "GND",
+            "x": 3074.4,
+            "y": -720
+          },
+          {
+            "id": "83bcb5b3727f1142e16",
+            "pin": "1",
+            "net": "BAT_ADC",
+            "x": 2995.6,
+            "y": -720
+          }
+        ]
+      },
+      {
+        "id": "37506a6fa02a8a25",
+        "ref": "D2",
+        "mpn": "W329-10452-LC/TZ-C0603-WL/A-BA06KF-YA1102NA/W329",
+        "code": "C54814824",
+        "addIntoBom": true,
+        "x": 2355.7638,
+        "y": -1743.9546999999998,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "e797db622e6e93e3",
+          "name": "LED0603-RD"
+        },
+        "pins": [
+          {
+            "id": "37506a6fa02a8a25e21",
+            "pin": "2",
+            "net": "LED_A02",
+            "x": 2355.8,
+            "y": -1714.5
+          },
+          {
+            "id": "37506a6fa02a8a25e22",
+            "pin": "1",
+            "net": "LED_K02",
+            "x": 2355.8,
+            "y": -1773.4
+          }
+        ]
+      },
+      {
+        "id": "5d5271b27248341f",
+        "ref": "D3",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2240,
+        "y": -1835,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "5d5271b27248341fe18",
+            "pin": "2",
+            "net": "LED_K03",
+            "x": 2198.7,
+            "y": -1835
+          },
+          {
+            "id": "5d5271b27248341fe19",
+            "pin": "1",
+            "net": "LED_A03",
+            "x": 2281.4,
+            "y": -1835
+          }
+        ]
+      },
+      {
+        "id": "4ee08e5902974521",
+        "ref": "D4",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2094.4791,
+        "y": -1922.5071,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "4ee08e5902974521e18",
+            "pin": "2",
+            "net": "LED_K04",
+            "x": 2053.1,
+            "y": -1922.5
+          },
+          {
+            "id": "4ee08e5902974521e19",
+            "pin": "1",
+            "net": "LED_A04",
+            "x": 2135.8,
+            "y": -1922.5
+          }
+        ]
+      },
+      {
+        "id": "ef9e45fc9e67ec20",
+        "ref": "D5",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2029.1697,
+        "y": -1662.1471999999999,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "ef9e45fc9e67ec20e18",
+            "pin": "2",
+            "net": "LED_K05",
+            "x": 1987.8,
+            "y": -1662.1
+          },
+          {
+            "id": "ef9e45fc9e67ec20e19",
+            "pin": "1",
+            "net": "LED_A05",
+            "x": 2070.5,
+            "y": -1662.1
+          }
+        ]
+      },
+      {
+        "id": "75a1894a727b940b",
+        "ref": "D6",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2531.2323,
+        "y": -1651.6878,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "75a1894a727b940be18",
+            "pin": "2",
+            "net": "LED_K06",
+            "x": 2489.9,
+            "y": -1651.7
+          },
+          {
+            "id": "75a1894a727b940be19",
+            "pin": "1",
+            "net": "LED_A06",
+            "x": 2572.6,
+            "y": -1651.7
+          }
+        ]
+      },
+      {
+        "id": "e1ad885eb826b13c",
+        "ref": "D7",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2646.2886,
+        "y": -1511.5287,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "e1ad885eb826b13ce18",
+            "pin": "2",
+            "net": "LED_K07",
+            "x": 2604.9,
+            "y": -1511.5
+          },
+          {
+            "id": "e1ad885eb826b13ce19",
+            "pin": "1",
+            "net": "LED_A07",
+            "x": 2687.6,
+            "y": -1511.5
+          }
+        ]
+      },
+      {
+        "id": "cb16929121e3213b",
+        "ref": "D8",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2698.5865999999996,
+        "y": -1254.2217,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "cb16929121e3213be18",
+            "pin": "2",
+            "net": "LED_K08",
+            "x": 2657.2,
+            "y": -1254.2
+          },
+          {
+            "id": "cb16929121e3213be19",
+            "pin": "1",
+            "net": "LED_A08",
+            "x": 2739.9,
+            "y": -1254.2
+          }
+        ]
+      },
+      {
+        "id": "0c8356ab7386658e",
+        "ref": "D9",
+        "mpn": "W329-10452-LC/TZ-C0603-WL/A-BA06KF-YA1102NA/W329",
+        "code": "C54814824",
+        "addIntoBom": true,
+        "x": 2550.0598,
+        "y": -2258.3469,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "e797db622e6e93e3",
+          "name": "LED0603-RD"
+        },
+        "pins": [
+          {
+            "id": "0c8356ab7386658ee21",
+            "pin": "2",
+            "net": "LED_A09",
+            "x": 2579.5,
+            "y": -2258.3
+          },
+          {
+            "id": "0c8356ab7386658ee22",
+            "pin": "1",
+            "net": "LED_K09",
+            "x": 2520.6,
+            "y": -2258.4
+          }
+        ]
+      },
+      {
+        "id": "3eaab51c6cc3d076",
+        "ref": "D10",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2477.5555,
+        "y": -2130.3827,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "3eaab51c6cc3d076e18",
+            "pin": "2",
+            "net": "LED_K10",
+            "x": 2436.2,
+            "y": -2130.4
+          },
+          {
+            "id": "3eaab51c6cc3d076e19",
+            "pin": "1",
+            "net": "LED_A10",
+            "x": 2518.9,
+            "y": -2130.4
+          }
+        ]
+      },
+      {
+        "id": "fea297a0e32ca3c3",
+        "ref": "D11",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2489.3941,
+        "y": -2415.2413,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "fea297a0e32ca3c3e18",
+            "pin": "2",
+            "net": "LED_K11",
+            "x": 2448,
+            "y": -2415.2
+          },
+          {
+            "id": "fea297a0e32ca3c3e19",
+            "pin": "1",
+            "net": "LED_A11",
+            "x": 2530.7,
+            "y": -2415.2
+          }
+        ]
+      },
+      {
+        "id": "7f293f3b27d2f054",
+        "ref": "D12",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2332.1429,
+        "y": -2231.6114,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "7f293f3b27d2f054e18",
+            "pin": "2",
+            "net": "LED_K12",
+            "x": 2290.8,
+            "y": -2231.6
+          },
+          {
+            "id": "7f293f3b27d2f054e19",
+            "pin": "1",
+            "net": "LED_A12",
+            "x": 2373.5,
+            "y": -2231.6
+          }
+        ]
+      },
+      {
+        "id": "f7f557dc1b00ee29",
+        "ref": "D13",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2409.9008,
+        "y": -2561.6764000000003,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "f7f557dc1b00ee29e18",
+            "pin": "2",
+            "net": "LED_K13",
+            "x": 2368.6,
+            "y": -2561.7
+          },
+          {
+            "id": "f7f557dc1b00ee29e19",
+            "pin": "1",
+            "net": "LED_A13",
+            "x": 2451.3,
+            "y": -2561.7
+          }
+        ]
+      },
+      {
+        "id": "f811878f02603fd2",
+        "ref": "D14",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2284.385,
+        "y": -2472.9575,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "f811878f02603fd2e18",
+            "pin": "2",
+            "net": "LED_K14",
+            "x": 2243,
+            "y": -2473
+          },
+          {
+            "id": "f811878f02603fd2e19",
+            "pin": "1",
+            "net": "LED_A14",
+            "x": 2325.7,
+            "y": -2473
+          }
+        ]
+      },
+      {
+        "id": "b02fc1e5a2c651f6",
+        "ref": "D15",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2333.8783,
+        "y": -1965.3067,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "b02fc1e5a2c651f6e18",
+            "pin": "2",
+            "net": "LED_K15",
+            "x": 2292.5,
+            "y": -1965.3
+          },
+          {
+            "id": "b02fc1e5a2c651f6e19",
+            "pin": "1",
+            "net": "LED_A15",
+            "x": 2375.2,
+            "y": -1965.3
+          }
+        ]
+      },
+      {
+        "id": "112a51c2c686e40f",
+        "ref": "D16",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2158.8693,
+        "y": -2132.8311,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "112a51c2c686e40fe18",
+            "pin": "2",
+            "net": "LED_K16",
+            "x": 2117.5,
+            "y": -2132.8
+          },
+          {
+            "id": "112a51c2c686e40fe19",
+            "pin": "1",
+            "net": "LED_A16",
+            "x": 2200.2,
+            "y": -2132.8
+          }
+        ]
+      },
+      {
+        "id": "af0ec8d72caca17d",
+        "ref": "D17",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2108.663,
+        "y": -2298.0933,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "af0ec8d72caca17de18",
+            "pin": "2",
+            "net": "LED_K17",
+            "x": 2067.3,
+            "y": -2298.1
+          },
+          {
+            "id": "af0ec8d72caca17de19",
+            "pin": "1",
+            "net": "LED_A21",
+            "x": 2150,
+            "y": -2298.1
+          }
+        ]
+      },
+      {
+        "id": "57332dfee5370d19",
+        "ref": "D18",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2073.1004,
+        "y": -2492.6425,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "57332dfee5370d19e18",
+            "pin": "2",
+            "net": "LED_K18",
+            "x": 2031.8,
+            "y": -2492.6
+          },
+          {
+            "id": "57332dfee5370d19e19",
+            "pin": "1",
+            "net": "LED_A18",
+            "x": 2114.5,
+            "y": -2492.6
+          }
+        ]
+      },
+      {
+        "id": "f6facc3d8e1f5c7b",
+        "ref": "D19",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2175.6047,
+        "y": -2729.0306999999993,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "f6facc3d8e1f5c7be18",
+            "pin": "2",
+            "net": "LED_K19",
+            "x": 2134.3,
+            "y": -2729
+          },
+          {
+            "id": "f6facc3d8e1f5c7be19",
+            "pin": "1",
+            "net": "LED_A19",
+            "x": 2217,
+            "y": -2729
+          }
+        ]
+      },
+      {
+        "id": "9d3211bbe571eeba",
+        "ref": "D20",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 1926.6653999999999,
+        "y": -2708.1114,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "9d3211bbe571eebae18",
+            "pin": "2",
+            "net": "LED_K20",
+            "x": 1885.3,
+            "y": -2708.1
+          },
+          {
+            "id": "9d3211bbe571eebae19",
+            "pin": "1",
+            "net": "LED_A20",
+            "x": 1968,
+            "y": -2708.1
+          }
+        ]
+      },
+      {
+        "id": "81baaf64478d5760",
+        "ref": "D21",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 1987.3311,
+        "y": -2984.2457000000004,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "81baaf64478d5760e18",
+            "pin": "2",
+            "net": "LED_K21",
+            "x": 1946,
+            "y": -2984.2
+          },
+          {
+            "id": "81baaf64478d5760e19",
+            "pin": "1",
+            "net": "LED_A17",
+            "x": 2028.7,
+            "y": -2984.2
+          }
+        ]
+      },
+      {
+        "id": "7fe08de5be71e224",
+        "ref": "D22",
+        "mpn": "W329-10452-LC/TZ-C0603-WL/A-BA06KF-YA1102NA/W329",
+        "code": "C54814824",
+        "addIntoBom": true,
+        "x": 1889.0106,
+        "y": -2373.4028,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "e797db622e6e93e3",
+          "name": "LED0603-RD"
+        },
+        "pins": [
+          {
+            "id": "7fe08de5be71e224e21",
+            "pin": "2",
+            "net": "LED_A22",
+            "x": 1918.5,
+            "y": -2373.4
+          },
+          {
+            "id": "7fe08de5be71e224e22",
+            "pin": "1",
+            "net": "LED_K22",
+            "x": 1859.5,
+            "y": -2373.4
+          }
+        ]
+      },
+      {
+        "id": "c556f2b80a17ffdb",
+        "ref": "D23",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 1640.0713,
+        "y": -2310.6449,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "c556f2b80a17ffdbe18",
+            "pin": "2",
+            "net": "LED_K23",
+            "x": 1598.7,
+            "y": -2310.6
+          },
+          {
+            "id": "c556f2b80a17ffdbe19",
+            "pin": "1",
+            "net": "LED_A23",
+            "x": 1681.4,
+            "y": -2310.6
+          }
+        ]
+      },
+      {
+        "id": "22659e09a129b854",
+        "ref": "D24",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 1834.6205,
+        "y": -2538.665,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "22659e09a129b854e18",
+            "pin": "2",
+            "net": "LED_K24",
+            "x": 1793.3,
+            "y": -2538.7
+          },
+          {
+            "id": "22659e09a129b854e19",
+            "pin": "1",
+            "net": "LED_A24",
+            "x": 1876,
+            "y": -2538.7
+          }
+        ]
+      },
+      {
+        "id": "7b5d26c6988d4254",
+        "ref": "D25",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 1556.3941,
+        "y": -2626.526,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "7b5d26c6988d4254e18",
+            "pin": "2",
+            "net": "LED_K25",
+            "x": 1515,
+            "y": -2626.5
+          },
+          {
+            "id": "7b5d26c6988d4254e19",
+            "pin": "1",
+            "net": "LED_A25",
+            "x": 1597.7,
+            "y": -2626.5
+          }
+        ]
+      },
+      {
+        "id": "a4ec022293e9cb70",
+        "ref": "D26",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 960.1949,
+        "y": -2153.7504,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "a4ec022293e9cb70e18",
+            "pin": "2",
+            "net": "LED_K26",
+            "x": 918.8,
+            "y": -2153.8
+          },
+          {
+            "id": "a4ec022293e9cb70e19",
+            "pin": "1",
+            "net": "LED_A26",
+            "x": 1001.5,
+            "y": -2153.8
+          }
+        ]
+      },
+      {
+        "id": "96dbd9a2983acee0",
+        "ref": "D27",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 1947.5846,
+        "y": -2074.2571,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "96dbd9a2983acee0e18",
+            "pin": "2",
+            "net": "LED_K27",
+            "x": 1906.2,
+            "y": -2074.3
+          },
+          {
+            "id": "96dbd9a2983acee0e19",
+            "pin": "1",
+            "net": "LED_A27",
+            "x": 1988.9,
+            "y": -2074.3
+          }
+        ]
+      },
+      {
+        "id": "e0df5605ad511a79",
+        "ref": "D28",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 1644.2551,
+        "y": -1858.7886,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "e0df5605ad511a79e18",
+            "pin": "2",
+            "net": "LED_K28",
+            "x": 1602.9,
+            "y": -1858.8
+          },
+          {
+            "id": "e0df5605ad511a79e19",
+            "pin": "1",
+            "net": "LED_A28",
+            "x": 1685.6,
+            "y": -1858.8
+          }
+        ]
+      },
+      {
+        "id": "50caaba6e03ec870",
+        "ref": "D29",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 1355.5693,
+        "y": -1980.1205,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "50caaba6e03ec870e18",
+            "pin": "2",
+            "net": "LED_K29",
+            "x": 1314.2,
+            "y": -1980.1
+          },
+          {
+            "id": "50caaba6e03ec870e19",
+            "pin": "1",
+            "net": "LED_A29",
+            "x": 1396.9,
+            "y": -1980.1
+          }
+        ]
+      },
+      {
+        "id": "52b96f49b96aa45d",
+        "ref": "D30",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 1826.2528,
+        "y": -1919.4543,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "52b96f49b96aa45de18",
+            "pin": "2",
+            "net": "LED_K30",
+            "x": 1784.9,
+            "y": -1919.5
+          },
+          {
+            "id": "52b96f49b96aa45de19",
+            "pin": "1",
+            "net": "LED_A30",
+            "x": 1867.6,
+            "y": -1919.5
+          }
+        ]
+      },
+      {
+        "id": "aea86417487aa1b0",
+        "ref": "D31",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 935.0917,
+        "y": -1580.5621999999998,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "aea86417487aa1b0e18",
+            "pin": "2",
+            "net": "LED_K31",
+            "x": 893.7,
+            "y": -1580.6
+          },
+          {
+            "id": "aea86417487aa1b0e19",
+            "pin": "1",
+            "net": "LED_A31",
+            "x": 976.4,
+            "y": -1580.6
+          }
+        ]
+      },
+      {
+        "id": "631f9e20e9e9c42b",
+        "ref": "D32",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 2579.3469,
+        "y": -2687.1921,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "631f9e20e9e9c42be18",
+            "pin": "2",
+            "net": "LED_K32",
+            "x": 2538,
+            "y": -2687.2
+          },
+          {
+            "id": "631f9e20e9e9c42be19",
+            "pin": "1",
+            "net": "LED_A32",
+            "x": 2620.7,
+            "y": -2687.2
+          }
+        ]
+      },
+      {
+        "id": "448f678f2d2b56ef",
+        "ref": "D33",
+        "mpn": "W329-10452-LC/TZ-C0603-WL/A-BA06KF-YA1102NA/W329",
+        "code": "C54814824",
+        "addIntoBom": true,
+        "x": 2280.2012,
+        "y": -2825.3827,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "e797db622e6e93e3",
+          "name": "LED0603-RD"
+        },
+        "pins": [
+          {
+            "id": "448f678f2d2b56efe21",
+            "pin": "2",
+            "net": "LED_A33",
+            "x": 2309.7,
+            "y": -2825.4
+          },
+          {
+            "id": "448f678f2d2b56efe22",
+            "pin": "1",
+            "net": "LED_K33",
+            "x": 2250.7,
+            "y": -2825.4
+          }
+        ]
+      },
+      {
+        "id": "a6835eaca514e8d8",
+        "ref": "D34",
+        "mpn": "W329-10452-LC/TZ-C0603-WL/A-BA06KF-YA1102NA/W329",
+        "code": "C54814824",
+        "addIntoBom": true,
+        "x": 2127.8669,
+        "y": -2858.8535,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "e797db622e6e93e3",
+          "name": "LED0603-RD"
+        },
+        "pins": [
+          {
+            "id": "a6835eaca514e8d8e21",
+            "pin": "2",
+            "net": "LED_A34",
+            "x": 2157.4,
+            "y": -2858.8
+          },
+          {
+            "id": "a6835eaca514e8d8e22",
+            "pin": "1",
+            "net": "LED_K34",
+            "x": 2098.4,
+            "y": -2858.9
+          }
+        ]
+      },
+      {
+        "id": "0e218bede10b3869",
+        "ref": "D35",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 527.126,
+        "y": -2516.8504,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "0e218bede10b3869e18",
+            "pin": "2",
+            "net": "LED_K35",
+            "x": 485.8,
+            "y": -2516.9
+          },
+          {
+            "id": "0e218bede10b3869e19",
+            "pin": "1",
+            "net": "LED_A35",
+            "x": 568.5,
+            "y": -2516.9
+          }
+        ]
+      },
+      {
+        "id": "9648e4d531808b32",
+        "ref": "D36",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 708.0785000000001,
+        "y": -2591.8034,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "9648e4d531808b32e18",
+            "pin": "2",
+            "net": "LED_K36",
+            "x": 666.7,
+            "y": -2591.8
+          },
+          {
+            "id": "9648e4d531808b32e19",
+            "pin": "1",
+            "net": "LED_A36",
+            "x": 749.4,
+            "y": -2591.8
+          }
+        ]
+      },
+      {
+        "id": "2485feafe21c4792",
+        "ref": "D37",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 783.0315,
+        "y": -2772.7559,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "2485feafe21c4792e18",
+            "pin": "2",
+            "net": "LED_K37",
+            "x": 741.7,
+            "y": -2772.8
+          },
+          {
+            "id": "2485feafe21c4792e19",
+            "pin": "1",
+            "net": "LED_A37",
+            "x": 824.4,
+            "y": -2772.8
+          }
+        ]
+      },
+      {
+        "id": "034d0f1888a8f35e",
+        "ref": "J2",
+        "mpn": "",
+        "code": "",
+        "addIntoBom": false,
+        "x": 2255,
+        "y": -215,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "4ddd99159a293f56",
+          "name": "HDR-TH_5P-P2.54-V-M"
+        },
+        "pins": [
+          {
+            "id": "034d0f1888a8f35ee13",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2055,
+            "y": -215
+          },
+          {
+            "id": "034d0f1888a8f35ee14",
+            "pin": "2",
+            "net": "GND",
+            "x": 2155,
+            "y": -215
+          },
+          {
+            "id": "034d0f1888a8f35ee15",
+            "pin": "3",
+            "net": "SWDIO",
+            "x": 2255,
+            "y": -215
+          },
+          {
+            "id": "034d0f1888a8f35ee16",
+            "pin": "4",
+            "net": "SWCLK",
+            "x": 2355,
+            "y": -215
+          },
+          {
+            "id": "034d0f1888a8f35ee17",
+            "pin": "5",
+            "net": "NRST",
+            "x": 2455,
+            "y": -215
+          }
+        ]
+      },
+      {
+        "id": "b2c16a1fb3304895",
+        "ref": "R1",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 787.4016,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "b2c16a1fb3304895e7",
+            "pin": "2",
+            "net": "LED_A39",
+            "x": 787.4,
+            "y": -3513.6
+          },
+          {
+            "id": "b2c16a1fb3304895e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 787.4,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "ac052beda95a38aa",
+        "ref": "R4",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1082.6772,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "ac052beda95a38aae7",
+            "pin": "2",
+            "net": "LED_A36",
+            "x": 1082.7,
+            "y": -3513.6
+          },
+          {
+            "id": "ac052beda95a38aae8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1082.7,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "d41ca5c994ce597f",
+        "ref": "R27",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1211.1024,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "d41ca5c994ce597fe7",
+            "pin": "2",
+            "net": "LED_A37",
+            "x": 1211.1,
+            "y": -3759.9
+          },
+          {
+            "id": "d41ca5c994ce597fe8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1211.1,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "a8e010380a340234",
+        "ref": "R26",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1112.6772,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "a8e010380a340234e7",
+            "pin": "2",
+            "net": "LED_A38",
+            "x": 1112.7,
+            "y": -3759.9
+          },
+          {
+            "id": "a8e010380a340234e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1112.7,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "8dfc6ab542423e2c",
+        "ref": "R3",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 984.252,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "8dfc6ab542423e2ce7",
+            "pin": "2",
+            "net": "LED_A35",
+            "x": 984.3,
+            "y": -3513.6
+          },
+          {
+            "id": "8dfc6ab542423e2ce8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 984.3,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "573917ef5782866f",
+        "ref": "R5",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1181.1024,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "573917ef5782866fe7",
+            "pin": "2",
+            "net": "LED_A26",
+            "x": 1181.1,
+            "y": -3513.6
+          },
+          {
+            "id": "573917ef5782866fe8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1181.1,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "3f165c2221ef8e44",
+        "ref": "R29",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1407.9528,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "3f165c2221ef8e44e7",
+            "pin": "2",
+            "net": "LED_A25",
+            "x": 1408,
+            "y": -3759.9
+          },
+          {
+            "id": "3f165c2221ef8e44e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1408,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "3c07393b64a3efc3",
+        "ref": "R7",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1377.9528,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "3c07393b64a3efc3e7",
+            "pin": "2",
+            "net": "LED_A28",
+            "x": 1378,
+            "y": -3513.6
+          },
+          {
+            "id": "3c07393b64a3efc3e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1378,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "ede69834a007067c",
+        "ref": "R9",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1574.8031,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "ede69834a007067ce7",
+            "pin": "2",
+            "net": "LED_A24",
+            "x": 1574.8,
+            "y": -3513.6
+          },
+          {
+            "id": "ede69834a007067ce8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1574.8,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "7d8bc0c06c1cfdea",
+        "ref": "R11",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1771.6535,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "7d8bc0c06c1cfdeae7",
+            "pin": "2",
+            "net": "LED_A20",
+            "x": 1771.7,
+            "y": -3513.6
+          },
+          {
+            "id": "7d8bc0c06c1cfdeae8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1771.7,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "c4d7abe69bba52ba",
+        "ref": "R13",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1968.5039000000002,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "c4d7abe69bba52bae7",
+            "pin": "2",
+            "net": "LED_A21",
+            "x": 1968.5,
+            "y": -3513.6
+          },
+          {
+            "id": "c4d7abe69bba52bae8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1968.5,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "271a10862dd1fbf8",
+        "ref": "R12",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1870.0787,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "271a10862dd1fbf8e7",
+            "pin": "2",
+            "net": "LED_A18",
+            "x": 1870.1,
+            "y": -3513.6
+          },
+          {
+            "id": "271a10862dd1fbf8e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1870.1,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "d474c158881d7f93",
+        "ref": "R34",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1905,
+        "y": -3790,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "d474c158881d7f93e7",
+            "pin": "2",
+            "net": "LED_A17",
+            "x": 1905,
+            "y": -3760.3
+          },
+          {
+            "id": "d474c158881d7f93e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1905,
+            "y": -3819.7
+          }
+        ]
+      },
+      {
+        "id": "62e778e93865b213",
+        "ref": "R35",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1998.5039000000002,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "62e778e93865b213e7",
+            "pin": "2",
+            "net": "LED_A16",
+            "x": 1998.5,
+            "y": -3759.9
+          },
+          {
+            "id": "62e778e93865b213e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1998.5,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "c28c7427e96903fc",
+        "ref": "R36",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2096.9291,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "c28c7427e96903fce7",
+            "pin": "2",
+            "net": "LED_A03",
+            "x": 2096.9,
+            "y": -3759.9
+          },
+          {
+            "id": "c28c7427e96903fce8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2096.9,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "ef1794620897004d",
+        "ref": "R37",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2195.3543,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "ef1794620897004de7",
+            "pin": "2",
+            "net": "LED_A01",
+            "x": 2195.4,
+            "y": -3759.9
+          },
+          {
+            "id": "ef1794620897004de8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2195.4,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "612249bc2e7a91fe",
+        "ref": "R17",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2362.2047,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "612249bc2e7a91fee7",
+            "pin": "2",
+            "net": "LED_A12",
+            "x": 2362.2,
+            "y": -3513.6
+          },
+          {
+            "id": "612249bc2e7a91fee8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2362.2,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "758ae1be9e08f01b",
+        "ref": "R18",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2460.6299,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "758ae1be9e08f01be7",
+            "pin": "2",
+            "net": "LED_A15",
+            "x": 2460.6,
+            "y": -3513.6
+          },
+          {
+            "id": "758ae1be9e08f01be8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2460.6,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "8dc339949fb4f097",
+        "ref": "R41",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2589.0551,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "8dc339949fb4f097e7",
+            "pin": "2",
+            "net": "LED_A10",
+            "x": 2589.1,
+            "y": -3759.9
+          },
+          {
+            "id": "8dc339949fb4f097e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2589.1,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "95c4de398b13ad1f",
+        "ref": "R23",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 817.4016,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "95c4de398b13ad1fe7",
+            "pin": "2",
+            "net": "LED_A40",
+            "x": 817.4,
+            "y": -3759.9
+          },
+          {
+            "id": "95c4de398b13ad1fe8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 817.4,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "92b1ddb05c10472e",
+        "ref": "R24",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 915.8268,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "92b1ddb05c10472ee7",
+            "pin": "2",
+            "net": "LED_A41",
+            "x": 915.8,
+            "y": -3759.9
+          },
+          {
+            "id": "92b1ddb05c10472ee8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 915.8,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "f32739819c9ed364",
+        "ref": "R25",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1014.252,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "f32739819c9ed364e7",
+            "pin": "2",
+            "net": "LED_A42",
+            "x": 1014.3,
+            "y": -3759.9
+          },
+          {
+            "id": "f32739819c9ed364e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1014.3,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "0533d784ed4c5b83",
+        "ref": "R2",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 885.8268,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "0533d784ed4c5b83e7",
+            "pin": "2",
+            "net": "LED_A43",
+            "x": 885.8,
+            "y": -3513.6
+          },
+          {
+            "id": "0533d784ed4c5b83e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 885.8,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "51b58b8f03112b25",
+        "ref": "R6",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1279.5276,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "51b58b8f03112b25e7",
+            "pin": "2",
+            "net": "LED_A31",
+            "x": 1279.5,
+            "y": -3513.6
+          },
+          {
+            "id": "51b58b8f03112b25e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1279.5,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "6c468d79e3d12fad",
+        "ref": "R28",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1309.5276,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "6c468d79e3d12fade7",
+            "pin": "2",
+            "net": "LED_A29",
+            "x": 1309.5,
+            "y": -3759.9
+          },
+          {
+            "id": "6c468d79e3d12fade8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1309.5,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "77fa16de60d5904d",
+        "ref": "R8",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1476.378,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "77fa16de60d5904de7",
+            "pin": "2",
+            "net": "LED_A23",
+            "x": 1476.4,
+            "y": -3513.6
+          },
+          {
+            "id": "77fa16de60d5904de8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1476.4,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "25f9200421065f1a",
+        "ref": "R30",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1506.378,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "25f9200421065f1ae7",
+            "pin": "2",
+            "net": "LED_A30",
+            "x": 1506.4,
+            "y": -3759.9
+          },
+          {
+            "id": "25f9200421065f1ae8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1506.4,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "05e45418eb05825c",
+        "ref": "R31",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1604.8031,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "05e45418eb05825ce7",
+            "pin": "2",
+            "net": "LED_A22",
+            "x": 1604.8,
+            "y": -3759.9
+          },
+          {
+            "id": "05e45418eb05825ce8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1604.8,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "376b15fe40b7bd3e",
+        "ref": "R10",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1673.2283000000002,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "376b15fe40b7bd3ee7",
+            "pin": "2",
+            "net": "LED_A27",
+            "x": 1673.2,
+            "y": -3513.6
+          },
+          {
+            "id": "376b15fe40b7bd3ee8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1673.2,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "f94ef61abc5fc39c",
+        "ref": "R32",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1703.2283000000002,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "f94ef61abc5fc39ce7",
+            "pin": "2",
+            "net": "LED_A05",
+            "x": 1703.2,
+            "y": -3759.9
+          },
+          {
+            "id": "f94ef61abc5fc39ce8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1703.2,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "08c159c0a52cd580",
+        "ref": "R33",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 1801.6535,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "08c159c0a52cd580e7",
+            "pin": "2",
+            "net": "LED_A04",
+            "x": 1801.7,
+            "y": -3759.9
+          },
+          {
+            "id": "08c159c0a52cd580e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 1801.7,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "69bd969c2cc6da4e",
+        "ref": "R14",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2066.9291,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "69bd969c2cc6da4ee7",
+            "pin": "2",
+            "net": "LED_A34",
+            "x": 2066.9,
+            "y": -3513.6
+          },
+          {
+            "id": "69bd969c2cc6da4ee8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2066.9,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "0100fd4dd196294d",
+        "ref": "R15",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2165.3543,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "0100fd4dd196294de7",
+            "pin": "2",
+            "net": "LED_A19",
+            "x": 2165.4,
+            "y": -3513.6
+          },
+          {
+            "id": "0100fd4dd196294de8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2165.4,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "9ecfc0e46ee0fbeb",
+        "ref": "R16",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2263.7795,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "9ecfc0e46ee0fbebe7",
+            "pin": "2",
+            "net": "LED_A33",
+            "x": 2263.8,
+            "y": -3513.6
+          },
+          {
+            "id": "9ecfc0e46ee0fbebe8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2263.8,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "8eaa1dcb2b0bb81d",
+        "ref": "R46",
+        "mpn": "0805W8F4701T5E",
+        "code": "C17673",
+        "addIntoBom": true,
+        "x": 3630,
+        "y": -295,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "dffadca0911b2022",
+          "name": "R0805"
+        },
+        "pins": [
+          {
+            "id": "8eaa1dcb2b0bb81de10",
+            "pin": "2",
+            "net": "I2C_SCL",
+            "x": 3669.4,
+            "y": -295
+          },
+          {
+            "id": "8eaa1dcb2b0bb81de11",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 3590.6,
+            "y": -295
+          }
+        ]
+      },
+      {
+        "id": "7e27078e01299580",
+        "ref": "R47",
+        "mpn": "0805W8F4701T5E",
+        "code": "C17673",
+        "addIntoBom": true,
+        "x": 3815,
+        "y": -295,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "dffadca0911b2022",
+          "name": "R0805"
+        },
+        "pins": [
+          {
+            "id": "7e27078e01299580e10",
+            "pin": "2",
+            "net": "I2C_SDA",
+            "x": 3854.4,
+            "y": -295
+          },
+          {
+            "id": "7e27078e01299580e11",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 3775.6,
+            "y": -295
+          }
+        ]
+      },
+      {
+        "id": "6a431d6aed04c4d0",
+        "ref": "R48",
+        "mpn": "0805W8J0103T5E",
+        "code": "C25612",
+        "addIntoBom": true,
+        "x": 3230,
+        "y": -3645,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "dffadca0911b2022",
+          "name": "R0805"
+        },
+        "pins": [
+          {
+            "id": "6a431d6aed04c4d0e10",
+            "pin": "2",
+            "net": "KEY_NEXT",
+            "x": 3269.4,
+            "y": -3645
+          },
+          {
+            "id": "6a431d6aed04c4d0e11",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 3190.6,
+            "y": -3645
+          }
+        ]
+      },
+      {
+        "id": "77b38bb9a238aaf9",
+        "ref": "R49",
+        "mpn": "0805W8J0103T5E",
+        "code": "C25612",
+        "addIntoBom": true,
+        "x": 3030,
+        "y": -3645,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "dffadca0911b2022",
+          "name": "R0805"
+        },
+        "pins": [
+          {
+            "id": "77b38bb9a238aaf9e10",
+            "pin": "2",
+            "net": "KEY_SET",
+            "x": 3069.4,
+            "y": -3645
+          },
+          {
+            "id": "77b38bb9a238aaf9e11",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2990.6,
+            "y": -3645
+          }
+        ]
+      },
+      {
+        "id": "d31265f511e9c2b6",
+        "ref": "R50",
+        "mpn": "0805W8J0103T5E",
+        "code": "C25612",
+        "addIntoBom": true,
+        "x": 3125,
+        "y": -590,
+        "rotation": 180,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "dffadca0911b2022",
+          "name": "R0805"
+        },
+        "pins": [
+          {
+            "id": "d31265f511e9c2b6e10",
+            "pin": "2",
+            "net": "NRST",
+            "x": 3085.6,
+            "y": -590
+          },
+          {
+            "id": "d31265f511e9c2b6e11",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 3164.4,
+            "y": -590
+          }
+        ]
+      },
+      {
+        "id": "73447135e6ad9558",
+        "ref": "R51",
+        "mpn": "0805W8F4701T5E",
+        "code": "C17673",
+        "addIntoBom": true,
+        "x": 3460,
+        "y": -340,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "dffadca0911b2022",
+          "name": "R0805"
+        },
+        "pins": [
+          {
+            "id": "73447135e6ad9558e10",
+            "pin": "2",
+            "net": "EEPROM_WP",
+            "x": 3499.4,
+            "y": -340
+          },
+          {
+            "id": "73447135e6ad9558e11",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 3420.6,
+            "y": -340
+          }
+        ]
+      },
+      {
+        "id": "d624ecbe295b58bd",
+        "ref": "R52",
+        "mpn": "0805W8F1003T5E",
+        "code": "C149504",
+        "addIntoBom": true,
+        "x": 2800,
+        "y": -115,
+        "rotation": -90.00000000000001,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "dffadca0911b2022",
+          "name": "R0805"
+        },
+        "pins": [
+          {
+            "id": "d624ecbe295b58bde10",
+            "pin": "2",
+            "net": "GND",
+            "x": 2800,
+            "y": -154.4
+          },
+          {
+            "id": "d624ecbe295b58bde11",
+            "pin": "1",
+            "net": "SWCLK",
+            "x": 2800,
+            "y": -75.6
+          }
+        ]
+      },
+      {
+        "id": "1fddbe1287051fb9",
+        "ref": "R57",
+        "mpn": "0805W8F1003T5E",
+        "code": "C149504",
+        "addIntoBom": true,
+        "x": 3400,
+        "y": -515,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "dffadca0911b2022",
+          "name": "R0805"
+        },
+        "pins": [
+          {
+            "id": "1fddbe1287051fb9e10",
+            "pin": "2",
+            "net": "BAT_ADC",
+            "x": 3400,
+            "y": -475.6
+          },
+          {
+            "id": "1fddbe1287051fb9e11",
+            "pin": "1",
+            "net": "VIN_SW",
+            "x": 3400,
+            "y": -554.4
+          }
+        ]
+      },
+      {
+        "id": "986d79df1d364ab1",
+        "ref": "R58",
+        "mpn": "0805W8F1003T5E",
+        "code": "C149504",
+        "addIntoBom": true,
+        "x": 3400,
+        "y": -690,
+        "rotation": -90.00000000000001,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "dffadca0911b2022",
+          "name": "R0805"
+        },
+        "pins": [
+          {
+            "id": "986d79df1d364ab1e10",
+            "pin": "2",
+            "net": "GND",
+            "x": 3400,
+            "y": -729.4
+          },
+          {
+            "id": "986d79df1d364ab1e11",
+            "pin": "1",
+            "net": "BAT_ADC",
+            "x": 3400,
+            "y": -650.6
+          }
+        ]
+      },
+      {
+        "id": "c2ef71270a7df2af",
+        "ref": "R59",
+        "mpn": "0805W8J0103T5E",
+        "code": "C25612",
+        "addIntoBom": true,
+        "x": 3230,
+        "y": -3525,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "dffadca0911b2022",
+          "name": "R0805"
+        },
+        "pins": [
+          {
+            "id": "c2ef71270a7df2afe10",
+            "pin": "2",
+            "net": "CHG_N",
+            "x": 3269.4,
+            "y": -3525
+          },
+          {
+            "id": "c2ef71270a7df2afe11",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 3190.6,
+            "y": -3525
+          }
+        ]
+      },
+      {
+        "id": "d8d934cda3910fe6",
+        "ref": "R60",
+        "mpn": "0805W8J0103T5E",
+        "code": "C25612",
+        "addIntoBom": true,
+        "x": 3030,
+        "y": -3525,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "dffadca0911b2022",
+          "name": "R0805"
+        },
+        "pins": [
+          {
+            "id": "d8d934cda3910fe6e10",
+            "pin": "2",
+            "net": "PGOOD_N",
+            "x": 3069.4,
+            "y": -3525
+          },
+          {
+            "id": "d8d934cda3910fe6e11",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2990.6,
+            "y": -3525
+          }
+        ]
+      },
+      {
+        "id": "2efccea57d3196df",
+        "ref": "R38",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2293.7795,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "2efccea57d3196dfe7",
+            "pin": "2",
+            "net": "LED_A14",
+            "x": 2293.8,
+            "y": -3759.9
+          },
+          {
+            "id": "2efccea57d3196dfe8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2293.8,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "048b19962d131d30",
+        "ref": "R39",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2392.2047,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "048b19962d131d30e7",
+            "pin": "2",
+            "net": "LED_A02",
+            "x": 2392.2,
+            "y": -3759.9
+          },
+          {
+            "id": "048b19962d131d30e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2392.2,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "5b3fe33af1763106",
+        "ref": "R40",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2490.6299,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "5b3fe33af1763106e7",
+            "pin": "2",
+            "net": "LED_A13",
+            "x": 2490.6,
+            "y": -3759.9
+          },
+          {
+            "id": "5b3fe33af1763106e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2490.6,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "701ab2e40f59c31b",
+        "ref": "SW1",
+        "mpn": "TS-1088-AR02016",
+        "code": "C720477",
+        "addIntoBom": true,
+        "x": 3660,
+        "y": -3795,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "8e24876fb2cb332b",
+          "name": "SW-SMD_L3.9-W3.0-P4.45"
+        },
+        "pins": [
+          {
+            "id": "701ab2e40f59c31be5",
+            "pin": "1",
+            "net": "KEY_NEXT",
+            "x": 3574,
+            "y": -3795
+          },
+          {
+            "id": "701ab2e40f59c31be6",
+            "pin": "2",
+            "net": "GND",
+            "x": 3746,
+            "y": -3795
+          }
+        ]
+      },
+      {
+        "id": "aa19511ee50c8bfb",
+        "ref": "SW2",
+        "mpn": "TS-1088-AR02016",
+        "code": "C720477",
+        "addIntoBom": true,
+        "x": 3295,
+        "y": -3795,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "8e24876fb2cb332b",
+          "name": "SW-SMD_L3.9-W3.0-P4.45"
+        },
+        "pins": [
+          {
+            "id": "aa19511ee50c8bfbe5",
+            "pin": "1",
+            "net": "KEY_SET",
+            "x": 3209,
+            "y": -3795
+          },
+          {
+            "id": "aa19511ee50c8bfbe6",
+            "pin": "2",
+            "net": "GND",
+            "x": 3381,
+            "y": -3795
+          }
+        ]
+      },
+      {
+        "id": "5809d5c51be4607b",
+        "ref": "SW3",
+        "mpn": "MK-12C02-G020",
+        "code": "C963206",
+        "addIntoBom": true,
+        "x": 3795,
+        "y": -2920,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "789d91a6babb1f3b",
+          "name": "SW-SMD_MK-12C02-G020"
+        },
+        "pins": [
+          {
+            "id": "5809d5c51be4607be20",
+            "pin": "1",
+            "net": "VIN_RAW",
+            "x": 3736.3,
+            "y": -3008.6
+          },
+          {
+            "id": "5809d5c51be4607be21",
+            "pin": "2",
+            "net": "VIN_SW",
+            "x": 3736.3,
+            "y": -2890.5
+          },
+          {
+            "id": "5809d5c51be4607be22",
+            "pin": "3",
+            "net": "",
+            "x": 3736.3,
+            "y": -2831.4
+          },
+          {
+            "id": "5809d5c51be4607be23",
+            "pin": "4",
+            "net": "",
+            "x": 3764.3,
+            "y": -2770.4
+          },
+          {
+            "id": "5809d5c51be4607be24",
+            "pin": "5",
+            "net": "",
+            "x": 3853.7,
+            "y": -2770.4
+          },
+          {
+            "id": "5809d5c51be4607be25",
+            "pin": "6",
+            "net": "",
+            "x": 3853.7,
+            "y": -3069.6
+          },
+          {
+            "id": "5809d5c51be4607be26",
+            "pin": "7",
+            "net": "",
+            "x": 3764.3,
+            "y": -3069.6
+          }
+        ]
+      },
+      {
+        "id": "953b97daba69f622",
+        "ref": "TP1",
+        "mpn": "",
+        "code": "",
+        "addIntoBom": false,
+        "x": 3844.5669,
+        "y": -3334.0551,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "d39c7e61e3d848a6",
+          "name": "Test-Point-0.5mm"
+        },
+        "pins": [
+          {
+            "id": "953b97daba69f622e2",
+            "pin": "1",
+            "net": "VIN_RAW",
+            "x": 3844.6,
+            "y": -3334.1
+          }
+        ]
+      },
+      {
+        "id": "1241ee487bccfee7",
+        "ref": "TP2",
+        "mpn": "",
+        "code": "",
+        "addIntoBom": false,
+        "x": 3840.7874,
+        "y": -3519.0551,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "d39c7e61e3d848a6",
+          "name": "Test-Point-0.5mm"
+        },
+        "pins": [
+          {
+            "id": "1241ee487bccfee7e2",
+            "pin": "1",
+            "net": "GND",
+            "x": 3840.8,
+            "y": -3519.1
+          }
+        ]
+      },
+      {
+        "id": "4280611c02098bc6",
+        "ref": "U1",
+        "mpn": "STM32C011F4P6",
+        "code": "C5452432",
+        "addIntoBom": true,
+        "x": 3025.2362,
+        "y": -227.4409,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71d0f29e76f50ca2",
+          "name": "TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL"
+        },
+        "pins": [
+          {
+            "id": "4280611c02098bc6e5",
+            "pin": "1",
+            "net": "I2C_SDA",
+            "x": 2910.1,
+            "y": -340.5
+          },
+          {
+            "id": "4280611c02098bc6e6",
+            "pin": "2",
+            "net": "",
+            "x": 2935.7,
+            "y": -340.5
+          },
+          {
+            "id": "4280611c02098bc6e7",
+            "pin": "3",
+            "net": "",
+            "x": 2961.3,
+            "y": -340.5
+          },
+          {
+            "id": "4280611c02098bc6e8",
+            "pin": "4",
+            "net": "VDD_3V3",
+            "x": 2986.8,
+            "y": -340.5
+          },
+          {
+            "id": "4280611c02098bc6e9",
+            "pin": "5",
+            "net": "GND",
+            "x": 3012.4,
+            "y": -340.5
+          },
+          {
+            "id": "4280611c02098bc6e10",
+            "pin": "6",
+            "net": "NRST",
+            "x": 3038,
+            "y": -340.5
+          },
+          {
+            "id": "4280611c02098bc6e11",
+            "pin": "7",
+            "net": "KEY_NEXT",
+            "x": 3063.6,
+            "y": -340.5
+          },
+          {
+            "id": "4280611c02098bc6e12",
+            "pin": "8",
+            "net": "KEY_SET",
+            "x": 3089.2,
+            "y": -340.5
+          },
+          {
+            "id": "4280611c02098bc6e13",
+            "pin": "9",
+            "net": "EEPROM_WP",
+            "x": 3114.8,
+            "y": -340.5
+          },
+          {
+            "id": "4280611c02098bc6e14",
+            "pin": "10",
+            "net": "BAT_ADC",
+            "x": 3140.4,
+            "y": -340.5
+          },
+          {
+            "id": "4280611c02098bc6e15",
+            "pin": "20",
+            "net": "I2C_SCL",
+            "x": 2910.1,
+            "y": -114.4
+          },
+          {
+            "id": "4280611c02098bc6e16",
+            "pin": "19",
+            "net": "SWCLK",
+            "x": 2935.7,
+            "y": -114.4
+          },
+          {
+            "id": "4280611c02098bc6e17",
+            "pin": "18",
+            "net": "SWDIO",
+            "x": 2961.3,
+            "y": -114.4
+          },
+          {
+            "id": "4280611c02098bc6e18",
+            "pin": "17",
+            "net": "",
+            "x": 2986.8,
+            "y": -114.4
+          },
+          {
+            "id": "4280611c02098bc6e19",
+            "pin": "16",
+            "net": "",
+            "x": 3012.4,
+            "y": -114.4
+          },
+          {
+            "id": "4280611c02098bc6e20",
+            "pin": "15",
+            "net": "LED_K43",
+            "x": 3038,
+            "y": -114.4
+          },
+          {
+            "id": "4280611c02098bc6e21",
+            "pin": "14",
+            "net": "LED_K08",
+            "x": 3063.6,
+            "y": -114.4
+          },
+          {
+            "id": "4280611c02098bc6e22",
+            "pin": "13",
+            "net": "LED_K07",
+            "x": 3089.2,
+            "y": -114.4
+          },
+          {
+            "id": "4280611c02098bc6e23",
+            "pin": "12",
+            "net": "PGOOD_N",
+            "x": 3114.8,
+            "y": -114.4
+          },
+          {
+            "id": "4280611c02098bc6e24",
+            "pin": "11",
+            "net": "CHG_N",
+            "x": 3140.4,
+            "y": -114.4
+          }
+        ]
+      },
+      {
+        "id": "b9d26e44a70c095d",
+        "ref": "U3",
+        "mpn": "AT24C02C-SSHM-T",
+        "code": "C6203",
+        "addIntoBom": true,
+        "x": 3710,
+        "y": -510,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "6f094e0d2910435e",
+          "name": "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
+        },
+        "pins": [
+          {
+            "id": "b9d26e44a70c095de20",
+            "pin": "1",
+            "net": "GND",
+            "x": 3635,
+            "y": -616.5
+          },
+          {
+            "id": "b9d26e44a70c095de21",
+            "pin": "2",
+            "net": "GND",
+            "x": 3685,
+            "y": -616.5
+          },
+          {
+            "id": "b9d26e44a70c095de22",
+            "pin": "3",
+            "net": "GND",
+            "x": 3735,
+            "y": -616.5
+          },
+          {
+            "id": "b9d26e44a70c095de23",
+            "pin": "4",
+            "net": "GND",
+            "x": 3785,
+            "y": -616.5
+          },
+          {
+            "id": "b9d26e44a70c095de24",
+            "pin": "8",
+            "net": "VDD_3V3",
+            "x": 3635,
+            "y": -403.5
+          },
+          {
+            "id": "b9d26e44a70c095de25",
+            "pin": "7",
+            "net": "EEPROM_WP",
+            "x": 3685,
+            "y": -403.5
+          },
+          {
+            "id": "b9d26e44a70c095de26",
+            "pin": "6",
+            "net": "I2C_SCL",
+            "x": 3735,
+            "y": -403.5
+          },
+          {
+            "id": "b9d26e44a70c095de27",
+            "pin": "5",
+            "net": "I2C_SDA",
+            "x": 3785,
+            "y": -403.5
+          }
+        ]
+      },
+      {
+        "id": "f08a5b45ec6f9481",
+        "ref": "U4",
+        "mpn": "TCA9534PWR",
+        "code": "C783615",
+        "addIntoBom": true,
+        "x": 400,
+        "y": -475,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "695a8a431b6dea51",
+          "name": "TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
+        },
+        "pins": [
+          {
+            "id": "f08a5b45ec6f9481e41",
+            "pin": "1",
+            "net": "GND",
+            "x": 512.8,
+            "y": -564.6
+          },
+          {
+            "id": "f08a5b45ec6f9481e42",
+            "pin": "2",
+            "net": "GND",
+            "x": 512.8,
+            "y": -539
+          },
+          {
+            "id": "f08a5b45ec6f9481e43",
+            "pin": "3",
+            "net": "GND",
+            "x": 512.8,
+            "y": -513.4
+          },
+          {
+            "id": "f08a5b45ec6f9481e44",
+            "pin": "4",
+            "net": "LED_K35",
+            "x": 512.8,
+            "y": -487.8
+          },
+          {
+            "id": "f08a5b45ec6f9481e45",
+            "pin": "5",
+            "net": "LED_K36",
+            "x": 512.8,
+            "y": -462.2
+          },
+          {
+            "id": "f08a5b45ec6f9481e46",
+            "pin": "6",
+            "net": "LED_K37",
+            "x": 512.8,
+            "y": -436.6
+          },
+          {
+            "id": "f08a5b45ec6f9481e47",
+            "pin": "7",
+            "net": "LED_K38",
+            "x": 512.8,
+            "y": -411
+          },
+          {
+            "id": "f08a5b45ec6f9481e48",
+            "pin": "8",
+            "net": "GND",
+            "x": 512.8,
+            "y": -385.4
+          },
+          {
+            "id": "f08a5b45ec6f9481e49",
+            "pin": "16",
+            "net": "VDD_3V3",
+            "x": 287.2,
+            "y": -564.6
+          },
+          {
+            "id": "f08a5b45ec6f9481e50",
+            "pin": "15",
+            "net": "I2C_SDA",
+            "x": 287.2,
+            "y": -539
+          },
+          {
+            "id": "f08a5b45ec6f9481e51",
+            "pin": "14",
+            "net": "I2C_SCL",
+            "x": 287.2,
+            "y": -513.4
+          },
+          {
+            "id": "f08a5b45ec6f9481e52",
+            "pin": "13",
+            "net": "",
+            "x": 287.2,
+            "y": -487.8
+          },
+          {
+            "id": "f08a5b45ec6f9481e53",
+            "pin": "12",
+            "net": "LED_K42",
+            "x": 287.2,
+            "y": -462.2
+          },
+          {
+            "id": "f08a5b45ec6f9481e54",
+            "pin": "11",
+            "net": "LED_K41",
+            "x": 287.2,
+            "y": -436.6
+          },
+          {
+            "id": "f08a5b45ec6f9481e55",
+            "pin": "10",
+            "net": "LED_K40",
+            "x": 287.2,
+            "y": -411
+          },
+          {
+            "id": "f08a5b45ec6f9481e56",
+            "pin": "9",
+            "net": "LED_K39",
+            "x": 287.2,
+            "y": -385.4
+          }
+        ]
+      },
+      {
+        "id": "6770af8ba4dc3d2c",
+        "ref": "U5",
+        "mpn": "TCA9534PWR",
+        "code": "C783615",
+        "addIntoBom": true,
+        "x": 866.1417,
+        "y": -472.4409,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "695a8a431b6dea51",
+          "name": "TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
+        },
+        "pins": [
+          {
+            "id": "6770af8ba4dc3d2ce41",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 979,
+            "y": -562
+          },
+          {
+            "id": "6770af8ba4dc3d2ce42",
+            "pin": "2",
+            "net": "GND",
+            "x": 979,
+            "y": -536.4
+          },
+          {
+            "id": "6770af8ba4dc3d2ce43",
+            "pin": "3",
+            "net": "GND",
+            "x": 979,
+            "y": -510.8
+          },
+          {
+            "id": "6770af8ba4dc3d2ce44",
+            "pin": "4",
+            "net": "LED_K23",
+            "x": 979,
+            "y": -485.2
+          },
+          {
+            "id": "6770af8ba4dc3d2ce45",
+            "pin": "5",
+            "net": "LED_K24",
+            "x": 979,
+            "y": -459.6
+          },
+          {
+            "id": "6770af8ba4dc3d2ce46",
+            "pin": "6",
+            "net": "LED_K28",
+            "x": 979,
+            "y": -434.1
+          },
+          {
+            "id": "6770af8ba4dc3d2ce47",
+            "pin": "7",
+            "net": "LED_K30",
+            "x": 979,
+            "y": -408.5
+          },
+          {
+            "id": "6770af8ba4dc3d2ce48",
+            "pin": "8",
+            "net": "GND",
+            "x": 979,
+            "y": -382.9
+          },
+          {
+            "id": "6770af8ba4dc3d2ce49",
+            "pin": "16",
+            "net": "VDD_3V3",
+            "x": 753.3,
+            "y": -562
+          },
+          {
+            "id": "6770af8ba4dc3d2ce50",
+            "pin": "15",
+            "net": "I2C_SDA",
+            "x": 753.3,
+            "y": -536.4
+          },
+          {
+            "id": "6770af8ba4dc3d2ce51",
+            "pin": "14",
+            "net": "I2C_SCL",
+            "x": 753.3,
+            "y": -510.8
+          },
+          {
+            "id": "6770af8ba4dc3d2ce52",
+            "pin": "13",
+            "net": "",
+            "x": 753.3,
+            "y": -485.2
+          },
+          {
+            "id": "6770af8ba4dc3d2ce53",
+            "pin": "12",
+            "net": "LED_K26",
+            "x": 753.3,
+            "y": -459.6
+          },
+          {
+            "id": "6770af8ba4dc3d2ce54",
+            "pin": "11",
+            "net": "LED_K25",
+            "x": 753.3,
+            "y": -434.1
+          },
+          {
+            "id": "6770af8ba4dc3d2ce55",
+            "pin": "10",
+            "net": "LED_K31",
+            "x": 753.3,
+            "y": -408.5
+          },
+          {
+            "id": "6770af8ba4dc3d2ce56",
+            "pin": "9",
+            "net": "LED_K29",
+            "x": 753.3,
+            "y": -382.9
+          }
+        ]
+      },
+      {
+        "id": "f9320af6eab14d77",
+        "ref": "U6",
+        "mpn": "TCA9534PWR",
+        "code": "C783615",
+        "addIntoBom": true,
+        "x": 1417.3228,
+        "y": -472.4409,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "695a8a431b6dea51",
+          "name": "TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
+        },
+        "pins": [
+          {
+            "id": "f9320af6eab14d77e41",
+            "pin": "1",
+            "net": "GND",
+            "x": 1530.1,
+            "y": -562
+          },
+          {
+            "id": "f9320af6eab14d77e42",
+            "pin": "2",
+            "net": "VDD_3V3",
+            "x": 1530.1,
+            "y": -536.4
+          },
+          {
+            "id": "f9320af6eab14d77e43",
+            "pin": "3",
+            "net": "GND",
+            "x": 1530.1,
+            "y": -510.8
+          },
+          {
+            "id": "f9320af6eab14d77e44",
+            "pin": "4",
+            "net": "LED_K27",
+            "x": 1530.1,
+            "y": -485.2
+          },
+          {
+            "id": "f9320af6eab14d77e45",
+            "pin": "5",
+            "net": "LED_K17",
+            "x": 1530.1,
+            "y": -459.6
+          },
+          {
+            "id": "f9320af6eab14d77e46",
+            "pin": "6",
+            "net": "LED_K04",
+            "x": 1530.1,
+            "y": -434.1
+          },
+          {
+            "id": "f9320af6eab14d77e47",
+            "pin": "7",
+            "net": "LED_K05",
+            "x": 1530.1,
+            "y": -408.5
+          },
+          {
+            "id": "f9320af6eab14d77e48",
+            "pin": "8",
+            "net": "GND",
+            "x": 1530.1,
+            "y": -382.9
+          },
+          {
+            "id": "f9320af6eab14d77e49",
+            "pin": "16",
+            "net": "VDD_3V3",
+            "x": 1304.5,
+            "y": -562
+          },
+          {
+            "id": "f9320af6eab14d77e50",
+            "pin": "15",
+            "net": "I2C_SDA",
+            "x": 1304.5,
+            "y": -536.4
+          },
+          {
+            "id": "f9320af6eab14d77e51",
+            "pin": "14",
+            "net": "I2C_SCL",
+            "x": 1304.5,
+            "y": -510.8
+          },
+          {
+            "id": "f9320af6eab14d77e52",
+            "pin": "13",
+            "net": "",
+            "x": 1304.5,
+            "y": -485.2
+          },
+          {
+            "id": "f9320af6eab14d77e53",
+            "pin": "12",
+            "net": "LED_K21",
+            "x": 1304.5,
+            "y": -459.6
+          },
+          {
+            "id": "f9320af6eab14d77e54",
+            "pin": "11",
+            "net": "LED_K20",
+            "x": 1304.5,
+            "y": -434.1
+          },
+          {
+            "id": "f9320af6eab14d77e55",
+            "pin": "10",
+            "net": "LED_K22",
+            "x": 1304.5,
+            "y": -408.5
+          },
+          {
+            "id": "f9320af6eab14d77e56",
+            "pin": "9",
+            "net": "LED_K18",
+            "x": 1304.5,
+            "y": -382.9
+          }
+        ]
+      },
+      {
+        "id": "80ec5b5e237c4d50",
+        "ref": "U7",
+        "mpn": "TCA9534PWR",
+        "code": "C783615",
+        "addIntoBom": true,
+        "x": 1968.5039000000002,
+        "y": -472.4409,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "695a8a431b6dea51",
+          "name": "TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
+        },
+        "pins": [
+          {
+            "id": "80ec5b5e237c4d50e41",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2081.3,
+            "y": -562
+          },
+          {
+            "id": "80ec5b5e237c4d50e42",
+            "pin": "2",
+            "net": "VDD_3V3",
+            "x": 2081.3,
+            "y": -536.4
+          },
+          {
+            "id": "80ec5b5e237c4d50e43",
+            "pin": "3",
+            "net": "GND",
+            "x": 2081.3,
+            "y": -510.8
+          },
+          {
+            "id": "80ec5b5e237c4d50e44",
+            "pin": "4",
+            "net": "LED_K16",
+            "x": 2081.3,
+            "y": -485.2
+          },
+          {
+            "id": "80ec5b5e237c4d50e45",
+            "pin": "5",
+            "net": "LED_K12",
+            "x": 2081.3,
+            "y": -459.6
+          },
+          {
+            "id": "80ec5b5e237c4d50e46",
+            "pin": "6",
+            "net": "LED_K03",
+            "x": 2081.3,
+            "y": -434.1
+          },
+          {
+            "id": "80ec5b5e237c4d50e47",
+            "pin": "7",
+            "net": "LED_K01",
+            "x": 2081.3,
+            "y": -408.5
+          },
+          {
+            "id": "80ec5b5e237c4d50e48",
+            "pin": "8",
+            "net": "GND",
+            "x": 2081.3,
+            "y": -382.9
+          },
+          {
+            "id": "80ec5b5e237c4d50e49",
+            "pin": "16",
+            "net": "VDD_3V3",
+            "x": 1855.7,
+            "y": -562
+          },
+          {
+            "id": "80ec5b5e237c4d50e50",
+            "pin": "15",
+            "net": "I2C_SDA",
+            "x": 1855.7,
+            "y": -536.4
+          },
+          {
+            "id": "80ec5b5e237c4d50e51",
+            "pin": "14",
+            "net": "I2C_SCL",
+            "x": 1855.7,
+            "y": -510.8
+          },
+          {
+            "id": "80ec5b5e237c4d50e52",
+            "pin": "13",
+            "net": "",
+            "x": 1855.7,
+            "y": -485.2
+          },
+          {
+            "id": "80ec5b5e237c4d50e53",
+            "pin": "12",
+            "net": "LED_K34",
+            "x": 1855.7,
+            "y": -459.6
+          },
+          {
+            "id": "80ec5b5e237c4d50e54",
+            "pin": "11",
+            "net": "LED_K19",
+            "x": 1855.7,
+            "y": -434.1
+          },
+          {
+            "id": "80ec5b5e237c4d50e55",
+            "pin": "10",
+            "net": "LED_K33",
+            "x": 1855.7,
+            "y": -408.5
+          },
+          {
+            "id": "80ec5b5e237c4d50e56",
+            "pin": "9",
+            "net": "LED_K14",
+            "x": 1855.7,
+            "y": -382.9
+          }
+        ]
+      },
+      {
+        "id": "b173963ac7efd256",
+        "ref": "U8",
+        "mpn": "TCA9534PWR",
+        "code": "C783615",
+        "addIntoBom": true,
+        "x": 2520,
+        "y": -480,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "695a8a431b6dea51",
+          "name": "TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
+        },
+        "pins": [
+          {
+            "id": "b173963ac7efd256e41",
+            "pin": "1",
+            "net": "GND",
+            "x": 2632.8,
+            "y": -569.6
+          },
+          {
+            "id": "b173963ac7efd256e42",
+            "pin": "2",
+            "net": "GND",
+            "x": 2632.8,
+            "y": -544
+          },
+          {
+            "id": "b173963ac7efd256e43",
+            "pin": "3",
+            "net": "VDD_3V3",
+            "x": 2632.8,
+            "y": -518.4
+          },
+          {
+            "id": "b173963ac7efd256e44",
+            "pin": "4",
+            "net": "LED_K02",
+            "x": 2632.8,
+            "y": -492.8
+          },
+          {
+            "id": "b173963ac7efd256e45",
+            "pin": "5",
+            "net": "LED_K10",
+            "x": 2632.8,
+            "y": -467.2
+          },
+          {
+            "id": "b173963ac7efd256e46",
+            "pin": "6",
+            "net": "LED_K09",
+            "x": 2632.8,
+            "y": -441.6
+          },
+          {
+            "id": "b173963ac7efd256e47",
+            "pin": "7",
+            "net": "LED_K06",
+            "x": 2632.8,
+            "y": -416
+          },
+          {
+            "id": "b173963ac7efd256e48",
+            "pin": "8",
+            "net": "GND",
+            "x": 2632.8,
+            "y": -390.4
+          },
+          {
+            "id": "b173963ac7efd256e49",
+            "pin": "16",
+            "net": "VDD_3V3",
+            "x": 2407.2,
+            "y": -569.6
+          },
+          {
+            "id": "b173963ac7efd256e50",
+            "pin": "15",
+            "net": "I2C_SDA",
+            "x": 2407.2,
+            "y": -544
+          },
+          {
+            "id": "b173963ac7efd256e51",
+            "pin": "14",
+            "net": "I2C_SCL",
+            "x": 2407.2,
+            "y": -518.4
+          },
+          {
+            "id": "b173963ac7efd256e52",
+            "pin": "13",
+            "net": "",
+            "x": 2407.2,
+            "y": -492.8
+          },
+          {
+            "id": "b173963ac7efd256e53",
+            "pin": "12",
+            "net": "LED_K13",
+            "x": 2407.2,
+            "y": -467.2
+          },
+          {
+            "id": "b173963ac7efd256e54",
+            "pin": "11",
+            "net": "LED_K15",
+            "x": 2407.2,
+            "y": -441.6
+          },
+          {
+            "id": "b173963ac7efd256e55",
+            "pin": "10",
+            "net": "LED_K11",
+            "x": 2407.2,
+            "y": -416
+          },
+          {
+            "id": "b173963ac7efd256e56",
+            "pin": "9",
+            "net": "LED_K32",
+            "x": 2407.2,
+            "y": -390.4
+          }
+        ]
+      },
+      {
+        "id": "d17a7a1f3753e713",
+        "ref": "D1",
+        "mpn": "",
+        "code": "",
+        "addIntoBom": true,
+        "x": 2278.9252,
+        "y": -1650.4681,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "d17a7a1f3753e713e18",
+            "pin": "2",
+            "net": "LED_K01",
+            "x": 2237.6,
+            "y": -1650.5
+          },
+          {
+            "id": "d17a7a1f3753e713e19",
+            "pin": "1",
+            "net": "LED_A01",
+            "x": 2320.3,
+            "y": -1650.5
+          }
+        ]
+      },
+      {
+        "id": "b3768e861d7dab07",
+        "ref": "C19",
+        "mpn": "CL21B224KBFNNNE",
+        "code": "C5378",
+        "addIntoBom": true,
+        "x": 415,
+        "y": -3740,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "b3768e861d7dab07e15",
+            "pin": "2",
+            "net": "GND",
+            "x": 415,
+            "y": -3700.6
+          },
+          {
+            "id": "b3768e861d7dab07e16",
+            "pin": "1",
+            "net": "MAG_C1",
+            "x": 415,
+            "y": -3779.4
+          }
+        ]
+      },
+      {
+        "id": "20c154bd4a38a256",
+        "ref": "C20",
+        "mpn": "CL21B104KBCNNNC",
+        "code": "C1711",
+        "addIntoBom": true,
+        "x": 395,
+        "y": -3590,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "20c154bd4a38a256e15",
+            "pin": "2",
+            "net": "GND",
+            "x": 434.4,
+            "y": -3590
+          },
+          {
+            "id": "20c154bd4a38a256e16",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 355.6,
+            "y": -3590
+          }
+        ]
+      },
+      {
+        "id": "9bd98dc27832aa4d",
+        "ref": "C21",
+        "mpn": "CL21B104KBCNNNC",
+        "code": "C1711",
+        "addIntoBom": true,
+        "x": 185,
+        "y": -3735,
+        "rotation": -90.00000000000001,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "9bd98dc27832aa4de15",
+            "pin": "2",
+            "net": "GND",
+            "x": 185,
+            "y": -3774.4
+          },
+          {
+            "id": "9bd98dc27832aa4de16",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 185,
+            "y": -3695.6
+          }
+        ]
+      },
+      {
+        "id": "e9ed604cd06017d0",
+        "ref": "C22",
+        "mpn": "CL21A106KAYNNNE",
+        "code": "C15850",
+        "addIntoBom": true,
+        "x": 210,
+        "y": -3590,
+        "rotation": 180,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "71f42a7e43736ad6",
+          "name": "C0805"
+        },
+        "pins": [
+          {
+            "id": "e9ed604cd06017d0e15",
+            "pin": "2",
+            "net": "GND",
+            "x": 170.6,
+            "y": -3590
+          },
+          {
+            "id": "e9ed604cd06017d0e16",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 249.4,
+            "y": -3590
+          }
+        ]
+      },
+      {
+        "id": "e250cb1e4a6f4eac",
+        "ref": "D38",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 708.0785000000001,
+        "y": -2953.7084,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "e250cb1e4a6f4eace18",
+            "pin": "2",
+            "net": "LED_K38",
+            "x": 666.7,
+            "y": -2953.7
+          },
+          {
+            "id": "e250cb1e4a6f4eace19",
+            "pin": "1",
+            "net": "LED_A38",
+            "x": 749.4,
+            "y": -2953.7
+          }
+        ]
+      },
+      {
+        "id": "7024ab78fa845863",
+        "ref": "D39",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 527.126,
+        "y": -3028.6614,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "7024ab78fa845863e18",
+            "pin": "2",
+            "net": "LED_K39",
+            "x": 485.8,
+            "y": -3028.7
+          },
+          {
+            "id": "7024ab78fa845863e19",
+            "pin": "1",
+            "net": "LED_A39",
+            "x": 568.5,
+            "y": -3028.7
+          }
+        ]
+      },
+      {
+        "id": "90310549a54049fb",
+        "ref": "D40",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 346.1735,
+        "y": -2953.7084,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "90310549a54049fbe18",
+            "pin": "2",
+            "net": "LED_K40",
+            "x": 304.8,
+            "y": -2953.7
+          },
+          {
+            "id": "90310549a54049fbe19",
+            "pin": "1",
+            "net": "LED_A40",
+            "x": 387.5,
+            "y": -2953.7
+          }
+        ]
+      },
+      {
+        "id": "b1bf99dec953e1d4",
+        "ref": "D41",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 271.2205,
+        "y": -2772.7559,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "b1bf99dec953e1d4e18",
+            "pin": "2",
+            "net": "LED_K41",
+            "x": 229.9,
+            "y": -2772.8
+          },
+          {
+            "id": "b1bf99dec953e1d4e19",
+            "pin": "1",
+            "net": "LED_A41",
+            "x": 312.6,
+            "y": -2772.8
+          }
+        ]
+      },
+      {
+        "id": "21ed04a4431eb390",
+        "ref": "D42",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 346.1735,
+        "y": -2591.8034,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "21ed04a4431eb390e18",
+            "pin": "2",
+            "net": "LED_K42",
+            "x": 304.8,
+            "y": -2591.8
+          },
+          {
+            "id": "21ed04a4431eb390e19",
+            "pin": "1",
+            "net": "LED_A42",
+            "x": 387.5,
+            "y": -2591.8
+          }
+        ]
+      },
+      {
+        "id": "12c97c868a300135",
+        "ref": "D43",
+        "mpn": "KP-2012MGC",
+        "code": "C598275",
+        "addIntoBom": true,
+        "x": 527.126,
+        "y": -2772.7559,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "7a8f578c2a2ad095",
+          "name": "LED0805-R-RD"
+        },
+        "pins": [
+          {
+            "id": "12c97c868a300135e18",
+            "pin": "2",
+            "net": "LED_K43",
+            "x": 485.8,
+            "y": -2772.8
+          },
+          {
+            "id": "12c97c868a300135e19",
+            "pin": "1",
+            "net": "LED_A43",
+            "x": 568.5,
+            "y": -2772.8
+          }
+        ]
+      },
+      {
+        "id": "8a104efb132329c4",
+        "ref": "R21",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2755.9055,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "8a104efb132329c4e7",
+            "pin": "2",
+            "net": "LED_A06",
+            "x": 2755.9,
+            "y": -3513.6
+          },
+          {
+            "id": "8a104efb132329c4e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2755.9,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "05cd8b37944aff79",
+        "ref": "R42",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2687.4803,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "05cd8b37944aff79e7",
+            "pin": "2",
+            "net": "LED_A32",
+            "x": 2687.5,
+            "y": -3759.9
+          },
+          {
+            "id": "05cd8b37944aff79e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2687.5,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "079a3eaaa126b954",
+        "ref": "R22",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2854.3307,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "079a3eaaa126b954e7",
+            "pin": "2",
+            "net": "LED_A08",
+            "x": 2854.3,
+            "y": -3513.6
+          },
+          {
+            "id": "079a3eaaa126b954e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2854.3,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "ccae9e2c4f0c90e2",
+        "ref": "R19",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2559.0551,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "ccae9e2c4f0c90e2e7",
+            "pin": "2",
+            "net": "LED_A11",
+            "x": 2559.1,
+            "y": -3513.6
+          },
+          {
+            "id": "ccae9e2c4f0c90e2e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2559.1,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "f7da127387d96ca4",
+        "ref": "R20",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2657.4803,
+        "y": -3543.3071,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "f7da127387d96ca4e7",
+            "pin": "2",
+            "net": "LED_A09",
+            "x": 2657.5,
+            "y": -3513.6
+          },
+          {
+            "id": "f7da127387d96ca4e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2657.5,
+            "y": -3573
+          }
+        ]
+      },
+      {
+        "id": "3f5cb8e94f153288",
+        "ref": "R43",
+        "mpn": "0603WAF4700T5E",
+        "code": "C23179",
+        "addIntoBom": true,
+        "x": 2785.9055,
+        "y": -3789.5276000000003,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "3f5cb8e94f153288e7",
+            "pin": "2",
+            "net": "LED_A07",
+            "x": 2785.9,
+            "y": -3759.9
+          },
+          {
+            "id": "3f5cb8e94f153288e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 2785.9,
+            "y": -3819.2
+          }
+        ]
+      },
+      {
+        "id": "5f604db8c999ddc5",
+        "ref": "U12",
+        "mpn": "LSM303AGRTR",
+        "code": "C126671",
+        "addIntoBom": true,
+        "x": 295.5906,
+        "y": -3739.5669,
+        "rotation": 0,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "36e25f35acaeb867",
+          "name": "LGA-12_L2.0-W2.0-P0.50-BL"
+        },
+        "pins": [
+          {
+            "id": "5f604db8c999ddc5e16",
+            "pin": "12",
+            "net": "",
+            "x": 261.1,
+            "y": -3749.4
+          },
+          {
+            "id": "5f604db8c999ddc5e17",
+            "pin": "11",
+            "net": "",
+            "x": 261.1,
+            "y": -3729.7
+          },
+          {
+            "id": "5f604db8c999ddc5e18",
+            "pin": "10",
+            "net": "VDD_3V3",
+            "x": 266.1,
+            "y": -3705.1
+          },
+          {
+            "id": "5f604db8c999ddc5e19",
+            "pin": "9",
+            "net": "VDD_3V3",
+            "x": 285.8,
+            "y": -3705.1
+          },
+          {
+            "id": "5f604db8c999ddc5e20",
+            "pin": "8",
+            "net": "GND",
+            "x": 305.4,
+            "y": -3705.1
+          },
+          {
+            "id": "5f604db8c999ddc5e21",
+            "pin": "7",
+            "net": "",
+            "x": 325.1,
+            "y": -3705.1
+          },
+          {
+            "id": "5f604db8c999ddc5e22",
+            "pin": "6",
+            "net": "GND",
+            "x": 330,
+            "y": -3729.7
+          },
+          {
+            "id": "5f604db8c999ddc5e23",
+            "pin": "5",
+            "net": "MAG_C1",
+            "x": 330,
+            "y": -3749.4
+          },
+          {
+            "id": "5f604db8c999ddc5e24",
+            "pin": "4",
+            "net": "I2C_SDA",
+            "x": 325.1,
+            "y": -3774
+          },
+          {
+            "id": "5f604db8c999ddc5e25",
+            "pin": "3",
+            "net": "VDD_3V3",
+            "x": 305.4,
+            "y": -3774
+          },
+          {
+            "id": "5f604db8c999ddc5e26",
+            "pin": "2",
+            "net": "VDD_3V3",
+            "x": 285.8,
+            "y": -3774
+          },
+          {
+            "id": "5f604db8c999ddc5e27",
+            "pin": "1",
+            "net": "I2C_SCL",
+            "x": 266.1,
+            "y": -3774
+          }
+        ]
+      },
+      {
+        "id": "d05365e1a9f0238d",
+        "ref": "CP1",
+        "mpn": "CL32A226KAJNNNE",
+        "code": "C52306",
+        "addIntoBom": true,
+        "x": 3810,
+        "y": -1860,
+        "rotation": 180,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "95af51f6b44f2a3d",
+          "name": "C1210"
+        },
+        "pins": [
+          {
+            "id": "d05365e1a9f0238de7",
+            "pin": "2",
+            "net": "GND",
+            "x": 3750.3,
+            "y": -1860
+          },
+          {
+            "id": "d05365e1a9f0238de8",
+            "pin": "1",
+            "net": "VIN_SW",
+            "x": 3869.7,
+            "y": -1860
+          }
+        ]
+      },
+      {
+        "id": "99db0b515b5108b5",
+        "ref": "CP2",
+        "mpn": "CL32A226KAJNNNE",
+        "code": "C52306",
+        "addIntoBom": true,
+        "x": 3800,
+        "y": -2185,
+        "rotation": 180,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "95af51f6b44f2a3d",
+          "name": "C1210"
+        },
+        "pins": [
+          {
+            "id": "99db0b515b5108b5e7",
+            "pin": "2",
+            "net": "GND",
+            "x": 3740.3,
+            "y": -2185
+          },
+          {
+            "id": "99db0b515b5108b5e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 3859.7,
+            "y": -2185
+          }
+        ]
+      },
+      {
+        "id": "12db19f19f18ace2",
+        "ref": "CP3",
+        "mpn": "CL32A226KAJNNNE",
+        "code": "C52306",
+        "addIntoBom": true,
+        "x": 3800,
+        "y": -2360,
+        "rotation": 180,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "95af51f6b44f2a3d",
+          "name": "C1210"
+        },
+        "pins": [
+          {
+            "id": "12db19f19f18ace2e7",
+            "pin": "2",
+            "net": "GND",
+            "x": 3740.3,
+            "y": -2360
+          },
+          {
+            "id": "12db19f19f18ace2e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 3859.7,
+            "y": -2360
+          }
+        ]
+      },
+      {
+        "id": "6ed0d89eb9383722",
+        "ref": "LP1",
+        "mpn": "DFE252012P-1R0M=P2",
+        "code": "C882955",
+        "addIntoBom": true,
+        "x": 3872,
+        "y": -2010,
+        "rotation": -90.00000000000001,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "bd7451b3f75df4e3",
+          "name": "L1008"
+        },
+        "pins": [
+          {
+            "id": "6ed0d89eb9383722e15",
+            "pin": "2",
+            "net": "PWR_SW2",
+            "x": 3872,
+            "y": -2049.4
+          },
+          {
+            "id": "6ed0d89eb9383722e16",
+            "pin": "1",
+            "net": "PWR_SW1",
+            "x": 3872,
+            "y": -1970.6
+          }
+        ]
+      },
+      {
+        "id": "a4b8bc86eb8ad3e6",
+        "ref": "RP1",
+        "mpn": "0603WAF5602T5E",
+        "code": "C23206",
+        "addIntoBom": true,
+        "x": 3870,
+        "y": -1690,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "a4b8bc86eb8ad3e6e7",
+            "pin": "2",
+            "net": "PWR_FB",
+            "x": 3870,
+            "y": -1660.3
+          },
+          {
+            "id": "a4b8bc86eb8ad3e6e8",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 3870,
+            "y": -1719.7
+          }
+        ]
+      },
+      {
+        "id": "b3655decc4c4d5c8",
+        "ref": "RP2",
+        "mpn": "FRC0603F1002TS",
+        "code": "C2906982",
+        "addIntoBom": true,
+        "x": 3755,
+        "y": -1690,
+        "rotation": -90.00000000000001,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "0f72563e1b7530f2",
+          "name": "R0603"
+        },
+        "pins": [
+          {
+            "id": "b3655decc4c4d5c8e7",
+            "pin": "2",
+            "net": "GND",
+            "x": 3755,
+            "y": -1719.7
+          },
+          {
+            "id": "b3655decc4c4d5c8e8",
+            "pin": "1",
+            "net": "PWR_FB",
+            "x": 3755,
+            "y": -1660.3
+          }
+        ]
+      },
+      {
+        "id": "d5f7b7c217d0ac52",
+        "ref": "UP1",
+        "mpn": "TPS631000DRLR",
+        "code": "C5219190",
+        "addIntoBom": true,
+        "x": 3760,
+        "y": -2010,
+        "rotation": 90,
+        "layer": 1,
+        "footprint": {
+          "libraryUuid": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+          "uuid": "820cbbd5782f005e",
+          "name": "SOT-583-8_L2.1-W1.2-P0.50-LS1.6-BL"
+        },
+        "pins": [
+          {
+            "id": "d5f7b7c217d0ac52ie12",
+            "pin": "1",
+            "net": "VDD_3V3",
+            "x": 3785.2,
+            "y": -2039.5
+          },
+          {
+            "id": "d5f7b7c217d0ac52ie13",
+            "pin": "2",
+            "net": "PWR_SW2",
+            "x": 3785.2,
+            "y": -2019.8
+          },
+          {
+            "id": "d5f7b7c217d0ac52ie14",
+            "pin": "3",
+            "net": "PWR_SW1",
+            "x": 3785.2,
+            "y": -2000.2
+          },
+          {
+            "id": "d5f7b7c217d0ac52ie15",
+            "pin": "4",
+            "net": "VIN_SW",
+            "x": 3785.2,
+            "y": -1980.5
+          },
+          {
+            "id": "d5f7b7c217d0ac52ie16",
+            "pin": "5",
+            "net": "VIN_SW",
+            "x": 3734.8,
+            "y": -1980.5
+          },
+          {
+            "id": "d5f7b7c217d0ac52ie17",
+            "pin": "6",
+            "net": "GND",
+            "x": 3734.8,
+            "y": -2000.2
+          },
+          {
+            "id": "d5f7b7c217d0ac52ie18",
+            "pin": "7",
+            "net": "GND",
+            "x": 3734.8,
+            "y": -2019.8
+          },
+          {
+            "id": "d5f7b7c217d0ac52ie19",
+            "pin": "8",
+            "net": "PWR_FB",
+            "x": 3734.8,
+            "y": -2039.5
+          }
+        ]
+      }
+    ]
+  },
+  "source": "Latest saved v2 work copy after user route/pour edits and restoring the back image to silkscreen"
+}

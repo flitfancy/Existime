@@ -1,0 +1,5 @@
+#ifndef MAP_FIRMWARE_H
+#define MAP_FIRMWARE_H
+#define MAP_APPLICATION_VERSION 6
+#define MAP_RUNTIME_MAGIC 0x4d415041u
+#endif
