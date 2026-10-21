@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "board": "map",
   "project": "map",
-  "preparedAt": "2026-10-21T21:17:54+08:00",
+  "preparedAt": "2026-10-21T21:28:40+08:00",
   "status": "open-source-preview",
   "candidate": "charge_battery_full-and-no-back-silk",
   "date": "2026-10-21",
@@ -576,6 +576,11 @@
       "path": "04-装配资料/使用说明/operation-logic.md",
       "bytes": 6622,
       "sha256": "d3d2e57eae62dbaf6deadad020f3de99cbdf988447ed6570b881c1e0793b7f9f"
+    },
+    {
+      "path": "04-装配资料/使用说明/release-downloads.md",
+      "bytes": 3496,
+      "sha256": "12c85d9cad22478c6fe3fa3c8866bb8919602bbfe6f1d12691b1ee076ce59041"
     },
     {
       "path": "04-装配资料/使用说明/user-guide-battery.md",
@@ -1189,8 +1194,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7543,
-      "sha256": "93200f819fe4b607d9795f28a1209f94297a2c6b9828e7865d59ae95240e2a60"
+      "bytes": 7939,
+      "sha256": "cb2de869ac73bbce3b111f9d92075de22011357297a7dcbe315710606e6fc461"
     },
     {
       "path": "README.txt",
@@ -1202,5 +1207,14 @@
       "bytes": 638,
       "sha256": "64400ee58f0f6575ba9b42026e5ae2929c411c485e9e4a99a363950a2812e0e5"
     }
-  ]
+  ],
+  "release": {
+    "repository": "flitfancy/Existime",
+    "tag": "v0.2.0",
+    "kind": "prerelease",
+    "sourceUrl": "https://github.com/flitfancy/Existime/tree/v0.2.0/projects/map",
+    "releaseUrl": "https://github.com/flitfancy/Existime/releases/tag/v0.2.0",
+    "precompiledFirmwareIncluded": true,
+    "manufacturingRelease": false
+  }
 }

@@ -10,6 +10,10 @@ charge正常固件为已经实物验收的应用v5；battery正常固件为供�
 
 系列命名：`charge` 对应原 v1 充电版，`battery` 对应原 v2 电池版；这是名称调整，应用固件版本及既有硬件设计保持。
 
+## Release 下载
+
+[map 开源预览 v0.2.0](https://github.com/flitfancy/Existime/releases/tag/v0.2.0) 提供四个硬件版本包、完整资料包、固件包、Excel物料表及SHA-256校验文件。每个版本包附匹配的正常/全亮固件；[下载选择与包内说明](04-装配资料/使用说明/release-downloads.md)列出各文件用途。battery仍为待打样测试版。
+
 ## 项目资料
 
 目录与 Existime 的 FFS、FFA 项目一致；charge/battery 和丝印选择放在对应资料目录的下一级。

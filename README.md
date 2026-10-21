@@ -10,7 +10,7 @@
 
 硬件项目放在 [`projects/`](projects/)，每个项目一个目录。原理图、PCB、BOM、固件、外壳模型和使用说明随项目整理，具体版本、验证进度和许可证在各项目中说明。
 
-FFS、FFA的首批资料以 [开源预览版 v0.1.0](https://github.com/flitfancy/Existime/releases/tag/v0.1.0) 提供下载；这两个项目的预编译固件后续另行发布。map的硬件变体与已构建固件见其项目下载入口。
+FFS、FFA的首批资料以 [开源预览版 v0.1.0](https://github.com/flitfancy/Existime/releases/tag/v0.1.0) 提供下载；这两个项目的预编译固件后续另行发布。map的四套硬件包、BOM和固件见 [map开源预览 v0.2.0](https://github.com/flitfancy/Existime/releases/tag/v0.2.0)。
 
 ## 开源项目
 
