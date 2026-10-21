@@ -1,0 +1,14 @@
+{
+  "hardwareVersion": "battery",
+  "manufacturingDerivation": "Full native Gerber ZIP with only bottom silkscreen GBO omitted; every retained member byte-identical",
+  "independentNativeNoBackExportHasNoBackDrawing": true,
+  "onlyManufacturingDifference": [
+    "Gerber_BottomSilkscreenLayer.GBO"
+  ],
+  "otherManufacturingFilesIdentical": 14,
+  "nativeOnlyBottomImageRemoved": [
+    "bc34990b3af024a5"
+  ],
+  "beforeDrc": [],
+  "afterDrc": []
+}

@@ -4,7 +4,7 @@ SPDX-License-Identifier: CERN-OHL-P-2.0
 项目有权授权的原创硬件设计采用CERN Open Hardware Licence Version 2 - Permissive。
 完整许可文本保存在LICENSE-HARDWARE.txt。
 范围包括01-完整工程、02-BOM、03-PCB制造、04-装配资料中的原创电路、PCB、规则、BOM、制造和装配数据。
-06-固件源码/firmware/v1与v2中的design-evidence.json、board_generated.h、province-order.csv所含硬件映射按同一硬件许可提供。
+06-固件源码/firmware/charge与battery中的design-evidence.json、board_generated.h、province-order.csv所含硬件映射按同一硬件许可提供。
 05-核对记录中相同设计的核对副本沿用相应范围。
 器件库、封装、符号、字体及图像等第三方内容保留原权利声明；本声明不重新授权这些内容。
 原创软件按MIT提供，范围见SOFTWARE-NOTICE.txt。实物照片和品牌标识不因本声明新增授权。

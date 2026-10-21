@@ -1,4 +1,4 @@
-"""Portable build and regression entry for the accepted hardware-v1/application-v5 sources."""
+"""Portable build and regression entry for the accepted hardware-charge/application-v5 sources."""
 import argparse
 import hashlib
 import json
@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-FW = ROOT / 'firmware/v1'
+FW = ROOT / 'firmware/charge'
 COMMON = 'app.c compass.c calibration.c charger.c display.c leds.c sensors.c settings.c storage.c battery.c'.split()
 
 
@@ -28,7 +28,7 @@ def run(command, capture=False):
 def compiler():
     version = run([sys.executable, '-m', 'ziglang', 'version'], capture=True).strip()
     if version != '0.13.0':
-        raise SystemExit('Use ziglang==0.13.0 from requirements-build.txt for this v1 snapshot.')
+        raise SystemExit('Use ziglang==0.13.0 from requirements-build.txt for this charge snapshot.')
     return [sys.executable, '-m', 'ziglang', 'cc']
 
 
@@ -57,11 +57,11 @@ def firmware(cc):
               '-ffreestanding', '-fno-builtin', '-fno-stack-protector', '-ffunction-sections', '-fdata-sections',
               '-nostdlib', '-Wl,-T,linker.ld', '-Wl,-e,Reset_Handler', '-Wl,--gc-sections'] + sources + ['-o', 'map-app.elf'])
     run([sys.executable, 'make_binary.py'])
-    expected = json.loads((ROOT / 'releases/v1/manifest.json').read_text(encoding='utf-8'))
+    expected = json.loads((ROOT / 'releases/charge/manifest.json').read_text(encoding='utf-8'))
     digest = hashlib.sha256((FW / 'map-app.bin').read_bytes()).hexdigest()
     if digest != expected['sha256']:
-        raise SystemExit('Build differs from the accepted v1 release. Review intentional source changes before flashing.')
-    print('Rebuilt flash image matches the accepted v1 binary.')
+        raise SystemExit('Build differs from the accepted charge release. Review intentional source changes before flashing.')
+    print('Rebuilt flash image matches the accepted charge binary.')
 
 
 def main():

@@ -1,7 +1,7 @@
 map 固件所用硬件映射
 SPDX-License-Identifier: CERN-OHL-P-2.0
 
-当前目录firmware/v1和firmware/v2内design-evidence.json、board_generated.h、province-order.csv所含硬件接线和位置数据采用CERN-OHL-P-2.0。
+当前目录firmware/charge和firmware/battery内design-evidence.json、board_generated.h、province-order.csv所含硬件接线和位置数据采用CERN-OHL-P-2.0。
 完整许可文本随附于LICENSE-HARDWARE.txt；软件MIT版权文本保存在LICENSE.txt。
 完整原理图、PCB、BOM、制造和装配源资料见同一项目的01-完整工程至04-装配资料。
 第三方材料保留原声明。照片及品牌不因本声明新增授权。

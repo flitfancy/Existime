@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-21",
+  "status": "passed",
+  "sourceCommit": "393a92c077cdf4de2de3e0b421040fdf9a933d78",
+  "legacyToFamily": {
+    "v1": "charge",
+    "v2": "battery"
+  },
+  "renamedPaths": 201,
+  "nativeArchivesGerbersBinsPhotosCsvAndRawEvidenceByteIdentical": 55,
+  "workbookChangedOnlySheetNamesAndTitles": true,
+  "bomParts": {
+    "charge": 145,
+    "battery": 132
+  },
+  "allFourFirmwareImagesRebuiltIdentically": true,
+  "hostAssertions": {
+    "charge": 218381,
+    "battery": 220951
+  },
+  "cliHardwareChoices": [
+    "charge",
+    "battery"
+  ],
+  "markdownLinksChecked": true,
+  "nativeDrcEvidenceReusedByIdenticalArchiveHashes": true,
+  "existingFfsFfaPackagesUnchanged": true,
+  "physicalDeviceModified": false
+}

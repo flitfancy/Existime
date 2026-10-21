@@ -17,7 +17,7 @@ def main():
     args = parser.parse_args()
     if not re.fullmatch(r'[A-Za-z0-9_.:-]+', args.serial):
         parser.error('Probe serial must contain letters, digits, or _.:-')
-    image = ROOT / 'releases/v1/map-app.bin'
+    image = ROOT / 'releases/charge/map-app.bin'
     manifest = json.loads((image.parent / 'manifest.json').read_text(encoding='utf-8'))
     if hashlib.sha256(image.read_bytes()).hexdigest() != manifest['sha256']:
         raise SystemExit('Release image hash mismatch.')

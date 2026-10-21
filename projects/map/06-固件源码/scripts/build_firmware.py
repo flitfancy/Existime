@@ -1,4 +1,4 @@
-"""Build normal/all-on firmware for map hardware v1/v2 without flashing a board."""
+"""Build normal/all-on firmware for map hardware charge/battery without flashing a board."""
 import argparse,hashlib,json,shutil,re
 from pathlib import Path
 import build as accepted
@@ -14,33 +14,33 @@ def compile_image(cc,kind):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('action',choices=['all','test','firmware'],nargs='?',default='all')
-    p.add_argument('--hardware',choices=['v1','v2','all'],default='all')
+    p.add_argument('--hardware',choices=['charge','battery','all'],default='all')
     p.add_argument('--mode',choices=['normal','all-on','all'],default='all')
-    a=p.parse_args();versions=['v1','v2'] if a.hardware=='all' else [a.hardware]
+    a=p.parse_args();versions=['charge','battery'] if a.hardware=='all' else [a.hardware]
     modes=['normal','all-on'] if a.mode=='all' else [a.mode];cc=accepted.compiler();results=[]
     # Both evidence-bound generators validate actual LED wiring and pin maps.
-    for version in ['v1','v2']:
+    for version in ['charge','battery']:
         accepted.FW=ROOT/'firmware'/version;accepted.generate()
-    assert (ROOT/'firmware/v1/board_generated.h').read_bytes()==(ROOT/'firmware/v2/board_generated.h').read_bytes(),'LED mapping changed between hardware revisions'
+    assert (ROOT/'firmware/charge/board_generated.h').read_bytes()==(ROOT/'firmware/battery/board_generated.h').read_bytes(),'LED mapping changed between hardware revisions'
     for version in versions:
         for mode in modes:
             accepted.FW=ROOT/'firmware'/(version if mode=='normal' else 'all-on')
-            record={'hardware':version,'mode':mode,'physicalValidation':'accepted on v1' if version=='v1' else 'prototype; not yet tested on v2 hardware'}
+            record={'hardware':version,'mode':mode,'physicalValidation':'accepted on charge' if version=='charge' else 'prototype; not yet tested on battery hardware'}
             if mode=='normal':record['applicationVersion']=int(re.search(r'#define MAP_APPLICATION_VERSION (\d+)',(accepted.FW/'firmware.h').read_text()).group(1))
             if a.action in ['test','all'] and mode=='normal':
                 accepted.test(cc);record['hostTests']=json.loads((accepted.FW/'host-verification.json').read_text())
             if a.action in ['firmware','all']:
                 image,digest=compile_image(cc,mode)
                 destination=ROOT/'releases'/version;destination.mkdir(parents=True,exist_ok=True)
-                if version=='v1' and mode=='normal':
+                if version=='charge' and mode=='normal':
                     expected=json.loads((destination/'manifest.json').read_text())
-                    assert digest==expected['sha256'],'v1 normal differs from accepted v5 image'
+                    assert digest==expected['sha256'],'charge normal differs from accepted v5 image'
                 if mode=='all-on':
-                    expected=json.loads((ROOT/'firmware/all-on/v1-physical-acceptance.json').read_text())
-                    assert digest==expected['firmware_sha256'],'All-on differs from accepted v1 all-LED test'
+                    expected=json.loads((ROOT/'firmware/all-on/charge-physical-acceptance.json').read_text())
+                    assert digest==expected['firmware_sha256'],'All-on differs from accepted charge all-LED test'
                 shutil.copy2(image,destination/image.name)
                 record.update(image=image.name,bytes=image.stat().st_size,sha256=digest,flashAddress='0x08000000',ledMappingMatchesBothHardwareVersions=True)
-                if version=='v2' and mode=='normal':
+                if version=='battery' and mode=='normal':
                     record.update(batteryProfile='2x alkaline AA/AAA; 1.8-3.2V linear eight-bar voltage indication',chargerStatusSupported=False)
                     (destination/'manifest.json').write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
                 if mode=='all-on':(destination/'all-led-on.manifest.json').write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')

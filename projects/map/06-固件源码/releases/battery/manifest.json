@@ -1,0 +1,18 @@
+{
+  "hardware": "battery",
+  "mode": "normal",
+  "physicalValidation": "prototype; not yet tested on battery hardware",
+  "applicationVersion": 6,
+  "hostTests": {
+    "passed": true,
+    "assertions": 220951,
+    "summary": "PASS 220951 assertions: buttons/chords, +/-3 degree clockwise heading, calibration/save/auto-return, CRC/power-cut storage, 2x alkaline voltage bars, battery charge rejection, shared display/PWM, LED transport recovery and sensor freshness"
+  },
+  "image": "map-app.bin",
+  "bytes": 11456,
+  "sha256": "ed56fbea57d7ed92aea4b749ccb92e107064bdf16bc5ade7f810d3a4f5cf4e18",
+  "flashAddress": "0x08000000",
+  "ledMappingMatchesBothHardwareVersions": true,
+  "batteryProfile": "2x alkaline AA/AAA; 1.8-3.2V linear eight-bar voltage indication",
+  "chargerStatusSupported": false
+}

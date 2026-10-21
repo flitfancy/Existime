@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--hardware',choices=['v1','v2'],required=True)
+    p.add_argument('--hardware',choices=['charge','battery'],required=True)
     p.add_argument('--mode',choices=['normal','all-on'],required=True)
     p.add_argument('--serial',required=True,help='CMSIS-DAP probe serial')
     p.add_argument('--openocd',default='openocd')

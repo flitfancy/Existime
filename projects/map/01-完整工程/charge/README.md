@@ -1,0 +1,20 @@
+# map charge 板载充电版
+
+单节锂电池，板上BQ24074充电、BQ29728/FS8205A保护、TLV75533稳压。SW3关闭后，上游充电/保护部分仍可带电。固件使用单节4.2V锂电近似曲线。
+
+- [完整丝印](full-silkscreen)：可编辑原生工程及PCB预览；Gerber见对应版本的`03-PCB制造`目录。
+- [无背面丝印](no-back-silkscreen)：无背面丝印的可编辑工程及预览，正面及电路保持。
+- [BOM.csv](../../02-BOM/charge/BOM.csv)：UTF-8参数物料表；LED、R/C/L等不限定料号，芯片及机械件保留型号。
+- [合并Excel物料表](../../02-BOM/map-BOM.xlsx)：charge/battery各一张表；选料规则见[物料表说明](../../02-BOM/BOM说明.md)。
+- [map-charge-bom-native.csv](../../02-BOM/charge/map-charge-bom-native.csv)：原生BOM（UTF-16、Tab分隔）。
+- [map-charge-cpl-mm.csv](../../04-装配资料/charge/map-charge-cpl-mm.csv)：原生坐标文件，单位mm，保留EDA原点与有符号坐标。
+
+`pcb-preview.webp`为EDA多层叠加预览；无背面丝印版仍会显示正面地图、位号和铜走线。其工程内缩略图与外部预览均已重新渲染，背面山林装饰图案已移除。
+
+两种丝印共用BOM、器件坐标及对应硬件固件。无背面制造包仅从完整原生Gerber中去掉GBO，其他成员逐字节相同；源工程只删除背面IMAGE对象。校验见[整理记录](../../05-核对记录/packaging-check.json)。
+
+BOM原生不包含J2/SWD排针和TP1/TP2测试焊盘；坐标文件是否包含这些非BOM对象已单独核对，不将其自动视为需要装配的物料。参数表用于选料；自动PCBA订料前需要为参数件确定实际采购物料并核对封装、极性。
+
+当前原生DRC为0；这不代表板厂DFM、热/EMI或整机装配已完成。
+
+[历史源工程](历史源工程/)保留原始charge权威工程；[历史制造文件](../../03-PCB制造/charge/历史制造/map_charge.zip)为先前实板资料。本次丝印选择请使用对应变体。

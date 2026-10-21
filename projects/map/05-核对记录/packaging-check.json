@@ -3,10 +3,10 @@
   "date": "2026-10-21",
   "hardwareChecks": [
     {
-      "hardware": "v1",
+      "hardware": "charge",
       "variant": "full-silkscreen",
-      "native": "01-完整工程/v1/full-silkscreen/map-v1-charging-full-silkscreen.epro2",
-      "gerber": "03-PCB制造/v1/full-silkscreen/map-v1-charging-full-silkscreen-gerber.zip",
+      "native": "01-完整工程/charge/full-silkscreen/map-charge-full-silkscreen.epro2",
+      "gerber": "03-PCB制造/charge/full-silkscreen/map-charge-full-silkscreen-gerber.zip",
       "componentCount": 148,
       "schematicPages": 8,
       "bottomImageCount": 1,
@@ -24,10 +24,10 @@
       "correctedLp1FootprintPreserved": false
     },
     {
-      "hardware": "v1",
+      "hardware": "charge",
       "variant": "no-back-silkscreen",
-      "native": "01-完整工程/v1/no-back-silkscreen/map-v1-charging-no-back-silkscreen.epro2",
-      "gerber": "03-PCB制造/v1/no-back-silkscreen/map-v1-charging-no-back-silkscreen-gerber.zip",
+      "native": "01-完整工程/charge/no-back-silkscreen/map-charge-no-back-silkscreen.epro2",
+      "gerber": "03-PCB制造/charge/no-back-silkscreen/map-charge-no-back-silkscreen-gerber.zip",
       "componentCount": 148,
       "schematicPages": 8,
       "bottomImageCount": 0,
@@ -45,7 +45,7 @@
       "correctedLp1FootprintPreserved": false
     },
     {
-      "hardware": "v1",
+      "hardware": "charge",
       "bomParts": 145,
       "bomGroups": 31,
       "bomNativeAndControlledAgree": true,
@@ -58,10 +58,10 @@
       "cplCoordinatesAndRotationMatchNative": true
     },
     {
-      "hardware": "v2",
+      "hardware": "battery",
       "variant": "full-silkscreen",
-      "native": "01-完整工程/v2/full-silkscreen/map-v2-battery-full-silkscreen.epro2",
-      "gerber": "03-PCB制造/v2/full-silkscreen/map-v2-battery-full-silkscreen-gerber.zip",
+      "native": "01-完整工程/battery/full-silkscreen/map-battery-full-silkscreen.epro2",
+      "gerber": "03-PCB制造/battery/full-silkscreen/map-battery-full-silkscreen-gerber.zip",
       "componentCount": 135,
       "schematicPages": 8,
       "bottomImageCount": 1,
@@ -79,10 +79,10 @@
       "correctedLp1FootprintPreserved": true
     },
     {
-      "hardware": "v2",
+      "hardware": "battery",
       "variant": "no-back-silkscreen",
-      "native": "01-完整工程/v2/no-back-silkscreen/map-v2-battery-no-back-silkscreen.epro2",
-      "gerber": "03-PCB制造/v2/no-back-silkscreen/map-v2-battery-no-back-silkscreen-gerber.zip",
+      "native": "01-完整工程/battery/no-back-silkscreen/map-battery-no-back-silkscreen.epro2",
+      "gerber": "03-PCB制造/battery/no-back-silkscreen/map-battery-no-back-silkscreen-gerber.zip",
       "componentCount": 135,
       "schematicPages": 8,
       "bottomImageCount": 0,
@@ -100,7 +100,7 @@
       "correctedLp1FootprintPreserved": true
     },
     {
-      "hardware": "v2",
+      "hardware": "battery",
       "bomParts": 132,
       "bomGroups": 22,
       "bomNativeAndControlledAgree": true,
@@ -115,19 +115,20 @@
   ],
   "parameterBom": {
     "workbook": "02-BOM/map-BOM.xlsx",
-    "v1Groups": 31,
-    "v1Quantity": 145,
-    "v2Groups": 22,
-    "v2Quantity": 132,
+    "chargeGroups": 31,
+    "chargeQuantity": 145,
+    "batteryGroups": 22,
+    "batteryQuantity": 132,
     "ledAndPassivesParameterOnly": true,
     "activeAndMechanicalModelsPreserved": true,
     "nativeBindingsUnchanged": true
   },
   "firmwareImages": [
     {
-      "hardware": "v1",
+      "hardware": "charge",
       "mode": "normal",
-      "physicalValidation": "accepted on v1",
+      "physicalValidation": "accepted on charge",
+      "applicationVersion": 5,
       "hostTests": {
         "passed": true,
         "assertions": 218381,
@@ -137,13 +138,12 @@
       "bytes": 12292,
       "sha256": "556e4b6672990dd6f260fcf495fc86cdf640436a2b05c11db336e5b4491fad6d",
       "flashAddress": "0x08000000",
-      "ledMappingMatchesBothHardwareVersions": true,
-      "applicationVersion": 5
+      "ledMappingMatchesBothHardwareVersions": true
     },
     {
-      "hardware": "v1",
+      "hardware": "charge",
       "mode": "all-on",
-      "physicalValidation": "accepted on v1",
+      "physicalValidation": "accepted on charge",
       "image": "all-led-on.bin",
       "bytes": 1504,
       "sha256": "e77934ea3cf31170a66a63bd198694ba0863fcebff736a68a644feabdbf6fa21",
@@ -151,13 +151,14 @@
       "ledMappingMatchesBothHardwareVersions": true
     },
     {
-      "hardware": "v2",
+      "hardware": "battery",
       "mode": "normal",
-      "physicalValidation": "prototype; not yet tested on v2 hardware",
+      "physicalValidation": "prototype; not yet tested on battery hardware",
+      "applicationVersion": 6,
       "hostTests": {
         "passed": true,
         "assertions": 220951,
-        "summary": "PASS 220951 assertions: buttons/chords, +/-3 degree clockwise heading, calibration/save/auto-return, CRC/power-cut storage, 2x alkaline voltage bars, v2 charge rejection, shared display/PWM, LED transport recovery and sensor freshness"
+        "summary": "PASS 220951 assertions: buttons/chords, +/-3 degree clockwise heading, calibration/save/auto-return, CRC/power-cut storage, 2x alkaline voltage bars, battery charge rejection, shared display/PWM, LED transport recovery and sensor freshness"
       },
       "image": "map-app.bin",
       "bytes": 11456,
@@ -165,13 +166,12 @@
       "flashAddress": "0x08000000",
       "ledMappingMatchesBothHardwareVersions": true,
       "batteryProfile": "2x alkaline AA/AAA; 1.8-3.2V linear eight-bar voltage indication",
-      "chargerStatusSupported": false,
-      "applicationVersion": 6
+      "chargerStatusSupported": false
     },
     {
-      "hardware": "v2",
+      "hardware": "battery",
       "mode": "all-on",
-      "physicalValidation": "prototype; not yet tested on v2 hardware",
+      "physicalValidation": "prototype; not yet tested on battery hardware",
       "image": "all-led-on.bin",
       "bytes": 1504,
       "sha256": "e77934ea3cf31170a66a63bd198694ba0863fcebff736a68a644feabdbf6fa21",
@@ -187,7 +187,7 @@
     "existingFfsFfaHardwareUnchanged": "CERN-OHL-S-2.0"
   },
   "limits": [
-    "v2 has no physical board validation yet",
+    "battery has no physical board validation yet",
     "No new fabrication of the no-back variants",
     "Parameter BOM requires selection of actual purchasing parts before PCBA ordering",
     "No board-vendor DFM or complete PCBA approval"

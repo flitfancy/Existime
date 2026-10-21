@@ -15,9 +15,9 @@
   ],
   "nativeColdImports": [
     {
-      "version": "v1",
+      "version": "charge",
       "variant": "full-silkscreen",
-      "nativeArchive": "01-完整工程/v1/full-silkscreen/map-v1-charging-full-silkscreen.epro2",
+      "nativeArchive": "01-完整工程/charge/full-silkscreen/map-charge-full-silkscreen.epro2",
       "nativeArchiveSha256": "731063a8c6d84f97daacdd96a7f2f768d8f55c6f05672af0a0fa1b57452b994f",
       "coldNativeImportVerified": true,
       "schematicPages": 8,
@@ -28,9 +28,9 @@
       "nativeDrcErrors": 0
     },
     {
-      "version": "v1",
+      "version": "charge",
       "variant": "no-back-silkscreen",
-      "nativeArchive": "01-完整工程/v1/no-back-silkscreen/map-v1-charging-no-back-silkscreen.epro2",
+      "nativeArchive": "01-完整工程/charge/no-back-silkscreen/map-charge-no-back-silkscreen.epro2",
       "nativeArchiveSha256": "1f737e5deeb56fe0e884119a4b61f9ec49f18204dbead239723980581f83f1f4",
       "coldNativeImportVerified": true,
       "schematicPages": 8,
@@ -41,9 +41,9 @@
       "nativeDrcErrors": 0
     },
     {
-      "version": "v2",
+      "version": "battery",
       "variant": "full-silkscreen",
-      "nativeArchive": "01-完整工程/v2/full-silkscreen/map-v2-battery-full-silkscreen.epro2",
+      "nativeArchive": "01-完整工程/battery/full-silkscreen/map-battery-full-silkscreen.epro2",
       "nativeArchiveSha256": "5712d1196fedb352661baeac182b41767594e298af3457ad5e5ae7225304c94b",
       "coldNativeImportVerified": true,
       "schematicPages": 8,
@@ -54,9 +54,9 @@
       "nativeDrcErrors": 0
     },
     {
-      "version": "v2",
+      "version": "battery",
       "variant": "no-back-silkscreen",
-      "nativeArchive": "01-完整工程/v2/no-back-silkscreen/map-v2-battery-no-back-silkscreen.epro2",
+      "nativeArchive": "01-完整工程/battery/no-back-silkscreen/map-battery-no-back-silkscreen.epro2",
       "nativeArchiveSha256": "44907e01dd9736ae245927df14c5f42b8d4ba06b7dddad8559add4975cb70503",
       "coldNativeImportVerified": true,
       "schematicPages": 8,
@@ -69,13 +69,13 @@
   ],
   "manufacturingPairs": [
     {
-      "hardware": "v1",
+      "hardware": "charge",
       "onlyRemovedManufacturingLayer": "Gerber_BottomSilkscreenLayer.GBO",
       "remainingMembersByteIdentical": 14,
       "unpackedMembersMatchZip": true
     },
     {
-      "hardware": "v2",
+      "hardware": "battery",
       "onlyRemovedManufacturingLayer": "Gerber_BottomSilkscreenLayer.GBO",
       "remainingMembersByteIdentical": 14,
       "unpackedMembersMatchZip": true
@@ -84,46 +84,46 @@
   "sourceAndBinaryFilesPreservedDuringReorganization": 103,
   "cleanFirmwareRebuilds": [
     {
-      "hardware": "v1",
+      "hardware": "charge",
       "image": "map-app.bin",
       "sha256": "556e4b6672990dd6f260fcf495fc86cdf640436a2b05c11db336e5b4491fad6d",
       "matchesCleanRebuildAfterRelocation": true
     },
     {
-      "hardware": "v1",
+      "hardware": "charge",
       "image": "all-led-on.bin",
       "sha256": "e77934ea3cf31170a66a63bd198694ba0863fcebff736a68a644feabdbf6fa21",
       "matchesCleanRebuildAfterRelocation": true
     },
     {
-      "hardware": "v2",
+      "hardware": "battery",
       "image": "map-app.bin",
       "sha256": "ed56fbea57d7ed92aea4b749ccb92e107064bdf16bc5ade7f810d3a4f5cf4e18",
       "matchesCleanRebuildAfterRelocation": true
     },
     {
-      "hardware": "v2",
+      "hardware": "battery",
       "image": "all-led-on.bin",
       "sha256": "e77934ea3cf31170a66a63bd198694ba0863fcebff736a68a644feabdbf6fa21",
       "matchesCleanRebuildAfterRelocation": true
     }
   ],
   "hostAssertions": {
-    "v1": 218381,
-    "v2": 220951
+    "charge": 218381,
+    "battery": 220951
   },
   "photoChecks": [
     {
-      "file": "08-实物照片/map-v1-lit.jpg",
+      "file": "08-实物照片/map-charge-lit.jpg",
       "sha256": "aab3cbb586d070adeb4e4ca826f233a4e81b49a29e7b012a9704c8d73d89eb9d",
       "originalBytesPreserved": true,
-      "hardwareShown": "v1"
+      "hardwareShown": "charge"
     },
     {
-      "file": "08-实物照片/map-v1-front.jpg",
+      "file": "08-实物照片/map-charge-front.jpg",
       "sha256": "cab06f1d2160dd22f5fcd6fca8fab4d225e67640b15e9534f51dc94f8283c228",
       "originalBytesPreserved": true,
-      "hardwareShown": "v1"
+      "hardwareShown": "charge"
     }
   ],
   "existingSiblingManifestFilesUnchanged": {
@@ -138,8 +138,16 @@
     "ffsFfaHardware": "CERN-OHL-S-2.0"
   },
   "physicalValidation": {
-    "v1": "existing accepted hardware and firmware; no new flashing",
-    "v2": "prototype pending user testing",
+    "charge": "existing accepted hardware and firmware; no new flashing",
+    "battery": "prototype pending user testing",
     "noBackVariants": "no new physical fabrication"
+  },
+  "seriesNaming": {
+    "families": [
+      "charge",
+      "battery"
+    ],
+    "review": "series-naming-check.json",
+    "appliedAfterOriginalReviewCommit": "393a92c077cdf4de2de3e0b421040fdf9a933d78"
   }
 }
