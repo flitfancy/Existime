@@ -10,7 +10,7 @@
 
 硬件项目放在 [`projects/`](projects/)，每个项目一个目录。原理图、PCB、BOM、固件、外壳模型和使用说明随项目整理，具体版本、验证进度和许可证在各项目中说明。
 
-FFS、FFA的首批资料以 [开源预览版 v0.1.0](https://github.com/flitfancy/Existime/releases/tag/v0.1.0) 提供下载；这两个项目的预编译固件后续另行发布。map的四套硬件包、BOM和固件见 [map开源预览 v0.2.0](https://github.com/flitfancy/Existime/releases/tag/v0.2.0)。
+FFS、FFA的首批资料以 [开源预览版 v0.1.0](https://github.com/flitfancy/Existime/releases/tag/v0.1.0) 提供下载；这两个项目的预编译固件后续另行发布。map的四套硬件包、BOM和固件见 [map开源预览 v0.2.1](https://github.com/flitfancy/Existime/releases/tag/v0.2.1)。
 
 ## 开源项目
 
@@ -38,7 +38,7 @@ ESP32-S3 双麦采音与播放终端，配合电脑端服务完成语音识别�
 
 [项目介绍与下载](projects/map/README.md) · [工作逻辑](projects/map/04-装配资料/使用说明/operation-logic.md)
 
-FFS、FFA首批资料于2026-10-20整理；map资料于2026-10-21整理。各项目的 `MANIFEST.json` 记录文件校验和已有检查范围，版本与验证进度以项目说明为准。
+FFS、FFA首批资料于2026-10-20整理；map资料于2026-10-22更新。各项目的 `MANIFEST.json` 记录文件校验和已有检查范围，版本与验证进度以项目说明为准。
 
 ## 授权
 

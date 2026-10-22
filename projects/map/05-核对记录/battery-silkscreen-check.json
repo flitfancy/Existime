@@ -1,14 +1,16 @@
 {
   "hardwareVersion": "battery",
-  "manufacturingDerivation": "Full native Gerber ZIP with only bottom silkscreen GBO omitted; every retained member byte-identical",
+  "date": "2026-10-22",
+  "manufacturingDerivation": "Latest complete native Gerber ZIP with only bottom silkscreen GBO omitted; all 14 retained members byte-identical",
   "independentNativeNoBackExportHasNoBackDrawing": true,
   "onlyManufacturingDifference": [
     "Gerber_BottomSilkscreenLayer.GBO"
   ],
   "otherManufacturingFilesIdentical": 14,
   "nativeOnlyBottomImageRemoved": [
-    "bc34990b3af024a5"
+    "4788a16539f97f91"
   ],
   "beforeDrc": [],
-  "afterDrc": []
+  "afterDrc": [],
+  "nativeArchiveDerivation": "Original native archive; only back IMAGE source record removed and native-rendered PCB thumbnail refreshed. All other source records retained byte-for-byte."
 }

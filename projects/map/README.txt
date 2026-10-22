@@ -1,7 +1,7 @@
 map 当前工程、固件与使用资料（开源预览）
 
 项目介绍与四个版本的下载入口见 README.md；实物宣传图见 08-实物照片。
-整理日期：2026-10-21（Asia/Shanghai）
+整理日期：2026-10-22（Asia/Shanghai）
 源码地址：https://github.com/flitfancy/Existime/tree/main/projects/map
 
 版本选择
@@ -31,7 +31,7 @@ battery：外部1.8–5V设计输入、TPS631000输出3.3V，SW3硬切输入；�
 直接查看BOM优先使用 02-BOM/map-BOM.xlsx，两张表分别对应charge/battery。
 LED、电阻、电容、电感、保险丝和NTC只写参数及封装；芯片和机械件保留型号。
 charge为31组145件，PCB共148个对象；battery为22组132件，PCB共135个对象。
-J2/SWD与TP1/TP2原生不加入BOM，坐标文件保留这些对象；下单时自行明确是否装配J2。
+J2/SWD与TP1/TP2原生不加入BOM，坐标文件保留这些对象；battery的J2为无孔表贴接触焊盘，不装旧通孔排针；charge的J2保持原设计。
 原生CSV实际为UTF-16制表符文件；坐标另提供-UTF8.csv版本，单位mm，未套用贴片厂旋转补偿。
 
 固件
@@ -53,3 +53,5 @@ battery需实测低压带载启动、3.3V纹波、关机电流和不同亮灯负
 原创硬件：CERN-OHL-P-2.0，范围见HARDWARE-NOTICE.txt，完整条款见LICENSE-HARDWARE.txt。
 原创软件及说明：MIT，范围见SOFTWARE-NOTICE.txt与LICENSING.md，完整条款见LICENSE-SOFTWARE.txt。
 第三方保留原许可。照片仅用于本项目展示，不因硬件/软件开源许可而新增授权。
+
+2026-10-22 battery更新：表贴SWD焊盘、功率区重走、双面GND铺铜与8个新增地孔；BOM、charge硬件和固件保持，详见README.md及05-核对记录/battery-hardware-update.json。

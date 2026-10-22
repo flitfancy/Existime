@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "projectId": "e2697ed60a33071dc3cfcc17d5b674647d71dc46efb4934b65cb4c29ae0ff0ba",
+  "projectId": "b496bd49c1742828121be759285691d3cb6f19fbc665d350f7fa1f079f5ac6fd",
   "components": {
     "gge8": {
       "props": {
@@ -3074,9 +3074,9 @@
         "Add into BOM": "no",
         "Supplier Part": "",
         "Supplier Footprint": "插件",
-        "3D Model": "47d466e4a34f4fc5bc626cf773a24dd5|0819f05c4eef4c71ace90d822a990e87",
-        "3D Model Title": "HDR-TH_5P-P2.54-M-LI-1X5P",
-        "3D Model Transform": "499.999,100,0,0,0,0,0,0,-118.11",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
         "Description": "",
         "Name": "SWD 5P",
         "Unique ID": "gge25",

@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "board": "map",
   "project": "map",
-  "preparedAt": "2026-10-21T21:28:40+08:00",
+  "preparedAt": "2026-10-22T21:21:09+08:00",
   "status": "open-source-preview",
   "candidate": "charge_battery_full-and-no-back-silk",
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "hardwareVariants": 4,
   "softwarePackage": {
     "sourceDirectory": "06-固件源码",
@@ -34,78 +34,78 @@
     },
     {
       "path": "01-完整工程/battery/README.md",
-      "bytes": 2136,
-      "sha256": "76635ea0a65bc9b8315fb979ef505133d168bc78d69ee141de0727c942e66055"
+      "bytes": 2998,
+      "sha256": "822ccc8940d47265e96c701008e1ee123725a1c03ceccd06575b4c84f1287abe"
     },
     {
       "path": "01-完整工程/battery/full-silkscreen/map-battery-full-silkscreen.epro2",
-      "bytes": 1550701,
-      "sha256": "5712d1196fedb352661baeac182b41767594e298af3457ad5e5ae7225304c94b"
+      "bytes": 1407875,
+      "sha256": "3e6ebe1c2c0395c1acaeabaca838fa246a096457962f549b32e9b7386091fea1"
     },
     {
       "path": "01-完整工程/battery/full-silkscreen/pcb-preview.webp",
-      "bytes": 206448,
-      "sha256": "aeee217588dfc12d4e6cbffb5d86fb7aedda7074a243e91541220e7bc2c2f816"
+      "bytes": 174542,
+      "sha256": "d09ed4358d20056587ed30dc1c4604bae5bcb5cd53b0b3aadf242dd85aa74643"
     },
     {
       "path": "01-完整工程/battery/no-back-silkscreen/map-battery-no-back-silkscreen.epro2",
-      "bytes": 1181444,
-      "sha256": "44907e01dd9736ae245927df14c5f42b8d4ba06b7dddad8559add4975cb70503"
+      "bytes": 1270769,
+      "sha256": "d5209f30adbaadfeba2a2a1e0a0bc8fe24df204a59019fda26f8e98eec859789"
     },
     {
       "path": "01-完整工程/battery/no-back-silkscreen/pcb-preview.webp",
-      "bytes": 88608,
-      "sha256": "4274829a3e551ad56015700ad588ffcc13ecdfe45b0d096ab8c6c93da3ffa063"
+      "bytes": 170414,
+      "sha256": "8b633039c2bbce810f8ea4b6b85e838af8163801f539f33bac82fe75ab6ab2ee"
     },
     {
       "path": "01-完整工程/battery/pcb-netlist.json",
-      "bytes": 326823,
-      "sha256": "135782d47ea393fc6b6369c6a4307e46daae3e6ab65e04144f9cfe5d8b94e541"
+      "bytes": 326702,
+      "sha256": "56bca5aef7b5ea7007b655b371d69d382f6c9c64e3e7971564de0a5233306c11"
     },
     {
       "path": "01-完整工程/battery/当前文档源码/PCB-9da6d699202ca91c.epru",
-      "bytes": 1854879,
-      "sha256": "b24e5249e27dc0f56ff90d4c2efa38c0520b2a7545c1e203533c6a131957cfd0"
+      "bytes": 1588412,
+      "sha256": "81305918b6353e0ca82c998c69a83007096549549724203630ea08592aeecaf6"
     },
     {
       "path": "01-完整工程/battery/当前文档源码/SCH_PAGE-30758d5069c110b0.epru",
       "bytes": 286025,
-      "sha256": "d1584a69b778fd79f1fb78cf7c983ec751e12663c53d1ac00d1acc470dcf3b3c"
+      "sha256": "849bb152533191f10baac5577d826ee4d85275d5840aa26b813fcca94afb0d27"
     },
     {
       "path": "01-完整工程/battery/当前文档源码/SCH_PAGE-56e4271a737d0632.epru",
       "bytes": 361502,
-      "sha256": "32e64d49c4748d3034f8296eba0560157b0d7887e81e28a43f196b55addf8d7a"
+      "sha256": "586f7565272828662864b9090a73d6d6ae7f5a1ea12b0e39e7078142fc24a3a7"
     },
     {
       "path": "01-完整工程/battery/当前文档源码/SCH_PAGE-675d56c11a7f15f8.epru",
       "bytes": 442285,
-      "sha256": "3bf8ba6beea0cd37014fc177cc4442a6b8bc7daf67595a67618b0c8c5f94dac1"
+      "sha256": "ccf9e15f9f147c36dadf2cebc3ff41255aff91fcca282c0dfaa6b54f7c926a1d"
     },
     {
       "path": "01-完整工程/battery/当前文档源码/SCH_PAGE-7602e90de37ae775.epru",
       "bytes": 374401,
-      "sha256": "7f6e20711a6ffd98921bf242b34ad1e9ef94674211dfb826076ba59d395701ee"
+      "sha256": "90d84d8921711ce27cc75a579ae74397997c2a0385e1fe3ce7dc62e7b396010e"
     },
     {
       "path": "01-完整工程/battery/当前文档源码/SCH_PAGE-817a87211078ebe2.epru",
       "bytes": 372800,
-      "sha256": "061aac79962398b33d146241bc67bb345609f074de02dd466776073323b2cd37"
+      "sha256": "ca7d02aa519f769f7f090304abfbcedeb5b331c0e6655ef2722569acb1f07901"
     },
     {
       "path": "01-完整工程/battery/当前文档源码/SCH_PAGE-d6afc03ab83bab8e.epru",
       "bytes": 387453,
-      "sha256": "3fcb8e7681df7765b4654265a64951f0461921737a7986c016c692e4d8f3b511"
+      "sha256": "1c6ab60edc95862245591ad4e0ffa4f19e25a41355d1933f0c137ea43c900da1"
     },
     {
       "path": "01-完整工程/battery/当前文档源码/SCH_PAGE-e3dcec7d838f4428.epru",
       "bytes": 210764,
-      "sha256": "add9e2bebc6163631016d1a929b331166edee80fa148af1fd674896fd412fdd5"
+      "sha256": "caf583f3345cec5d4c866d29f45ddcb98029669cadf744b473872f31ea347228"
     },
     {
       "path": "01-完整工程/battery/当前文档源码/SCH_PAGE-f2fec4d60487f3f0.epru",
       "bytes": 370321,
-      "sha256": "405c725d1100e0ed2379273aa7c19414cf8d110df566c5ca4cae0f73a019e4b3"
+      "sha256": "0f11e4cfb54cc99540989d4ada7b60ee2adbb52c2fd6f716cb78add7cf048a95"
     },
     {
       "path": "01-完整工程/charge/README.md",
@@ -225,72 +225,72 @@
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/Drill_NPTH_Through.DRL",
       "bytes": 235,
-      "sha256": "09b5f15f7955f1ce3ed5d6bbe61ec14764734136ab49d249009c4e74cb7fe561"
+      "sha256": "c8f8fe10cd44d99d943c3c39cda5cb32406302ad1fdce058276c68439b5f748d"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/Drill_PTH_Through.DRL",
-      "bytes": 4411,
-      "sha256": "48911b75ee0e51a7e53983dec149d4bc59bf554266954aaa79d5e99c7ec59b67"
+      "bytes": 4413,
+      "sha256": "2ac386ef8a64223e0fada873593c26272535e62168bcb6fb02e74b4335044f32"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/Drill_PTH_Through_Via.DRL",
-      "bytes": 4294,
-      "sha256": "860cf83c0e3b554e9a8459611f332c43b83e6402ee57ced8884154a7da273091"
+      "bytes": 4417,
+      "sha256": "4b00bf5ce7d1e536e21b7b333a80359780c622acc6e231c1d43138101fddee24"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/FlyingProbeTesting.json",
-      "bytes": 43388,
-      "sha256": "58e68eaf78ab6e9b3a2a147c658d55caed8830da81b4b1364e6935146841027a"
+      "bytes": 42876,
+      "sha256": "1875eab0f6919e30d55a8e95c85e653871b164ca934ef01f762f16290aa7e2c2"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/Gerber_BoardOutlineLayer.GKO",
       "bytes": 880,
-      "sha256": "ae3e8231acf77163f60a731f17583b1b698a45b7e7a52944dcb687542da9f240"
+      "sha256": "298da853952cade20ef26fcde5e71513c288e9fc569cc8454974d0cbc03b08df"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/Gerber_BottomLayer.GBL",
-      "bytes": 136998,
-      "sha256": "3c5904ed65f594d2eadab81820f38a1240847e8ecf2126179a1d854e2cf8ec5b"
+      "bytes": 76549,
+      "sha256": "5635f61b8c329417afcd1a044be3e530427efac6f3293f886797b8cdddb46933"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/Gerber_BottomSilkscreenLayer.GBO",
-      "bytes": 648037,
-      "sha256": "0dd8d84b52ad2a85f06efc1c140fde395ed00ce87f0a2d108d880312b0770984"
+      "bytes": 230804,
+      "sha256": "2bc4a4a5fddda72ce8f98af3f8c510fa4ea5a66347fa6b27a267c58c464dafa4"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/Gerber_BottomSolderMaskLayer.GBS",
-      "bytes": 1059,
-      "sha256": "4098636642e93fabe7d64b191441c29901718639c254af924803ba7705776531"
+      "bytes": 630,
+      "sha256": "722e63de663d6c2f2ae4fbd7e86c297f074a8ecbf6c0d965665d6c3b2d0f03e8"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/Gerber_DocumentLayer.GDL",
       "bytes": 19294,
-      "sha256": "426947d9b9b74f8e9cdd43bfd7488fdfcbc29203940ac1ecb033a51544ab3ab1"
+      "sha256": "98adc664a2d2e2da089a1ba59dbccd5fb48e88a42d94cc63dcc456296a1dcf45"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/Gerber_DrillDrawingLayer.GDD",
-      "bytes": 89629,
-      "sha256": "2dd9b17e407502b4273c29ad14a6cb79831c087b4626a10c107082f4388a6016"
+      "bytes": 70391,
+      "sha256": "0b91c042524e332b502da25ef051d197abcb0163555acc7fbe1596c472fdefd0"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/Gerber_TopLayer.GTL",
-      "bytes": 260240,
-      "sha256": "12656f025b076888eaaa4b8a87d91859f01e1b4e0f47cd49db99f3397f65a480"
+      "bytes": 252826,
+      "sha256": "6f36a9d1ea478fa426a94886e0ffb125c2c9fd05f26da55c8fcebc4e8c410433"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/Gerber_TopPasteMaskLayer.GTP",
-      "bytes": 57991,
-      "sha256": "dcc06a569aafc01d06b7ed78d2147500f80afbce16eefad6dbace68265392758"
+      "bytes": 57987,
+      "sha256": "0d01fb39aac7f5dd3e7bad308e1f17c290da9aebba2366bf6a5d9626d82d4bae"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/Gerber_TopSilkscreenLayer.GTO",
-      "bytes": 433103,
-      "sha256": "af79bb9eabb17c54ffb74aee8c924b16aed097e49a5cd72c2408249855456204"
+      "bytes": 429978,
+      "sha256": "adffa0c9600cf162303d6643a474a21d1b0ce4b5b985c1ace583ecc7c98fe648"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/Gerber_TopSolderMaskLayer.GTS",
-      "bytes": 11740,
-      "sha256": "6ee910e56c743c3b9a8722f3fb24d6c74101c9fe46becd30a0819c7378ddfbec"
+      "bytes": 11750,
+      "sha256": "26a654f0ab1e66ca96435a4eecf38c7c6017d3ee94a6e5669d51316536afc95d"
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/Gerber解包/PCB下单必读.txt",
@@ -299,73 +299,73 @@
     },
     {
       "path": "03-PCB制造/battery/full-silkscreen/map-battery-full-silkscreen-gerber.zip",
-      "bytes": 480401,
-      "sha256": "59a3724300a24e31d1ef74059084e345c8507c33014fa43e3c4c1b408ad36fe5"
+      "bytes": 334932,
+      "sha256": "282c82af2af61d6875d14d0b2d4011dd597b3e8cabb4060657ce79a78b465944"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/Drill_NPTH_Through.DRL",
       "bytes": 235,
-      "sha256": "09b5f15f7955f1ce3ed5d6bbe61ec14764734136ab49d249009c4e74cb7fe561"
+      "sha256": "c8f8fe10cd44d99d943c3c39cda5cb32406302ad1fdce058276c68439b5f748d"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/Drill_PTH_Through.DRL",
-      "bytes": 4411,
-      "sha256": "48911b75ee0e51a7e53983dec149d4bc59bf554266954aaa79d5e99c7ec59b67"
+      "bytes": 4413,
+      "sha256": "2ac386ef8a64223e0fada873593c26272535e62168bcb6fb02e74b4335044f32"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/Drill_PTH_Through_Via.DRL",
-      "bytes": 4294,
-      "sha256": "860cf83c0e3b554e9a8459611f332c43b83e6402ee57ced8884154a7da273091"
+      "bytes": 4417,
+      "sha256": "4b00bf5ce7d1e536e21b7b333a80359780c622acc6e231c1d43138101fddee24"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/FlyingProbeTesting.json",
-      "bytes": 43388,
-      "sha256": "58e68eaf78ab6e9b3a2a147c658d55caed8830da81b4b1364e6935146841027a"
+      "bytes": 42876,
+      "sha256": "1875eab0f6919e30d55a8e95c85e653871b164ca934ef01f762f16290aa7e2c2"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/Gerber_BoardOutlineLayer.GKO",
       "bytes": 880,
-      "sha256": "ae3e8231acf77163f60a731f17583b1b698a45b7e7a52944dcb687542da9f240"
+      "sha256": "298da853952cade20ef26fcde5e71513c288e9fc569cc8454974d0cbc03b08df"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/Gerber_BottomLayer.GBL",
-      "bytes": 136998,
-      "sha256": "3c5904ed65f594d2eadab81820f38a1240847e8ecf2126179a1d854e2cf8ec5b"
+      "bytes": 76549,
+      "sha256": "5635f61b8c329417afcd1a044be3e530427efac6f3293f886797b8cdddb46933"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/Gerber_BottomSolderMaskLayer.GBS",
-      "bytes": 1059,
-      "sha256": "4098636642e93fabe7d64b191441c29901718639c254af924803ba7705776531"
+      "bytes": 630,
+      "sha256": "722e63de663d6c2f2ae4fbd7e86c297f074a8ecbf6c0d965665d6c3b2d0f03e8"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/Gerber_DocumentLayer.GDL",
       "bytes": 19294,
-      "sha256": "426947d9b9b74f8e9cdd43bfd7488fdfcbc29203940ac1ecb033a51544ab3ab1"
+      "sha256": "98adc664a2d2e2da089a1ba59dbccd5fb48e88a42d94cc63dcc456296a1dcf45"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/Gerber_DrillDrawingLayer.GDD",
-      "bytes": 89629,
-      "sha256": "2dd9b17e407502b4273c29ad14a6cb79831c087b4626a10c107082f4388a6016"
+      "bytes": 70391,
+      "sha256": "0b91c042524e332b502da25ef051d197abcb0163555acc7fbe1596c472fdefd0"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/Gerber_TopLayer.GTL",
-      "bytes": 260240,
-      "sha256": "12656f025b076888eaaa4b8a87d91859f01e1b4e0f47cd49db99f3397f65a480"
+      "bytes": 252826,
+      "sha256": "6f36a9d1ea478fa426a94886e0ffb125c2c9fd05f26da55c8fcebc4e8c410433"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/Gerber_TopPasteMaskLayer.GTP",
-      "bytes": 57991,
-      "sha256": "dcc06a569aafc01d06b7ed78d2147500f80afbce16eefad6dbace68265392758"
+      "bytes": 57987,
+      "sha256": "0d01fb39aac7f5dd3e7bad308e1f17c290da9aebba2366bf6a5d9626d82d4bae"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/Gerber_TopSilkscreenLayer.GTO",
-      "bytes": 433103,
-      "sha256": "af79bb9eabb17c54ffb74aee8c924b16aed097e49a5cd72c2408249855456204"
+      "bytes": 429978,
+      "sha256": "adffa0c9600cf162303d6643a474a21d1b0ce4b5b985c1ace583ecc7c98fe648"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/Gerber_TopSolderMaskLayer.GTS",
-      "bytes": 11740,
-      "sha256": "6ee910e56c743c3b9a8722f3fb24d6c74101c9fe46becd30a0819c7378ddfbec"
+      "bytes": 11750,
+      "sha256": "26a654f0ab1e66ca96435a4eecf38c7c6017d3ee94a6e5669d51316536afc95d"
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/Gerber解包/PCB下单必读.txt",
@@ -374,8 +374,8 @@
     },
     {
       "path": "03-PCB制造/battery/no-back-silkscreen/map-battery-no-back-silkscreen-gerber.zip",
-      "bytes": 267372,
-      "sha256": "0188cfa6ac920dc2c45302a6ce15720c92cc93774e53c68c6e1f04f7d48cfd7d"
+      "bytes": 245562,
+      "sha256": "7a5b7b4030405d095e3741d7125ee90ece5075ce66934d1fb95b068a883e4349"
     },
     {
       "path": "03-PCB制造/charge/full-silkscreen/Gerber解包/Drill_NPTH_Through.DRL",
@@ -539,13 +539,13 @@
     },
     {
       "path": "04-装配资料/battery/map-battery-cpl-mm-UTF8.csv",
-      "bytes": 24590,
-      "sha256": "3e0b342cd422ff9ba0f159e55cef1fc0b22e06b2c3fce35450a7912391c69342"
+      "bytes": 24591,
+      "sha256": "aefe0d751127e7417913339566e1504c0f0b247449b760574b98a39a8e2b0798"
     },
     {
       "path": "04-装配资料/battery/map-battery-cpl-mm.csv",
-      "bytes": 57680,
-      "sha256": "588fa5764ed96777beb615826f0916c1d528c38c6e598a3f8f3e4ddc41a57163"
+      "bytes": 57682,
+      "sha256": "9ce5a81dc716d97fd33849c1ccbd9d008e2a8831cb5b3bb034edc8323bc651a8"
     },
     {
       "path": "04-装配资料/charge/led-polarity-guide.png",
@@ -569,8 +569,8 @@
     },
     {
       "path": "04-装配资料/使用说明/battery-power.md",
-      "bytes": 2239,
-      "sha256": "3264ed2d0172ef8dda3e995ba88e91fc2e00bef84ced32f0572053c9e57ee6be"
+      "bytes": 2381,
+      "sha256": "9b9ad61eebe1da6565e75c280e3632c918bb8575a329872097c6e83d716b2683"
     },
     {
       "path": "04-装配资料/使用说明/operation-logic.md",
@@ -580,12 +580,12 @@
     {
       "path": "04-装配资料/使用说明/release-downloads.md",
       "bytes": 3496,
-      "sha256": "12c85d9cad22478c6fe3fa3c8866bb8919602bbfe6f1d12691b1ee076ce59041"
+      "sha256": "de128cba811a21f8f7305049fb8d0ab1df74a86e182e510d80e9abc6738c0c63"
     },
     {
       "path": "04-装配资料/使用说明/user-guide-battery.md",
-      "bytes": 2445,
-      "sha256": "6f0347454f119cde9c2023dc59aa2d7949e96f851bee865c8e536e56557058b6"
+      "bytes": 2733,
+      "sha256": "6672e8fb7ed78c37c9cff20177384f3990add7c1e49bc758a6d8fcf0df0b42b7"
     },
     {
       "path": "04-装配资料/使用说明/user-guide-charge.md",
@@ -594,8 +594,18 @@
     },
     {
       "path": "05-核对记录/README.txt",
-      "bytes": 1855,
-      "sha256": "277a87747d96c82f392f8a2bec53db54711678c16e83cbd9da0101c62d3ccc5d"
+      "bytes": 2309,
+      "sha256": "fe0bfb3a7a571ccd174b103b72f29352b48d7952875396d788f7bcb93cefefa3"
+    },
+    {
+      "path": "05-核对记录/battery-bom-comparison.json",
+      "bytes": 867,
+      "sha256": "a47cac5be6adb530331b5c87b6794723832decf1f575bd3bb203154998e4afa4"
+    },
+    {
+      "path": "05-核对记录/battery-hardware-update.json",
+      "bytes": 3501,
+      "sha256": "9b1da544c56c21c0c3df8eb9cfacf81fc78bdb9c22407a57f81ec92c600abd75"
     },
     {
       "path": "05-核对记录/battery-host-tests.json",
@@ -608,9 +618,14 @@
       "sha256": "0e5585cbd7ec1f245908c8d7a5cf6d08d03827dc09e37615cf37e2f4355b5d6a"
     },
     {
+      "path": "05-核对记录/battery-release-check.json",
+      "bytes": 764,
+      "sha256": "643470261db5351eb3d054f142a0ae48e58575219e720bbb396601e16cfa9d76"
+    },
+    {
       "path": "05-核对记录/battery-silkscreen-check.json",
-      "bytes": 459,
-      "sha256": "20e33b1f250efbe640ee7c8907c38b3344e29698b2b1bd77b308ae4271b3a6fd"
+      "bytes": 687,
+      "sha256": "964619f2b2846e23f91fd8cb59449dbc250d74109ca682839308bebbec1fcb9d"
     },
     {
       "path": "05-核对记录/charge-host-tests.json",
@@ -629,8 +644,8 @@
     },
     {
       "path": "05-核对记录/final-review.json",
-      "bytes": 5093,
-      "sha256": "8e2e3435a4c308b6523a1705e7baf7261780c8be47efcaf60a7b2aa6f1c9acad"
+      "bytes": 5263,
+      "sha256": "58e7d34b835a1714e48c209c4d71f981920c48e810f416017ee44dce80f176ac"
     },
     {
       "path": "05-核对记录/package-verification.json",
@@ -640,7 +655,7 @@
     {
       "path": "05-核对记录/packaging-check.json",
       "bytes": 6797,
-      "sha256": "d8cb63d25c8e4d8053d0a178ea45ce948943c419943db226052e08faffb64d39"
+      "sha256": "ea7708af0683562bd697592fa3fbb968cd502a3e4f10f88b322f862ec188068f"
     },
     {
       "path": "05-核对记录/series-naming-check.json",
@@ -1194,13 +1209,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 7939,
-      "sha256": "cb2de869ac73bbce3b111f9d92075de22011357297a7dcbe315710606e6fc461"
+      "bytes": 8623,
+      "sha256": "aadadc335decb5e6d64a5d71fb656b7a5cacaa13bef1d645c3d6139be43ee194"
     },
     {
       "path": "README.txt",
-      "bytes": 3956,
-      "sha256": "395322816cbcab51713a4c3485b00b93aee74c44663727c951416f39d0874036"
+      "bytes": 4218,
+      "sha256": "eaee777ae1a00297899b8598f93df5b55557eed30cf1015321e59f8740d5d65e"
     },
     {
       "path": "SOFTWARE-NOTICE.txt",
@@ -1210,10 +1225,10 @@
   ],
   "release": {
     "repository": "flitfancy/Existime",
-    "tag": "v0.2.0",
+    "tag": "v0.2.1",
     "kind": "prerelease",
-    "sourceUrl": "https://github.com/flitfancy/Existime/tree/v0.2.0/projects/map",
-    "releaseUrl": "https://github.com/flitfancy/Existime/releases/tag/v0.2.0",
+    "sourceUrl": "https://github.com/flitfancy/Existime/tree/v0.2.1/projects/map",
+    "releaseUrl": "https://github.com/flitfancy/Existime/releases/tag/v0.2.1",
     "precompiledFirmwareIncluded": true,
     "manufacturingRelease": false
   }

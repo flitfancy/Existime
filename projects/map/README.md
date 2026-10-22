@@ -12,7 +12,13 @@ charge正常固件为已经实物验收的应用v5；battery正常固件为供�
 
 ## Release 下载
 
-[map 开源预览 v0.2.0](https://github.com/flitfancy/Existime/releases/tag/v0.2.0) 提供四个硬件版本包、完整资料包、固件包、Excel物料表及SHA-256校验文件。每个版本包附匹配的正常/全亮固件；[下载选择与包内说明](04-装配资料/使用说明/release-downloads.md)列出各文件用途。battery仍为待打样测试版。
+[map 开源预览 v0.2.1](https://github.com/flitfancy/Existime/releases/tag/v0.2.1) 提供四个硬件版本包、完整资料包、固件包、Excel物料表及SHA-256校验文件。每个版本包附匹配的正常/全亮固件；[下载选择与包内说明](04-装配资料/使用说明/release-downloads.md)列出各文件用途。battery仍为待打样测试版。
+
+## battery 硬件更新 · 2026-10-22
+
+本次更新对应 v0.2.1：顶部 J2 改为五个无孔表贴 SWD 烧录焊盘，移除旧排针的 3D 显示；重新整理功率出口和地回流，完成顶底 GND 铺铜并补 8 个地孔。现有 6 处附加顶层禁铜区保留。完整丝印、无背面丝印工程及制造文件均对应本次状态。
+
+BOM 经新旧工程和新导出逐项比较，仍为 22 组、132 件，Excel 和 CSV 保持原文件。charge 硬件与四个固件 BIN 保持原内容。两份 battery 工程已重新原生导入，DRC 均为 0；测试范围见[更新核对](05-核对记录/battery-hardware-update.json)。battery 仍待实板验证。
 
 ## 项目资料
 

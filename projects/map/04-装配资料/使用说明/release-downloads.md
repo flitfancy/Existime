@@ -1,17 +1,17 @@
-# map v0.2.0 下载说明
+# map v0.2.1 下载说明
 
-发布页：[map · charge / battery 开源预览](https://github.com/flitfancy/Existime/releases/tag/v0.2.0)。源代码和硬件工程固定在[同名标签](https://github.com/flitfancy/Existime/tree/v0.2.0/projects/map)。
+发布页：[map · charge / battery 开源预览](https://github.com/flitfancy/Existime/releases/tag/v0.2.1)。源代码和硬件工程固定在[同名标签](https://github.com/flitfancy/Existime/tree/v0.2.1/projects/map)。
 
 | 选择 | 下载 | 内容 |
 | --- | --- | --- |
-| charge · 完整丝印 | [Existime-map-charge-full-silkscreen-v0.2.0.zip](https://github.com/flitfancy/Existime/releases/download/v0.2.0/Existime-map-charge-full-silkscreen-v0.2.0.zip) | 对应原生工程、Gerber、BOM、坐标、正常/全亮固件及说明 |
-| charge · 无背面丝印 | [Existime-map-charge-no-back-silkscreen-v0.2.0.zip](https://github.com/flitfancy/Existime/releases/download/v0.2.0/Existime-map-charge-no-back-silkscreen-v0.2.0.zip) | 对应原生工程、Gerber、BOM、坐标、正常/全亮固件及说明 |
-| battery · 完整丝印 | [Existime-map-battery-full-silkscreen-v0.2.0.zip](https://github.com/flitfancy/Existime/releases/download/v0.2.0/Existime-map-battery-full-silkscreen-v0.2.0.zip) | 对应原生工程、Gerber、BOM、坐标、正常/全亮固件及说明 |
-| battery · 无背面丝印 | [Existime-map-battery-no-back-silkscreen-v0.2.0.zip](https://github.com/flitfancy/Existime/releases/download/v0.2.0/Existime-map-battery-no-back-silkscreen-v0.2.0.zip) | 对应原生工程、Gerber、BOM、坐标、正常/全亮固件及说明 |
-| 完整项目 | [Existime-map-complete-v0.2.0.zip](https://github.com/flitfancy/Existime/releases/download/v0.2.0/Existime-map-complete-v0.2.0.zip) | 四种硬件、全部源码和镜像、物料表、照片、许可与核对资料 |
-| 固件与源码 | [Existime-map-firmware-v0.2.0.zip](https://github.com/flitfancy/Existime/releases/download/v0.2.0/Existime-map-firmware-v0.2.0.zip) | charge/battery两版源码、四个BIN、构建/烧录脚本和使用说明 |
-| 物料表 | [map-BOM.xlsx](https://github.com/flitfancy/Existime/releases/download/v0.2.0/map-BOM.xlsx) | charge充电版、battery电池版两张表 |
-| 文件校验 | [SHA256SUMS.txt](https://github.com/flitfancy/Existime/releases/download/v0.2.0/SHA256SUMS.txt) | 上述7个附件的SHA-256 |
+| charge · 完整丝印 | [Existime-map-charge-full-silkscreen-v0.2.1.zip](https://github.com/flitfancy/Existime/releases/download/v0.2.1/Existime-map-charge-full-silkscreen-v0.2.1.zip) | 对应原生工程、Gerber、BOM、坐标、正常/全亮固件及说明 |
+| charge · 无背面丝印 | [Existime-map-charge-no-back-silkscreen-v0.2.1.zip](https://github.com/flitfancy/Existime/releases/download/v0.2.1/Existime-map-charge-no-back-silkscreen-v0.2.1.zip) | 对应原生工程、Gerber、BOM、坐标、正常/全亮固件及说明 |
+| battery · 完整丝印 | [Existime-map-battery-full-silkscreen-v0.2.1.zip](https://github.com/flitfancy/Existime/releases/download/v0.2.1/Existime-map-battery-full-silkscreen-v0.2.1.zip) | 对应原生工程、Gerber、BOM、坐标、正常/全亮固件及说明 |
+| battery · 无背面丝印 | [Existime-map-battery-no-back-silkscreen-v0.2.1.zip](https://github.com/flitfancy/Existime/releases/download/v0.2.1/Existime-map-battery-no-back-silkscreen-v0.2.1.zip) | 对应原生工程、Gerber、BOM、坐标、正常/全亮固件及说明 |
+| 完整项目 | [Existime-map-complete-v0.2.1.zip](https://github.com/flitfancy/Existime/releases/download/v0.2.1/Existime-map-complete-v0.2.1.zip) | 四种硬件、全部源码和镜像、物料表、照片、许可与核对资料 |
+| 固件与源码 | [Existime-map-firmware-v0.2.1.zip](https://github.com/flitfancy/Existime/releases/download/v0.2.1/Existime-map-firmware-v0.2.1.zip) | charge/battery两版源码、四个BIN、构建/烧录脚本和使用说明 |
+| 物料表 | [map-BOM.xlsx](https://github.com/flitfancy/Existime/releases/download/v0.2.1/map-BOM.xlsx) | charge充电版、battery电池版两张表 |
+| 文件校验 | [SHA256SUMS.txt](https://github.com/flitfancy/Existime/releases/download/v0.2.1/SHA256SUMS.txt) | 上述7个附件的SHA-256 |
 
 charge为板载充电/锂电保护版；battery为外部1.8–5V输入、3.3V输出电池版，板上无充电和电池保护。完整丝印与无背面丝印电路相同，同一系列共用BOM与固件；无背面版保留正面丝印。
 

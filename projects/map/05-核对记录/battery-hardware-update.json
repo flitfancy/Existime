@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-22",
+  "release": "v0.2.1",
+  "hardware": "battery",
+  "nativeSourceSha256": "3e6ebe1c2c0395c1acaeabaca838fa246a096457962f549b32e9b7386091fea1",
+  "nativeFullArchiveBytesPreserved": true,
+  "j2": "Five top-layer 2.0 mm hole-free SWD contact pads on 2.54 mm pitch; no stencil apertures or pin-header 3D body. Pin order: 3.3V, GND, SWDIO, SWCLK, NRST.",
+  "powerRouting": "VIN and VOUT separate 12 mil exits widening to 20/40 mil; LX 12/20/30 mil; principal ground return 30 mil.",
+  "groundPlanes": {
+    "top": 1,
+    "bottom": 1,
+    "nativeIslandSuppression": true,
+    "newGroundVias": 8,
+    "totalVias": 215
+  },
+  "originalKeepoutsPreserved": true,
+  "additionalTopCopperOnlyKeepoutsRetained": 6,
+  "bomComparison": "battery-bom-comparison.json",
+  "nativeReimports": {
+    "full-silkscreen": {
+      "schematicPages": 8,
+      "pcbComponents": 135,
+      "padNets": 386,
+      "nativeDrcErrors": 0
+    },
+    "no-back-silkscreen": {
+      "schematicPages": 8,
+      "pcbComponents": 135,
+      "padNets": 386,
+      "nativeDrcErrors": 0
+    }
+  },
+  "nativeImportNormalization": {
+    "originalArchivePreserved": true,
+    "nativeImporterRemovedSubTenthMilGroundStubs": [
+      {
+        "id": "22c81101614f24c2",
+        "lengthMil": 0.030000000000001137
+      },
+      {
+        "id": "8a4d732e0f8ba6a2",
+        "lengthMil": 0.03999999999996362
+      },
+      {
+        "id": "f5d05a1ef5c997dc",
+        "lengthMil": 0.009999999999763531
+      },
+      {
+        "id": "a1fffeab56119d76",
+        "lengthMil": 0.043133513652163315
+      },
+      {
+        "id": "d5d6a455e546c136",
+        "lengthMil": 0.009999999999990905
+      },
+      {
+        "id": "ce7c907261e90ed1",
+        "lengthMil": 0.0646999999999025
+      },
+      {
+        "id": "227b60ed299af61b",
+        "lengthMil": 0.03999999999996362
+      },
+      {
+        "id": "0c906e5b5c4ae8c0",
+        "lengthMil": 0.05656854249487235
+      }
+    ],
+    "nativeDerivedCopperCachesRecomputed": true,
+    "metadataNormalizations": [
+      [
+        "LAYER",
+        "[\"LAYER\",19]"
+      ],
+      [
+        "LAYER_PHYS",
+        "[\"LAYER_PHYS\",1]"
+      ],
+      [
+        "LAYER_PHYS",
+        "[\"LAYER_PHYS\",3]"
+      ],
+      [
+        "LAYER",
+        "[\"LAYER\",24]"
+      ],
+      [
+        "LAYER_PHYS",
+        "[\"LAYER_PHYS\",2]"
+      ],
+      [
+        "ATTR",
+        "5f604db8c999ddc5e38"
+      ],
+      [
+        "ATTR",
+        "5f604db8c999ddc5e37"
+      ],
+      [
+        "LAYER_PHYS",
+        "[\"LAYER_PHYS\",4]"
+      ],
+      [
+        "ATTR",
+        "e1ad885eb826b13ce23"
+      ],
+      [
+        "LAYER_PHYS",
+        "[\"LAYER_PHYS\",7]"
+      ],
+      [
+        "ATTR",
+        "e1ad885eb826b13ce24"
+      ],
+      [
+        "LAYER_PHYS",
+        "[\"LAYER_PHYS\",8]"
+      ]
+    ],
+    "emptyNetRuleSelectorAdded": [
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"\"]]"
+      ]
+    ],
+    "allOtherPhysicalRecordsPreserved": true
+  },
+  "unchanged": {
+    "chargeHardware": true,
+    "bomWorkbookAndCsv": true,
+    "firmwareSourcesAndFourBins": true
+  },
+  "limits": [
+    "Battery hardware has not been built and tested.",
+    "Ripple, thermal rise, low-voltage loaded startup and compass magnetic interference remain unverified on a physical board.",
+    "No board-vendor DFM or complete PCBA approval."
+  ]
+}

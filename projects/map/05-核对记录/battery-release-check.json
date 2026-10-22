@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-22",
+  "passed": true,
+  "batteryNativeFullSha256": "3e6ebe1c2c0395c1acaeabaca838fa246a096457962f549b32e9b7386091fea1",
+  "drillCoordinatesAndDiametersMatchAllNativeVias": 215,
+  "originalNpthCount": 2,
+  "j2PlatedDrillsAbsent": true,
+  "noBackArchiveOnlyRemovesBackImage": true,
+  "remainingGerberMembersByteIdentical": 14,
+  "allBomFilesUnchanged": true,
+  "chargeHardwareAndAllFirmwareUnchanged": true,
+  "siblingProjects": [
+    {
+      "project": "FFS",
+      "filesUnchanged": 190
+    },
+    {
+      "project": "FFA",
+      "filesUnchanged": 168
+    }
+  ],
+  "privateBuildToolsExcluded": true,
+  "softwareTestsReused": "v0.2.0 source and all four firmware images unchanged; previous test/build evidence retained"
+}

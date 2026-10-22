@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "status": "passed",
   "structureMatchesFfsAndFfa": true,
   "directories": [
@@ -44,7 +44,7 @@
       "version": "battery",
       "variant": "full-silkscreen",
       "nativeArchive": "01-完整工程/battery/full-silkscreen/map-battery-full-silkscreen.epro2",
-      "nativeArchiveSha256": "5712d1196fedb352661baeac182b41767594e298af3457ad5e5ae7225304c94b",
+      "nativeArchiveSha256": "3e6ebe1c2c0395c1acaeabaca838fa246a096457962f549b32e9b7386091fea1",
       "coldNativeImportVerified": true,
       "schematicPages": 8,
       "pcbComponents": 135,
@@ -57,7 +57,7 @@
       "version": "battery",
       "variant": "no-back-silkscreen",
       "nativeArchive": "01-完整工程/battery/no-back-silkscreen/map-battery-no-back-silkscreen.epro2",
-      "nativeArchiveSha256": "44907e01dd9736ae245927df14c5f42b8d4ba06b7dddad8559add4975cb70503",
+      "nativeArchiveSha256": "d5209f30adbaadfeba2a2a1e0a0bc8fe24df204a59019fda26f8e98eec859789",
       "coldNativeImportVerified": true,
       "schematicPages": 8,
       "pcbComponents": 135,
@@ -149,5 +149,8 @@
     ],
     "review": "series-naming-check.json",
     "appliedAfterOriginalReviewCommit": "393a92c077cdf4de2de3e0b421040fdf9a933d78"
-  }
+  },
+  "previousWholeProjectAuditDate": "2026-10-21",
+  "batteryHardwareUpdate": "battery-hardware-update.json",
+  "chargeAndFirmwareByteIdenticalToPreviousRelease": true
 }

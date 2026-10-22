@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-22",
+  "previousNativeSha256": "5712d1196fedb352661baeac182b41767594e298af3457ad5e5ae7225304c94b",
+  "latestNativeSha256": "3e6ebe1c2c0395c1acaeabaca838fa246a096457962f549b32e9b7386091fea1",
+  "pcbComponents": 135,
+  "bomGroups": 22,
+  "bomQuantity": 132,
+  "bomChanged": false,
+  "materialFieldsCompared": [
+    "Manufacturer",
+    "Manufacturer Part",
+    "Supplier",
+    "Supplier Part",
+    "Name",
+    "Value",
+    "Footprint",
+    "Supplier Footprint",
+    "Add into BOM"
+  ],
+  "bomIncludedFootprintsUnchanged": true,
+  "componentPosesUnchanged": true,
+  "excludedFromBom": [
+    "J2",
+    "TP1",
+    "TP2"
+  ],
+  "existingBomFilesPreserved": true,
+  "j2Change": "J2 remains excluded from BOM; its five plated holes became top-layer hole-free SWD contact pads.",
+  "freshNativeBomExportMatchesExisting": true
+}
