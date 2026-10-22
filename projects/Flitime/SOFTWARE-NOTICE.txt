@@ -1,0 +1,8 @@
+Flitime 固件与配套软件授权
+
+Copyright (c) 2026 FlitFancy
+SPDX-License-Identifier: MIT
+
+06-固件源码和07-配套软件内由FlitFancy原创并有权授权的代码及直接配套技术文档采用MIT，完整条款见LICENSE-SOFTWARE.txt。
+当前尚未收录固件与配套软件，本声明不代表已经提供可运行程序。
+已有第三方许可证及声明继续有效；硬件按HARDWARE-NOTICE.txt解释，照片及品牌不因本声明新增授权。

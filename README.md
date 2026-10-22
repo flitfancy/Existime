@@ -4,7 +4,7 @@
 
 这里会放原理图、PCB、固件和制作资料。实物展示和制作记录，也会放到[云萤 · FlitFancy](https://flitfancy.com/resources.html)。
 
-目前整理了 FFS 环境感知板、FFA 双麦语音交互板和 map 地图灯，工程和软件会随着使用继续完善。
+目前整理了 FFS 环境感知板、FFA 双麦语音交互板、map 地图灯和 Flitime 电子沙漏主板，工程和软件会随着使用继续完善。
 
 ## 项目与资料
 
@@ -15,6 +15,13 @@ FFS、FFA的首批资料以 [正式版 v0.1.0](https://github.com/flitfancy/Exis
 FFS、FFA、map 均已由作者完成实物与功能验证，并于 2026-10-22 确认转为正式发布。
 
 ## 开源项目
+
+### Flitime · 电子沙漏主板
+
+ESP32-S3电子沙漏主板，43×77mm、R2mm圆角。当前作为硬件预发布版公开，工程、BOM、Gerber和装配坐标已具备，固件、配套软件与实物照片暂空。
+
+[项目资料与当前状态](projects/Flitime/README.md) · [硬件预发布 v0.3.0](https://github.com/flitfancy/Existime/releases/tag/v0.3.0)
+
 
 ### FFS · FIREFLY-SENSE 环境感知板
 
@@ -44,7 +51,7 @@ FFS、FFA首批资料于2026-10-20整理；map资料于2026-10-22更新。各项
 
 ## 授权
 
-FFS、FFA 的原创硬件设计采用 **CERN-OHL-S-2.0**，具体范围和第三方例外见各项目的 `HARDWARE-NOTICE.txt`。
+FFS、FFA、Flitime 的原创硬件设计采用 **CERN-OHL-S-2.0**，具体范围和第三方例外见各项目的 `HARDWARE-NOTICE.txt`。
 
 map 的原创硬件设计采用 **CERN-OHL-P-2.0**，软件与原创说明采用 **MIT**；范围及第三方材料说明见[map许可范围](projects/map/LICENSING.md)。
 

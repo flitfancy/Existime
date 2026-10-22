@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-22",
+  "status": "hardware-prerelease-files-verified",
+  "sourceProjectAlias": "SplitTime",
+  "projectUuidAtRead": "94d88d9f6d8c11fa0d026b6a3dbe01e327c94dbb14739af76a16e494347a7d1b",
+  "pcbUuid": "5c701b07028a33e8",
+  "sourceNamePreserved": true,
+  "nativeArchiveSha256": "b35424c0f6001b98dad3ee823ba2bdf9919b580d5ee4515316a9c82154b25a1f",
+  "nativeArchiveCrc": true,
+  "nativeDocumentCounts": {
+    "FOOTPRINT": 13,
+    "SYMBOL": 21,
+    "DEVICE": 21,
+    "BOARD": 1,
+    "SCH": 1,
+    "SCH_PAGE": 1,
+    "PCB": 1,
+    "CONFIG": 1,
+    "PANEL": 1
+  },
+  "referencedFootprintsIncluded": 13,
+  "schematicPages": 1,
+  "pcbComponents": 38,
+  "pads": 176,
+  "bomGroups": 16,
+  "bomQuantity": 36,
+  "bomRefsMatchCurrentComponents": true,
+  "nativeAndUtf8BomValuesMatch": true,
+  "cplRows": 38,
+  "nativeAndUtf8CplValuesMatch": true,
+  "cplPosesMatchNativeAtManufacturingOrigin": true,
+  "manufacturingOriginMil": [
+    30,
+    -52.5984
+  ],
+  "nativeDrcErrorsAtRead": 0,
+  "nativeArchiveColdReimportThisPackaging": false,
+  "gerberCrc": true,
+  "gerberMembers": [
+    {
+      "file": "Gerber_TopLayer.GTL",
+      "bytes": 109244,
+      "sha256": "ed06a382f098cd3478c56d2173d2aa35a6b9f3aa4ae97475040a44b096edfb70"
+    },
+    {
+      "file": "Gerber_BottomLayer.GBL",
+      "bytes": 48698,
+      "sha256": "cf1f7f009bbca9049a6ae9d200dbd7e87f4fe54a78c591b3695541f26c53888f"
+    },
+    {
+      "file": "Gerber_TopSilkscreenLayer.GTO",
+      "bytes": 57626,
+      "sha256": "14ca1e6a9e95ab20b980f9663b2f881d3e7becf58a39dc2bf6b272a7738cff76"
+    },
+    {
+      "file": "Gerber_BottomSilkscreenLayer.GBO",
+      "bytes": 290996,
+      "sha256": "7d66d2e87b621715ebb365cdaf89003935c6c50862682eda0f1d4bffbea166d9"
+    },
+    {
+      "file": "Gerber_TopSolderMaskLayer.GTS",
+      "bytes": 6263,
+      "sha256": "5606c8ee5cf3e896cef04bd654afe3b73c79f93e7d2cf11eb9fc2e4ef51cfd42"
+    },
+    {
+      "file": "Gerber_BottomSolderMaskLayer.GBS",
+      "bytes": 1584,
+      "sha256": "159e79050488947c8a4b3dc9bc4819aafe4baa1dab35ab2f341a772a6cb9fb83"
+    },
+    {
+      "file": "Gerber_TopPasteMaskLayer.GTP",
+      "bytes": 20596,
+      "sha256": "27cf5fbc403e789ba61deca332e4dd7e598dfb8ae20be78c08617e1605e56245"
+    },
+    {
+      "file": "Gerber_BoardOutlineLayer.GKO",
+      "bytes": 870,
+      "sha256": "acec73805558a111ee58f50186329344c16d63e402de7bc1dd2d171eeba01392"
+    },
+    {
+      "file": "Gerber_DocumentLayer.GDL",
+      "bytes": 7392,
+      "sha256": "a03182764f35b1564f54bc87351cb56c91b11a2506c6d13a657a9f13a833bea4"
+    },
+    {
+      "file": "Gerber_DrillDrawingLayer.GDD",
+      "bytes": 94390,
+      "sha256": "3b237e511d71f920647b66d6ad89f9c2e04b66becbf5d45c9fa63b82fd93931c"
+    },
+    {
+      "file": "Drill_PTH_Through.DRL",
+      "bytes": 2253,
+      "sha256": "87c75f48f75eff3d647631fc2e4584674ecb3b77926ae5f5e2c9b1289ff5699d"
+    },
+    {
+      "file": "Drill_PTH_Through_Via.DRL",
+      "bytes": 1758,
+      "sha256": "9a36019a370ffffab00415ad68e0ab2ce5b6f82975d6f23b391692915bf47edb"
+    },
+    {
+      "file": "FlyingProbeTesting.json",
+      "bytes": 20785,
+      "sha256": "1df4af64cbc8e7e69577bdec4a89ebea3a32d24c8341a9e1f49758255ad10654"
+    },
+    {
+      "file": "PCB下单必读.txt",
+      "bytes": 94,
+      "sha256": "dcb3ee1c645c17a009d70726ad9ab708b68a074556fabcf75a4a059d3b43ec59"
+    }
+  ],
+  "gerberPinComparison": {
+    "flyingProbeRows": 197,
+    "duplicatedThroughHoleRows": 21,
+    "signalNetAliases": {
+      "LCD_SPI_SCK": "NET_2",
+      "LCD_SPI_MISO": "NET_3",
+      "LCD_SPI_MOSI": "NET_1",
+      "LCD_TOUCH_CS": "NET_4",
+      "LCD_TOUCH_INT": "NET_5"
+    },
+    "maximumNativeApiPinRoundingDifferenceMil": 0.046999999999997044,
+    "gerberComponentPosesAndPadConnectivityMatch": true
+  },
+  "emptyDirectories": [
+    "01-完整工程/工程预览",
+    "06-固件源码",
+    "07-配套软件",
+    "08-实物照片"
+  ],
+  "firmwareIncluded": false,
+  "softwareIncluded": false,
+  "physicalPhotosIncluded": false,
+  "realDeviceValidated": false,
+  "limits": [
+    "Target-machine cold native import not performed in this packaging",
+    "No working firmware supplied",
+    "Display, power, mechanical, compass and complete prototype validation pending",
+    "No board-vendor DFM performed"
+  ],
+  "releasePreparation": {
+    "tag": "v0.3.0",
+    "kind": "prerelease",
+    "completeFirmwareIncluded": false,
+    "physicalValidationClaimed": false
+  }
+}

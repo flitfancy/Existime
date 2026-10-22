@@ -1,0 +1,11 @@
+Flitime / 电子沙漏主板
+
+Copyright (C) 2026 FlitFancy
+SPDX-License-Identifier: CERN-OHL-S-2.0
+
+FlitFancy 原创并有权授权的电路、PCB、规则及必要的硬件设计/制造/装配源资料采用 CERN Open Hardware Licence Version 2 - Strongly Reciprocal。
+范围主要为01-完整工程、02-BOM、03-PCB制造、04-装配资料；同一设计在核对记录中的副本沿用对应范围。
+完整英文条款见LICENSE-HARDWARE.txt。本声明不重新授权第三方器件库、封装、符号、字体、模型或其他原有内容，原始来源和权利声明保留。
+原创固件与配套软件采用MIT，范围见SOFTWARE-NOTICE.txt；当前对应目录为空。照片和品牌标识不因此新增授权。
+
+Source Location: https://github.com/flitfancy/Existime/tree/v0.3.0/projects/Flitime
