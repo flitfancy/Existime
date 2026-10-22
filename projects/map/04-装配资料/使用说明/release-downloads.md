@@ -1,6 +1,6 @@
 # map v0.2.1 下载说明
 
-发布页：[map · charge / battery 开源预览](https://github.com/flitfancy/Existime/releases/tag/v0.2.1)。源代码和硬件工程固定在[同名标签](https://github.com/flitfancy/Existime/tree/v0.2.1/projects/map)。
+发布页：[map · charge / battery 正式发布](https://github.com/flitfancy/Existime/releases/tag/v0.2.1)。源代码和硬件工程固定在[同名标签](https://github.com/flitfancy/Existime/tree/v0.2.1/projects/map)。
 
 | 选择 | 下载 | 内容 |
 | --- | --- | --- |
@@ -21,4 +21,4 @@ charge为板载充电/锂电保护版；battery为外部1.8–5V输入、3.3V输
 
 全亮版用于检查43颗LED，正常版用于省份记录、校准、指南针及电量显示。烧录地址均为0x08000000，需要支持STM32C0的OpenOCD与CMSIS-DAP下载器；硬件版本包README给出匹配系列的命令。
 
-现有四份原生工程重新导入DRC均为0；charge正常固件与既有实测镜像一致，battery主机回归通过。battery电源与固件仍待实际打样测试，无背面变体未新制实物；未做板厂DFM或完整PCBA放行。软件MIT、原创硬件CERN-OHL-P-2.0，第三方及照片范围按随附声明。
+现有四份原生工程重新导入DRC均为0；charge正常固件与既有实测镜像一致，battery主机回归通过。项目作者于2026-10-22确认map的实板与功能验证成功，现转正式发布；原始检查记录保留各自检查日期及范围。软件MIT、原创硬件CERN-OHL-P-2.0，第三方及照片范围按随附声明。

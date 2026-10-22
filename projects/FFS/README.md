@@ -25,9 +25,9 @@ FFS 环境感知板实物正面，白色 PCB。
 
 ## 当前状态
 
-目前为持续完善的个人硬件项目，已制作实物并完成部分功能验证。已有检查与待验证范围见[完整目录说明](README.txt)和 [MANIFEST.json](MANIFEST.json)。
+已制作实物并完成硬件与功能验证。项目作者于 2026-10-22 确认验证成功，本项目现按正式版本发布；确认记录见[发布验证说明](05-核对记录/release-confirmation.json)。
 
-首批开源预览版：[v0.1.0](https://github.com/flitfancy/Existime/releases/tag/v0.1.0)。本次公开工程、制造资料、固件源码与配套软件源码；尚未完成原生工程重新导入实测、整板 ERC/DRC、板厂 DFM 和新环境完整复现。
+正式发布：[v0.1.0](https://github.com/flitfancy/Existime/releases/tag/v0.1.0)。提供工程、制造资料、固件源码与配套软件源码。原始导出、编译和自动检查记录保留各自日期与检查范围；作者实测确认与自动检查分别记录。
 
 ## 授权
 

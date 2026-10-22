@@ -10,7 +10,9 @@
 
 硬件项目放在 [`projects/`](projects/)，每个项目一个目录。原理图、PCB、BOM、固件、外壳模型和使用说明随项目整理，具体版本、验证进度和许可证在各项目中说明。
 
-FFS、FFA的首批资料以 [开源预览版 v0.1.0](https://github.com/flitfancy/Existime/releases/tag/v0.1.0) 提供下载；这两个项目的预编译固件后续另行发布。map的四套硬件包、BOM和固件见 [map开源预览 v0.2.1](https://github.com/flitfancy/Existime/releases/tag/v0.2.1)。
+FFS、FFA的首批资料以 [正式版 v0.1.0](https://github.com/flitfancy/Existime/releases/tag/v0.1.0) 提供下载；这两个项目的预编译固件后续另行发布。map的四套硬件包、BOM和固件见 [map正式版 v0.2.1](https://github.com/flitfancy/Existime/releases/tag/v0.2.1)。
+
+FFS、FFA、map 均已由作者完成实物与功能验证，并于 2026-10-22 确认转为正式发布。
 
 ## 开源项目
 
@@ -34,7 +36,7 @@ ESP32-S3 双麦采音与播放终端，配合电脑端服务完成语音识别�
 
 ![map charge充电版实物，部分省份灯和中心灯点亮。](projects/map/08-实物照片/map-charge-lit.jpg)
 
-34颗省份灯记录、八方向指南针和电量显示。提供charge板载充电版与battery外部电池版，每版都有完整丝印和无背面丝印两种选择，以及全亮测试/正常使用两类固件。charge已有实物功能验证，battery首版供打样测试。
+34颗省份灯记录、八方向指南针和电量显示。提供charge板载充电版与battery外部电池版，每版都有完整丝印和无背面丝印两种选择，以及全亮测试/正常使用两类固件。charge与battery均已由作者确认实板功能验证成功。
 
 [项目介绍与下载](projects/map/README.md) · [工作逻辑](projects/map/04-装配资料/使用说明/operation-logic.md)
 

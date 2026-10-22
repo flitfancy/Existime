@@ -1,4 +1,4 @@
-﻿FFA 当前工程、固件与配套软件（开源预览版）
+FFA 当前工程、固件与配套软件（正式发布）
 
 项目介绍与实物照片见 README.md；照片保存在 08-实物照片。
 
@@ -6,7 +6,7 @@
 工程：FireFly Audio
 工程 UUID：1a31211d77504c7e9f3e824221e31fe2
 PCB UUID：f1f1a80e02b95546
-版本：Existime v0.1.0 首批开源预览版。
+版本：Existime v0.1.0 正式发布。
 源码地址：https://github.com/flitfancy/Existime/tree/v0.1.0/projects/FFA
 
 先打开哪里
@@ -56,3 +56,5 @@ FFA 0.4.1 Wi-Fi 固件与当前 FFV-transfer 音频服务已整理。
 原创硬件设计：CERN-OHL-S-2.0（版本 2）。范围见 HARDWARE-NOTICE.txt，完整官方原文见 LICENSE-HARDWARE.txt。
 原创固件与配套软件采用 MIT，范围见 SOFTWARE-NOTICE.txt，条款见 LICENSE-SOFTWARE.txt；第三方保留原许可证和声明。
 版本与下载：https://github.com/flitfancy/Existime/releases/tag/v0.1.0
+
+2026-10-22 发布状态更新：项目作者确认实物及功能验证成功，已转为正式发布。上述“本次核对”与“源码整理”是2026-10-20的历史整理范围，当前作者验证确认见05-核对记录/release-confirmation.json。

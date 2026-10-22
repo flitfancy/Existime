@@ -3,7 +3,7 @@
   "board": "map",
   "project": "map",
   "preparedAt": "2026-10-22T21:21:09+08:00",
-  "status": "open-source-preview",
+  "status": "released",
   "candidate": "charge_battery_full-and-no-back-silk",
   "date": "2026-10-22",
   "hardwareVariants": 4,
@@ -569,23 +569,23 @@
     },
     {
       "path": "04-装配资料/使用说明/battery-power.md",
-      "bytes": 2381,
-      "sha256": "9b9ad61eebe1da6565e75c280e3632c918bb8575a329872097c6e83d716b2683"
+      "bytes": 2379,
+      "sha256": "585b949de21cf50c68292b20a8c6f1c93b6a89aa2abbe381a9e3337377e6a356"
     },
     {
       "path": "04-装配资料/使用说明/operation-logic.md",
-      "bytes": 6622,
-      "sha256": "d3d2e57eae62dbaf6deadad020f3de99cbdf988447ed6570b881c1e0793b7f9f"
+      "bytes": 6641,
+      "sha256": "e8ecab3e438361e84d2717df002f1ad519d2a41470d440ff6e9db3e50e26cfc0"
     },
     {
       "path": "04-装配资料/使用说明/release-downloads.md",
-      "bytes": 3496,
-      "sha256": "de128cba811a21f8f7305049fb8d0ab1df74a86e182e510d80e9abc6738c0c63"
+      "bytes": 3519,
+      "sha256": "b4ef700b301b0f9a06f8b7784f5802c084576eabce5e5f8a1921e5ae407bda24"
     },
     {
       "path": "04-装配资料/使用说明/user-guide-battery.md",
-      "bytes": 2733,
-      "sha256": "6672e8fb7ed78c37c9cff20177384f3990add7c1e49bc758a6d8fcf0df0b42b7"
+      "bytes": 2754,
+      "sha256": "58c36d59b9f9faf743f6825e3e055fdf54f7911bce993fcdf7c24a3a9e4540eb"
     },
     {
       "path": "04-装配资料/使用说明/user-guide-charge.md",
@@ -656,6 +656,11 @@
       "path": "05-核对记录/packaging-check.json",
       "bytes": 6797,
       "sha256": "ea7708af0683562bd697592fa3fbb968cd502a3e4f10f88b322f862ec188068f"
+    },
+    {
+      "path": "05-核对记录/release-confirmation.json",
+      "bytes": 384,
+      "sha256": "6cfa571b10892493caa6726980ff688998c4ea5058d67aacc0356d38929657f8"
     },
     {
       "path": "05-核对记录/series-naming-check.json",
@@ -1209,13 +1214,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 8623,
-      "sha256": "aadadc335decb5e6d64a5d71fb656b7a5cacaa13bef1d645c3d6139be43ee194"
+      "bytes": 8724,
+      "sha256": "55b2f7a0e499869f00963a4b225cce09e8f0143da5187079204e209b00a13542"
     },
     {
       "path": "README.txt",
-      "bytes": 4218,
-      "sha256": "eaee777ae1a00297899b8598f93df5b55557eed30cf1015321e59f8740d5d65e"
+      "bytes": 4297,
+      "sha256": "5d49039f48f9ee53dfb517821c131c883ce323f0e79f1996167ec45ad772db65"
     },
     {
       "path": "SOFTWARE-NOTICE.txt",
@@ -1226,10 +1231,19 @@
   "release": {
     "repository": "flitfancy/Existime",
     "tag": "v0.2.1",
-    "kind": "prerelease",
+    "kind": "release",
     "sourceUrl": "https://github.com/flitfancy/Existime/tree/v0.2.1/projects/map",
     "releaseUrl": "https://github.com/flitfancy/Existime/releases/tag/v0.2.1",
     "precompiledFirmwareIncluded": true,
     "manufacturingRelease": false
+  },
+  "ownerValidation": {
+    "date": "2026-10-22",
+    "status": "passed",
+    "confirmedBy": "project owner",
+    "source": "Explicit confirmation in the project conversation",
+    "scope": "The owner confirmed FFS, FFA and map were successfully validated and requested formal releases.",
+    "automatedMeasurementsAdded": false,
+    "originalEngineeringAndSoftwareArtifactsChanged": false
   }
 }

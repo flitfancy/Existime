@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "board": "FFA",
   "preparedAt": "2026-10-20T23:05:55+08:00",
-  "status": "open-source-preview",
+  "status": "released",
   "project": {
     "uuid": "1a31211d77504c7e9f3e824221e31fe2",
     "name": "exist01/FireFly Audio",
@@ -237,6 +237,21 @@
       "sha256": "eb2c78a1cc6ad250dbf27c67af734c1625d4e3f6a0029e7d8c5912e9ed7d06aa"
     },
     {
+      "path": "05-核对记录/PCB1-archive-source.txt",
+      "bytes": 1880290,
+      "sha256": "377849abba897f2ba1ea3f2de01cead946dc65d1b4fa47c521fa92dc424097ae"
+    },
+    {
+      "path": "05-核对记录/PCB1-live-source-after.txt",
+      "bytes": 1846659,
+      "sha256": "1e2122e577c319a9dca417222d41248b8af46a6cdf2d5fafb3e7aea9e4380a9f"
+    },
+    {
+      "path": "05-核对记录/PCB1-live-source-before.txt",
+      "bytes": 1846659,
+      "sha256": "5339c65bc9bceb5f2b04e3b34f93827d8d27c8674b7b38112f065fbc66c82ad2"
+    },
+    {
       "path": "05-核对记录/before-after.json",
       "bytes": 275,
       "sha256": "e3f56fc2c10c27a978cc365c5dff3d6788387c0108559c8cd2fb40094196f201"
@@ -272,21 +287,6 @@
       "sha256": "40fdba65ac109b8bebdf3c792a5e51875b551774dd80663038d58cc04feb9c97"
     },
     {
-      "path": "05-核对记录/PCB1-archive-source.txt",
-      "bytes": 1880290,
-      "sha256": "377849abba897f2ba1ea3f2de01cead946dc65d1b4fa47c521fa92dc424097ae"
-    },
-    {
-      "path": "05-核对记录/PCB1-live-source-after.txt",
-      "bytes": 1846659,
-      "sha256": "1e2122e577c319a9dca417222d41248b8af46a6cdf2d5fafb3e7aea9e4380a9f"
-    },
-    {
-      "path": "05-核对记录/PCB1-live-source-before.txt",
-      "bytes": 1846659,
-      "sha256": "5339c65bc9bceb5f2b04e3b34f93827d8d27c8674b7b38112f065fbc66c82ad2"
-    },
-    {
       "path": "05-核对记录/project-versus-live.json",
       "bytes": 336172,
       "sha256": "2d5e2d4c45d165b6bda0a15e83861ce5d4fd1308defa2960bc0765b12ae66d0f"
@@ -295,6 +295,11 @@
       "path": "05-核对记录/project.json",
       "bytes": 1083,
       "sha256": "48ad326b6cd811232f6fed2bc60b03957df00b452fc112bf30ba3bf7bad96441"
+    },
+    {
+      "path": "05-核对记录/release-confirmation.json",
+      "bytes": 384,
+      "sha256": "086800dc3aaa805cb8b05fbf25bedd62ac71166c6f11305dcb05cb4dc90d22e4"
     },
     {
       "path": "05-核对记录/schematic-capture.json",
@@ -332,6 +337,21 @@
       "sha256": "4e9204779ad1ceaa96b8e2f0d50ed331fc8fa51b9a16e9ef83116cecdd149312"
     },
     {
+      "path": "06-固件源码/LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
+    },
+    {
+      "path": "06-固件源码/README.txt",
+      "bytes": 1262,
+      "sha256": "0d21f55978dee34dbee6138bd4a6c1c7f3758d8f06f5296d58e2f6642d1c6697"
+    },
+    {
+      "path": "06-固件源码/SOFTWARE-NOTICE.txt",
+      "bytes": 1043,
+      "sha256": "939187d6ed9a44de70545f9224561a59efa543bbd9e58fc8e283218e5f330bdc"
+    },
+    {
       "path": "06-固件源码/arduino-cli.example.yaml",
       "bytes": 107,
       "sha256": "6aee22a3c304acfeeefc0c7d532010d9c7b29c58e11a42d31387e742cc789fe2"
@@ -367,24 +387,54 @@
       "sha256": "ac7b6ef3954f74ac5270e9f1b60373b5fa4e68e325081779b71c62535056b14c"
     },
     {
-      "path": "06-固件源码/LICENSE.txt",
+      "path": "07-配套软件/FFV-transfer/.gitignore",
+      "bytes": 206,
+      "sha256": "506cea31fd1ce84eeb8b3fa5d95b9d25a3578d232c65d5d6e455f38c968725cd"
+    },
+    {
+      "path": "07-配套软件/FFV-transfer/API.md",
+      "bytes": 8515,
+      "sha256": "ee00618fc096f29ba18f90321ffbcbd8276ae2d5139e7db0e12744fc98e36520"
+    },
+    {
+      "path": "07-配套软件/FFV-transfer/ARCHITECTURE.md",
+      "bytes": 21090,
+      "sha256": "75549fc35e964d9b209495bc579f1bcea20d774e1e29838f8929578418c7d554"
+    },
+    {
+      "path": "07-配套软件/FFV-transfer/LICENSE.txt",
       "bytes": 1066,
       "sha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
     },
     {
-      "path": "06-固件源码/README.txt",
-      "bytes": 1262,
-      "sha256": "0d21f55978dee34dbee6138bd4a6c1c7f3758d8f06f5296d58e2f6642d1c6697"
+      "path": "07-配套软件/FFV-transfer/OTA.md",
+      "bytes": 4890,
+      "sha256": "ac8d06e86ebd1f82ab5c614f8a12b62274619d6d0e912db678cf3fbe199c32eb"
     },
     {
-      "path": "06-固件源码/SOFTWARE-NOTICE.txt",
-      "bytes": 1043,
-      "sha256": "939187d6ed9a44de70545f9224561a59efa543bbd9e58fc8e283218e5f330bdc"
+      "path": "07-配套软件/FFV-transfer/PROTOCOL_V2.md",
+      "bytes": 5045,
+      "sha256": "2b2aedeb0fd76cbc77e870c6719f4ab6c9fd3525caf8fcd06b2034d08a5e6ed9"
     },
     {
-      "path": "07-配套软件/FFV-transfer/.gitignore",
-      "bytes": 206,
-      "sha256": "506cea31fd1ce84eeb8b3fa5d95b9d25a3578d232c65d5d6e455f38c968725cd"
+      "path": "07-配套软件/FFV-transfer/README.txt",
+      "bytes": 3009,
+      "sha256": "7cea77652cfa2f0bb47a52b4f0a4309d45b56e5b0c93f286386b6276296cb89b"
+    },
+    {
+      "path": "07-配套软件/FFV-transfer/SOFTWARE-NOTICE.txt",
+      "bytes": 1056,
+      "sha256": "d9f0180295747b1e0dc569079492788ca56a1858ba71e170d31da5516f4f692d"
+    },
+    {
+      "path": "07-配套软件/FFV-transfer/THIRD_PARTY.md",
+      "bytes": 3149,
+      "sha256": "1b44e75e7db10d858729f106d5a8c5f921c1b835131657457a30ea6b548b15e7"
+    },
+    {
+      "path": "07-配套软件/FFV-transfer/TTS.md",
+      "bytes": 5039,
+      "sha256": "af1a50e8385324b8e625c54b82f3a9cbabaa8a2a8c60b44ba699cf22bc89d108"
     },
     {
       "path": "07-配套软件/FFV-transfer/aec_processor.py",
@@ -397,19 +447,9 @@
       "sha256": "b542eea6a2f25761b36707f43ecb54278d4108ffe0853088f59494f575643d24"
     },
     {
-      "path": "07-配套软件/FFV-transfer/API.md",
-      "bytes": 8515,
-      "sha256": "ee00618fc096f29ba18f90321ffbcbd8276ae2d5139e7db0e12744fc98e36520"
-    },
-    {
       "path": "07-配套软件/FFV-transfer/app.py",
       "bytes": 34079,
       "sha256": "d5d74c35b073f3e29de7109864c5c2bb48d92a12c550b616017a6f85908bacb1"
-    },
-    {
-      "path": "07-配套软件/FFV-transfer/ARCHITECTURE.md",
-      "bytes": 21090,
-      "sha256": "75549fc35e964d9b209495bc579f1bcea20d774e1e29838f8929578418c7d554"
     },
     {
       "path": "07-配套软件/FFV-transfer/board_discovery.py",
@@ -447,6 +487,11 @@
       "sha256": "ec450abf7da20ec068a26385f2d50322541923b36141c448e31a1291bf2e456c"
     },
     {
+      "path": "07-配套软件/FFV-transfer/integrations/README.md",
+      "bytes": 3942,
+      "sha256": "32319a09221ce80b1f9ef9396c852bb276ef0b51b2f7be421a6e8af5ac15e835"
+    },
+    {
       "path": "07-配套软件/FFV-transfer/integrations/astrbot_plugin_firefly_voice/__init__.py",
       "bytes": 1,
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
@@ -472,11 +517,6 @@
       "sha256": "9be5a12f0129f0dcd263e6873a7d03cee267f44e2376b95cf69265b3914aa9fb"
     },
     {
-      "path": "07-配套软件/FFV-transfer/integrations/README.md",
-      "bytes": 3942,
-      "sha256": "32319a09221ce80b1f9ef9396c852bb276ef0b51b2f7be421a6e8af5ac15e835"
-    },
-    {
       "path": "07-配套软件/FFV-transfer/integrations/test_astrbot_voice.py",
       "bytes": 7480,
       "sha256": "64bf8ea824980ed9d30836e691b0264dc01559684f1025c21df38ebf95de255e"
@@ -485,11 +525,6 @@
       "path": "07-配套软件/FFV-transfer/integrations/test_local_provider_policy.py",
       "bytes": 2259,
       "sha256": "3d50ad9e7e5d04a751893b1093571c3c559a0555b171c61ad352f37523d225b3"
-    },
-    {
-      "path": "07-配套软件/FFV-transfer/LICENSE.txt",
-      "bytes": 1066,
-      "sha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
     },
     {
       "path": "07-配套软件/FFV-transfer/lyrics.py",
@@ -515,11 +550,6 @@
       "path": "07-配套软件/FFV-transfer/models/wakeword-download.json",
       "bytes": 251,
       "sha256": "2b8ca6f9bd0786ab3d6b825cf9cfbbb46743657394b500cad6bc1cc5a1dcf08c"
-    },
-    {
-      "path": "07-配套软件/FFV-transfer/OTA.md",
-      "bytes": 4890,
-      "sha256": "ac8d06e86ebd1f82ab5c614f8a12b62274619d6d0e912db678cf3fbe199c32eb"
     },
     {
       "path": "07-配套软件/FFV-transfer/ota_service.py",
@@ -557,19 +587,9 @@
       "sha256": "eb9d46889efa534599c77bf1a1a4a228eab07cf5b6b1daaf13e29d26d293d5ec"
     },
     {
-      "path": "07-配套软件/FFV-transfer/PROTOCOL_V2.md",
-      "bytes": 5045,
-      "sha256": "2b2aedeb0fd76cbc77e870c6719f4ab6c9fd3525caf8fcd06b2034d08a5e6ed9"
-    },
-    {
       "path": "07-配套软件/FFV-transfer/protocol_v2.py",
       "bytes": 6469,
       "sha256": "e9056235bc80a50bd96e51db020a05530f0ade3a8ec28119f15eaf37e19bb271"
-    },
-    {
-      "path": "07-配套软件/FFV-transfer/README.txt",
-      "bytes": 3009,
-      "sha256": "7cea77652cfa2f0bb47a52b4f0a4309d45b56e5b0c93f286386b6276296cb89b"
     },
     {
       "path": "07-配套软件/FFV-transfer/recognition_segments.py",
@@ -615,11 +635,6 @@
       "path": "07-配套软件/FFV-transfer/settings.example.ps1",
       "bytes": 660,
       "sha256": "6f983935a23d9e68af004f26e7d9eaabb8a3b163f1c94837ddf4a5b4dc788cc2"
-    },
-    {
-      "path": "07-配套软件/FFV-transfer/SOFTWARE-NOTICE.txt",
-      "bytes": 1056,
-      "sha256": "d9f0180295747b1e0dc569079492788ca56a1858ba71e170d31da5516f4f692d"
     },
     {
       "path": "07-配套软件/FFV-transfer/speech_services.py",
@@ -777,6 +792,11 @@
       "sha256": "16b32905fd96f496d8adec8f44f2dbeada943c4dacdb2c788b89bf3800b7c95b"
     },
     {
+      "path": "07-配套软件/FFV-transfer/third_party/pyNCMDUMP/README.md",
+      "bytes": 6074,
+      "sha256": "0c13751b9e06951b06ced74c1dbd9ee2b59a568445a71d4e385faa6f1e6bf715"
+    },
+    {
       "path": "07-配套软件/FFV-transfer/third_party/pyNCMDUMP/ncm_converter.py",
       "bytes": 8603,
       "sha256": "002d62ba3cf70ef9451372be10e9ba574f3c61c78ed5de225e391d999c943adb"
@@ -787,24 +807,9 @@
       "sha256": "45a837f9a3d89fd809f54074d7d19a8c81a91f567178ff927fb4bdc7fe59692b"
     },
     {
-      "path": "07-配套软件/FFV-transfer/third_party/pyNCMDUMP/README.md",
-      "bytes": 6074,
-      "sha256": "0c13751b9e06951b06ced74c1dbd9ee2b59a568445a71d4e385faa6f1e6bf715"
-    },
-    {
       "path": "07-配套软件/FFV-transfer/third_party/pyNCMDUMP/requirements.txt",
       "bytes": 18,
       "sha256": "cdda87fcdab3bc4163f8a762dd856a7f14e8b115ab103649ab2b98f83f83f992"
-    },
-    {
-      "path": "07-配套软件/FFV-transfer/THIRD_PARTY.md",
-      "bytes": 3149,
-      "sha256": "1b44e75e7db10d858729f106d5a8c5f921c1b835131657457a30ea6b548b15e7"
-    },
-    {
-      "path": "07-配套软件/FFV-transfer/TTS.md",
-      "bytes": 5039,
-      "sha256": "af1a50e8385324b8e625c54b82f3a9cbabaa8a2a8c60b44ba699cf22bc89d108"
     },
     {
       "path": "07-配套软件/FFV-transfer/vad_observer.py",
@@ -857,14 +862,14 @@
       "sha256": "7cdb755f0406da8710977329482d1f44efdb01c45b35bd7db26680778c06db1b"
     },
     {
-      "path": "08-实物照片/ffa-assembled.jpg",
-      "bytes": 182449,
-      "sha256": "262ff65f54f32eb10100f65a8dac24e1f1493cdca788e1c364827ef4cefe9d93"
-    },
-    {
       "path": "08-实物照片/README.txt",
       "bytes": 355,
       "sha256": "067ebcbbefd87e1c1f0ee4e2d61b69ef37dece79df78aa25c2f582d8e43a3778"
+    },
+    {
+      "path": "08-实物照片/ffa-assembled.jpg",
+      "bytes": 182449,
+      "sha256": "262ff65f54f32eb10100f65a8dac24e1f1493cdca788e1c364827ef4cefe9d93"
     },
     {
       "path": "HARDWARE-NOTICE.txt",
@@ -883,13 +888,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2432,
-      "sha256": "87954ed081d90a1af5aaab28bd10b1b92189e9d1fcb1e105e0de179eb023a3c0"
+      "bytes": 2464,
+      "sha256": "4b731edef9965e9bd82edc19757cccc440281fd78a9e120733e078d0f750bcc3"
     },
     {
       "path": "README.txt",
-      "bytes": 3652,
-      "sha256": "33ade0ba49f9126dc02e3f314a14895c5c089db7a9289c0dec0a7f09e8656542"
+      "bytes": 3898,
+      "sha256": "24ce026ff9770ce782809371be6723a687c498e177f515af2ea1636b5eb1c9fe"
     },
     {
       "path": "SOFTWARE-NOTICE.txt",
@@ -927,7 +932,7 @@
       "text": "LICENSE-SOFTWARE.txt",
       "existingLicensesPreserved": true
     },
-    "status": "open-source-preview"
+    "status": "released"
   },
   "presentation": {
     "entry": "README.md",
@@ -941,10 +946,19 @@
   "release": {
     "repository": "flitfancy/Existime",
     "tag": "v0.1.0",
-    "kind": "prerelease",
+    "kind": "release",
     "sourceUrl": "https://github.com/flitfancy/Existime/tree/v0.1.0/projects/FFA",
     "releaseUrl": "https://github.com/flitfancy/Existime/releases/tag/v0.1.0",
     "precompiledFirmwareIncluded": false,
     "manufacturingRelease": false
+  },
+  "ownerValidation": {
+    "date": "2026-10-22",
+    "status": "passed",
+    "confirmedBy": "project owner",
+    "source": "Explicit confirmation in the project conversation",
+    "scope": "The owner confirmed FFS, FFA and map were successfully validated and requested formal releases.",
+    "automatedMeasurementsAdded": false,
+    "originalEngineeringAndSoftwareArtifactsChanged": false
   }
 }
