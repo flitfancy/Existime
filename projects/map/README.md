@@ -55,7 +55,7 @@ BOM及电源说明：[参数物料表Excel](02-BOM/map-BOM.xlsx)、[物料表说
 | 硬件 | 全亮测试 | 正常使用 | 验证范围 |
 | --- | --- | --- | --- |
 | charge充电版 | [all-led-on.bin](06-固件源码/releases/charge/all-led-on.bin) | [map-app.bin](06-固件源码/releases/charge/map-app.bin) | 两者重编译均与原charge实测镜像一致 |
-| battery电池版 | [all-led-on.bin](06-固件源码/releases/battery/all-led-on.bin) | [map-app.bin](06-固件源码/releases/battery/map-app.bin) | 接线与主机测试通过，待battery实板测试 |
+| battery电池版 | [all-led-on.bin](06-固件源码/releases/battery/all-led-on.bin) | [map-app.bin](06-固件源码/releases/battery/map-app.bin) | 接线、主机测试通过，作者已确认实板验证成功 |
 
 全亮版只让43颗灯持续点亮，不处理按键、指南针、电量或充电，不访问外部EEPROM。正常版支持省份记录、六姿态校准、对北、八方向与电量显示。两个全亮文件因LED接线一致而二进制相同；两版正常固件必须按硬件选择。
 

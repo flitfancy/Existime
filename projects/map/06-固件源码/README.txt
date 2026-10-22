@@ -2,7 +2,7 @@ map 固件源码、构建与烧录
 
 当前目录可独立复制；LICENSE.txt为MIT条款，硬件映射范围见随附HARDWARE-NOTICE.txt与LICENSE-HARDWARE.txt。
 firmware/charge：已实板验收的charge正常应用v5。
-firmware/battery：battery正常应用v6首版，默认两节碱性AA/AAA，待battery实板测试。
+firmware/battery：battery正常应用v6，默认两节碱性AA/AAA，作者已于2026-10-22确认实板功能验证成功。
 firmware/all-on：共用43灯全亮测试源码，不访问外部EEPROM。
 releases/charge与battery：各有map-app.bin和all-led-on.bin，以及校验清单。
 

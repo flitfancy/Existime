@@ -689,8 +689,8 @@
     },
     {
       "path": "06-固件源码/README.txt",
-      "bytes": 1821,
-      "sha256": "6b861f9bc1c9d83a9cb9305fa871c4070c7ba496ad94f0a699bdd18d4581c94f"
+      "bytes": 1845,
+      "sha256": "c5580c1a7f766929a73a3e27d3cf72b93a5fb9066162a5291271a8e973f2ef8c"
     },
     {
       "path": "06-固件源码/firmware/all-on/README.md",
@@ -1214,8 +1214,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8724,
-      "sha256": "55b2f7a0e499869f00963a4b225cce09e8f0143da5187079204e209b00a13542"
+      "bytes": 8735,
+      "sha256": "dec0ae4613180c5991401bbcd2d29780d1768fad7f94b891511fbdcbd54b4107"
     },
     {
       "path": "README.txt",
