@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-23",
+  "status": "passed",
+  "target": "fft_s3_tactile",
+  "platform": "espressif32@7.0.1",
+  "sourceFilesPreserved": {
+    "platformio.ini": "23f83a3a67907e35cd9d949d4bdba7fdcf8bde802d5743443f29881c0bf6f0c5",
+    "src/fft_pins.h": "6b54dbec8e169b199c1af199569f3936090c732bcc9db96864b363d679e1eb25",
+    "src/force_math.h": "7e4e82f2a601a7dcc3e7c89ed810a0f4fc2c1a7b04a118c9264d8f5bb66cbff7",
+    "src/main.cpp": "c51cd28137066d2538013d4068fde859b1b40f415a0000332b72dfb6bed91ae7"
+  },
+  "isolatedBuild": true,
+  "existingDependencyCacheUsed": true,
+  "freshDependencyInstallation": false,
+  "flashBytesReported": 302301,
+  "ramBytesReported": 19296,
+  "localBuildImageBytes": 302672,
+  "localBuildImageSha256": "4c08df76c2b8e74bca854eeb8790f37b24d4d192ae855aa08d94dfdcb746d684",
+  "binaryDistributed": false,
+  "flashed": false,
+  "completeApplication": false,
+  "gpioRolesVerifiedAgainstCurrentNative": 14
+}

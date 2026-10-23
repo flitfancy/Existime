@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "project": "FFT",
+  "date": "2026-10-23",
+  "status": "hardware-prerelease",
+  "boardSizeMm": {
+    "width": 90,
+    "height": 40,
+    "cornerRadius": 2
+  },
+  "copperLayers": 2,
+  "schematicPages": 1,
+  "pcbComponents": 66,
+  "numberedComponentPads": 240,
+  "standalonePads": 7,
+  "totalPads": 247,
+  "bomGroups": 28,
+  "bomQuantity": 61,
+  "cplRows": 66,
+  "emptyDirectories": [
+    "01-完整工程/工程预览",
+    "07-配套软件",
+    "08-实物照片"
+  ],
+  "softwarePackage": {
+    "pressureBenchSource": true,
+    "pressureBenchBuildPassed": true,
+    "completeApplication": false,
+    "firmwareBinaryIncluded": false,
+    "realDeviceValidated": false
+  },
+  "licensing": {
+    "hardware": "CERN-OHL-S-2.0",
+    "software": "MIT",
+    "thirdPartyPreserved": true
+  },
+  "release": {
+    "repository": "flitfancy/Existime",
+    "kind": "prerelease",
+    "tag": "v0.4.0",
+    "sourceUrl": "https://github.com/flitfancy/Existime/tree/v0.4.0/projects/FFT",
+    "releaseUrl": "https://github.com/flitfancy/Existime/releases/tag/v0.4.0",
+    "pressureBenchSourceIncluded": true,
+    "completeApplicationIncluded": false,
+    "precompiledFirmwareIncluded": false,
+    "manufacturingApproval": false
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 74,
+      "sha256": "62d855f3144b487df6654c3a6811221ec45976fbcbbb36f2e62269ee2ae39518"
+    },
+    {
+      "path": "01-完整工程/FFT-20261023.epro2",
+      "bytes": 375518,
+      "sha256": "2f84f88bde26d559db5e9a8e0130aa101c7f6c47884b2fffd5ab2d32f3b5ada0"
+    },
+    {
+      "path": "01-完整工程/工程预览/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "01-完整工程/当前文档源码/PCB-c754d2d71640ae82.epru",
+      "bytes": 775879,
+      "sha256": "f3d38aad5e62337b09a1ea4e8172be5111cc138be9da15d748b284c8dc214af5"
+    },
+    {
+      "path": "01-完整工程/当前文档源码/SCH_PAGE-7acc965ef764d805.epru",
+      "bytes": 1145635,
+      "sha256": "006424f1b437e4a2f6316052da13001d7def59b87ed8cf07b4a6940473a69aa2"
+    },
+    {
+      "path": "02-BOM/FFT-BOM-native.csv",
+      "bytes": 4980,
+      "sha256": "1b5be1e5ee7b800b0baa9e8dc687af83bbd3af531ee6915ecd3cdcf7a4f42fb9"
+    },
+    {
+      "path": "02-BOM/FFT-BOM-UTF8.csv",
+      "bytes": 2693,
+      "sha256": "3f6c4460a5f6c1478ebc2f6696caeb19b1f115edf07d0ffb22fb0dc8d4bacad7"
+    },
+    {
+      "path": "03-PCB制造/FFT-gerber.zip",
+      "bytes": 185183,
+      "sha256": "8917071eb963d41eebdb286a151abb206f54a696e0e9d2af34e5518ea9c40d9b"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Drill_NPTH_Through.DRL",
+      "bytes": 291,
+      "sha256": "f63420a8420becea3fa10ca90b747388d33c3e53d71707523679205468899f69"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Drill_PTH_Through.DRL",
+      "bytes": 2415,
+      "sha256": "c7f00433cb25fb5588380df56521e5d17a049fc8d0fef428c82c24b0b977b8fe"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Drill_PTH_Through_Via.DRL",
+      "bytes": 2016,
+      "sha256": "9c8b215a738f723900c42c26f2c6338d7811271a9cd8865a99a60dc207731997"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/FlyingProbeTesting.json",
+      "bytes": 26357,
+      "sha256": "1334afccc481f33205ff43d52496dfad05969766ea4a030bd7a79228415f278b"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_BoardOutlineLayer.GKO",
+      "bytes": 876,
+      "sha256": "69792f0f5bcecba4a0bcc92c48a3a9702ccb7c01c7e3afebe17227ffbb372c04"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_BottomLayer.GBL",
+      "bytes": 78346,
+      "sha256": "a385c2031e5df7cfb93a1e3a8d2350d607310883a2a6936caf0cd49586bd58a5"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_BottomSilkscreenLayer.GBO",
+      "bytes": 104626,
+      "sha256": "5f50ab71531f7ac666db927f52456aabf97cfe79ea9e076fd2e901aed05b0797"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_BottomSolderMaskLayer.GBS",
+      "bytes": 1530,
+      "sha256": "079ec1fa219cb42bf46b7dbb80b76989d36598210dbc3ec0952c2732711b3d48"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_DocumentLayer.GDL",
+      "bytes": 7271,
+      "sha256": "fe4daa4ace142eba50ecce83209ffcf4135e9a3c953282177bd5601b5a6455b1"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_DrillDrawingLayer.GDD",
+      "bytes": 129996,
+      "sha256": "a0e5e8ede416510fda260d316332117d7e1480379c5f8b386dbdc4affb8657d4"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_TopLayer.GTL",
+      "bytes": 207455,
+      "sha256": "2a37463e09e2f24f0eede585fc77e233467370af0f48eae5e93f3ea6d8d32c64"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_TopPasteMaskLayer.GTP",
+      "bytes": 35488,
+      "sha256": "725b92b63a070074f719870756435d67bb168e626d33294f72b1ca5593f8cd07"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_TopSilkscreenLayer.GTO",
+      "bytes": 81224,
+      "sha256": "4ef025d5c46b2de1c3dea73f6c726311e3efbf0a1700a296d5de2dd33ecb307b"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/Gerber_TopSolderMaskLayer.GTS",
+      "bytes": 9006,
+      "sha256": "773242b8ea5382c0fde1ab6257a4fc95e857a4289cf50e4b7a8b130e298c13f1"
+    },
+    {
+      "path": "03-PCB制造/Gerber解包/PCB下单必读.txt",
+      "bytes": 94,
+      "sha256": "dcb3ee1c645c17a009d70726ad9ab708b68a074556fabcf75a4a059d3b43ec59"
+    },
+    {
+      "path": "04-装配资料/FFT-CPL-mm-native.csv",
+      "bytes": 28666,
+      "sha256": "4762007ce9d19ea7dd4ab4ddcc1c012e1d3bbd1e97beffa1ccb99aea76b1d071"
+    },
+    {
+      "path": "04-装配资料/FFT-CPL-mm-UTF8.csv",
+      "bytes": 12271,
+      "sha256": "c87c0fb3d6137a121cbe0917f84e817794d492e28214b961bbe6b736fa8a87a4"
+    },
+    {
+      "path": "04-装配资料/接口说明.md",
+      "bytes": 1389,
+      "sha256": "da067ff53fd82c5c2d04e4aef5c4f00cfb03455996121b8dce88f573fc80c2df"
+    },
+    {
+      "path": "05-核对记录/bench-build.json",
+      "bytes": 929,
+      "sha256": "cd2fbdd767b2a87958516208d96ef3a25814e7b8fd30f40b7ce9a9ed2fc260c3"
+    },
+    {
+      "path": "05-核对记录/packaging-check.json",
+      "bytes": 4818,
+      "sha256": "253ec9991f8c0ceffa8d99d86c3f84049d99dd2a088bb81fb419f6e779c24b88"
+    },
+    {
+      "path": "05-核对记录/README.txt",
+      "bytes": 233,
+      "sha256": "05e4af71b12dc01aea192f3843d7e9063dee382b7165b9a60eacb8f926434b90"
+    },
+    {
+      "path": "06-固件源码/PIN_MAP.md",
+      "bytes": 677,
+      "sha256": "ee2deed1cb7566fdc4fa01e57caa49651201e864eeb3d0c2d9ce5c893c3f0828"
+    },
+    {
+      "path": "06-固件源码/README.md",
+      "bytes": 1118,
+      "sha256": "7fbd999e08b9b6c57fe69745d00c27cb7622926da561df5b0b848009abc359c4"
+    },
+    {
+      "path": "06-固件源码/tactile-bench/LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
+    },
+    {
+      "path": "06-固件源码/tactile-bench/platformio.ini",
+      "bytes": 439,
+      "sha256": "23f83a3a67907e35cd9d949d4bdba7fdcf8bde802d5743443f29881c0bf6f0c5"
+    },
+    {
+      "path": "06-固件源码/tactile-bench/src/fft_pins.h",
+      "bytes": 1257,
+      "sha256": "6b54dbec8e169b199c1af199569f3936090c732bcc9db96864b363d679e1eb25"
+    },
+    {
+      "path": "06-固件源码/tactile-bench/src/force_math.h",
+      "bytes": 1407,
+      "sha256": "7e4e82f2a601a7dcc3e7c89ed810a0f4fc2c1a7b04a118c9264d8f5bb66cbff7"
+    },
+    {
+      "path": "06-固件源码/tactile-bench/src/main.cpp",
+      "bytes": 6667,
+      "sha256": "c51cd28137066d2538013d4068fde859b1b40f415a0000332b72dfb6bed91ae7"
+    },
+    {
+      "path": "07-配套软件/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "08-实物照片/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "HARDWARE-NOTICE.txt",
+      "bytes": 831,
+      "sha256": "dc113e86d15ede0598f8fe3c45a8b1c966139bc14ec9c56963e10780ec3d4d41"
+    },
+    {
+      "path": "LICENSE-HARDWARE.txt",
+      "bytes": 13419,
+      "sha256": "253ad3f89603e728abfa60c36fbcaf8225cf55c1eab12725f19fb3d74d647f3a"
+    },
+    {
+      "path": "LICENSE-SOFTWARE.txt",
+      "bytes": 1066,
+      "sha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3483,
+      "sha256": "f4c4fba598a05a1dec959459c39ce277b5c9d1ba91ec3d1b9a07364ea7da5440"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 761,
+      "sha256": "4bdbc78d112df4f86cde01a4a2473689792e20340cfaba69c844eebcf6d9d096"
+    },
+    {
+      "path": "SOFTWARE-NOTICE.txt",
+      "bytes": 502,
+      "sha256": "88750f1f35a2a9fd5bb47a67749bc876a39081769264857cf81eb09107577e6a"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "project": "FFT",
+  "date": "2026-10-23",
+  "components": 66,
+  "numberedComponentPads": 240,
+  "standalonePads": 7,
+  "totalPads": 247,
+  "nativeDrcErrors": 0,
+  "schematicPages": 1,
+  "boardSizeMm": [
+    90.0,
+    40.0
+  ],
+  "bomGroups": 28,
+  "bomQuantity": 61,
+  "bomExcluded": [
+    "TPM1",
+    "TPM2",
+    "TPM3",
+    "TPM4",
+    "X5V"
+  ],
+  "cplRows": 66,
+  "gerberComponentsAndPadConnectivityMatch": true,
+  "flyingProbeRows": 251,
+  "remainingBottomRepresentations": 6,
+  "maximumNativePinRoundingDeltaMil": 0.05000000000001137,
+  "manufacturingOriginMil": [
+    0,
+    0
+  ],
+  "netAliases": {
+    "USB_DM_PORT": "NET_6",
+    "USB_DP_PORT": "NET_7",
+    "FORCE_ADC_N": "NET_2",
+    "FORCE_ADC_P": "NET_1",
+    "FORCE_EXC_DIV": "NET_3",
+    "LCD_SCK_PAD": "NET_8",
+    "LCD_MOSI_PAD": "NET_9",
+    "LCD_RESET_N": "NET_10",
+    "PWR_IN_GATE": "NET_12",
+    "FFS_LINK_EN": "NET_13",
+    "FORCE_RAW_P": "NET_5",
+    "FORCE_RAW_N": "NET_4",
+    "HOST_FFS_RESET_N": "NET_18",
+    "FFS_RESET_HOST_N": "NET_19",
+    "HOST_FFS_INT_N": "NET_20"
+  },
+  "nativeDocumentCounts": {
+    "FOOTPRINT": 22,
+    "SYMBOL": 33,
+    "DEVICE": 33,
+    "BOARD": 1,
+    "SCH": 1,
+    "SCH_PAGE": 1,
+    "PCB": 1,
+    "CONFIG": 1,
+    "PANEL": 1
+  },
+  "nativeArchiveSha256": "2f84f88bde26d559db5e9a8e0130aa101c7f6c47884b2fffd5ab2d32f3b5ada0",
+  "gerberArchiveSha256": "8917071eb963d41eebdb286a151abb206f54a696e0e9d2af34e5518ea9c40d9b",
+  "firmware": "Pressure-sensor bench source only; no complete display/time/weather application",
+  "pending": [
+    "Cold native archive import on a separate machine",
+    "Board-vendor stackup/USB impedance and first USB programming test",
+    "LCD FPC double-fold assembly and pressure mechanism calibration",
+    "Complete application firmware and physical prototype validation"
+  ],
+  "status": "hardware-prerelease-files-verified",
+  "nativeGerberMemberCount": 15,
+  "gerberMembers": [
+    {
+      "path": "Gerber_TopLayer.GTL",
+      "bytes": 207455,
+      "sha256": "2a37463e09e2f24f0eede585fc77e233467370af0f48eae5e93f3ea6d8d32c64"
+    },
+    {
+      "path": "Gerber_BottomLayer.GBL",
+      "bytes": 78346,
+      "sha256": "a385c2031e5df7cfb93a1e3a8d2350d607310883a2a6936caf0cd49586bd58a5"
+    },
+    {
+      "path": "Gerber_TopSilkscreenLayer.GTO",
+      "bytes": 81224,
+      "sha256": "4ef025d5c46b2de1c3dea73f6c726311e3efbf0a1700a296d5de2dd33ecb307b"
+    },
+    {
+      "path": "Gerber_BottomSilkscreenLayer.GBO",
+      "bytes": 104626,
+      "sha256": "5f50ab71531f7ac666db927f52456aabf97cfe79ea9e076fd2e901aed05b0797"
+    },
+    {
+      "path": "Gerber_TopSolderMaskLayer.GTS",
+      "bytes": 9006,
+      "sha256": "773242b8ea5382c0fde1ab6257a4fc95e857a4289cf50e4b7a8b130e298c13f1"
+    },
+    {
+      "path": "Gerber_BottomSolderMaskLayer.GBS",
+      "bytes": 1530,
+      "sha256": "079ec1fa219cb42bf46b7dbb80b76989d36598210dbc3ec0952c2732711b3d48"
+    },
+    {
+      "path": "Gerber_TopPasteMaskLayer.GTP",
+      "bytes": 35488,
+      "sha256": "725b92b63a070074f719870756435d67bb168e626d33294f72b1ca5593f8cd07"
+    },
+    {
+      "path": "Gerber_BoardOutlineLayer.GKO",
+      "bytes": 876,
+      "sha256": "69792f0f5bcecba4a0bcc92c48a3a9702ccb7c01c7e3afebe17227ffbb372c04"
+    },
+    {
+      "path": "Gerber_DocumentLayer.GDL",
+      "bytes": 7271,
+      "sha256": "fe4daa4ace142eba50ecce83209ffcf4135e9a3c953282177bd5601b5a6455b1"
+    },
+    {
+      "path": "Gerber_DrillDrawingLayer.GDD",
+      "bytes": 129996,
+      "sha256": "a0e5e8ede416510fda260d316332117d7e1480379c5f8b386dbdc4affb8657d4"
+    },
+    {
+      "path": "Drill_PTH_Through.DRL",
+      "bytes": 2415,
+      "sha256": "c7f00433cb25fb5588380df56521e5d17a049fc8d0fef428c82c24b0b977b8fe"
+    },
+    {
+      "path": "Drill_NPTH_Through.DRL",
+      "bytes": 291,
+      "sha256": "f63420a8420becea3fa10ca90b747388d33c3e53d71707523679205468899f69"
+    },
+    {
+      "path": "Drill_PTH_Through_Via.DRL",
+      "bytes": 2016,
+      "sha256": "9c8b215a738f723900c42c26f2c6338d7811271a9cd8865a99a60dc207731997"
+    },
+    {
+      "path": "FlyingProbeTesting.json",
+      "bytes": 26357,
+      "sha256": "1334afccc481f33205ff43d52496dfad05969766ea4a030bd7a79228415f278b"
+    },
+    {
+      "path": "PCB下单必读.txt",
+      "bytes": 94,
+      "sha256": "dcb3ee1c645c17a009d70726ad9ab708b68a074556fabcf75a4a059d3b43ec59"
+    }
+  ],
+  "pressureBenchBuildPassed": true,
+  "completeApplicationIncluded": false,
+  "nativeArchiveColdImportThisPackaging": false,
+  "nativeDesignChangedDuringPackaging": false,
+  "emptyDirectories": [
+    "01-完整工程/工程预览",
+    "07-配套软件",
+    "08-实物照片"
+  ],
+  "releasePreparation": {
+    "tag": "v0.4.0",
+    "kind": "prerelease",
+    "pressureBenchSourceIncluded": true,
+    "completeApplicationIncluded": false,
+    "physicalValidationClaimed": false
+  }
+}
