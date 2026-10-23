@@ -1,0 +1,29 @@
+{
+  "version": "through-hole",
+  "sourceArchive": "ProPrj_sick3_2026-06-30.epro2",
+  "nativeArchiveSha256": "e4eabc7786b26a08809d5712ff70daffb6204a18ca4b961e6869cbc467da4186",
+  "nativeArchiveCrc": true,
+  "projectTitle": "sick3",
+  "targetPcbUuid": "c810b9dacac59bbc",
+  "pcbComponents": 38,
+  "bomQuantity": 38,
+  "bomGroups": 16,
+  "schematicPages": 1,
+  "documentCounts": {
+    "FOOTPRINT": 13,
+    "SYMBOL": 17,
+    "DEVICE": 17,
+    "BOARD": 1,
+    "SCH": 1,
+    "SCH_PAGE": 1,
+    "PCB": 1,
+    "CONFIG": 1,
+    "PANEL": 1,
+    "BLOB": 1,
+    "FONT": 1
+  },
+  "derivedTables": "Offline extraction from original native source; not represented as fresh native BOM/CPL exports",
+  "coldImportVerified": false,
+  "nativeDrcRunThisPackaging": false,
+  "manufacturingFound": false
+}

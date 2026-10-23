@@ -4,7 +4,7 @@
 
 这里会放原理图、PCB、固件和制作资料。实物展示和制作记录，也会放到[云萤 · FlitFancy](https://flitfancy.com/resources.html)。
 
-目前整理了 FFS 环境感知板、FFA 双麦语音交互板、map 地图灯、Flitime 电子沙漏主板和 FFT 主控与显示终端，工程和软件会随着使用继续完善。
+目前整理了 FFS 环境感知板、FFA 双麦语音交互板、map 地图灯、Flitime 电子沙漏主板、FFT 主控与显示终端和 SICK 电机换向板，工程和软件会随着使用继续完善。
 
 ## 项目与资料
 
@@ -15,6 +15,12 @@ FFS、FFA的首批资料以 [正式版 v0.1.0](https://github.com/flitfancy/Exis
 FFS、FFA、map 均已由作者完成实物与功能验证，并于 2026-10-22 确认转为正式发布。
 
 ## 开源项目
+
+### SICK · 电机自动换向板
+
+插件/混装版与R3贴片版集中保留在同一个项目中，原始工程、版本BOM和制造文件分别归档，方便查阅与改版。
+
+[版本对照与资料](projects/SICK/README.md) · [历史归档 v0.5.0](https://github.com/flitfancy/Existime/releases/tag/v0.5.0)
 
 ### FFT · 主控与显示终端
 
@@ -57,7 +63,7 @@ FFS、FFA首批资料于2026-10-20整理；map资料于2026-10-22更新。各项
 
 ## 授权
 
-FFS、FFA、Flitime、FFT 的原创硬件设计采用 **CERN-OHL-S-2.0**，具体范围和第三方例外见各项目的 `HARDWARE-NOTICE.txt`。
+FFS、FFA、Flitime、FFT、SICK 的原创硬件设计采用 **CERN-OHL-S-2.0**，具体范围和第三方例外见各项目的 `HARDWARE-NOTICE.txt`。
 
 map 的原创硬件设计采用 **CERN-OHL-P-2.0**，软件与原创说明采用 **MIT**；范围及第三方材料说明见[map许可范围](projects/map/LICENSING.md)。
 

@@ -1,7 +1,7 @@
 Existime 授权范围
 
 硬件设计按项目分别授权。
-FFS、FFA、Flitime、FFT：CERN-OHL-S-2.0（版本2），适用于FlitFancy原创硬件设计贡献；范围与例外以各项目的HARDWARE-NOTICE.txt为准，完整文本在各项目的LICENSE-HARDWARE.txt。
+FFS、FFA、Flitime、FFT、SICK：CERN-OHL-S-2.0（版本2），适用于FlitFancy原创硬件设计贡献；范围与例外以各项目的HARDWARE-NOTICE.txt为准，完整文本在各项目的LICENSE-HARDWARE.txt。
 map：CERN-OHL-P-2.0（版本2），适用于项目有权授权的原创硬件设计；完整文本在projects/map/LICENSE-HARDWARE.txt，范围以projects/map/LICENSING.md为准。
 
 固件与配套软件：FlitFancy 原创并有权授权的部分统一采用 MIT License。

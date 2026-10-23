@@ -1,0 +1,8 @@
+SICK 电机换向控制板 软件范围
+
+Copyright (c) 2026 FlitFancy
+SPDX-License-Identifier: MIT
+
+本项目中由FlitFancy原创并有权授权的设计生成器、辅助工具和逻辑仿真程序采用MIT；完整条款见LICENSE-SOFTWARE.txt。
+脚本内的电路合同、BOM、引脚映射及硬件源数据按HARDWARE-NOTICE.txt解释。第三方原许可及声明保留。
+本板不含板载MCU固件，06-固件源码目录留空；没有附带编译器或EDA运行时。
