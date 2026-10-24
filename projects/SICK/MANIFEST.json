@@ -9,7 +9,7 @@
     "software": "MIT",
     "thirdPartyPreserved": true
   },
-  "validation": "Historical owner confirmation retained; original SICK Lite cloud-native export, native BOM/CPL, zero-item current PCB DRC and 31-component/102-pin fabrication correspondence checked on 2026-10-24; cold import and new physical tests not claimed.",
+  "validation": "Original SICK Lite native export, 31-component/102-pin manufacturing correspondence, isolated native import in EasyEDA Pro 4.1.78, library preservation, representative schematic/PCB edit-save-close-reopen-restoration and zero-item PCB DRC verified; no new physical testing.",
   "release": {
     "repository": "flitfancy/Existime",
     "kind": "release",
@@ -551,9 +551,14 @@
       "sha256": "e36723fa3300997fa860fdfb2f94367274e61235fea289e14acc7b9819ebc3f2"
     },
     {
+      "path": "05-核对记录/lite-native-import-check.json",
+      "bytes": 2826,
+      "sha256": "d0bcba3a288c3afccfd522c539751652c08273538a9e00e2a3f6791721bde920"
+    },
+    {
       "path": "05-核对记录/lite-native-project-check.json",
-      "bytes": 2834,
-      "sha256": "518456e3e98e79c6a1a7b1b37cdbde44b7108da85bba7aa608209100aa18a7ca"
+      "bytes": 2999,
+      "sha256": "7199b9ed95d1c6b0aa420362bbda4916fa52475120b7a610afe3b123ea50c03a"
     },
     {
       "path": "05-核对记录/r3-smd-source-check.json",
@@ -562,8 +567,8 @@
     },
     {
       "path": "05-核对记录/README.txt",
-      "bytes": 381,
-      "sha256": "7f1f36097696efd6acb592e23b9fd18595b5eef478df85a89912edeb454d1b72"
+      "bytes": 470,
+      "sha256": "97eb6952b89c1709c1e530a220300e50b272dd8e04dd83335fdc88ed68766419"
     },
     {
       "path": "05-核对记录/release-confirmation.json",
@@ -617,13 +622,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4908,
-      "sha256": "69d421b9df9beb04e69222ba9173cb78f4aba9caa923c376ae65d9ad314074d5"
+      "bytes": 5384,
+      "sha256": "eff2ecc0b3fe988a96600b4efeb1163c05814efdf45e0f304a11ebfb5738c13c"
     },
     {
       "path": "README.txt",
-      "bytes": 794,
-      "sha256": "984d402adc3be84fc616f582a1369daa39af8076ba4d3ff28ea96b1211f5f565"
+      "bytes": 897,
+      "sha256": "1169fd034f45a393b0e7907f53172fa650200566760152f0c2268db38d549aa7"
     },
     {
       "path": "SOFTWARE-NOTICE.txt",
@@ -631,5 +636,12 @@
       "sha256": "abfd0f675e42ca40a612a51970a53863ef0be5c3023de373711f521afdfead7d"
     }
   ],
-  "ownerConfirmation": "05-核对记录/release-confirmation.json"
+  "ownerConfirmation": "05-核对记录/release-confirmation.json",
+  "postReleaseVerification": {
+    "date": "2026-10-24",
+    "sourceRelease": "v0.6.1",
+    "sourceArchiveSha256": "6e090982a026c9e7de307c247eaeb96ee2c163588c04d515161fe4f1df31c922",
+    "record": "05-核对记录/lite-native-import-check.json",
+    "releaseTagAndAssetsUnchanged": true
+  }
 }

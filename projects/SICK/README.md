@@ -14,6 +14,8 @@
 
 [SICK 历史版本归档 v0.6.1](https://github.com/flitfancy/Existime/releases/tag/v0.6.1) 提供[完整三版本ZIP](https://github.com/flitfancy/Existime/releases/download/v0.6.1/Existime-SICK-v0.6.1.zip)及SHA-256校验。源资料固定在[同名标签](https://github.com/flitfancy/Existime/tree/v0.6.1/projects/SICK)。
 
+v0.6.1的标签与下载附件保留发布时原件；发布后追加的结果见[独立导入验证记录](05-核对记录/lite-native-import-check.json)。
+
 ## 项目目录
 
 | 目录 | 内容 |
@@ -35,7 +37,7 @@ Lite版已补入[完整原生工程](01-完整工程/lite-drv8876/SICK-Lite-2026
 
 历史设计生成源码、原PCB捕获、原设计BOM及制造表坐标继续保留。生成脚本的旧布局不是最终制造布局；改板优先从完整原生工程另存。原生成器15项测试的历史范围不变。
 
-三份原生归档均通过ZIP CRC。Lite于2026-10-24在原云端工程完成读取与导出，当前原生PCB DRC返回0项，导出前后PCB有效记录未变；导出文件尚未做独立冷导入。插件版和R3版仍沿用原有离线核对，本次未重新运行其原生DRC。R3制造包与原生工程的全部41个器件姿态及命名网络关系已对账。
+三份原生归档均通过ZIP CRC。Lite于2026-10-24在原云端工程完成读取与导出，当前原生PCB DRC返回0项，导出前后PCB有效记录未变；随后已在独立新工程中完成该导出文件的原生重新导入，原理图与PCB均正常显示；两者均通过器件移动、保存、关闭重开、恢复及再次保存重开的验证，项目库记录完整保留，副本DRC仍返回0项。原云端工程未变，详见[独立导入验证](05-核对记录/lite-native-import-check.json)。插件版和R3版仍沿用原有离线核对，本次未重新运行其原生DRC。R3制造包与原生工程的全部41个器件姿态及命名网络关系已对账。
 
 ### Lite BOM怎么选
 

@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-24",
+  "result": "pass",
+  "sourceRelease": "v0.6.1",
+  "sourceArchive": "01-完整工程/lite-drv8876/SICK-Lite-20261024.epro2",
+  "sourceArchiveSha256": "6e090982a026c9e7de307c247eaeb96ee2c163588c04d515161fe4f1df31c922",
+  "sourceArchiveBytes": 666696,
+  "editorVersion": "4.1.78",
+  "importMethod": "EasyEDA Pro native importProjectByProjectFile, JLCEDA Pro / ImportDocument / New Project",
+  "coldNativeImportVerified": true,
+  "isolatedProjectDifferentFromOriginal": true,
+  "originalProjectModified": false,
+  "originalPcbEffectiveRecordsUnchanged": true,
+  "schematic": {
+    "pagesOpened": 1,
+    "placedComponents": 31,
+    "visualRenderingVerified": true,
+    "verificationMethod": "Browser canvas observed after native API schematic screenshot returned an empty image"
+  },
+  "pcb": {
+    "boardsOpened": 1,
+    "placedComponents": 31,
+    "componentPins": 102,
+    "partsPositionsFlagsAndPinNetsEqualToExportSource": true,
+    "visualRenderingVerified": true,
+    "nativeDrcReturnedItems": 0
+  },
+  "projectLibraries": {
+    "preservedDocumentCounts": {
+      "FOOTPRINT": 12,
+      "SYMBOL": 18,
+      "DEVICE": 19
+    },
+    "allLibraryEffectiveRecordsIdenticalAfterImportAndReExport": true
+  },
+  "editSaveReopenTests": [
+    {
+      "document": "sch",
+      "designator": "R5",
+      "operation": "Temporary x movement, save, close and reopen; restore x, save, close and reopen",
+      "originalX": 250,
+      "temporaryX": 260,
+      "y": 350,
+      "editSaved": true,
+      "savedEditSurvivedReopen": true,
+      "restorationSaved": true,
+      "restorationSurvivedReopen": true
+    },
+    {
+      "document": "pcb",
+      "designator": "R5",
+      "operation": "Temporary x movement, save, close and reopen; restore x, save, close and reopen",
+      "originalX": 380,
+      "temporaryX": 390,
+      "y": 595,
+      "editSaved": true,
+      "savedEditSurvivedReopen": true,
+      "restorationSaved": true,
+      "restorationSurvivedReopen": true
+    }
+  ],
+  "editorSerializationNotes": [
+    {
+      "kind": "schematic",
+      "attribute": "PCB Layer",
+      "value": "Default",
+      "designator": "R5",
+      "scope": "Editor added its default component metadata while testing the copy; original project and archived export unchanged"
+    }
+  ],
+  "verifiedCopyReExport": {
+    "zipCrcVerified": true,
+    "bytes": 667202,
+    "sha256": "0501fcb9e2ba395dda4bd19d8ecf7529915be9f635bdbb0c4b121156c67776c1",
+    "replacesPublishedOriginal": false
+  },
+  "publishedReleaseAssetsReplaced": false,
+  "newPhysicalMeasurementsClaimed": false,
+  "validationScope": "Current EasyEDA Pro 4.1.78 native import, document/library availability, representative schematic and PCB edits, native save and close/reopen persistence. Does not assert every future editor version or new physical testing."
+}

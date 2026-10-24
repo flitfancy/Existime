@@ -87,9 +87,12 @@
     "rerunDate": "2026-10-24"
   },
   "pcbSourceRecordsUnchangedAcrossExports": true,
-  "coldNativeImportVerified": false,
+  "coldNativeImportVerified": true,
   "newPhysicalMeasurementsClaimed": false,
   "previews": "Unmodified saved previews extracted from the native archive; not a new rendered/physical validation",
   "thirdPartyLibraryData": "Preserved inside the original native archive; original rights remain",
-  "ownerPhysicalSuccessConfirmation": "release-confirmation.json"
+  "ownerPhysicalSuccessConfirmation": "release-confirmation.json",
+  "coldNativeImportEvidence": "lite-native-import-check.json",
+  "coldNativeImportDate": "2026-10-24",
+  "representativeSchematicAndPcbEditSaveReopenVerified": true
 }
