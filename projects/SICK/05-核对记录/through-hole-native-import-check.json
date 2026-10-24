@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-24",
+  "variant": "through-hole",
+  "result": "pass",
+  "resultScope": "Native import, display, representative editing and save/reopen compatibility; DRC findings recorded separately",
+  "sourceRelease": "v0.6.1",
+  "sourceArchive": "01-完整工程/through-hole/ProPrj_sick3_2026-06-30.epro2",
+  "sourceArchiveBytes": 622656,
+  "sourceArchiveSha256": "e4eabc7786b26a08809d5712ff70daffb6204a18ca4b961e6869cbc467da4186",
+  "editorVersion": "4.1.78",
+  "importMethod": "Original archived epro2, EasyEDA Pro native importProjectByProjectFile / JLCEDA Pro / ImportDocument / New Project",
+  "coldNativeImportVerified": true,
+  "isolatedProjectDifferentFromOriginal": true,
+  "archivedSourceUnchanged": true,
+  "originalCloudEngineeringProjectsNotModified": true,
+  "restoredUserProjectEffectiveRecordsUnchanged": true,
+  "schematic": {
+    "pagesOpened": 1,
+    "componentsWithDesignators": 38,
+    "additionalObjectsWithoutDesignators": 1,
+    "componentIdentifiersAndPositionsMatchSource": true,
+    "nativeSourceYToApiSign": -1,
+    "visualRenderingVerified": true,
+    "visualMethod": "Browser canvas observed after opening the imported schematic"
+  },
+  "pcb": {
+    "boardsOpened": 1,
+    "components": 38,
+    "pins": 133,
+    "componentsPositionsRotationsLayersBomFlagsAndPinNetsMatchSource": true,
+    "visualRenderingVerified": true
+  },
+  "projectLibraries": {
+    "preservedDocumentCounts": {
+      "FOOTPRINT": 13,
+      "SYMBOL": 17,
+      "DEVICE": 17,
+      "FONT": 1
+    },
+    "allLibraryEffectiveRecordsIdenticalAfterImportAndReExport": true
+  },
+  "editSaveReopenTests": [
+    {
+      "document": "sch",
+      "designator": "R5",
+      "originalX": 250,
+      "temporaryX": 260,
+      "y": 350,
+      "editSaved": true,
+      "savedEditSurvivedCloseAndReopen": true,
+      "restorationSaved": true,
+      "restorationSurvivedCloseAndReopen": true
+    },
+    {
+      "document": "pcb",
+      "designator": "R5",
+      "originalX": 650,
+      "temporaryX": 660,
+      "y": 1230,
+      "editSaved": true,
+      "savedEditSurvivedCloseAndReopen": true,
+      "restorationSaved": true,
+      "restorationSurvivedCloseAndReopen": true
+    }
+  ],
+  "editorSerializationEffectsInTestCopy": [
+    {
+      "document": "schematic",
+      "effect": "Editor adds PCB Layer=Default metadata to representative R5 in the test copy"
+    },
+    {
+      "document": "pcb",
+      "effect": "Native serializer omits four display=true defaults from viewport primitive configuration; all engineering records otherwise identical after restoration"
+    }
+  ],
+  "nativePcbDrc": {
+    "strict": true,
+    "checkedBeforeAndAfterRepresentativeEdits": true,
+    "topLevelGroups": 0,
+    "violationLeafCount": 0,
+    "countsByType": {},
+    "beforeAndAfterResultsIdentical": true,
+    "baselineTiming": "After initial native import, before any representative edit",
+    "violations": [],
+    "fixedInThisValidation": false
+  },
+  "verifiedCopyReExport": {
+    "bytes": 623539,
+    "sha256": "bb2addf937c8555b23fe2e7cc37438d24348b870213be2de5c8b3745bc89dbf4",
+    "zipCrcVerified": true,
+    "replacesPublishedOriginal": false
+  },
+  "publishedReleaseTagOrAssetsChanged": false,
+  "newPhysicalMeasurementsClaimed": false
+}

@@ -1,0 +1,292 @@
+{
+  "date": "2026-10-24",
+  "variant": "r3-smd",
+  "result": "pass",
+  "resultScope": "Native import, display, representative editing and save/reopen compatibility; DRC findings recorded separately",
+  "sourceRelease": "v0.6.1",
+  "sourceArchive": "01-完整工程/r3-smd/ok-ProPrj_sick03_2026-07-28.epro2",
+  "sourceArchiveBytes": 517276,
+  "sourceArchiveSha256": "08c65a33f330be5e8711ff82b849211d1cf56d605b16258a939a1e37fe3ca256",
+  "editorVersion": "4.1.78",
+  "importMethod": "Original archived epro2, EasyEDA Pro native importProjectByProjectFile / JLCEDA Pro / ImportDocument / New Project",
+  "coldNativeImportVerified": true,
+  "isolatedProjectDifferentFromOriginal": true,
+  "archivedSourceUnchanged": true,
+  "originalCloudEngineeringProjectsNotModified": true,
+  "restoredUserProjectEffectiveRecordsUnchanged": true,
+  "schematic": {
+    "pagesOpened": 1,
+    "componentsWithDesignators": 41,
+    "additionalObjectsWithoutDesignators": 1,
+    "componentIdentifiersAndPositionsMatchSource": true,
+    "nativeSourceYToApiSign": -1,
+    "visualRenderingVerified": true,
+    "visualMethod": "Browser canvas observed after opening the imported schematic"
+  },
+  "pcb": {
+    "boardsOpened": 1,
+    "components": 41,
+    "pins": 138,
+    "componentsPositionsRotationsLayersBomFlagsAndPinNetsMatchSource": true,
+    "visualRenderingVerified": true
+  },
+  "projectLibraries": {
+    "preservedDocumentCounts": {
+      "FOOTPRINT": 18,
+      "SYMBOL": 24,
+      "DEVICE": 25,
+      "FONT": 0
+    },
+    "allLibraryEffectiveRecordsIdenticalAfterImportAndReExport": true
+  },
+  "editSaveReopenTests": [
+    {
+      "document": "sch",
+      "designator": "R5",
+      "originalX": 250,
+      "temporaryX": 260,
+      "y": 350,
+      "editSaved": true,
+      "savedEditSurvivedCloseAndReopen": true,
+      "restorationSaved": true,
+      "restorationSurvivedCloseAndReopen": true
+    },
+    {
+      "document": "pcb",
+      "designator": "R5",
+      "originalX": 435,
+      "temporaryX": 445,
+      "y": -730,
+      "editSaved": true,
+      "savedEditSurvivedCloseAndReopen": true,
+      "restorationSaved": true,
+      "restorationSurvivedCloseAndReopen": true
+    }
+  ],
+  "editorSerializationEffectsInTestCopy": [
+    {
+      "document": "schematic",
+      "effect": "Editor adds PCB Layer=Default metadata to representative R5 in the test copy"
+    },
+    {
+      "document": "pcb",
+      "effect": "Native serializer omits four display=true defaults from viewport primitive configuration; all engineering records otherwise identical after restoration"
+    }
+  ],
+  "nativePcbDrc": {
+    "strict": true,
+    "checkedBeforeAndAfterRepresentativeEdits": true,
+    "topLevelGroups": 2,
+    "violationLeafCount": 10,
+    "countsByType": {
+      "Net Length Tolerance": 9,
+      "Netlist Error": 1
+    },
+    "beforeAndAfterResultsIdentical": true,
+    "baselineTiming": "After initial native import, before any representative edit",
+    "violations": [
+      {
+        "category": "Physical Error",
+        "type": "Net Length Tolerance",
+        "rule": "netLengthTolerance",
+        "objects": [
+          "+12V_IN"
+        ],
+        "description": {
+          "str": "{obj1} net length tolerance is {netLengthDiff}, should be {shouldBe}",
+          "param": {
+            "obj1": "Object 1",
+            "netLengthDiff": "-7506.9mil",
+            "shouldBe": "±1000mil"
+          }
+        },
+        "position": {
+          "x": 24.349950000000003,
+          "y": -142.65011
+        }
+      },
+      {
+        "category": "Physical Error",
+        "type": "Net Length Tolerance",
+        "rule": "netLengthTolerance",
+        "objects": [
+          "+12V_SW"
+        ],
+        "description": {
+          "str": "{obj1} net length tolerance is {netLengthDiff}, should be {shouldBe}",
+          "param": {
+            "obj1": "Object 1",
+            "netLengthDiff": "-7068.1mil",
+            "shouldBe": "±1000mil"
+          }
+        },
+        "position": {
+          "x": 37.353860000000005,
+          "y": -139.728855
+        }
+      },
+      {
+        "category": "Physical Error",
+        "type": "Net Length Tolerance",
+        "rule": "netLengthTolerance",
+        "objects": [
+          "L_SET_N"
+        ],
+        "description": {
+          "str": "{obj1} net length tolerance is {netLengthDiff}, should be {shouldBe}",
+          "param": {
+            "obj1": "Object 1",
+            "netLengthDiff": "-6771.6mil",
+            "shouldBe": "±1000mil"
+          }
+        },
+        "position": {
+          "x": 41.934565,
+          "y": -66.05518500000001
+        }
+      },
+      {
+        "category": "Physical Error",
+        "type": "Net Length Tolerance",
+        "rule": "netLengthTolerance",
+        "objects": [
+          "MOTOR_B"
+        ],
+        "description": {
+          "str": "{obj1} net length tolerance is {netLengthDiff}, should be {shouldBe}",
+          "param": {
+            "obj1": "Object 1",
+            "netLengthDiff": "-5843.4mil",
+            "shouldBe": "±1000mil"
+          }
+        },
+        "position": {
+          "x": 148.879625,
+          "y": -113.37123
+        }
+      },
+      {
+        "category": "Physical Error",
+        "type": "Net Length Tolerance",
+        "rule": "netLengthTolerance",
+        "objects": [
+          "MOTOR_A"
+        ],
+        "description": {
+          "str": "{obj1} net length tolerance is {netLengthDiff}, should be {shouldBe}",
+          "param": {
+            "obj1": "Object 1",
+            "netLengthDiff": "-6219.2mil",
+            "shouldBe": "±1000mil"
+          }
+        },
+        "position": {
+          "x": 116.32063500000001,
+          "y": -103.52873000000002
+        }
+      },
+      {
+        "category": "Physical Error",
+        "type": "Net Length Tolerance",
+        "rule": "netLengthTolerance",
+        "objects": [
+          "MOTOR_EN"
+        ],
+        "description": {
+          "str": "{obj1} net length tolerance is {netLengthDiff}, should be {shouldBe}",
+          "param": {
+            "obj1": "Object 1",
+            "netLengthDiff": "-6122.8mil",
+            "shouldBe": "±1000mil"
+          }
+        },
+        "position": {
+          "x": 74.966185,
+          "y": -113.14997000000001
+        }
+      },
+      {
+        "category": "Physical Error",
+        "type": "Net Length Tolerance",
+        "rule": "netLengthTolerance",
+        "objects": [
+          "R_RAW"
+        ],
+        "description": {
+          "str": "{obj1} net length tolerance is {netLengthDiff}, should be {shouldBe}",
+          "param": {
+            "obj1": "Object 1",
+            "netLengthDiff": "-4978.2mil",
+            "shouldBe": "±1000mil"
+          }
+        },
+        "position": {
+          "x": 101.81849499999998,
+          "y": -99.57126
+        }
+      },
+      {
+        "category": "Physical Error",
+        "type": "Net Length Tolerance",
+        "rule": "netLengthTolerance",
+        "objects": [
+          "+12V_PROT"
+        ],
+        "description": {
+          "str": "{obj1} net length tolerance is {netLengthDiff}, should be {shouldBe}",
+          "param": {
+            "obj1": "Object 1",
+            "netLengthDiff": "-3527.1mil",
+            "shouldBe": "±1000mil"
+          }
+        },
+        "position": {
+          "x": 97.22401500000001,
+          "y": -87.65002000000001
+        }
+      },
+      {
+        "category": "Physical Error",
+        "type": "Net Length Tolerance",
+        "rule": "netLengthTolerance",
+        "objects": [
+          "L_RAW"
+        ],
+        "description": {
+          "str": "{obj1} net length tolerance is {netLengthDiff}, should be {shouldBe}",
+          "param": {
+            "obj1": "Object 1",
+            "netLengthDiff": "-5349.3mil",
+            "shouldBe": "±1000mil"
+          }
+        },
+        "position": {
+          "x": 88.85002,
+          "y": -93.82127000000001
+        }
+      },
+      {
+        "category": "Netlist Error",
+        "type": "Netlist Error",
+        "rule": "Import Changes",
+        "objects": [
+          "err9"
+        ],
+        "description": {
+          "str": "PCB and schematic netlist does not match. You can click on the rule name \"Import Changes\" to view the difference.",
+          "param": {}
+        },
+        "position": null
+      }
+    ],
+    "fixedInThisValidation": false
+  },
+  "verifiedCopyReExport": {
+    "bytes": 518228,
+    "sha256": "67d76d84a265d2da2ef139bc9920ab98a6cc4058dea81d362b79d1a6205874ea",
+    "zipCrcVerified": true,
+    "replacesPublishedOriginal": false
+  },
+  "publishedReleaseTagOrAssetsChanged": false,
+  "newPhysicalMeasurementsClaimed": false
+}

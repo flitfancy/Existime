@@ -22,7 +22,7 @@
     "BLOB": 1
   },
   "derivedTables": "Offline extraction from original native source; not represented as fresh native BOM/CPL exports",
-  "coldImportVerified": false,
+  "coldImportVerified": true,
   "nativeDrcRunThisPackaging": false,
   "manufacturingFound": true,
   "manufacturingComparison": {
@@ -163,5 +163,18 @@
       "PAD124",
       "PAD125"
     ]
-  }
+  },
+  "coldImportVerifiedDate": "2026-10-24",
+  "coldImportEvidence": "r3-smd-native-import-check.json",
+  "representativeSchematicAndPcbEditSaveReopenVerified": true,
+  "postReleaseNativePcbDrc": {
+    "date": "2026-10-24",
+    "violationLeafCount": 10,
+    "countsByType": {
+      "Net Length Tolerance": 9,
+      "Netlist Error": 1
+    },
+    "beforeAndAfterEditsIdentical": true
+  },
+  "nativeDrcRunThisPackagingScope": "Historical original-packaging flag retained; new checks are described under postReleaseNativePcbDrc"
 }

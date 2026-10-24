@@ -23,7 +23,17 @@
     "FONT": 1
   },
   "derivedTables": "Offline extraction from original native source; not represented as fresh native BOM/CPL exports",
-  "coldImportVerified": false,
+  "coldImportVerified": true,
   "nativeDrcRunThisPackaging": false,
-  "manufacturingFound": false
+  "manufacturingFound": false,
+  "coldImportVerifiedDate": "2026-10-24",
+  "coldImportEvidence": "through-hole-native-import-check.json",
+  "representativeSchematicAndPcbEditSaveReopenVerified": true,
+  "postReleaseNativePcbDrc": {
+    "date": "2026-10-24",
+    "violationLeafCount": 0,
+    "countsByType": {},
+    "beforeAndAfterEditsIdentical": true
+  },
+  "nativeDrcRunThisPackagingScope": "Historical original-packaging flag retained; new checks are described under postReleaseNativePcbDrc"
 }

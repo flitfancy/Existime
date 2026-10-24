@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-24",
+  "editorVersion": "4.1.78",
+  "result": "All three SICK versions passed native import and representative schematic/PCB edit-save-close-reopen-restoration verification",
+  "versions": [
+    {
+      "variant": "through-hole",
+      "record": "through-hole-native-import-check.json",
+      "pcbComponents": 38,
+      "pcbPins": 133,
+      "nativeDrcViolationCount": 0
+    },
+    {
+      "variant": "r3-smd",
+      "record": "r3-smd-native-import-check.json",
+      "pcbComponents": 41,
+      "pcbPins": 138,
+      "nativeDrcViolationCount": 10
+    },
+    {
+      "variant": "lite-drv8876",
+      "record": "lite-native-import-check.json",
+      "pcbComponents": 31,
+      "pcbPins": 102,
+      "nativeDrcViolationCount": 0
+    }
+  ],
+  "r3KnownFindings": "After initial import: 9 net-length-tolerance errors and 1 schematic/PCB netlist mismatch; identical before and after editing/restoration. No circuit or rule fixes performed in this compatibility check.",
+  "publishedOriginalEngineeringArchivesUnchanged": true,
+  "newPhysicalMeasurementsClaimed": false
+}
