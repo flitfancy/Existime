@@ -2,16 +2,17 @@
 
 12V直流电机在两个常闭限位之间自动换向。限位信号经74HC14整形、74HC74保存方向，再驱动H桥；双限位同时开路时停止电机。
 
-两个已有成功记录的历史版本集中在同一个项目中，资料按版本分目录，便于从对应原件开新改版。
+插件/混装版、R3贴片版、Lite（DRV8876）三个历史版本集中在同一个项目中，资料按版本分目录，便于从对应原件开新改版。
 
 | 版本目录 | 主要器件 | 可编辑源资料 | 制造资料 | 已有记录 |
 | --- | --- | --- | --- | --- |
 | `through-hole` 插件/混装版 | VNH5019、AMS1117、74HC14/74HC74 | 2026-06-30完整原生工程，38个器件 | 原始制造包暂未定位 | 旧记录载明第二块板已接电机运行；保留当时范围 |
 | `r3-smd` R3贴片版 | VNH5019、HT7533、SMAJ18CA | 2026-07-28完整原生工程，41个器件 | 对应原始Gerber，46×48mm | 2026-08-04返修后空载/假负载换向恢复；电流/长期测试未完整记录 |
+| `lite-drv8876` Lite版 | DRV8876、HT7533、74HC14/74HC74 | 设计生成源码与原PCB捕获；完整原生整包待补 | 原始Gerber，40×32mm | 作者于2026-10-24确认纳入成功旧板归档；原工具检查与源文件缺项另记 |
 
 ## 下载
 
-[SICK 历史版本归档 v0.5.0](https://github.com/flitfancy/Existime/releases/tag/v0.5.0) 提供[完整两版本ZIP](https://github.com/flitfancy/Existime/releases/download/v0.5.0/Existime-SICK-v0.5.0.zip)及SHA-256校验。源资料固定在[同名标签](https://github.com/flitfancy/Existime/tree/v0.5.0/projects/SICK)。
+[SICK 历史版本归档 v0.6.0](https://github.com/flitfancy/Existime/releases/tag/v0.6.0) 提供[完整三版本ZIP](https://github.com/flitfancy/Existime/releases/download/v0.6.0/Existime-SICK-v0.6.0.zip)及SHA-256校验。源资料固定在[同名标签](https://github.com/flitfancy/Existime/tree/v0.6.0/projects/SICK)。
 
 ## 项目目录
 
@@ -30,7 +31,7 @@
 
 插件版和R3版优先复制01目录中的对应`.epro2`，在EDA中另存为新项目；原文件内保留旧名称、项目库及辅助页面。不要用R3文件覆盖插件版，也不要把同一系列不同制造包混用。
 
-Lite（DRV8876）版的生成源码、捕获和制造包已另存为本地候选，完整原生整包及功能成功范围待作者确认，未混入这两版的发布资料。
+Lite版现已收录设计生成源码、原PCB捕获、原始BOM、原制造包及从制造表提取的坐标。完整云端原生整包仍待补取；生成脚本的旧布局不是最终制造布局。原生成器在归档副本中15项测试通过，原始源码保持字节。
 
 两份旧原生归档已通过ZIP CRC并离线提取BOM与坐标；当前编辑器的自动冷导入未完成，因此本次不声明已经重新导入或重跑原生DRC。R3制造包与原生工程的全部41个器件姿态及命名网络关系已对账。
 
@@ -42,4 +43,4 @@ R3原生工程的C1/C10/C11型号和值为47µF；历史实物记录写的是三
 
 ## 授权
 
-原创硬件采用[CERN-OHL-S-2.0](LICENSE-HARDWARE.txt)，原创工具/仿真代码采用[MIT](LICENSE-SOFTWARE.txt)，第三方保留原许可证。两个版本的历史资料已作为 v0.5.0 归档发布。
+原创硬件采用[CERN-OHL-S-2.0](LICENSE-HARDWARE.txt)，原创工具/仿真代码采用[MIT](LICENSE-SOFTWARE.txt)，第三方保留原许可证。三个版本的历史资料已作为 v0.6.0 归档发布。

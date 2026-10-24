@@ -1,0 +1,16 @@
+{
+  "project": "OLED",
+  "date": "2026-10-24",
+  "status": "owner-confirmed-for-historical-successful-board-archive",
+  "source": "Explicit user instruction in project conversation",
+  "statement": "除了t1的话都上吧 然后这边三块板子都是放在sick里面",
+  "sickVariants": [
+    "through-hole",
+    "r3-smd",
+    "lite-drv8876"
+  ],
+  "otherIncludedProject": "OLED",
+  "excluded": "NC_BATTERY_T1",
+  "newPhysicalMeasurementsProvided": false,
+  "originalAutomatedCheckLimitsPreserved": true
+}

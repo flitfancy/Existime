@@ -3,20 +3,20 @@
   "project": "SICK",
   "date": "2026-10-24",
   "status": "historical-hardware-archive-release",
-  "hardwareVariants": 2,
+  "hardwareVariants": 3,
   "licensing": {
     "hardware": "CERN-OHL-S-2.0",
     "software": "MIT",
     "thirdPartyPreserved": true
   },
-  "validation": "Two versions have documented historical successful operation; exact scope is retained per version.",
+  "validation": "Author selected these historical successful projects for archive on 2026-10-24; original automated-check limits are retained.",
   "release": {
     "repository": "flitfancy/Existime",
     "kind": "release",
-    "tag": "v0.5.0",
-    "sourceUrl": "https://github.com/flitfancy/Existime/tree/v0.5.0/projects/SICK",
-    "releaseUrl": "https://github.com/flitfancy/Existime/releases/tag/v0.5.0",
-    "physicalValidationScope": "Historical per-version records; no new physical testing claimed",
+    "tag": "v0.6.0",
+    "sourceUrl": "https://github.com/flitfancy/Existime/tree/v0.6.0/projects/SICK",
+    "releaseUrl": "https://github.com/flitfancy/Existime/releases/tag/v0.6.0",
+    "newPhysicalMeasurementsClaimed": false,
     "manufacturingApproval": false
   },
   "files": [
@@ -24,6 +24,236 @@
       "path": ".gitattributes",
       "bytes": 8,
       "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/原始PCB捕获.json",
+      "bytes": 245238,
+      "sha256": "3743949045054768899f97d1be291274956e72f0064371da6b781688db94e2ac"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/core/capture-validation.mjs",
+      "bytes": 4571,
+      "sha256": "69f3b9175960b4cf137fed44834e5241ee89879979b80bcb5608fe576e5ad457"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/core/easyeda/mechanical-silkscreen.template.js",
+      "bytes": 7702,
+      "sha256": "92b84f0e0b7c4d88d6314da0b421e080c89e535947f830e4b36226690e727fbc"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/core/easyeda/placement.template.js",
+      "bytes": 15420,
+      "sha256": "b5e71ae8686ff1d7038e79eb055a6122020d2f01dbb3a849cf0cb2a479d65807"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/core/easyeda/prepare_audit_capture.template.js",
+      "bytes": 19794,
+      "sha256": "926c5a26e73fd43b109fbef6c323ed7e40a6da50a29c872830008b0958ba8931"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/core/easyeda/routing-stage.template.js",
+      "bytes": 4904,
+      "sha256": "4d2a159046e86af9eadfde9dd8280223a6e186effc251a465bd5a7120d27f96c"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/core/easyeda/routing-verify.template.js",
+      "bytes": 2658,
+      "sha256": "778c2b95951bdc46222774c79ffbee02f84e851ac3e95a57919ff554dd7cbb5e"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/core/finalization-validation.mjs",
+      "bytes": 8558,
+      "sha256": "4a3171f840907f57fd7970cda4a20ae81941c3f410ad8aa1066236f742f0064c"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/core/geometry/capture-to-geometry.mjs",
+      "bytes": 4477,
+      "sha256": "b20d8e88f5afe275a7f9b9937cff169cfdfbc00ee9556411565531c4e0bc03a9"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/core/geometry/footprint-geometry.mjs",
+      "bytes": 9985,
+      "sha256": "bc52d3c7f1e2a3c46b40a2f7c610379ecd412c897aaffe945b566bb86ccd9774"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/core/layout-rules-validation.mjs",
+      "bytes": 3444,
+      "sha256": "934d0ae792e448b8355d3afa774ee938a16e6124e7c8433596feec0aa9052138"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/core/project-config.mjs",
+      "bytes": 3844,
+      "sha256": "abbba677c457abac56f96bb0a407cef150044c3b341635f87bd617ad95ab26dd"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/docs/REUSABLE_WORKFLOW_REFERENCE.md",
+      "bytes": 3396,
+      "sha256": "d90bafd88c5a35161e514f9c24410fbfd14775c155165df221a6c2d0c3246546"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/LICENSE-HARDWARE.txt",
+      "bytes": 13419,
+      "sha256": "253ad3f89603e728abfa60c36fbcaf8225cf55c1eab12725f19fb3d74d647f3a"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/LICENSING.md",
+      "bytes": 324,
+      "sha256": "00102c67d4c77248a5465c2206b0fd401fee5792eb1222d1dede8976317b885c"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/package.json",
+      "bytes": 1066,
+      "sha256": "2c3bd736a1629c413326af355fa159ff72dc9eb4207ba96d76b0111d4115df2b"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/BOM_R4_LITE.csv",
+      "bytes": 2580,
+      "sha256": "0217770fa3fb83ace6b8d73f8185c690bf38c00f11f07ed68a0c9bdb09964e94"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/BOM_R4_LITE.md",
+      "bytes": 2378,
+      "sha256": "34c7651e4ba7ab4bd8487c6eab557b0131a0bf0914ac44a230f4c4f1515c9e61"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/captures/sick_motor_reverser_r4_lite_capture.json",
+      "bytes": 245239,
+      "sha256": "91f5760e7c3d0c5247ea8f98f120b2b2dfa1f3a01b7e7fbcea120364a4dda5fb"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/DESIGN.md",
+      "bytes": 4989,
+      "sha256": "70741d0e7583f722a29b93c076bafc57d68677d0d628f48f71b46f3ebf32413d"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/generated/00_create_schematic_r4_lite.js",
+      "bytes": 23014,
+      "sha256": "4c5d117c5b6d161591fff41fdf3e1828383a0c9ae782d4b1e7442a1834860f07"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/generated/00b_apply_wirepad_flags.js",
+      "bytes": 8393,
+      "sha256": "1aec6f91e1f513ea23280c1f4dc4b494083372ede559c2d20f7e3109ba0c6f8e"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/generated/01_prepare_audit_capture.js",
+      "bytes": 26373,
+      "sha256": "99a66b0ec54a01e607a247990d637679102ed53c289928e1d04583e0e4ea6b7b"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/generated/01a_diagnose_existing_vias.js",
+      "bytes": 4267,
+      "sha256": "976bfd409e7aa466112bbf04d7d876847ab1f9a3d561b9bf7a2d75a8a84e3239"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/generated/02_apply_placement.js",
+      "bytes": 19263,
+      "sha256": "fbc6727d86295065f75a079746488d960900dfb945025c898193a3886417a49b"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/generated/03_verify_placement.js",
+      "bytes": 19264,
+      "sha256": "31a0ea2c99bcaca59546074472ce536612793b529387f2714d7f9d6446556dc0"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/geometry/footprint_geometry.json",
+      "bytes": 54678,
+      "sha256": "688199f55e88806c8f10b09ecf76b02d4234935fd9d8181449700d33e27ede59"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/layout.rules.mjs",
+      "bytes": 1713,
+      "sha256": "45a41c4d286f1a6ba5d072fd17b310afabdc86dd8d2979a9166ddd4407d5c49e"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/LOGIC_NET_MAP_R4_LITE.md",
+      "bytes": 1413,
+      "sha256": "ee0bad87eca28c931caabb0305dcb87f2994c1449d12a9e6f009fecabfaca857"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/placement.mjs",
+      "bytes": 1400,
+      "sha256": "ca1f60af76a0d103a2db558877d223899b79ddd71f6ee1c542453626c1c3e896"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/project.config.mjs",
+      "bytes": 5077,
+      "sha256": "b463642d05077f36a12e831bf8d448649e199a688fdc260a2770ba97bbc97f88"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/README.md",
+      "bytes": 925,
+      "sha256": "549c1d4446855cf2d9676d82ea38dd0fbdfd5609e7540ef0edaa3dda5defcf54"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/routing.classes.mjs",
+      "bytes": 2989,
+      "sha256": "d0b0be17bde9c6d8e822f86e88203bff05ef3cf6e80e6c34e6fd63d726ed9220"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/ROUTING_PLAN_R4_LITE.md",
+      "bytes": 1440,
+      "sha256": "d3985210a77c90204f2971dd667c3fc60db92d15524d202e9f8bf21d1046b55a"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/SCHEMATIC_DIFF_R3_TO_R4.md",
+      "bytes": 1188,
+      "sha256": "03d29a331d3bcc6f18ba80f6a72ae99ff1fb36095ef0f0a180a9908c3d8b67d1"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/projects/sick_motor_reverser_r4_lite/WIRE_PAD_FOOTPRINT.md",
+      "bytes": 2848,
+      "sha256": "118b89bb09e4db2dcc224ba82a49d6299e41cfe69775dc5987ef0992a0239c54"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/README.md",
+      "bytes": 2206,
+      "sha256": "6f87fe6390e0cffc8a7bdadc6ebb53cf740435ef40f93c6d1ddffc720df0b636"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/tests/r4-lite.test.mjs",
+      "bytes": 19302,
+      "sha256": "9d2c8bf583f5ec01aa1f7c2629f1f0854a5f1250e3571333339f63b4894b742c"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/tools/build-finalization.mjs",
+      "bytes": 5699,
+      "sha256": "c539066985efb6852a66656624bbd7d2ffd1eed1c8a8c3269e21ddcb6e2bd106"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/tools/build-geometry.mjs",
+      "bytes": 1789,
+      "sha256": "c64a7c1b62e02d10384c870f75e51635fb77c0d5e34ea9f55f02eb612d7af66b"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/tools/build-placement.mjs",
+      "bytes": 3892,
+      "sha256": "a403dd055eeb5f6d6740c96d2c40b39b8c46927fca927a16eeb5835afa783ade"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/tools/build-project.mjs",
+      "bytes": 1865,
+      "sha256": "344eea27ca4efe509908719f141679cd85392779a0ffed7a83dff736a5491c15"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/tools/import-capture.mjs",
+      "bytes": 1555,
+      "sha256": "5780f50d6bf3b06c56cc71d81142f3078081c6fea630d849c06816146565fc90"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/tools/status.mjs",
+      "bytes": 2705,
+      "sha256": "b4323e414ac4bd165880489d6d973514abee96919a8160c3c0a4146cba36e6c1"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/生成源码/tools/validate-layout-rules.mjs",
+      "bytes": 1215,
+      "sha256": "98bdd05a290d429a9e16a183fe440ce7f296061848a03b1fa8c68717cbb23459"
     },
     {
       "path": "01-完整工程/r3-smd/ok-ProPrj_sick03_2026-07-28.epro2",
@@ -56,6 +286,11 @@
       "sha256": "65a3fcbb9696337767c953de71b220f0c948142f9b3f396691ef4264d029e4ad"
     },
     {
+      "path": "02-BOM/lite-drv8876/BOM-original-design.csv",
+      "bytes": 2580,
+      "sha256": "0217770fa3fb83ace6b8d73f8185c690bf38c00f11f07ed68a0c9bdb09964e94"
+    },
+    {
       "path": "02-BOM/r3-smd/BOM-as-designed.csv",
       "bytes": 880,
       "sha256": "eb19577f37a57c159bdf51ce17de90a5efd55b254ac4601ca05dc51c8f68540a"
@@ -64,6 +299,81 @@
       "path": "02-BOM/through-hole/BOM-as-designed.csv",
       "bytes": 1087,
       "sha256": "1d358036c248277cc19a1c01dcf29eda44ab3718fb260c9ec31ebd7d41c1078c"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/Drill_PTH_Through.DRL",
+      "bytes": 902,
+      "sha256": "011dc92de8bdb16d10c9ffd33ebc8f2739cd8e4ac7e03bdd020e336aba84a25c"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/Drill_PTH_Through_Via.DRL",
+      "bytes": 906,
+      "sha256": "eebae0db9ec63f93c2fccca84959e0bffe4b672e2bd1d67676b628e84cbad8e0"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/FlyingProbeTesting.json",
+      "bytes": 22970,
+      "sha256": "31730add0d932ebec40833f1e0d52a7083c441ce55d435e6fd07adfaa9d225dc"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/Gerber_BoardOutlineLayer.GKO",
+      "bytes": 877,
+      "sha256": "22141ece643660e4177c8349263d74ac240dfc378b1872358e3f90a746db58ec"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/Gerber_BottomLayer.GBL",
+      "bytes": 17361,
+      "sha256": "fb3029dc1cdb14999314c713009f9173ccfb606170c1087f3c189a78cad37454"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/Gerber_BottomSilkscreenLayer.GBO",
+      "bytes": 569287,
+      "sha256": "fa8c589cd774c1721d45f32a384cf04187e4ca17c10d71acf48f41f5f33c7c67"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/Gerber_BottomSolderMaskLayer.GBS",
+      "bytes": 631,
+      "sha256": "8053feb9149ad2e9525081cb1d6e5aea663af573ae69220130435e1f1d23b2a9"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/Gerber_DocumentLayer.GDL",
+      "bytes": 2706,
+      "sha256": "7ad757ce5fa144ac44c333fd1efafa1ae3cca97110a75512a3d0c4b88150306d"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/Gerber_DrillDrawingLayer.GDD",
+      "bytes": 31224,
+      "sha256": "450680975cc69dbd5d71d48d9a02be9cd8ae16d129ec4cffd6358cc599b2d25e"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/Gerber_TopLayer.GTL",
+      "bytes": 15778,
+      "sha256": "91c1f38d38d12917a44709ade06ad950a2fa3a101f478dd9993859936186798c"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/Gerber_TopPasteMaskLayer.GTP",
+      "bytes": 15448,
+      "sha256": "3c676441faba0b2ee452d34dd0be4a01d285c3ab54874deb42850c524b316267"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/Gerber_TopSilkscreenLayer.GTO",
+      "bytes": 31840,
+      "sha256": "879cedb75b18edef41c9db7a03df773b4e09d26d345d4e14d198750c531aae2d"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/Gerber_TopSolderMaskLayer.GTS",
+      "bytes": 10043,
+      "sha256": "70809043eeb51c723e0e73a95e88759c509474252db6d158eaeca6dcd69581f0"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/Gerber解包/PCB下单必读.txt",
+      "bytes": 94,
+      "sha256": "dcb3ee1c645c17a009d70726ad9ab708b68a074556fabcf75a4a059d3b43ec59"
+    },
+    {
+      "path": "03-PCB制造/lite-drv8876/okkk-Gerber_PCB1_2026-08-14.zip",
+      "bytes": 155404,
+      "sha256": "441a0ab3ddc8724258ee757e775b04ef2f28b407a97d66df4e0789acc2863734"
     },
     {
       "path": "03-PCB制造/r3-smd/Gerber解包/Drill_PTH_Through.DRL",
@@ -146,6 +456,11 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
+      "path": "04-装配资料/lite-drv8876/positions-from-manufacturing.csv",
+      "bytes": 739,
+      "sha256": "507d631f2964b13275dea0f0ee8e7ea9c5ce7d38f8192a521c8bc6f932ee2ca7"
+    },
+    {
       "path": "04-装配资料/r3-smd/pin-net-from-native-source.csv",
       "bytes": 1768,
       "sha256": "842fcfce1da31991a7537d2982bb24ea4e67e71f27951095d3119b2a42c465e9"
@@ -167,13 +482,23 @@
     },
     {
       "path": "04-装配资料/实物差异.md",
-      "bytes": 700,
-      "sha256": "4f6508a925cdc970e6f1189399190e1205ae92a581dc679c956b987c8e8776c6"
+      "bytes": 851,
+      "sha256": "06e823af2f1c8ca77b77199432b048a08fcf6eac14f74cae3eb46d96e7de634f"
     },
     {
       "path": "04-装配资料/接线说明.md",
-      "bytes": 628,
-      "sha256": "b5791ff0970497e1a6c6dd9be34c1c477904ab925d09c621f09d334d2408ca94"
+      "bytes": 848,
+      "sha256": "bbb6bd2751b75db97e4cbb599ff80dbe477dc5e029a7b35e9b2d07451819194c"
+    },
+    {
+      "path": "05-核对记录/lite-drv8876-source-check.json",
+      "bytes": 3023,
+      "sha256": "040c10a5739b6382229ee25c2b4bbe0df196cf7970fb092e4f37dd7463783703"
+    },
+    {
+      "path": "05-核对记录/lite-generator-tests.json",
+      "bytes": 217,
+      "sha256": "e36723fa3300997fa860fdfb2f94367274e61235fea289e14acc7b9819ebc3f2"
     },
     {
       "path": "05-核对记录/r3-smd-source-check.json",
@@ -186,14 +511,19 @@
       "sha256": "a80a983c0cb5863eef31399e6aff8f236752941a65a36deb8ca1ea33f1c84662"
     },
     {
+      "path": "05-核对记录/release-confirmation.json",
+      "bytes": 509,
+      "sha256": "1e0f84060732b28e0d03bac2630e9f80cbf50d192dc3d2cbbe71df69f167d079"
+    },
+    {
       "path": "05-核对记录/through-hole-source-check.json",
       "bytes": 784,
       "sha256": "5d469b40f0668e57bdba540c2cc18388f28f3740f0af20f439228ecaab1a9b57"
     },
     {
       "path": "05-核对记录/验证记录.md",
-      "bytes": 732,
-      "sha256": "8b8aa867e2f4d396fa1bbf86556d69a9bd8d62607da989600485a41269c735a2"
+      "bytes": 794,
+      "sha256": "fb1a80198880a458de38d2d2ab13aa9d237b41a69cd2a3a93ce3d2d7742fcca8"
     },
     {
       "path": "06-固件源码/.gitkeep",
@@ -218,7 +548,7 @@
     {
       "path": "HARDWARE-NOTICE.txt",
       "bytes": 633,
-      "sha256": "aeacbd7f276cedc0556ee276667997e244033d85e85a42d2032b9bd02a75c974"
+      "sha256": "48355a104639924c5962aa5776656955a52746a1ed8a8f93f4480f42dc660a07"
     },
     {
       "path": "LICENSE-HARDWARE.txt",
@@ -232,18 +562,19 @@
     },
     {
       "path": "README.md",
-      "bytes": 3534,
-      "sha256": "5e7227306c944dabd459e262285670f559f71966bccc8077cbb45476c20f30f9"
+      "bytes": 3866,
+      "sha256": "966c3c85bf8c3f1de8358f18e6f7a426caf16488f3f75f925fd9db86ec70d3bc"
     },
     {
       "path": "README.txt",
-      "bytes": 635,
-      "sha256": "b934ba4d8421f3bd51040b091d5bd62f431a88c96fabe139da72eceb8d8eafa4"
+      "bytes": 701,
+      "sha256": "32937a8d2a5c8a5675c5cae8c7884014e8f9bf5c1ad196d2cc5fe150ad9b968e"
     },
     {
       "path": "SOFTWARE-NOTICE.txt",
       "bytes": 481,
       "sha256": "abfd0f675e42ca40a612a51970a53863ef0be5c3023de373711f521afdfead7d"
     }
-  ]
+  ],
+  "ownerConfirmation": "05-核对记录/release-confirmation.json"
 }

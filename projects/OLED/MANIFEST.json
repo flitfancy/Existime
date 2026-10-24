@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "project": "OLED",
+  "date": "2026-10-24",
+  "status": "historical-hardware-archive-release",
+  "hardwareVariants": 1,
+  "licensing": {
+    "hardware": "CERN-OHL-S-2.0",
+    "software": "MIT",
+    "thirdPartyPreserved": true
+  },
+  "validation": "Author selected these historical successful projects for archive on 2026-10-24; original automated-check limits are retained.",
+  "release": {
+    "repository": "flitfancy/Existime",
+    "kind": "release",
+    "tag": "v0.6.0",
+    "sourceUrl": "https://github.com/flitfancy/Existime/tree/v0.6.0/projects/OLED",
+    "releaseUrl": "https://github.com/flitfancy/Existime/releases/tag/v0.6.0",
+    "newPhysicalMeasurementsClaimed": false,
+    "manufacturingApproval": false
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "01-完整工程/screen_0921/OLED-screen_0921-reference.epro2",
+      "bytes": 853358,
+      "sha256": "f98dc74b1ee83a45d57992d5ee186e5d383194bcfbebe54cf66cac3675b23caa"
+    },
+    {
+      "path": "01-完整工程/screen_0921/文档源码/PCB-14b86ec7b9d6d803.epru",
+      "bytes": 475,
+      "sha256": "cadc4b66bbeefddd37be55d6756b9bc850c2a87af5af165180bddcae3e1595d4"
+    },
+    {
+      "path": "01-完整工程/screen_0921/文档源码/PCB-c24a2f934769273c.epru",
+      "bytes": 1603076,
+      "sha256": "6d6fe42d6eb7b5337d6f24996a67747bd47ad2c56c836d33cf41689277b062d4"
+    },
+    {
+      "path": "01-完整工程/screen_0921/文档源码/SCH_PAGE-2585204c377114d9.epru",
+      "bytes": 1359550,
+      "sha256": "8feda2cfbab73bb80a5eee127860f3e2c5a7e8f6c7d2379cf928a1dcf190535d"
+    },
+    {
+      "path": "01-完整工程/screen_0921/文档源码/SCH_PAGE-b7bfae15f93ae0d1.epru",
+      "bytes": 233470,
+      "sha256": "42b504057e5c9ae0621a1c8f13d34bf00aa10380a3e793b59dc85dc5f2e51961"
+    },
+    {
+      "path": "02-BOM/screen_0921/BOM-as-designed.csv",
+      "bytes": 1184,
+      "sha256": "23a7100b5849255e9824540abe23a74dcaacb2a1dc938fb1612d44dba3be1281"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/Drill_PTH_Through.DRL",
+      "bytes": 1613,
+      "sha256": "e10bd2f701b04a94f8873cb71828586e4c4f4abe1262f7d25fbb0a3aacc6714f"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/Drill_PTH_Through_Via.DRL",
+      "bytes": 1474,
+      "sha256": "d76f0d2046ce9c720a1dae471949c42a2bec63e8d3ff5091d136190992eb15de"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/FlyingProbeTesting.json",
+      "bytes": 22768,
+      "sha256": "43ccff216b4f9bd3cdd8bcf5971a91df4f6688c2ba7080c1cea829972f37d454"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/Gerber_BoardOutlineLayer.GKO",
+      "bytes": 899,
+      "sha256": "2327ee73e202eb38d568edb9f7f5a868b7366aa4029e903c98aefd47f0042785"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/Gerber_BottomLayer.GBL",
+      "bytes": 31837,
+      "sha256": "54d7b0ab4a05cd7ce3ad93a247783cdaa054d317cbe0fa359421b7e1fa0582dc"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/Gerber_BottomSilkscreenLayer.GBO",
+      "bytes": 564305,
+      "sha256": "24978cdb6252f4eaa5d4e3f833fbe9b72f3f99455199955b438c6fcc1641c82e"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/Gerber_BottomSolderMaskLayer.GBS",
+      "bytes": 1135,
+      "sha256": "21b78e5b3adf627f043d66ff6a087a5fa09ba177852001d18a1f755043434429"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/Gerber_DocumentLayer.GDL",
+      "bytes": 1236,
+      "sha256": "1e4bfcea7a8f27e8df5562dd7e9462b0a7d30ee74cf7024b952024794b97a88b"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/Gerber_DrillDrawingLayer.GDD",
+      "bytes": 57319,
+      "sha256": "9ab1513a3cee5173d01f793acd36e6bc6f99dc2f59d4b639a2a34bcfc7712724"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/Gerber_TopLayer.GTL",
+      "bytes": 135422,
+      "sha256": "db1aab19e10d832c0a5826581926f9b45c05a2ce049fd8c73567c5593cba0c23"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/Gerber_TopPasteMaskLayer.GTP",
+      "bytes": 32442,
+      "sha256": "06767e2c78a0f11d15b01423cd2ea38dbb82dd368f61ff64e456541a5d25b87c"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/Gerber_TopSilkscreenLayer.GTO",
+      "bytes": 177697,
+      "sha256": "ed2c451d15e65e05049b5c005f88125f45d0e0a63e2335bc589ee12f0752d8d3"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/Gerber_TopSolderMaskLayer.GTS",
+      "bytes": 6756,
+      "sha256": "50cefc9354ae141790d3c5983ae0b9142441f739c4929e16cc589c3fece5aea4"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/Gerber解包/PCB下单必读.txt",
+      "bytes": 94,
+      "sha256": "dcb3ee1c645c17a009d70726ad9ab708b68a074556fabcf75a4a059d3b43ec59"
+    },
+    {
+      "path": "03-PCB制造/screen_0921/小屏幕v1.0.zip",
+      "bytes": 222023,
+      "sha256": "01b2a900b1ca76ac1fb8a3c0981a89d22b1d73a3bb6edfd6b41bcaf4512653bd"
+    },
+    {
+      "path": "04-装配资料/screen_0921/pin-net-from-native-source.csv",
+      "bytes": 2561,
+      "sha256": "31e0879f6b53966b257c9a0d9ad3d2155bfd748a6bbb2149126e42ffb50bb65d"
+    },
+    {
+      "path": "04-装配资料/screen_0921/positions-from-native-source.csv",
+      "bytes": 2988,
+      "sha256": "e4306949750e82aea8149dc6b58cc200ba36806314de19a2de0da835051d9ffd"
+    },
+    {
+      "path": "04-装配资料/实装和返修记录.md",
+      "bytes": 705,
+      "sha256": "a27026f6cadd6d2c8a999d5cf70dce1fffcdd53f621ac8a3ceda73c3cbf68b9e"
+    },
+    {
+      "path": "05-核对记录/README.txt",
+      "bytes": 235,
+      "sha256": "a80a983c0cb5863eef31399e6aff8f236752941a65a36deb8ca1ea33f1c84662"
+    },
+    {
+      "path": "05-核对记录/release-confirmation.json",
+      "bytes": 509,
+      "sha256": "bd0418c1f6da801dddadb7ad894660ade2035db855ad61ed788e0434c3532bde"
+    },
+    {
+      "path": "05-核对记录/screen_0921-source-check.json",
+      "bytes": 1144,
+      "sha256": "d86ed158d155e36ca5f4f435c92ae191c36db83906c2663feb4a3c1db6e055df"
+    },
+    {
+      "path": "06-固件源码/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "07-配套软件/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "08-实物照片/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "HARDWARE-NOTICE.txt",
+      "bytes": 630,
+      "sha256": "1ccb42126542c7dde150fbdc3df98b056d8bfd212c5df3bf34e4cab9e874d910"
+    },
+    {
+      "path": "LICENSE-HARDWARE.txt",
+      "bytes": 13419,
+      "sha256": "253ad3f89603e728abfa60c36fbcaf8225cf55c1eab12725f19fb3d74d647f3a"
+    },
+    {
+      "path": "LICENSE-SOFTWARE.txt",
+      "bytes": 1066,
+      "sha256": "d6bef9aed4a8b995caeaec31a7debd8944d35235f5a42b68ad92bcb2cc75e7b5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2412,
+      "sha256": "5a3f143c1f5a3653dc23cc531774e91b7318cea93fbff1e6bc63200ce404dae1"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 551,
+      "sha256": "6c874f5a51d282cd6314a0e404bfa84466cf809642021626462d475f5374fc0c"
+    },
+    {
+      "path": "SOFTWARE-NOTICE.txt",
+      "bytes": 478,
+      "sha256": "085b26454b628d93f7560b4b8ae36b8e0ef2df0c11b471ad349f7ec5d0b3a021"
+    }
+  ],
+  "ownerConfirmation": "05-核对记录/release-confirmation.json"
+}

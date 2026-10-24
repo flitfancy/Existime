@@ -1,0 +1,2543 @@
+{
+  "schema": "skyworks-footprint-geometry/v1",
+  "project": {
+    "id": "sick-motor-reverser-r4-lite",
+    "revision": "R4-LITE"
+  },
+  "source": {
+    "captureSchema": "firefly-pcb-capture/v1",
+    "componentCount": 31,
+    "generatedAt": "2026-08-12T13:31:51.523Z"
+  },
+  "profiles": [
+    {
+      "key": "fp-01a27db9eac5a4a8",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "2P_3X5_P5",
+        "uuid": "b61eaa24c60b8386"
+      },
+      "copperBounds": {
+        "minX": -157.4256,
+        "minY": -98.4098,
+        "maxX": 157.4744,
+        "maxY": 98.4902
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            118.1,
+            196.9,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -157.4256,
+            "minY": -98.4098,
+            "maxX": -39.3256,
+            "maxY": 98.4902
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            118.1,
+            196.9,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 39.3744,
+            "minY": -98.4098,
+            "maxX": 157.4744,
+            "maxY": 98.4902
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-02e7780a41a96f54",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "C0805",
+        "uuid": "fe770353b7a82805"
+      },
+      "copperBounds": {
+        "minX": -67.1436,
+        "minY": -26.5308,
+        "maxX": 67.1564,
+        "maxY": 26.5692
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -67.1436,
+            "minY": -26.5308,
+            "maxX": -11.6436,
+            "maxY": 26.5692
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 11.6564,
+            "minY": -26.5308,
+            "maxX": 67.1564,
+            "maxY": 26.5692
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-0382afa292f9c5e0",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "SOD-123F_L2.7-W1.6-LS3.8-RD",
+        "uuid": "e6c5e71f3af5850c"
+      },
+      "copperBounds": {
+        "minX": -89.9231,
+        "minY": -19.7216,
+        "maxX": 89.9769,
+        "maxY": 19.6784
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            43.3,
+            39.4,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -89.9231,
+            "minY": -19.7216,
+            "maxX": -46.6231,
+            "maxY": 19.6784
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            43.3,
+            39.4,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 46.6769,
+            "minY": -19.7216,
+            "maxX": 89.9769,
+            "maxY": 19.6784
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-07fe1f351cca54c5",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "C1210",
+        "uuid": "77c69be1216b6c85"
+      },
+      "copperBounds": {
+        "minX": -91.953,
+        "minY": -53.1528,
+        "maxX": 91.947,
+        "maxY": 53.1472
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            64.4,
+            106.3,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -91.953,
+            "minY": -53.1528,
+            "maxX": -27.553,
+            "maxY": 53.1472
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            64.4,
+            106.3,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 27.547,
+            "minY": -53.1528,
+            "maxX": 91.947,
+            "maxY": 53.1472
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-0c38425c0efba5c0",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "C0805",
+        "uuid": "fe770353b7a82805"
+      },
+      "copperBounds": {
+        "minX": -67.1385,
+        "minY": -26.5204,
+        "maxX": 67.1615,
+        "maxY": 26.5796
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -67.1385,
+            "minY": -26.5204,
+            "maxX": -11.6385,
+            "maxY": 26.5796
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 11.6615,
+            "minY": -26.5204,
+            "maxX": 67.1615,
+            "maxY": 26.5796
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-15a81c1dc8db35fa",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "SOD-123F_L2.7-W1.6-LS3.8-RD",
+        "uuid": "e6c5e71f3af5850c"
+      },
+      "copperBounds": {
+        "minX": -89.9231,
+        "minY": -19.6598,
+        "maxX": 89.9769,
+        "maxY": 19.7402
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            43.3,
+            39.4,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -89.9231,
+            "minY": -19.6598,
+            "maxX": -46.6231,
+            "maxY": 19.7402
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            43.3,
+            39.4,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 46.6769,
+            "minY": -19.6598,
+            "maxX": 89.9769,
+            "maxY": 19.7402
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-170cd4763c93161f",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "C0805",
+        "uuid": "fe770353b7a82805"
+      },
+      "copperBounds": {
+        "minX": -67.076,
+        "minY": -26.5428,
+        "maxX": 67.124,
+        "maxY": 26.5572
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -67.076,
+            "minY": -26.5428,
+            "maxX": -11.576,
+            "maxY": 26.5572
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 11.624,
+            "minY": -26.5428,
+            "maxX": 67.124,
+            "maxY": 26.5572
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-1ef121e45088a08f",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "C0805",
+        "uuid": "fe770353b7a82805"
+      },
+      "copperBounds": {
+        "minX": -67.1595,
+        "minY": -26.5428,
+        "maxX": 67.1405,
+        "maxY": 26.5572
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -67.1595,
+            "minY": -26.5428,
+            "maxX": -11.6595,
+            "maxY": 26.5572
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 11.6405,
+            "minY": -26.5428,
+            "maxX": 67.1405,
+            "maxY": 26.5572
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-2cf0ccee3391f678",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "SOD-123F_L2.7-W1.6-LS3.8-RD",
+        "uuid": "e6c5e71f3af5850c"
+      },
+      "copperBounds": {
+        "minX": -89.9231,
+        "minY": -19.7468,
+        "maxX": 89.9769,
+        "maxY": 19.6532
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            43.3,
+            39.4,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -89.9231,
+            "minY": -19.7468,
+            "maxX": -46.6231,
+            "maxY": 19.6532
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            43.3,
+            39.4,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 46.6769,
+            "minY": -19.7468,
+            "maxX": 89.9769,
+            "maxY": 19.6532
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-39fd4411bc6abaaa",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "C0805",
+        "uuid": "fe770353b7a82805"
+      },
+      "copperBounds": {
+        "minX": -67.077,
+        "minY": -26.5854,
+        "maxX": 67.123,
+        "maxY": 26.5146
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -67.077,
+            "minY": -26.5854,
+            "maxX": -11.577,
+            "maxY": 26.5146
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 11.623,
+            "minY": -26.5854,
+            "maxX": 67.123,
+            "maxY": 26.5146
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-416c8a8bb9c3f3ca",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "R0805",
+        "uuid": "f0d76447956d5b58"
+      },
+      "copperBounds": {
+        "minX": -61.6885,
+        "minY": -27.0598,
+        "maxX": 61.7115,
+        "maxY": 27.1402
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            44.6,
+            54.2,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -61.6885,
+            "minY": -27.0598,
+            "maxX": -17.0885,
+            "maxY": 27.1402
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            44.6,
+            54.2,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 17.1115,
+            "minY": -27.0598,
+            "maxX": 61.7115,
+            "maxY": 27.1402
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-5b1e00518f64c26c",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "R0805",
+        "uuid": "f0d76447956d5b58"
+      },
+      "copperBounds": {
+        "minX": -61.6455,
+        "minY": -27.1438,
+        "maxX": 61.6545,
+        "maxY": 27.0562
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            44.6,
+            54.2,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -61.6455,
+            "minY": -27.1438,
+            "maxX": -17.0455,
+            "maxY": 27.0562
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            44.6,
+            54.2,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 17.0545,
+            "minY": -27.1438,
+            "maxX": 61.6545,
+            "maxY": 27.0562
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-614ec584e9dfb9e5",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "SMA_L4.4-W2.6-LS5.0-BI",
+        "uuid": "bf07eb2fe8d7c535"
+      },
+      "copperBounds": {
+        "minX": -118.103,
+        "minY": -35.4958,
+        "maxX": 118.097,
+        "maxY": 35.4042
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            78.7,
+            70.9,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -118.103,
+            "minY": -35.4958,
+            "maxX": -39.403,
+            "maxY": 35.4042
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            78.7,
+            70.9,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 39.397,
+            "minY": -35.4958,
+            "maxX": 118.097,
+            "maxY": 35.4042
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-632aa04605e4e55d",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR",
+        "uuid": "88468e820224f407"
+      },
+      "copperBounds": {
+        "minX": -127.281,
+        "minY": -72.2958,
+        "maxX": 84.404,
+        "maxY": 72.3042
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            62,
+            26.5,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 22.3781,
+            "minY": -72.2958,
+            "maxX": 84.3781,
+            "maxY": -45.7958
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "POLYGON",
+            [
+              509.8319,
+              -1183.1592,
+              "L",
+              582.8319,
+              -1183.1592,
+              584.5849,
+              -1183.2012,
+              586.3339,
+              -1183.3242,
+              588.0759,
+              -1183.5292,
+              589.8059,
+              -1183.8152,
+              591.5209,
+              -1184.1832,
+              593.2159,
+              -1184.6302,
+              594.8889,
+              -1185.1562,
+              596.5349,
+              -1185.7602,
+              598.1509,
+              -1186.4412,
+              599.7339,
+              -1187.1962,
+              601.2789,
+              -1188.0252,
+              602.7839,
+              -1188.9262,
+              604.2449,
+              -1189.8962,
+              605.6589,
+              -1190.9332,
+              607.0219,
+              -1192.0352,
+              608.3329,
+              -1193.2012,
+              609.5869,
+              -1194.4262,
+              610.7829,
+              -1195.7092,
+              611.9169,
+              -1197.0462,
+              612.9869,
+              -1198.4352,
+              613.9909,
+              -1199.8732,
+              614.9259,
+              -1201.3562,
+              615.7909,
+              -1202.8822,
+              616.5839,
+              -1204.4462,
+              617.3019,
+              -1207.5682,
+              684.1259,
+              -1207.5682,
+              684.1259,
+              -1233.5522,
+              617.3019,
+              -1233.5522,
+              616.5839,
+              -1236.6762,
+              615.7909,
+              -1238.2402,
+              614.9259,
+              -1239.7662,
+              613.9909,
+              -1241.2492,
+              612.9869,
+              -1242.6872,
+              611.9169,
+              -1244.0762,
+              610.7829,
+              -1245.4132,
+              609.5869,
+              -1246.6962,
+              608.3329,
+              -1247.9212,
+              607.0219,
+              -1249.0872,
+              605.6589,
+              -1250.1892,
+              604.2449,
+              -1251.2262,
+              602.7839,
+              -1252.1962,
+              601.2789,
+              -1253.0972,
+              599.7339,
+              -1253.9262,
+              598.1509,
+              -1254.6812,
+              596.5349,
+              -1255.3622,
+              594.8889,
+              -1255.9662,
+              593.2159,
+              -1256.4922,
+              591.5209,
+              -1256.9392,
+              589.8059,
+              -1257.3072,
+              588.0759,
+              -1257.5932,
+              586.3339,
+              -1257.7982,
+              584.5849,
+              -1257.9212,
+              582.8319,
+              -1257.9632,
+              509.8319,
+              -1257.9632,
+              508.0789,
+              -1257.9212,
+              506.3299,
+              -1257.7982,
+              504.5879,
+              -1257.5932,
+              502.8579,
+              -1257.3072,
+              501.1429,
+              -1256.9392,
+              499.4479,
+              -1256.4922,
+              497.7749,
+              -1255.9662,
+              496.1289,
+              -1255.3622,
+              494.5129,
+              -1254.6812,
+              492.9299,
+              -1253.9262,
+              491.3849,
+              -1253.0972,
+              489.8799,
+              -1252.1962,
+              488.4189,
+              -1251.2262,
+              487.0049,
+              -1250.1892,
+              485.6419,
+              -1249.0872,
+              484.3309,
+              -1247.9212,
+              483.0769,
+              -1246.6962,
+              481.8809,
+              -1245.4132,
+              480.7469,
+              -1244.0762,
+              479.6769,
+              -1242.6872,
+              478.6729,
+              -1241.2492,
+              477.7379,
+              -1239.7662,
+              476.8729,
+              -1238.2402,
+              476.0799,
+              -1236.6762,
+              475.3619,
+              -1235.0762,
+              474.7189,
+              -1233.4452,
+              474.1539,
+              -1231.7852,
+              473.6669,
+              -1230.1002,
+              473.2599,
+              -1228.3942,
+              472.9329,
+              -1226.6722,
+              472.6869,
+              -1224.9352,
+              472.5229,
+              -1223.1892,
+              472.4409,
+              -1221.4382,
+              472.4409,
+              -1219.6842,
+              472.5229,
+              -1217.9332,
+              472.6869,
+              -1216.1872,
+              472.9329,
+              -1214.4502,
+              473.2599,
+              -1212.7282,
+              473.6669,
+              -1211.0222,
+              474.1539,
+              -1209.3372,
+              474.7189,
+              -1207.6772,
+              475.3619,
+              -1206.0462,
+              476.0799,
+              -1204.4462,
+              476.8729,
+              -1202.8822,
+              477.7379,
+              -1201.3562,
+              478.6729,
+              -1199.8732,
+              479.6769,
+              -1198.4352,
+              480.7469,
+              -1197.0462,
+              481.8809,
+              -1195.7092,
+              483.0769,
+              -1194.4262,
+              484.3309,
+              -1193.2012,
+              485.6419,
+              -1192.0352,
+              487.0049,
+              -1190.9332,
+              488.4189,
+              -1189.8962,
+              489.8799,
+              -1188.9262,
+              491.3849,
+              -1188.0252,
+              492.9299,
+              -1187.1962,
+              494.5129,
+              -1186.4412,
+              496.1289,
+              -1185.7602,
+              497.7749,
+              -1185.1562,
+              499.4479,
+              -1184.6302,
+              501.1429,
+              -1184.1832,
+              502.8579,
+              -1183.8152,
+              504.5879,
+              -1183.5292,
+              506.3299,
+              -1183.3242,
+              508.0789,
+              -1183.2012,
+              509.8319,
+              -1183.1592
+            ]
+          ],
+          "localCopperAabb": {
+            "minX": -127.281,
+            "minY": -37.409,
+            "maxX": 84.404,
+            "maxY": 37.395
+          }
+        },
+        {
+          "number": "3",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            62,
+            26.5,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 22.3781,
+            "minY": 45.8042,
+            "maxX": 84.3781,
+            "maxY": 72.3042
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-661441d9c713b471",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "F2920",
+        "uuid": "18bc7e018de96c7c"
+      },
+      "copperBounds": {
+        "minX": -169.3185,
+        "minY": -104.3193,
+        "maxX": 169.2815,
+        "maxY": 104.3807
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            78.7,
+            208.7,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -169.3185,
+            "minY": -104.3193,
+            "maxX": -90.6185,
+            "maxY": 104.3807
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            78.7,
+            208.7,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 90.5815,
+            "minY": -104.3193,
+            "maxX": 169.2815,
+            "maxY": 104.3807
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-6e864da5fbaf198e",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+        "uuid": "87bed6b245e7418c"
+      },
+      "copperBounds": {
+        "minX": -161.332,
+        "minY": -143.2216,
+        "maxX": 161.268,
+        "maxY": 143.1784
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -161.332,
+            "minY": -143.2216,
+            "maxX": -138.732,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -111.332,
+            "minY": -143.2216,
+            "maxX": -88.732,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "3",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -61.332,
+            "minY": -143.2216,
+            "maxX": -38.732,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "4",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -11.332,
+            "minY": -143.2216,
+            "maxX": 11.268,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "5",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": 38.668,
+            "minY": -143.2216,
+            "maxX": 61.268,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "6",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": 88.668,
+            "minY": -143.2216,
+            "maxX": 111.268,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "7",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": 138.668,
+            "minY": -143.2216,
+            "maxX": 161.268,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "8",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": 138.668,
+            "minY": 62.9784,
+            "maxX": 161.268,
+            "maxY": 143.1784
+          }
+        },
+        {
+          "number": "9",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": 88.668,
+            "minY": 62.9784,
+            "maxX": 111.268,
+            "maxY": 143.1784
+          }
+        },
+        {
+          "number": "10",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": 38.668,
+            "minY": 62.9784,
+            "maxX": 61.268,
+            "maxY": 143.1784
+          }
+        },
+        {
+          "number": "11",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -11.332,
+            "minY": 62.9784,
+            "maxX": 11.268,
+            "maxY": 143.1784
+          }
+        },
+        {
+          "number": "12",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -61.332,
+            "minY": 62.9784,
+            "maxX": -38.732,
+            "maxY": 143.1784
+          }
+        },
+        {
+          "number": "13",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -111.332,
+            "minY": 62.9784,
+            "maxX": -88.732,
+            "maxY": 143.1784
+          }
+        },
+        {
+          "number": "14",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -161.332,
+            "minY": 62.9784,
+            "maxX": -138.732,
+            "maxY": 143.1784
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-7fd444425433e186",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "2P_5X8_P10",
+        "uuid": "c09625026b792648"
+      },
+      "copperBounds": {
+        "minX": -295.3436,
+        "minY": -157.4693,
+        "maxX": 295.2564,
+        "maxY": 157.5307
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            196.9,
+            315,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -295.3436,
+            "minY": -157.4693,
+            "maxX": -98.4436,
+            "maxY": 157.5307
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            196.9,
+            315,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 98.3564,
+            "minY": -157.4693,
+            "maxX": 295.2564,
+            "maxY": 157.5307
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-871c1e255d8cc2c8",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "C0805",
+        "uuid": "fe770353b7a82805"
+      },
+      "copperBounds": {
+        "minX": -67.082,
+        "minY": -26.5854,
+        "maxX": 67.118,
+        "maxY": 26.5146
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -67.082,
+            "minY": -26.5854,
+            "maxX": -11.582,
+            "maxY": 26.5146
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 11.618,
+            "minY": -26.5854,
+            "maxX": 67.118,
+            "maxY": 26.5146
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-886f4b8ef40694de",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL-EP",
+        "uuid": "3b4f9a46c624df9d"
+      },
+      "copperBounds": {
+        "minX": -96.3425,
+        "minY": -147.5693,
+        "maxX": 96.3575,
+        "maxY": 147.5307
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": -96.3425,
+            "minY": -147.5693,
+            "maxX": -82.8425,
+            "maxY": -78.7693
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": -70.7425,
+            "minY": -147.5693,
+            "maxX": -57.2425,
+            "maxY": -78.7693
+          }
+        },
+        {
+          "number": "3",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": -45.1425,
+            "minY": -147.5693,
+            "maxX": -31.6425,
+            "maxY": -78.7693
+          }
+        },
+        {
+          "number": "4",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": -19.5425,
+            "minY": -147.5693,
+            "maxX": -6.0425,
+            "maxY": -78.7693
+          }
+        },
+        {
+          "number": "5",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": 6.0575,
+            "minY": -147.5693,
+            "maxX": 19.5575,
+            "maxY": -78.7693
+          }
+        },
+        {
+          "number": "6",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": 31.6575,
+            "minY": -147.5693,
+            "maxX": 45.1575,
+            "maxY": -78.7693
+          }
+        },
+        {
+          "number": "7",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": 57.2575,
+            "minY": -147.5693,
+            "maxX": 70.7575,
+            "maxY": -78.7693
+          }
+        },
+        {
+          "number": "8",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": 82.8575,
+            "minY": -147.5693,
+            "maxX": 96.3575,
+            "maxY": -78.7693
+          }
+        },
+        {
+          "number": "9",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": 82.8575,
+            "minY": 78.7307,
+            "maxX": 96.3575,
+            "maxY": 147.5307
+          }
+        },
+        {
+          "number": "10",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": 57.2575,
+            "minY": 78.7307,
+            "maxX": 70.7575,
+            "maxY": 147.5307
+          }
+        },
+        {
+          "number": "11",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": 31.6575,
+            "minY": 78.7307,
+            "maxX": 45.1575,
+            "maxY": 147.5307
+          }
+        },
+        {
+          "number": "12",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": 6.0575,
+            "minY": 78.7307,
+            "maxX": 19.5575,
+            "maxY": 147.5307
+          }
+        },
+        {
+          "number": "13",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": -19.5425,
+            "minY": 78.7307,
+            "maxX": -6.0425,
+            "maxY": 147.5307
+          }
+        },
+        {
+          "number": "14",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": -45.1425,
+            "minY": 78.7307,
+            "maxX": -31.6425,
+            "maxY": 147.5307
+          }
+        },
+        {
+          "number": "15",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": -70.7425,
+            "minY": 78.7307,
+            "maxX": -57.2425,
+            "maxY": 147.5307
+          }
+        },
+        {
+          "number": "16",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            13.5,
+            68.8
+          ],
+          "localCopperAabb": {
+            "minX": -96.3425,
+            "minY": 78.7307,
+            "maxX": -82.8425,
+            "maxY": 147.5307
+          }
+        },
+        {
+          "number": "17",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            139.8,
+            96.9,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -69.8925,
+            "minY": -48.4193,
+            "maxX": 69.9075,
+            "maxY": 48.4807
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-8fd04e0a725ee224",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "2P_5X8_P10",
+        "uuid": "c09625026b792648"
+      },
+      "copperBounds": {
+        "minX": -295.3395,
+        "minY": -157.4693,
+        "maxX": 295.2605,
+        "maxY": 157.5307
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            196.9,
+            315,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -295.3395,
+            "minY": -157.4693,
+            "maxX": -98.4395,
+            "maxY": 157.5307
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            196.9,
+            315,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 98.3605,
+            "minY": -157.4693,
+            "maxX": 295.2605,
+            "maxY": 157.5307
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-9479402049ac6d91",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "LED0805-RD_GREEN",
+        "uuid": "3d41786b1f6d134a"
+      },
+      "copperBounds": {
+        "minX": -62.9685,
+        "minY": -24.6438,
+        "maxX": 63.0315,
+        "maxY": 24.5562
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            39.4,
+            49.2,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -62.9685,
+            "minY": -24.6438,
+            "maxX": -23.5685,
+            "maxY": 24.5562
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            39.4,
+            49.2,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 23.6315,
+            "minY": -24.6438,
+            "maxX": 63.0315,
+            "maxY": 24.5562
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-95b076375977d75b",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "C0805",
+        "uuid": "fe770353b7a82805"
+      },
+      "copperBounds": {
+        "minX": -67.1395,
+        "minY": -26.5178,
+        "maxX": 67.1605,
+        "maxY": 26.5822
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -67.1395,
+            "minY": -26.5178,
+            "maxX": -11.6395,
+            "maxY": 26.5822
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 11.6605,
+            "minY": -26.5178,
+            "maxX": 67.1605,
+            "maxY": 26.5822
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-972abf33bdc38faf",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "C0805",
+        "uuid": "fe770353b7a82805"
+      },
+      "copperBounds": {
+        "minX": -67.105,
+        "minY": -26.5428,
+        "maxX": 67.095,
+        "maxY": 26.5572
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -67.105,
+            "minY": -26.5428,
+            "maxX": -11.605,
+            "maxY": 26.5572
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 11.595,
+            "minY": -26.5428,
+            "maxX": 67.095,
+            "maxY": 26.5572
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-98c2630b7dd6c407",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "R0805",
+        "uuid": "f0d76447956d5b58"
+      },
+      "copperBounds": {
+        "minX": -61.6936,
+        "minY": -27.1216,
+        "maxX": 61.7064,
+        "maxY": 27.0784
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            44.6,
+            54.2,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -61.6936,
+            "minY": -27.1216,
+            "maxX": -17.0936,
+            "maxY": 27.0784
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            44.6,
+            54.2,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 17.1064,
+            "minY": -27.1216,
+            "maxX": 61.7064,
+            "maxY": 27.0784
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-9e838f8f7a3794bb",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "C0805",
+        "uuid": "fe770353b7a82805"
+      },
+      "copperBounds": {
+        "minX": -67.1385,
+        "minY": -26.5716,
+        "maxX": 67.1615,
+        "maxY": 26.5284
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -67.1385,
+            "minY": -26.5716,
+            "maxX": -11.6385,
+            "maxY": 26.5284
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 11.6615,
+            "minY": -26.5716,
+            "maxX": 67.1615,
+            "maxY": 26.5284
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-cac2b22a1c529140",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "2P_3X5_P5",
+        "uuid": "b61eaa24c60b8386"
+      },
+      "copperBounds": {
+        "minX": -157.4256,
+        "minY": -98.4056,
+        "maxX": 157.4744,
+        "maxY": 98.4944
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            118.1,
+            196.9,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -157.4256,
+            "minY": -98.4056,
+            "maxX": -39.3256,
+            "maxY": 98.4944
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            118.1,
+            196.9,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 39.3744,
+            "minY": -98.4056,
+            "maxX": 157.4744,
+            "maxY": 98.4944
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-e12edd5d8c49e1cf",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "C0805",
+        "uuid": "fe770353b7a82805"
+      },
+      "copperBounds": {
+        "minX": -67.0719,
+        "minY": -26.5178,
+        "maxX": 67.1281,
+        "maxY": 26.5822
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -67.0719,
+            "minY": -26.5178,
+            "maxX": -11.5719,
+            "maxY": 26.5822
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            55.5,
+            53.1,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 11.6281,
+            "minY": -26.5178,
+            "maxX": 67.1281,
+            "maxY": 26.5822
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-f07eb1b54cd9e6ac",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "R0805",
+        "uuid": "f0d76447956d5b58"
+      },
+      "copperBounds": {
+        "minX": -61.6936,
+        "minY": -27.1468,
+        "maxX": 61.7064,
+        "maxY": 27.0532
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            44.6,
+            54.2,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -61.6936,
+            "minY": -27.1468,
+            "maxX": -17.0936,
+            "maxY": 27.0532
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            44.6,
+            54.2,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 17.1064,
+            "minY": -27.1468,
+            "maxX": 61.7064,
+            "maxY": 27.0532
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-f4b94bbbf6a9185e",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+        "uuid": "87bed6b245e7418c"
+      },
+      "copperBounds": {
+        "minX": -161.327,
+        "minY": -143.2216,
+        "maxX": 161.273,
+        "maxY": 143.1784
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -161.327,
+            "minY": -143.2216,
+            "maxX": -138.727,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -111.327,
+            "minY": -143.2216,
+            "maxX": -88.727,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "3",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -61.327,
+            "minY": -143.2216,
+            "maxX": -38.727,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "4",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -11.327,
+            "minY": -143.2216,
+            "maxX": 11.273,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "5",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": 38.673,
+            "minY": -143.2216,
+            "maxX": 61.273,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "6",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": 88.673,
+            "minY": -143.2216,
+            "maxX": 111.273,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "7",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": 138.673,
+            "minY": -143.2216,
+            "maxX": 161.273,
+            "maxY": -63.0216
+          }
+        },
+        {
+          "number": "8",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": 138.673,
+            "minY": 62.9784,
+            "maxX": 161.273,
+            "maxY": 143.1784
+          }
+        },
+        {
+          "number": "9",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": 88.673,
+            "minY": 62.9784,
+            "maxX": 111.273,
+            "maxY": 143.1784
+          }
+        },
+        {
+          "number": "10",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": 38.673,
+            "minY": 62.9784,
+            "maxX": 61.273,
+            "maxY": 143.1784
+          }
+        },
+        {
+          "number": "11",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -11.327,
+            "minY": 62.9784,
+            "maxX": 11.273,
+            "maxY": 143.1784
+          }
+        },
+        {
+          "number": "12",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -61.327,
+            "minY": 62.9784,
+            "maxX": -38.727,
+            "maxY": 143.1784
+          }
+        },
+        {
+          "number": "13",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -111.327,
+            "minY": 62.9784,
+            "maxX": -88.727,
+            "maxY": 143.1784
+          }
+        },
+        {
+          "number": "14",
+          "layer": 1,
+          "shape": [
+            "OVAL",
+            22.6,
+            80.2
+          ],
+          "localCopperAabb": {
+            "minX": -161.327,
+            "minY": 62.9784,
+            "maxX": -138.727,
+            "maxY": 143.1784
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-f5e0537e7869c17f",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "R0805",
+        "uuid": "f0d76447956d5b58"
+      },
+      "copperBounds": {
+        "minX": -61.6885,
+        "minY": -27.0556,
+        "maxX": 61.7115,
+        "maxY": 27.1444
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            44.6,
+            54.2,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -61.6885,
+            "minY": -27.0556,
+            "maxX": -17.0885,
+            "maxY": 27.1444
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            44.6,
+            54.2,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 17.1115,
+            "minY": -27.0556,
+            "maxX": 61.7115,
+            "maxY": 27.1444
+          }
+        }
+      ]
+    },
+    {
+      "key": "fp-fe6010e59a06e678",
+      "footprint": {
+        "libraryUuid": "e555443c0f0047519b3ffd44b91d0a11",
+        "name": "2P_5X8_P10",
+        "uuid": "c09625026b792648"
+      },
+      "copperBounds": {
+        "minX": -295.3256,
+        "minY": -157.4693,
+        "maxX": 295.2744,
+        "maxY": 157.5307
+      },
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            196.9,
+            315,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": -295.3256,
+            "minY": -157.4693,
+            "maxX": -98.4256,
+            "maxY": 157.5307
+          }
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "shape": [
+            "RECT",
+            196.9,
+            315,
+            0
+          ],
+          "localCopperAabb": {
+            "minX": 98.3744,
+            "minY": -157.4693,
+            "maxX": 295.2744,
+            "maxY": 157.5307
+          }
+        }
+      ]
+    }
+  ],
+  "componentProfiles": {
+    "C1": "fp-07fe1f351cca54c5",
+    "C2": "fp-e12edd5d8c49e1cf",
+    "C3": "fp-95b076375977d75b",
+    "C4": "fp-972abf33bdc38faf",
+    "C5": "fp-9e838f8f7a3794bb",
+    "C6": "fp-0c38425c0efba5c0",
+    "C7": "fp-871c1e255d8cc2c8",
+    "C8": "fp-02e7780a41a96f54",
+    "C9": "fp-39fd4411bc6abaaa",
+    "C10": "fp-1ef121e45088a08f",
+    "C11": "fp-170cd4763c93161f",
+    "D1": "fp-9479402049ac6d91",
+    "D5": "fp-2cf0ccee3391f678",
+    "D6": "fp-15a81c1dc8db35fa",
+    "D7": "fp-0382afa292f9c5e0",
+    "F1": "fp-661441d9c713b471",
+    "J1": "fp-fe6010e59a06e678",
+    "J2": "fp-7fd444425433e186",
+    "J3": "fp-01a27db9eac5a4a8",
+    "J4": "fp-cac2b22a1c529140",
+    "R1": "fp-5b1e00518f64c26c",
+    "R5": "fp-416c8a8bb9c3f3ca",
+    "R6": "fp-f5e0537e7869c17f",
+    "R7": "fp-f07eb1b54cd9e6ac",
+    "R8": "fp-98c2630b7dd6c407",
+    "SW1": "fp-8fd04e0a725ee224",
+    "U1": "fp-886f4b8ef40694de",
+    "U2": "fp-632aa04605e4e55d",
+    "U3": "fp-6e864da5fbaf198e",
+    "U4": "fp-f4b94bbbf6a9185e",
+    "U5": "fp-614ec584e9dfb9e5"
+  },
+  "componentPadNets": {
+    "C1": {
+      "1": "+12V_PROT",
+      "2": "GND"
+    },
+    "C2": {
+      "1": "+12V_PROT",
+      "2": "GND"
+    },
+    "C3": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "C4": {
+      "1": "+12V_PROT",
+      "2": "GND"
+    },
+    "C5": {
+      "1": "L_RAW",
+      "2": "GND"
+    },
+    "C6": {
+      "1": "R_RAW",
+      "2": "GND"
+    },
+    "C7": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "C8": {
+      "1": "DIR_SET_RC_N",
+      "2": "GND"
+    },
+    "C9": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "C10": {
+      "1": "VCP",
+      "2": "+12V_PROT"
+    },
+    "C11": {
+      "1": "CPH",
+      "2": "CPL"
+    },
+    "D1": {
+      "1": "GND",
+      "2": "LED_PWR_A"
+    },
+    "D5": {
+      "1": "L_SET_N",
+      "2": "DIR_SET_RC_N"
+    },
+    "D6": {
+      "1": "MOTOR_EN",
+      "2": "L_SET_N"
+    },
+    "D7": {
+      "1": "MOTOR_EN",
+      "2": "R_CLR_N"
+    },
+    "F1": {
+      "1": "+12V_SW",
+      "2": "+12V_PROT"
+    },
+    "J1": {
+      "1": "+12V_IN",
+      "2": "GND"
+    },
+    "J2": {
+      "1": "MOTOR_A",
+      "2": "MOTOR_B"
+    },
+    "J3": {
+      "1": "L_RAW",
+      "2": "GND"
+    },
+    "J4": {
+      "1": "R_RAW",
+      "2": "GND"
+    },
+    "R1": {
+      "1": "+12V_PROT",
+      "2": "LED_PWR_A"
+    },
+    "R5": {
+      "1": "+3V3",
+      "2": "L_RAW"
+    },
+    "R6": {
+      "1": "+3V3",
+      "2": "R_RAW"
+    },
+    "R7": {
+      "1": "+3V3",
+      "2": "DIR_SET_RC_N"
+    },
+    "R8": {
+      "1": "MOTOR_EN",
+      "2": "GND"
+    },
+    "SW1": {
+      "1": "+12V_IN",
+      "2": "+12V_SW"
+    },
+    "U1": {
+      "1": "+3V3",
+      "2": "DIR_RIGHT_Q",
+      "3": "MOTOR_EN",
+      "4": "",
+      "5": "+3V3",
+      "6": "GND",
+      "7": "GND",
+      "8": "MOTOR_A",
+      "9": "GND",
+      "10": "MOTOR_B",
+      "11": "+12V_PROT",
+      "12": "VCP",
+      "13": "CPH",
+      "14": "CPL",
+      "15": "GND",
+      "16": "GND",
+      "17": "GND"
+    },
+    "U2": {
+      "1": "GND",
+      "2": "+12V_PROT",
+      "3": "+3V3"
+    },
+    "U3": {
+      "1": "L_RAW",
+      "2": "L_SET_N",
+      "3": "R_RAW",
+      "4": "R_CLR_N",
+      "5": "DIR_SET_RC_N",
+      "6": "DIR_SET_RC_P",
+      "7": "GND",
+      "8": "DIR_SET_N",
+      "9": "DIR_SET_RC_P",
+      "10": "",
+      "11": "GND",
+      "12": "",
+      "13": "GND",
+      "14": "+3V3"
+    },
+    "U4": {
+      "1": "R_CLR_N",
+      "2": "GND",
+      "3": "GND",
+      "4": "DIR_SET_N",
+      "5": "DIR_RIGHT_Q",
+      "6": "DIR_LEFT_NQ",
+      "7": "GND",
+      "8": "",
+      "9": "",
+      "10": "+3V3",
+      "11": "GND",
+      "12": "GND",
+      "13": "+3V3",
+      "14": "+3V3"
+    },
+    "U5": {
+      "1": "+12V_PROT",
+      "2": "GND"
+    }
+  }
+}

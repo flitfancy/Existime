@@ -7,4 +7,4 @@ SPDX-License-Identifier: CERN-OHL-S-2.0
 完整条款见LICENSE-HARDWARE.txt。原始原生归档保留第三方封装、符号、字体及模型来源，不以本声明重新授权。
 设计生成工具和逻辑仿真代码的原创实现采用MIT；其中电路合同、BOM和接线数据沿用硬件许可。照片和品牌不因此新增授权。
 
-Source Location: https://github.com/flitfancy/Existime/tree/v0.5.0/projects/SICK
+Source Location: https://github.com/flitfancy/Existime/tree/v0.6.0/projects/SICK

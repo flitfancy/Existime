@@ -1,0 +1,3 @@
+{"type":"DOCHEAD","ticket":76308}||{"docType":"PCB","client":"7ddc88a1715830ad","uuid":"14b86ec7b9d6d803","updateTime":1791017409526,"version":"1791017409526","editVersion":"4.1.60","user":{"uuid":"36b3945656844e88b23eaabfb4abfb01","username":"exist01","nickname":"exist01"}}|
+{"type":"META","ticket":6,"id":"META"}||{"title":"PCB1","parent":"","source":"","board":"92e7761e7b7c0d9b","zIndex":null}|
+{"type":"DELETE_DOC","ticket":76308,"id":"DELETE_DOC"}||{"isDelete":true}|

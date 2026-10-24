@@ -1,0 +1,16 @@
+{
+  "name": "sick-motor-reverser-r4-lite-workflow",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node tools/build-project.mjs projects/sick_motor_reverser_r4_lite/project.config.mjs",
+    "status": "node tools/status.mjs projects/sick_motor_reverser_r4_lite/project.config.mjs",
+    "test": "node --test --test-isolation=none tests/*.test.mjs",
+    "check:schematic": "node --check projects/sick_motor_reverser_r4_lite/generated/00_create_schematic_r4_lite.js && node --check projects/sick_motor_reverser_r4_lite/generated/00b_apply_wirepad_flags.js",
+    "validate:layout": "node tools/validate-layout-rules.mjs projects/sick_motor_reverser_r4_lite/project.config.mjs",
+    "check:pcb-plan": "node --check projects/sick_motor_reverser_r4_lite/layout.rules.mjs && node --check projects/sick_motor_reverser_r4_lite/placement.mjs && node --check projects/sick_motor_reverser_r4_lite/routing.classes.mjs && node tools/validate-layout-rules.mjs projects/sick_motor_reverser_r4_lite/project.config.mjs"
+  }
+}

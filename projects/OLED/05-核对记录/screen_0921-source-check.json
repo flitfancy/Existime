@@ -1,0 +1,38 @@
+{
+  "version": "screen_0921",
+  "sourceArchive": "OLED-screen_0921-reference.epro2",
+  "nativeArchiveSha256": "f98dc74b1ee83a45d57992d5ee186e5d383194bcfbebe54cf66cac3675b23caa",
+  "nativeArchiveCrc": true,
+  "projectTitle": "screen_0921",
+  "targetPcbUuid": "c24a2f934769273c",
+  "pcbComponents": 64,
+  "bomQuantity": 52,
+  "bomGroups": 20,
+  "schematicPages": 2,
+  "documentCounts": {
+    "BLOB": 1,
+    "FOOTPRINT": 17,
+    "SYMBOL": 31,
+    "DEVICE": 35,
+    "BOARD": 2,
+    "SCH": 2,
+    "SCH_PAGE": 2,
+    "PCB": 2,
+    "CONFIG": 1,
+    "PANEL": 1
+  },
+  "derivedTables": "Offline extraction from original native source; not represented as fresh native BOM/CPL exports",
+  "coldImportVerified": false,
+  "nativeDrcRunThisPackaging": false,
+  "manufacturingFound": true,
+  "manufacturingComparison": {
+    "manufacturingArchiveSha256": "01b2a900b1ca76ac1fb8a3c0981a89d22b1d73a3bb6edfd6b41bcaf4512653bd",
+    "zipCrcVerified": true,
+    "memberCount": 14,
+    "componentRowsIncludingSyntheticPads": 64,
+    "nativeComponentPosesMatched": 64,
+    "numberedPinRowsMatched": 191,
+    "signalNetAliases": {},
+    "manufacturingExtras": []
+  }
+}
