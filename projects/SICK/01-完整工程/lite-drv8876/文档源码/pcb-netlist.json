@@ -1,0 +1,2386 @@
+{
+  "version": "2.0.0",
+  "projectId": "e555443c0f0047519b3ffd44b91d0a11",
+  "components": {
+    "gge11": {
+      "props": {
+        "Footprint": "77c69be1216b6c85",
+        "Designator": "C1",
+        "LCSC Part Name": "47uF ±10% 16V",
+        "Supplier Part": "C596320",
+        "Manufacturer": "YAGEO(国巨)",
+        "Manufacturer Part": "CC1210KKX5R7BB476",
+        "Supplier Footprint": "1210",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CC1210KKX5R7BB476/624304.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "no",
+        "3D Model": "833068e7fe044595a6eec77c56179455|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "C1210_L3.2-W2.5-H2.5",
+        "3D Model Transform": "125.984,98.425,0,0,0,0,0,0,0",
+        "Value": "47uF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "16V",
+        "Temperature Coefficient": "X5R",
+        "Name": "47uF",
+        "Description": "容值:47uF;精度:±10%;额定电压:16V;温度系数:X5R;",
+        "Unique ID": "gge11",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I12",
+        "DeviceName": "CC1210KKX5R7BB476",
+        "FootprintName": "C1210",
+        "Device": "29129a1d5d81c988",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+12V_PROT",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge9": {
+      "props": {
+        "Footprint": "fe770353b7a82805",
+        "Designator": "C2",
+        "LCSC Part Name": "10uF ±10% 25V",
+        "Supplier Part": "C15850",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL21A106KAYNNNE",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CL21A106KAYNNNE/16532.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "10uF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "25V",
+        "Temperature Coefficient": "X5R",
+        "Name": "10uF",
+        "Description": "容值:10uF;精度:±10%;额定电压:25V;温度系数:X5R;",
+        "Unique ID": "gge9",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I10",
+        "DeviceName": "CL21A106KAYNNNE_C15850",
+        "FootprintName": "C0805",
+        "Device": "abd339d3e3ab62d5",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+12V_PROT",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge10": {
+      "props": {
+        "Footprint": "fe770353b7a82805",
+        "Designator": "C3",
+        "LCSC Part Name": "10uF ±10% 16V",
+        "Supplier Part": "C1713",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL21A106KOQNNNE",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CL21A106KOQNNNE/2065.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "10uF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "16V",
+        "Temperature Coefficient": "X5R",
+        "Name": "10uF",
+        "Description": "容值:10uF;精度:±10%;额定电压:16V;温度系数:X5R;",
+        "Unique ID": "gge10",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I11",
+        "DeviceName": "CL21A106KOQNNNE",
+        "FootprintName": "C0805",
+        "Device": "89c6bda758f46595",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge12": {
+      "props": {
+        "Footprint": "fe770353b7a82805",
+        "Designator": "C4",
+        "LCSC Part Name": "100nF ±10% 50V",
+        "Supplier Part": "C1711",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL21B104KBCNNNC",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CL21B104KBCNNNC/2063.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "100nF",
+        "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+        "Unique ID": "gge12",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I13",
+        "DeviceName": "CL21B104KBCNNNC",
+        "FootprintName": "C0805",
+        "Device": "36c7dd18514e5ead",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+12V_PROT",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge21": {
+      "props": {
+        "Footprint": "fe770353b7a82805",
+        "Designator": "C5",
+        "LCSC Part Name": "100nF ±10% 50V",
+        "Supplier Part": "C1711",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL21B104KBCNNNC",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CL21B104KBCNNNC/2063.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "100nF",
+        "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+        "Unique ID": "gge21",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I22",
+        "DeviceName": "CL21B104KBCNNNC",
+        "FootprintName": "C0805",
+        "Device": "36c7dd18514e5ead",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "L_RAW",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge22": {
+      "props": {
+        "Footprint": "fe770353b7a82805",
+        "Designator": "C6",
+        "LCSC Part Name": "100nF ±10% 50V",
+        "Supplier Part": "C1711",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL21B104KBCNNNC",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CL21B104KBCNNNC/2063.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "100nF",
+        "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+        "Unique ID": "gge22",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I23",
+        "DeviceName": "CL21B104KBCNNNC",
+        "FootprintName": "C0805",
+        "Device": "36c7dd18514e5ead",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "R_RAW",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge23": {
+      "props": {
+        "Footprint": "fe770353b7a82805",
+        "Designator": "C7",
+        "LCSC Part Name": "100nF ±10% 50V",
+        "Supplier Part": "C1711",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL21B104KBCNNNC",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CL21B104KBCNNNC/2063.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "100nF",
+        "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+        "Unique ID": "gge23",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I24",
+        "DeviceName": "CL21B104KBCNNNC",
+        "FootprintName": "C0805",
+        "Device": "36c7dd18514e5ead",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge26": {
+      "props": {
+        "Footprint": "fe770353b7a82805",
+        "Designator": "C8",
+        "LCSC Part Name": "100nF ±10% 50V",
+        "Supplier Part": "C1711",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL21B104KBCNNNC",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CL21B104KBCNNNC/2063.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "100nF",
+        "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+        "Unique ID": "gge26",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I27",
+        "DeviceName": "CL21B104KBCNNNC",
+        "FootprintName": "C0805",
+        "Device": "36c7dd18514e5ead",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "DIR_SET_RC_N",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge31": {
+      "props": {
+        "Footprint": "fe770353b7a82805",
+        "Designator": "C9",
+        "LCSC Part Name": "100nF ±10% 50V",
+        "Supplier Part": "C1711",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL21B104KBCNNNC",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CL21B104KBCNNNC/2063.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "100nF",
+        "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+        "Unique ID": "gge31",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I32",
+        "DeviceName": "CL21B104KBCNNNC",
+        "FootprintName": "C0805",
+        "Device": "36c7dd18514e5ead",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge14": {
+      "props": {
+        "Footprint": "fe770353b7a82805",
+        "Designator": "C10",
+        "LCSC Part Name": "100nF ±10% 50V",
+        "Supplier Part": "C1711",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL21B104KBCNNNC",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CL21B104KBCNNNC/2063.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "100nF",
+        "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+        "Unique ID": "gge14",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I15",
+        "DeviceName": "CL21B104KBCNNNC",
+        "FootprintName": "C0805",
+        "Device": "36c7dd18514e5ead",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "VCP",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "+12V_PROT",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge15": {
+      "props": {
+        "Footprint": "fe770353b7a82805",
+        "Designator": "C11",
+        "LCSC Part Name": "22nF ±10% 50V",
+        "Supplier Part": "C1729",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL21B223KBANNNC",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CL21B223KBANNNC/2081.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "22nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "22nF",
+        "Description": "容值:22nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+        "Unique ID": "gge15",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I16",
+        "DeviceName": "CL21B223KBANNNC",
+        "FootprintName": "C0805",
+        "Device": "d5490239f55b429d",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "CPH",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "CPL",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge8": {
+      "props": {
+        "Footprint": "3d41786b1f6d134a",
+        "Designator": "D1",
+        "LCSC Part Name": "0805翠绿贴片式发光二极管",
+        "Supplier Part": "C965815",
+        "Manufacturer": "XINGLIGHT(成兴光)",
+        "Manufacturer Part": "XL-2012UGC",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/XL-2012UGC/1051424.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "0b830722b4bc4f6689430741ff73497d|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "LED0805-RD_GREEN",
+        "3D Model Transform": "78.74,49.21644,0,0,0,0,0,0,0",
+        "Lamp Holder Type": "2.0mmx1.2mm方形灯头",
+        "Illumination Color": "翠绿色",
+        "Voltage - Forward(Vf)": "3.2V",
+        "Power(Watts)": "70mW",
+        "Forward Current": "20mA",
+        "Wavelength - Dominant": "515nm~535nm",
+        "Peak Wavelength": "525nm",
+        "Diode Configuration": "独立二极管",
+        "Lens Color": "无色透明透镜",
+        "Color Temperature": "-",
+        "Luminous Intensity": "750mcd",
+        "Viewing Angle": "120°",
+        "Mounting Style": "正贴",
+        "Operating Temperature": "-40℃~+85℃",
+        "Name": "XL-2012UGC",
+        "Description": "灯头类型:2.0mmx1.2mm方形灯头;发光颜色:翠绿色;正向压降(Vf):3.2V;功率:70mW;正向电流:20mA;波长:515nm~535nm;二极管配置:独立二极管;透镜颜色:无色透明透镜;色温:-;发光强度:750mcd;发光角度:120°;载带方式:正贴;工作温度:-40℃~+85℃;",
+        "Unique ID": "gge8",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I9",
+        "DeviceName": "XL-2012UGC",
+        "FootprintName": "LED0805-RD_GREEN",
+        "Device": "ba817453fbf1f5d6",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "LED_PWR_A",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge27": {
+      "props": {
+        "Footprint": "e6c5e71f3af5850c",
+        "Designator": "D5",
+        "LCSC Part Name": "75V 150mA",
+        "Supplier Part": "C81598",
+        "Manufacturer": "ST(先科)",
+        "Manufacturer Part": "1N4148W",
+        "Supplier Footprint": "SOD-123",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/1N4148W/82750.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "7091c985327f41e7b1e4fbd3002f031e|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOD-123F_L2.7-W1.6-LS3.8-RD",
+        "3D Model Transform": "149.606,62.992,0,0,0,0,0,0,0",
+        "Diode Configuration": "独立式",
+        "Pd - Power Dissipation": "400mW",
+        "Current - Rectified": "150mA",
+        "Voltage - DC Reverse(Vr)": "75V",
+        "Voltage - Forward(Vf@If)": "1V@50mA",
+        "Non-Repetitive Peak Forward Surge Current": "1A",
+        "Reverse Leakage Current (Ir)": "1uA@75V",
+        "Reverse Recovery Time (trr)": "4ns",
+        "Operating Junction Temperature Range": "-",
+        "Name": "1N4148W",
+        "Description": "二极管配置:独立式;整流电流:150mA;直流反向耐压(Vr):75V;正向压降(Vf):1V@50mA;反向恢复时间(Trr):4ns;",
+        "Unique ID": "gge27",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I28",
+        "DeviceName": "1N4148W_C81598",
+        "FootprintName": "SOD-123F_L2.7-W1.6-LS3.8-RD",
+        "Device": "78f79c31668f1246",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "L_SET_N",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "DIR_SET_RC_N",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge28": {
+      "props": {
+        "Footprint": "e6c5e71f3af5850c",
+        "Designator": "D6",
+        "LCSC Part Name": "75V 150mA",
+        "Supplier Part": "C81598",
+        "Manufacturer": "ST(先科)",
+        "Manufacturer Part": "1N4148W",
+        "Supplier Footprint": "SOD-123",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/1N4148W/82750.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "7091c985327f41e7b1e4fbd3002f031e|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOD-123F_L2.7-W1.6-LS3.8-RD",
+        "3D Model Transform": "149.606,62.992,0,0,0,0,0,0,0",
+        "Diode Configuration": "独立式",
+        "Pd - Power Dissipation": "400mW",
+        "Current - Rectified": "150mA",
+        "Voltage - DC Reverse(Vr)": "75V",
+        "Voltage - Forward(Vf@If)": "1V@50mA",
+        "Non-Repetitive Peak Forward Surge Current": "1A",
+        "Reverse Leakage Current (Ir)": "1uA@75V",
+        "Reverse Recovery Time (trr)": "4ns",
+        "Operating Junction Temperature Range": "-",
+        "Name": "1N4148W",
+        "Description": "二极管配置:独立式;整流电流:150mA;直流反向耐压(Vr):75V;正向压降(Vf):1V@50mA;反向恢复时间(Trr):4ns;",
+        "Unique ID": "gge28",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I29",
+        "DeviceName": "1N4148W_C81598",
+        "FootprintName": "SOD-123F_L2.7-W1.6-LS3.8-RD",
+        "Device": "78f79c31668f1246",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "MOTOR_EN",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "L_SET_N",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge29": {
+      "props": {
+        "Footprint": "e6c5e71f3af5850c",
+        "Designator": "D7",
+        "LCSC Part Name": "75V 150mA",
+        "Supplier Part": "C81598",
+        "Manufacturer": "ST(先科)",
+        "Manufacturer Part": "1N4148W",
+        "Supplier Footprint": "SOD-123",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/1N4148W/82750.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "7091c985327f41e7b1e4fbd3002f031e|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOD-123F_L2.7-W1.6-LS3.8-RD",
+        "3D Model Transform": "149.606,62.992,0,0,0,0,0,0,0",
+        "Diode Configuration": "独立式",
+        "Pd - Power Dissipation": "400mW",
+        "Current - Rectified": "150mA",
+        "Voltage - DC Reverse(Vr)": "75V",
+        "Voltage - Forward(Vf@If)": "1V@50mA",
+        "Non-Repetitive Peak Forward Surge Current": "1A",
+        "Reverse Leakage Current (Ir)": "1uA@75V",
+        "Reverse Recovery Time (trr)": "4ns",
+        "Operating Junction Temperature Range": "-",
+        "Name": "1N4148W",
+        "Description": "二极管配置:独立式;整流电流:150mA;直流反向耐压(Vr):75V;正向压降(Vf):1V@50mA;反向恢复时间(Trr):4ns;",
+        "Unique ID": "gge29",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I30",
+        "DeviceName": "1N4148W_C81598",
+        "FootprintName": "SOD-123F_L2.7-W1.6-LS3.8-RD",
+        "Device": "78f79c31668f1246",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "MOTOR_EN",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "R_CLR_N",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge3": {
+      "props": {
+        "Footprint": "18bc7e018de96c7c",
+        "Designator": "F1",
+        "LCSC Part Name": "佰宏特高电压 2920 4A 30V",
+        "Supplier Part": "C20539726",
+        "Manufacturer": "BHFUSE(佰宏)",
+        "Manufacturer Part": "BSMD2920-400-30V",
+        "Supplier Footprint": "2920",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/BSMD2920-400-30V/21878918.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "c20979b6eed84fe694c25fdbe1326c05|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "F2920-1",
+        "3D Model Transform": "289.7632,201.5744,0,0,0,0,0,0,0",
+        "Voltage - Max": "30V",
+        "Current - Max": "40A",
+        "Hold Current": "4A",
+        "Trip Current": "8A",
+        "Power Dissipation": "2.5W",
+        "Resistance - Initial (Ri) (Min)": "8mΩ",
+        "Resistance - Post Trip (R1) (Max)": "40mΩ",
+        "Time to Trip(Max)": "4s",
+        "Operating Temperature": "-40℃~+85℃",
+        "Length": "7.98mm",
+        "Width": "5.44mm",
+        "Height": "-",
+        "Pitch": "-",
+        "Name": "BSMD2920-400-30V",
+        "Description": "耐压(Vmax):30V;最大电流(Imax):40A;保持电流(Ihold):4A;跳闸电流(Itrip):8A;",
+        "Unique ID": "gge3",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I4",
+        "DeviceName": "BSMD2920-400-30V",
+        "FootprintName": "F2920",
+        "Device": "79d9ce4acce1bf94",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+12V_SW",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "+12V_PROT",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge1": {
+      "props": {
+        "Footprint": "c09625026b792648",
+        "Designator": "IN",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+        "Add into BOM": "no",
+        "Name": "2P direct-wire SMD pads",
+        "Description": "SICK3 two-pin high-current direct-wire SMD pad device; no holes or paste opening.",
+        "Unique ID": "gge1",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I2",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "SICK_WIREPAD_DEVICE_2P_5X8_P10",
+        "FootprintName": "2P_5X8_P10",
+        "Device": "2d2b954eecd68aa1",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+12V_IN",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge5": {
+      "props": {
+        "Footprint": "c09625026b792648",
+        "Designator": "MOTER",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+        "Add into BOM": "no",
+        "Name": "2P direct-wire SMD pads",
+        "Description": "SICK3 two-pin high-current direct-wire SMD pad device; no holes or paste opening.",
+        "Unique ID": "gge5",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I6",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "SICK_WIREPAD_DEVICE_2P_5X8_P10",
+        "FootprintName": "2P_5X8_P10",
+        "Device": "2d2b954eecd68aa1",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "MOTOR_A",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "MOTOR_B",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge16": {
+      "props": {
+        "Footprint": "b61eaa24c60b8386",
+        "Designator": "L",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+        "Add into BOM": "no",
+        "Name": "2P direct-wire SMD pads",
+        "Description": "SICK3 two-pin signal direct-wire SMD pad device; no holes or paste opening.",
+        "Unique ID": "gge16",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I17",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "SICK_WIREPAD_DEVICE_2P_3X5_P5",
+        "FootprintName": "2P_3X5_P5",
+        "Device": "3c61a603b17fadcb",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "L_RAW",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge17": {
+      "props": {
+        "Footprint": "b61eaa24c60b8386",
+        "Designator": "R",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+        "Add into BOM": "no",
+        "Name": "2P direct-wire SMD pads",
+        "Description": "SICK3 two-pin signal direct-wire SMD pad device; no holes or paste opening.",
+        "Unique ID": "gge17",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I18",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "SICK_WIREPAD_DEVICE_2P_3X5_P5",
+        "FootprintName": "2P_3X5_P5",
+        "Device": "3c61a603b17fadcb",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "R_RAW",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge7": {
+      "props": {
+        "Footprint": "f0d76447956d5b58",
+        "Designator": "R1",
+        "LCSC Part Name": "4.7kΩ ±1% 125mW 厚膜电阻",
+        "Supplier Part": "C17673",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0805W8F4701T5E",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "37a81e68749a4138bd2dfa6897b24b85|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0805_L2.0-W1.3-H0.6",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,-0.0005,0",
+        "Type": "厚膜电阻",
+        "Value": "4.7kΩ",
+        "Tolerance": "±1%",
+        "Power(Watts)": "125mW",
+        "Overload Voltage (Max)": "150V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature Range": "-55℃~+155℃",
+        "Name": "4.7kΩ",
+        "Description": "电阻类型:厚膜电阻;阻值:4.7kΩ;精度:±1%;功率:125mW;最大工作电压:150V;温度系数:±100ppm/℃;",
+        "Unique ID": "gge7",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I8",
+        "DeviceName": "0805W8F4701T5E",
+        "FootprintName": "R0805",
+        "Device": "b2c4e270b492cd70",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+12V_PROT",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "LED_PWR_A",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge19": {
+      "props": {
+        "Footprint": "f0d76447956d5b58",
+        "Designator": "R5",
+        "LCSC Part Name": "10kΩ ±5% 125mW 厚膜电阻",
+        "Supplier Part": "C25612",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0805W8J0103T5E",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/0805W8J0103T5E/26355.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "37a81e68749a4138bd2dfa6897b24b85|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0805_L2.0-W1.3-H0.6",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,-0.0005,0",
+        "Type": "厚膜电阻",
+        "Value": "10kΩ",
+        "Tolerance": "±5%",
+        "Power(Watts)": "125mW",
+        "Voltage-Supply(Max)": "150V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "10kΩ",
+        "Description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±5%;功率:125mW;工作电压:150V;温度系数:±100ppm/℃;",
+        "Unique ID": "gge19",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I20",
+        "DeviceName": "0805W8J0103T5E",
+        "FootprintName": "R0805",
+        "Device": "6964f999fd7ddeac",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "L_RAW",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge20": {
+      "props": {
+        "Footprint": "f0d76447956d5b58",
+        "Designator": "R6",
+        "LCSC Part Name": "10kΩ ±5% 125mW 厚膜电阻",
+        "Supplier Part": "C25612",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0805W8J0103T5E",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/0805W8J0103T5E/26355.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "37a81e68749a4138bd2dfa6897b24b85|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0805_L2.0-W1.3-H0.6",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,-0.0005,0",
+        "Type": "厚膜电阻",
+        "Value": "10kΩ",
+        "Tolerance": "±5%",
+        "Power(Watts)": "125mW",
+        "Voltage-Supply(Max)": "150V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "10kΩ",
+        "Description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±5%;功率:125mW;工作电压:150V;温度系数:±100ppm/℃;",
+        "Unique ID": "gge20",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I21",
+        "DeviceName": "0805W8J0103T5E",
+        "FootprintName": "R0805",
+        "Device": "6964f999fd7ddeac",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "R_RAW",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge25": {
+      "props": {
+        "Footprint": "f0d76447956d5b58",
+        "Designator": "R7",
+        "LCSC Part Name": "100kΩ ±1% 125mW 厚膜电阻",
+        "Supplier Part": "C149504",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0805W8F1003T5E",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/0805W8F1003T5E/160838.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "37a81e68749a4138bd2dfa6897b24b85|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0805_L2.0-W1.3-H0.6",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,-0.0005,0",
+        "Type": "厚膜电阻",
+        "Value": "100kΩ",
+        "Tolerance": "±1%",
+        "Power(Watts)": "125mW",
+        "Voltage-Supply(Max)": "150V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "100kΩ",
+        "Description": "电阻类型:厚膜电阻;阻值:100kΩ;精度:±1%;功率:125mW;工作电压:150V;温度系数:±100ppm/℃;",
+        "Unique ID": "gge25",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I26",
+        "DeviceName": "0805W8F1003T5E",
+        "FootprintName": "R0805",
+        "Device": "73049f3b47029022",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "DIR_SET_RC_N",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge30": {
+      "props": {
+        "Footprint": "f0d76447956d5b58",
+        "Designator": "R8",
+        "LCSC Part Name": "10kΩ ±5% 125mW 厚膜电阻",
+        "Supplier Part": "C25612",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0805W8J0103T5E",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/0805W8J0103T5E/26355.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "37a81e68749a4138bd2dfa6897b24b85|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0805_L2.0-W1.3-H0.6",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,-0.0005,0",
+        "Type": "厚膜电阻",
+        "Value": "10kΩ",
+        "Tolerance": "±5%",
+        "Power(Watts)": "125mW",
+        "Voltage-Supply(Max)": "150V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "10kΩ",
+        "Description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±5%;功率:125mW;工作电压:150V;温度系数:±100ppm/℃;",
+        "Unique ID": "gge30",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I31",
+        "DeviceName": "0805W8J0103T5E",
+        "FootprintName": "R0805",
+        "Device": "6964f999fd7ddeac",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "MOTOR_EN",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge2": {
+      "props": {
+        "Footprint": "c09625026b792648",
+        "Designator": "SW",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+        "Add into BOM": "no",
+        "Name": "2P direct-wire SMD pads",
+        "Description": "SICK3 two-pin high-current direct-wire SMD pad device; no holes or paste opening.",
+        "Unique ID": "gge2",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I3",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "SICK_WIREPAD_DEVICE_2P_5X8_P10",
+        "FootprintName": "2P_5X8_P10",
+        "Device": "2d2b954eecd68aa1",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+12V_IN",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "+12V_SW",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge4": {
+      "props": {
+        "Footprint": "3b4f9a46c624df9d",
+        "Designator": "U1",
+        "LCSC Part Name": "3.5A 有刷直流电机驱动芯片 5.5V",
+        "Supplier Part": "C575551",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "DRV8876PWPR",
+        "Supplier Footprint": "HTSSOP-16-EP",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://www.ti.com/cn/lit/gpn/drv8876",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "200549fe6b144303a74ab5f8d741bae2|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "HTSSOP-16_L5.0-W4.4-H1.2-LS6.4-P0.65",
+        "3D Model Transform": "196.85,251.968,0,0,0,0,0,0,0",
+        "Technology": "是",
+        "Number of H-bridges": "1",
+        "Output Current": "-",
+        "Peak Current": "3.5A",
+        "Voltage - Supply": "-",
+        "RDS(on)": "700mΩ",
+        "Quiescent Current(Iq)": "750nA",
+        "Operating Temperature": "-40℃~+125℃",
+        "Name": "DRV8876PWPR",
+        "Description": "DRV8876 具有集成电流检测和电流检测反馈功能的 40V、3.5A H 桥电机驱动器",
+        "Unique ID": "gge4",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I5",
+        "DeviceName": "DRV8876PWPR",
+        "FootprintName": "HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL-EP",
+        "Device": "3614de87bab9872c",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "DIR_RIGHT_Q",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "MOTOR_EN",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": "MOTOR_A",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "9": {
+          "name": "",
+          "number": "9",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "10": {
+          "name": "",
+          "number": "10",
+          "net": "MOTOR_B",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "11": {
+          "name": "",
+          "number": "11",
+          "net": "+12V_PROT",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "12": {
+          "name": "",
+          "number": "12",
+          "net": "VCP",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "13": {
+          "name": "",
+          "number": "13",
+          "net": "CPH",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "14": {
+          "name": "",
+          "number": "14",
+          "net": "CPL",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "15": {
+          "name": "",
+          "number": "15",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "16": {
+          "name": "",
+          "number": "16",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "17": {
+          "name": "",
+          "number": "17",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge6": {
+      "props": {
+        "Name": "HT7533-1",
+        "Designator": "U2",
+        "Footprint": "88468e820224f407",
+        "LCSC Part Name": "输入30V 输出3.3V 100mA",
+        "Supplier Part": "C14289",
+        "Manufacturer": "HOLTEK(合泰/盛群)",
+        "Manufacturer Part": "HT7533-1",
+        "Supplier Footprint": "SOT-89-3",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "6db690b7897d4d18a30d90c1b89525ee|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50",
+        "3D Model Transform": "161.417,169.291,0,180,0,0,-18.661,0,0",
+        "Output Type": "固定",
+        "Voltage - Supply": "30V",
+        "Output Voltage": "3.3V",
+        "Output Current": "100mA",
+        "Power Supply Rejection Ratio (PSRR)": "-",
+        "Voltage Dropout": "25mV@(1mA)",
+        "standby current": "2.5uA",
+        "Operating Temperature": "-40℃~+85℃@(Ta)",
+        "Output Configuration": "正极",
+        "Number of Outputs": "1",
+        "Description": "输出类型:固定;工作电压:30V;输出电压:3.3V;输出电流:100mA;电源纹波抑制比(PSRR):-;输出极性:正极;",
+        "Unique ID": "gge6",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I7",
+        "DeviceName": "HT7533-1_C14289",
+        "FootprintName": "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR",
+        "Device": "caeeb18e760ccabc",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Name",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "+12V_PROT",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge18": {
+      "props": {
+        "Footprint": "87bed6b245e7418c",
+        "Designator": "U3",
+        "LCSC Part Name": "六路施密特触发反相器",
+        "Supplier Part": "C6820",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "SN74HC14DR",
+        "Supplier Footprint": "SOIC-14",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://www.ti.com/cn/lit/gpn/sn74hc14",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "8dbf5b715d42428c85558507ae5a252b|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOIC-14_L8.6-W3.9-H1.8-LS6.0-P1.27",
+        "3D Model Transform": "338.583,236.22,0,0,0,0,0,0.001,0",
+        "Input Type": "施密特触发器",
+        "Voltage - Supply": "2V~6V",
+        "Quiescent Current(Iq)": "2uA",
+        "Number of Circuits": "6",
+        "Number of Inputs": "1",
+        "Current - Output Low(IOL)": "5.2mA",
+        "Current - Output High(IOH)": "5.2mA",
+        "Input Logic Level - High": "1.5V~4.2V",
+        "Input Logic Level -Low": "300mV~1.2V",
+        "Output Logic Level - High": "-",
+        "Output Logic Level - Low": "-",
+        "Propagation Delay": "21ns@6V,50pF",
+        "Series": "74HC系列",
+        "Operating Temperature": "-40℃~+85℃",
+        "Name": "SN74HC14DR",
+        "Description": "输入类型:施密特触发器;工作电压:2V~6V;静态电流(Iq):2uA;通道数:6;传播延迟(tpd):21ns@6V,50pF;",
+        "Unique ID": "gge18",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I19",
+        "DeviceName": "SN74HC14DR",
+        "FootprintName": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+        "Device": "507b6ead047ccd8b",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "L_RAW",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "L_SET_N",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "R_RAW",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "R_CLR_N",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "DIR_SET_RC_N",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "DIR_SET_RC_P",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": "DIR_SET_N",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "9": {
+          "name": "",
+          "number": "9",
+          "net": "DIR_SET_RC_P",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "10": {
+          "name": "",
+          "number": "10",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "11": {
+          "name": "",
+          "number": "11",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "12": {
+          "name": "",
+          "number": "12",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "13": {
+          "name": "",
+          "number": "13",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "14": {
+          "name": "",
+          "number": "14",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge24": {
+      "props": {
+        "Footprint": "87bed6b245e7418c",
+        "Designator": "U4",
+        "LCSC Part Name": "双D型正边沿触发触发器，带清零和预置功能，工作电压范围2V至6V",
+        "Supplier Part": "C6762",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "SN74HC74DR",
+        "Supplier Footprint": "SOIC-14",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/sn74hc74.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "8dbf5b715d42428c85558507ae5a252b|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOIC-14_L8.6-W3.9-H1.8-LS6.0-P1.27",
+        "3D Model Transform": "338.583,236.22,0,0,0,0,0,0.001,0",
+        "Type": "D-型",
+        "Trigger Type": "上升沿",
+        "Voltage - Supply": "2V~6V",
+        "Clock Frequency": "60MHz",
+        "Function": "置位和复位",
+        "Number of Elements": "2",
+        "Number of Bits per Element": "1",
+        "Output Type": "互补式",
+        "Propagation Delay": "15ns@6V,50pF",
+        "Series": "74HC系列",
+        "Current - Output Low(IOL)": "5.2mA",
+        "Current - Output High(IOH)": "5.2mA",
+        "Quiescent Current": "4uA",
+        "Input Capacitance": "3pF",
+        "Operating Temperature": "-40℃~+85℃",
+        "Synchronous/Asynchronous": "异步",
+        "Setup Time": "25ns",
+        "Hold Time": "0ns",
+        "Name": "SN74HC74DR",
+        "Description": "类型:D-型;工作电压:2V~6V;时钟频率(fc):60MHz;元件数:2;每个元件位数:1;传播延迟(tpd):15ns@6V,50pF;静态电流(Iq):4uA;",
+        "Unique ID": "gge24",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I25",
+        "DeviceName": "SN74HC74DR",
+        "FootprintName": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+        "Device": "6e30d8ac29451eb1",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "R_CLR_N",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "DIR_SET_N",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "DIR_RIGHT_Q",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "DIR_LEFT_NQ",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "9": {
+          "name": "",
+          "number": "9",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "10": {
+          "name": "",
+          "number": "10",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "11": {
+          "name": "",
+          "number": "11",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "12": {
+          "name": "",
+          "number": "12",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "13": {
+          "name": "",
+          "number": "13",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "14": {
+          "name": "",
+          "number": "14",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "gge13": {
+      "props": {
+        "Footprint": "bf07eb2fe8d7c535",
+        "Designator": "U5",
+        "LCSC Part Name": "双向TVS 18V截止 峰值脉冲电流：13.7A@10/1000us",
+        "Supplier Part": "C10768",
+        "Manufacturer": "RUILON(瑞隆源)",
+        "Manufacturer Part": "SMAJ18CA",
+        "Supplier Footprint": "DO-214AC(SMA)",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/SMAJ18CA/11312.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "88a0b00993434c679979bf3235683172|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SMA_L4.3-W2.5-H2.1-LS5.0",
+        "3D Model Transform": "204.724,98.425,0,0,0,0,0,0,0",
+        "Polarity": "双向",
+        "Reverse Stand-Off Voltage (Vrwm)": "18V",
+        "Clamping Voltage": "29.2V",
+        "Peak Pulse Current (Ipp)": "13.7A@10/1000us",
+        "Peak Pulse Power Dissipation (Ppp)": "400W@10/1000us",
+        "Voltage - Breakdown": "23.3V",
+        "Reverse Leakage Current (Ir)": "1uA",
+        "Operating Temperature": "-55℃~+150℃",
+        "level of protection": "IEC 61000-4-4；IEC 61000-4-2",
+        "Type": "TVS",
+        "Name": "SMAJ18CA",
+        "Description": "极性:双向;反向截止电压(Vrwm):18V;钳位电压:29.2V;峰值脉冲电流(Ipp):13.7A@10/1000us;峰值脉冲功率(Ppp):400W@10/1000us;击穿电压:23.3V;",
+        "Unique ID": "gge13",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I14",
+        "DeviceName": "SMAJ18CA_C10768",
+        "FootprintName": "SMA_L4.4-W2.6-LS5.0-BI",
+        "Device": "397ac0a726dfd72c",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+12V_PROT",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    }
+  },
+  "designRule": {
+    "trackPhysics": {
+      "copperThickness1oz": {
+        "name": "copperThickness1oz",
+        "isDefault": true,
+        "unit": "mm",
+        "strokeValue": {
+          "1": {
+            "default": 0.254,
+            "min": 0.20320000000000002,
+            "max": 2.54
+          }
+        }
+      },
+      "copperThickness2oz": {
+        "name": "copperThickness2oz",
+        "isDefault": false,
+        "unit": "mm",
+        "strokeValue": {
+          "1": {
+            "default": 0.254,
+            "min": 0.20320000000000002,
+            "max": 2.54
+          }
+        }
+      },
+      "R4L_3V3_20MIL": {
+        "name": "R4L_3V3_20MIL",
+        "isDefault": false,
+        "unit": "mm",
+        "strokeValue": {
+          "1": {
+            "default": 0.508,
+            "min": 0.254,
+            "max": 1.016
+          }
+        }
+      },
+      "R4L_CHARGE_PUMP_12MIL": {
+        "name": "R4L_CHARGE_PUMP_12MIL",
+        "isDefault": false,
+        "unit": "mm",
+        "strokeValue": {
+          "1": {
+            "default": 0.3048,
+            "min": 0.20320000000000002,
+            "max": 0.508
+          }
+        }
+      },
+      "R4L_INPUT_60MIL": {
+        "name": "R4L_INPUT_60MIL",
+        "isDefault": false,
+        "unit": "mm",
+        "strokeValue": {
+          "1": {
+            "default": 1.524,
+            "min": 0.254,
+            "max": 2.54
+          }
+        }
+      },
+      "R4L_LOGIC_10MIL": {
+        "name": "R4L_LOGIC_10MIL",
+        "isDefault": false,
+        "unit": "mm",
+        "strokeValue": {
+          "1": {
+            "default": 0.254,
+            "min": 0.20320000000000002,
+            "max": 0.508
+          }
+        }
+      },
+      "R4L_MOTOR_80MIL": {
+        "name": "R4L_MOTOR_80MIL",
+        "isDefault": false,
+        "unit": "mm",
+        "strokeValue": {
+          "1": {
+            "default": 2.032,
+            "min": 0.254,
+            "max": 2.54
+          }
+        }
+      },
+      "R4L_SIGNAL_8MIL": {
+        "name": "R4L_SIGNAL_8MIL",
+        "isDefault": false,
+        "unit": "mm",
+        "strokeValue": {
+          "1": {
+            "default": 0.20320000000000002,
+            "min": 0.20320000000000002,
+            "max": 0.508
+          }
+        }
+      }
+    },
+    "netRule": {
+      "GND": {
+        "net": "GND",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "+12V_PROT": {
+        "net": "+12V_PROT",
+        "ruleMap": {
+          "TrackPhysics": "R4L_MOTOR_80MIL"
+        }
+      },
+      "+3V3": {
+        "net": "+3V3",
+        "ruleMap": {
+          "TrackPhysics": "R4L_3V3_20MIL"
+        }
+      },
+      "L_RAW": {
+        "net": "L_RAW",
+        "ruleMap": {
+          "TrackPhysics": "R4L_LOGIC_10MIL"
+        }
+      },
+      "R_RAW": {
+        "net": "R_RAW",
+        "ruleMap": {
+          "TrackPhysics": "R4L_LOGIC_10MIL"
+        }
+      },
+      "DIR_SET_RC_N": {
+        "net": "DIR_SET_RC_N",
+        "ruleMap": {
+          "TrackPhysics": "R4L_LOGIC_10MIL"
+        }
+      },
+      "VCP": {
+        "net": "VCP",
+        "ruleMap": {
+          "TrackPhysics": "R4L_CHARGE_PUMP_12MIL"
+        }
+      },
+      "CPL": {
+        "net": "CPL",
+        "ruleMap": {
+          "TrackPhysics": "R4L_CHARGE_PUMP_12MIL"
+        }
+      },
+      "CPH": {
+        "net": "CPH",
+        "ruleMap": {
+          "TrackPhysics": "R4L_CHARGE_PUMP_12MIL"
+        }
+      },
+      "LED_PWR_A": {
+        "net": "LED_PWR_A",
+        "ruleMap": {
+          "TrackPhysics": "R4L_LOGIC_10MIL"
+        }
+      },
+      "L_SET_N": {
+        "net": "L_SET_N",
+        "ruleMap": {
+          "TrackPhysics": "R4L_LOGIC_10MIL"
+        }
+      },
+      "MOTOR_EN": {
+        "net": "MOTOR_EN",
+        "ruleMap": {
+          "TrackPhysics": "R4L_LOGIC_10MIL"
+        }
+      },
+      "R_CLR_N": {
+        "net": "R_CLR_N",
+        "ruleMap": {
+          "TrackPhysics": "R4L_LOGIC_10MIL"
+        }
+      },
+      "+12V_SW": {
+        "net": "+12V_SW",
+        "ruleMap": {
+          "TrackPhysics": "R4L_INPUT_60MIL"
+        }
+      },
+      "+12V_IN": {
+        "net": "+12V_IN",
+        "ruleMap": {
+          "TrackPhysics": "R4L_INPUT_60MIL"
+        }
+      },
+      "MOTOR_B": {
+        "net": "MOTOR_B",
+        "ruleMap": {
+          "TrackPhysics": "R4L_MOTOR_80MIL"
+        }
+      },
+      "MOTOR_A": {
+        "net": "MOTOR_A",
+        "ruleMap": {
+          "TrackPhysics": "R4L_MOTOR_80MIL"
+        }
+      },
+      "DIR_RIGHT_Q": {
+        "net": "DIR_RIGHT_Q",
+        "ruleMap": {
+          "TrackPhysics": "R4L_LOGIC_10MIL"
+        }
+      },
+      "DIR_SET_N": {
+        "net": "DIR_SET_N",
+        "ruleMap": {
+          "TrackPhysics": "R4L_LOGIC_10MIL"
+        }
+      },
+      "DIR_SET_RC_P": {
+        "net": "DIR_SET_RC_P",
+        "ruleMap": {
+          "TrackPhysics": "R4L_LOGIC_10MIL"
+        }
+      },
+      "DIR_LEFT_NQ": {
+        "net": "DIR_LEFT_NQ",
+        "ruleMap": {
+          "TrackPhysics": "R4L_LOGIC_10MIL"
+        }
+      }
+    }
+  },
+  "netClass": {
+    "R4L_GND": {
+      "name": "R4L_GND",
+      "nets": [
+        "GND"
+      ],
+      "ruleMap": {
+        "TrackPhysics": ""
+      }
+    },
+    "R4L_MOTOR_80MIL": {
+      "name": "R4L_MOTOR_80MIL",
+      "nets": [
+        "+12V_PROT",
+        "MOTOR_B",
+        "MOTOR_A"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_MOTOR_80MIL"
+      }
+    },
+    "R4L_3V3_20MIL": {
+      "name": "R4L_3V3_20MIL",
+      "nets": [
+        "+3V3"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_3V3_20MIL"
+      }
+    },
+    "R4L_L_RAW_10MIL": {
+      "name": "R4L_L_RAW_10MIL",
+      "nets": [
+        "L_RAW"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_LOGIC_10MIL"
+      }
+    },
+    "R4L_R_RAW_10MIL": {
+      "name": "R4L_R_RAW_10MIL",
+      "nets": [
+        "R_RAW"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_LOGIC_10MIL"
+      }
+    },
+    "R4L_DIR_SET_RC_N_10MIL": {
+      "name": "R4L_DIR_SET_RC_N_10MIL",
+      "nets": [
+        "DIR_SET_RC_N"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_LOGIC_10MIL"
+      }
+    },
+    "R4L_CHARGE_PUMP_12MIL": {
+      "name": "R4L_CHARGE_PUMP_12MIL",
+      "nets": [
+        "VCP",
+        "CPL",
+        "CPH"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_CHARGE_PUMP_12MIL"
+      }
+    },
+    "R4L_LED_PWR_A_10MIL": {
+      "name": "R4L_LED_PWR_A_10MIL",
+      "nets": [
+        "LED_PWR_A"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_LOGIC_10MIL"
+      }
+    },
+    "R4L_L_SET_N_10MIL": {
+      "name": "R4L_L_SET_N_10MIL",
+      "nets": [
+        "L_SET_N"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_LOGIC_10MIL"
+      }
+    },
+    "R4L_MOTOR_EN_10MIL": {
+      "name": "R4L_MOTOR_EN_10MIL",
+      "nets": [
+        "MOTOR_EN"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_LOGIC_10MIL"
+      }
+    },
+    "R4L_R_CLR_N_10MIL": {
+      "name": "R4L_R_CLR_N_10MIL",
+      "nets": [
+        "R_CLR_N"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_LOGIC_10MIL"
+      }
+    },
+    "R4L_INPUT_60MIL": {
+      "name": "R4L_INPUT_60MIL",
+      "nets": [
+        "+12V_SW",
+        "+12V_IN"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_INPUT_60MIL"
+      }
+    },
+    "R4L_DIR_RIGHT_Q_10MIL": {
+      "name": "R4L_DIR_RIGHT_Q_10MIL",
+      "nets": [
+        "DIR_RIGHT_Q"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_LOGIC_10MIL"
+      }
+    },
+    "R4L_DIR_SET_N_10MIL": {
+      "name": "R4L_DIR_SET_N_10MIL",
+      "nets": [
+        "DIR_SET_N"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_LOGIC_10MIL"
+      }
+    },
+    "R4L_DIR_SET_RC_P_10MIL": {
+      "name": "R4L_DIR_SET_RC_P_10MIL",
+      "nets": [
+        "DIR_SET_RC_P"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_LOGIC_10MIL"
+      }
+    },
+    "R4L_DIR_LEFT_NQ_10MIL": {
+      "name": "R4L_DIR_LEFT_NQ_10MIL",
+      "nets": [
+        "DIR_LEFT_NQ"
+      ],
+      "ruleMap": {
+        "TrackPhysics": "R4L_LOGIC_10MIL"
+      }
+    }
+  },
+  "equalLengthNetGroup": {},
+  "differentialPair": {},
+  "differentialPairGroups": {}
+}

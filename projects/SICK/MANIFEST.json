@@ -9,13 +9,13 @@
     "software": "MIT",
     "thirdPartyPreserved": true
   },
-  "validation": "Author selected these historical successful projects for archive on 2026-10-24; original automated-check limits are retained.",
+  "validation": "Historical owner confirmation retained; original SICK Lite cloud-native export, native BOM/CPL, zero-item current PCB DRC and 31-component/102-pin fabrication correspondence checked on 2026-10-24; cold import and new physical tests not claimed.",
   "release": {
     "repository": "flitfancy/Existime",
     "kind": "release",
-    "tag": "v0.6.0",
-    "sourceUrl": "https://github.com/flitfancy/Existime/tree/v0.6.0/projects/SICK",
-    "releaseUrl": "https://github.com/flitfancy/Existime/releases/tag/v0.6.0",
+    "tag": "v0.6.1",
+    "sourceUrl": "https://github.com/flitfancy/Existime/tree/v0.6.1/projects/SICK",
+    "releaseUrl": "https://github.com/flitfancy/Existime/releases/tag/v0.6.1",
     "newPhysicalMeasurementsClaimed": false,
     "manufacturingApproval": false
   },
@@ -26,9 +26,39 @@
       "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
     },
     {
+      "path": "01-完整工程/lite-drv8876/SICK-Lite-20261024.epro2",
+      "bytes": 666696,
+      "sha256": "6e090982a026c9e7de307c247eaeb96ee2c163588c04d515161fe4f1df31c922"
+    },
+    {
       "path": "01-完整工程/lite-drv8876/原始PCB捕获.json",
       "bytes": 245238,
       "sha256": "3743949045054768899f97d1be291274956e72f0064371da6b781688db94e2ac"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/工程预览/914ae5a025084581.webp",
+      "bytes": 108774,
+      "sha256": "109d791d41ae4331c09de2f34a0ce978af200dcf6f57fa2b1fbda2b3c53f02cc"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/工程预览/b0205cd63e30f63a.webp",
+      "bytes": 276338,
+      "sha256": "b12cdc33da33e7e94d758865895f2bd14ea14734ebb1f7de5c00f2051666992d"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/文档源码/PCB-b0205cd63e30f63a.epru",
+      "bytes": 756435,
+      "sha256": "aa11b4b44f882bcfc7019040ee7fc5ee3f0a27c754cf3cd1c3a3fe113e3f014e"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/文档源码/pcb-netlist.json",
+      "bytes": 73714,
+      "sha256": "97028fc5b52f2b0b71af04a5aa49babb5b34ff55acd99ef74ff65c5b63d36935"
+    },
+    {
+      "path": "01-完整工程/lite-drv8876/文档源码/SCH_PAGE-914ae5a025084581.epru",
+      "bytes": 409807,
+      "sha256": "fdbacb01dfcc99f3a14bdcb25013750354a227d153c6c3dafd3ed99912abdd52"
     },
     {
       "path": "01-完整工程/lite-drv8876/生成源码/core/capture-validation.mjs",
@@ -102,8 +132,8 @@
     },
     {
       "path": "01-完整工程/lite-drv8876/生成源码/LICENSING.md",
-      "bytes": 324,
-      "sha256": "00102c67d4c77248a5465c2206b0fd401fee5792eb1222d1dede8976317b885c"
+      "bytes": 423,
+      "sha256": "07e6abc984bef2e853acf2422a65521a88a2f7577ef9a4698ae49687e7233982"
     },
     {
       "path": "01-完整工程/lite-drv8876/生成源码/package.json",
@@ -291,6 +321,16 @@
       "sha256": "0217770fa3fb83ace6b8d73f8185c690bf38c00f11f07ed68a0c9bdb09964e94"
     },
     {
+      "path": "02-BOM/lite-drv8876/SICK-Lite-BOM-native-utf8.csv",
+      "bytes": 1311,
+      "sha256": "4ff591791c1e01406e9b10528d9751a55839271d3f1d82c209f2cc9b6106ab8e"
+    },
+    {
+      "path": "02-BOM/lite-drv8876/SICK-Lite-BOM-native.csv",
+      "bytes": 2452,
+      "sha256": "48e9564d0627c355adfecb66c39834fdcc1771cde5b8cd57f05c60fde9020da1"
+    },
+    {
       "path": "02-BOM/r3-smd/BOM-as-designed.csv",
       "bytes": 880,
       "sha256": "eb19577f37a57c159bdf51ce17de90a5efd55b254ac4601ca05dc51c8f68540a"
@@ -461,6 +501,16 @@
       "sha256": "507d631f2964b13275dea0f0ee8e7ea9c5ce7d38f8192a521c8bc6f932ee2ca7"
     },
     {
+      "path": "04-装配资料/lite-drv8876/SICK-Lite-CPL-mm-native-utf8.csv",
+      "bytes": 6384,
+      "sha256": "65aefe0c1bf05981bbbb4f16faa6390086bcafcf84bfa53215b3f9a211f27ae7"
+    },
+    {
+      "path": "04-装配资料/lite-drv8876/SICK-Lite-CPL-mm-native.csv",
+      "bytes": 12730,
+      "sha256": "660a6eb415e199fb0dbf6df269d4ec7f3677ff3ca20a35d29b9bd19ad7bb2353"
+    },
+    {
       "path": "04-装配资料/r3-smd/pin-net-from-native-source.csv",
       "bytes": 1768,
       "sha256": "842fcfce1da31991a7537d2982bb24ea4e67e71f27951095d3119b2a42c465e9"
@@ -487,18 +537,23 @@
     },
     {
       "path": "04-装配资料/接线说明.md",
-      "bytes": 848,
-      "sha256": "bbb6bd2751b75db97e4cbb599ff80dbe477dc5e029a7b35e9b2d07451819194c"
+      "bytes": 1442,
+      "sha256": "e68ab7bf1050c99ec2738dc37c108ce758ee19469b98abd8e3f729903c3bd25e"
     },
     {
       "path": "05-核对记录/lite-drv8876-source-check.json",
-      "bytes": 3023,
-      "sha256": "040c10a5739b6382229ee25c2b4bbe0df196cf7970fb092e4f37dd7463783703"
+      "bytes": 3169,
+      "sha256": "1edfe75d0c7eb976161164eaa27a1800b797b3943f738f53ab7fc57edba37068"
     },
     {
       "path": "05-核对记录/lite-generator-tests.json",
       "bytes": 217,
       "sha256": "e36723fa3300997fa860fdfb2f94367274e61235fea289e14acc7b9819ebc3f2"
+    },
+    {
+      "path": "05-核对记录/lite-native-project-check.json",
+      "bytes": 2834,
+      "sha256": "518456e3e98e79c6a1a7b1b37cdbde44b7108da85bba7aa608209100aa18a7ca"
     },
     {
       "path": "05-核对记录/r3-smd-source-check.json",
@@ -507,8 +562,8 @@
     },
     {
       "path": "05-核对记录/README.txt",
-      "bytes": 235,
-      "sha256": "a80a983c0cb5863eef31399e6aff8f236752941a65a36deb8ca1ea33f1c84662"
+      "bytes": 381,
+      "sha256": "7f1f36097696efd6acb592e23b9fd18595b5eef478df85a89912edeb454d1b72"
     },
     {
       "path": "05-核对记录/release-confirmation.json",
@@ -548,7 +603,7 @@
     {
       "path": "HARDWARE-NOTICE.txt",
       "bytes": 633,
-      "sha256": "48355a104639924c5962aa5776656955a52746a1ed8a8f93f4480f42dc660a07"
+      "sha256": "6de2253a551805f94ab2ef2304dc4199dea0e0b286366222b39b4a9830380941"
     },
     {
       "path": "LICENSE-HARDWARE.txt",
@@ -562,13 +617,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3866,
-      "sha256": "966c3c85bf8c3f1de8358f18e6f7a426caf16488f3f75f925fd9db86ec70d3bc"
+      "bytes": 4908,
+      "sha256": "69d421b9df9beb04e69222ba9173cb78f4aba9caa923c376ae65d9ad314074d5"
     },
     {
       "path": "README.txt",
-      "bytes": 701,
-      "sha256": "32937a8d2a5c8a5675c5cae8c7884014e8f9bf5c1ad196d2cc5fe150ad9b968e"
+      "bytes": 794,
+      "sha256": "984d402adc3be84fc616f582a1369daa39af8076ba4d3ff28ea96b1211f5f565"
     },
     {
       "path": "SOFTWARE-NOTICE.txt",

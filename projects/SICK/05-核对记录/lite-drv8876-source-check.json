@@ -1,7 +1,7 @@
 {
   "version": "lite-drv8876",
   "placedComponents": 31,
-  "completeNativeArchiveFound": false,
+  "completeNativeArchiveFound": true,
   "designGenerationFiles": [
     "package.json",
     "README.md",
@@ -48,7 +48,7 @@
   ],
   "originalCaptureIncluded": true,
   "originalBOMIncluded": true,
-  "positionsDerivedFrom": "Original fabrication FlyingProbeTesting component rows; not a native CPL export",
+  "positionsDerivedFrom": "Historical manufacturing extraction retained; original native CPL (31 rows, mm) additionally exported on 2026-10-24",
   "manufacturing": {
     "manufacturingArchiveSha256": "441a0ab3ddc8724258ee757e775b04ef2f28b407a97d66df4e0789acc2863734",
     "zipCrcVerified": true,
@@ -56,6 +56,9 @@
     "componentRowsIncludingSyntheticPads": 128
   },
   "physicalSuccessConfirmation": "Author selected this historical successful board for archive on 2026-10-24",
-  "sourceGap": "Full cloud-native project export not recovered; design scripts and original capture retained",
-  "ownerConfirmation": "release-confirmation.json"
+  "sourceGap": null,
+  "ownerConfirmation": "release-confirmation.json",
+  "sourceArchive": "SICK-Lite-20261024.epro2",
+  "nativeArchiveSha256": "6e090982a026c9e7de307c247eaeb96ee2c163588c04d515161fe4f1df31c922",
+  "nativeProjectEvidence": "lite-native-project-check.json"
 }

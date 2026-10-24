@@ -8,11 +8,11 @@
 | --- | --- | --- | --- | --- |
 | `through-hole` 插件/混装版 | VNH5019、AMS1117、74HC14/74HC74 | 2026-06-30完整原生工程，38个器件 | 原始制造包暂未定位 | 旧记录载明第二块板已接电机运行；保留当时范围 |
 | `r3-smd` R3贴片版 | VNH5019、HT7533、SMAJ18CA | 2026-07-28完整原生工程，41个器件 | 对应原始Gerber，46×48mm | 2026-08-04返修后空载/假负载换向恢复；电流/长期测试未完整记录 |
-| `lite-drv8876` Lite版 | DRV8876、HT7533、74HC14/74HC74 | 设计生成源码与原PCB捕获；完整原生整包待补 | 原始Gerber，40×32mm | 作者于2026-10-24确认纳入成功旧板归档；原工具检查与源文件缺项另记 |
+| `lite-drv8876` Lite版 | DRV8876、HT7533、74HC14/74HC74 | 2026-10-24完整原生工程，31个器件；保留历史生成源码 | 原始Gerber，40×32mm | 作者确认成功旧板；31器件/102引脚与制造资料对账，当前原生DRC返回0项 |
 
 ## 下载
 
-[SICK 历史版本归档 v0.6.0](https://github.com/flitfancy/Existime/releases/tag/v0.6.0) 提供[完整三版本ZIP](https://github.com/flitfancy/Existime/releases/download/v0.6.0/Existime-SICK-v0.6.0.zip)及SHA-256校验。源资料固定在[同名标签](https://github.com/flitfancy/Existime/tree/v0.6.0/projects/SICK)。
+[SICK 历史版本归档 v0.6.1](https://github.com/flitfancy/Existime/releases/tag/v0.6.1) 提供[完整三版本ZIP](https://github.com/flitfancy/Existime/releases/download/v0.6.1/Existime-SICK-v0.6.1.zip)及SHA-256校验。源资料固定在[同名标签](https://github.com/flitfancy/Existime/tree/v0.6.1/projects/SICK)。
 
 ## 项目目录
 
@@ -29,11 +29,17 @@
 
 ## 改板从哪里开始
 
-插件版和R3版优先复制01目录中的对应`.epro2`，在EDA中另存为新项目；原文件内保留旧名称、项目库及辅助页面。不要用R3文件覆盖插件版，也不要把同一系列不同制造包混用。
+三个版本均优先复制01目录中的对应`.epro2`，在EDA中另存为新项目；原文件内保留旧名称、项目库及辅助页面。不要用R3文件覆盖插件版，也不要把同一系列不同制造包混用。
 
-Lite版现已收录设计生成源码、原PCB捕获、原始BOM、原制造包及从制造表提取的坐标。完整云端原生整包仍待补取；生成脚本的旧布局不是最终制造布局。原生成器在归档副本中15项测试通过，原始源码保持字节。
+Lite版已补入[完整原生工程](01-完整工程/lite-drv8876/SICK-Lite-20261024.epro2)，包含原理图、PCB、项目符号与封装库；另存文档源码、原生网络表、原生BOM和31行mm坐标。31个器件的位置/旋转及102个器件引脚的网络连接分组与40×32mm原制造包一致；网络重命名别名见[核对记录](05-核对记录/lite-native-project-check.json)。
 
-两份旧原生归档已通过ZIP CRC并离线提取BOM与坐标；当前编辑器的自动冷导入未完成，因此本次不声明已经重新导入或重跑原生DRC。R3制造包与原生工程的全部41个器件姿态及命名网络关系已对账。
+历史设计生成源码、原PCB捕获、原设计BOM及制造表坐标继续保留。生成脚本的旧布局不是最终制造布局；改板优先从完整原生工程另存。原生成器15项测试的历史范围不变。
+
+三份原生归档均通过ZIP CRC。Lite于2026-10-24在原云端工程完成读取与导出，当前原生PCB DRC返回0项，导出前后PCB有效记录未变；导出文件尚未做独立冷导入。插件版和R3版仍沿用原有离线核对，本次未重新运行其原生DRC。R3制造包与原生工程的全部41个器件姿态及命名网络关系已对账。
+
+### Lite BOM怎么选
+
+[原设计BOM](02-BOM/lite-drv8876/BOM-original-design.csv)为26件，包含手装库存C1（330µF/16V、1210）。[本次原生BOM](02-BOM/lite-drv8876/SICK-Lite-BOM-native-utf8.csv)为15组25件，按现有工程的BOM标记排除了C1和五个纯铜直焊接口。原生坐标仍包含全部31个器件；其中C1显示的47µF/C596320是历史封装借用元数据，不是实际库存电容的采购规格。原件和BOM标记均保持，复刻时把C1按原设计BOM单独备料。原始UTF-16导出及UTF-8转码副本同时保留。
 
 ## 必须保留的实装差异
 
@@ -43,4 +49,4 @@ R3原生工程的C1/C10/C11型号和值为47µF；历史实物记录写的是三
 
 ## 授权
 
-原创硬件采用[CERN-OHL-S-2.0](LICENSE-HARDWARE.txt)，原创工具/仿真代码采用[MIT](LICENSE-SOFTWARE.txt)，第三方保留原许可证。三个版本的历史资料已作为 v0.6.0 归档发布。
+原创硬件采用[CERN-OHL-S-2.0](LICENSE-HARDWARE.txt)，原创工具/仿真代码采用[MIT](LICENSE-SOFTWARE.txt)，第三方保留原许可证。三个版本的历史资料已作为 v0.6.1 归档发布。

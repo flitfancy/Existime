@@ -26,7 +26,7 @@ FFS、FFA、map 均已由作者完成实物与功能验证，并于 2026-10-22 �
 
 插件/混装版、R3贴片版、Lite（DRV8876）三版集中保留在同一个SICK项目中，原始工程、版本BOM和制造文件分别归档，方便查阅与改版。
 
-[版本对照与资料](projects/SICK/README.md) · [历史归档 v0.6.0](https://github.com/flitfancy/Existime/releases/tag/v0.6.0)
+[版本对照与资料](projects/SICK/README.md) · [原生工程补全 v0.6.1](https://github.com/flitfancy/Existime/releases/tag/v0.6.1)
 
 ### FFT · 主控与显示终端
 

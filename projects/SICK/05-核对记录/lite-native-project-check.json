@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-24",
+  "project": "SICK-lite",
+  "projectUuid": "e555443c0f0047519b3ffd44b91d0a11",
+  "pcbUuid": "b0205cd63e30f63a",
+  "exportMethod": "Original cloud project export via EasyEDA Pro getProjectFileByProjectUuid(epro2); not reconstructed from generators",
+  "sourceArchive": "01-完整工程/lite-drv8876/SICK-Lite-20261024.epro2",
+  "nativeArchiveBytes": 666696,
+  "nativeArchiveSha256": "6e090982a026c9e7de307c247eaeb96ee2c163588c04d515161fe4f1df31c922",
+  "nativeZipCrcVerified": true,
+  "documentCounts": {
+    "FOOTPRINT": 12,
+    "SYMBOL": 18,
+    "DEVICE": 19,
+    "BOARD": 1,
+    "SCH": 1,
+    "SCH_PAGE": 1,
+    "PCB": 1,
+    "CONFIG": 1,
+    "PANEL": 1,
+    "BLOB": 1
+  },
+  "completeNativeArchiveFound": true,
+  "placedComponents": 31,
+  "componentPins": 102,
+  "additionalDrv8876FootprintViaGroundAssignments": {
+    "U1_e60": "GND",
+    "U1_e61": "GND",
+    "U1_e62": "GND",
+    "U1_e63": "GND"
+  },
+  "footprintCoverageComplete": true,
+  "manufacturing": {
+    "archive": "03-PCB制造/lite-drv8876/okkk-Gerber_PCB1_2026-08-14.zip",
+    "sha256": "441a0ab3ddc8724258ee757e775b04ef2f28b407a97d66df4e0789acc2863734",
+    "boardSizeMm": [
+      40,
+      32
+    ],
+    "componentPositionsAndRotationsMatch": true,
+    "matchedComponents": 31,
+    "pinConnectivityPartitionsMatch": true,
+    "matchedPins": 102,
+    "namedNetAliases": [
+      {
+        "current": "DIR_LEFT_NQ",
+        "manufacturing": "NET_7"
+      },
+      {
+        "current": "DIR_RIGHT_Q",
+        "manufacturing": "NET_2"
+      },
+      {
+        "current": "DIR_SET_RC_N",
+        "manufacturing": "NET_1"
+      },
+      {
+        "current": "DIR_SET_RC_P",
+        "manufacturing": "NET_4"
+      }
+    ],
+    "unconnectedPinsComparedIndividually": true
+  },
+  "nativeBom": {
+    "groups": 15,
+    "quantity": 25,
+    "matchesLiveBomFlags": true,
+    "excludedReferences": [
+      "C1",
+      "IN",
+      "L",
+      "MOTER",
+      "R",
+      "SW"
+    ],
+    "designBomQuantity": 26,
+    "difference": "Current native BOM excludes hand-fitted stock C1 and five wire-only interfaces. Original design BOM includes stock C1. C596320 / 47uF metadata is the donor footprint, not the fitted 330uF/16V purchase specification."
+  },
+  "nativeCpl": {
+    "rows": 31,
+    "unit": "mm",
+    "positionsAndRotationsMatch": true
+  },
+  "nativePcbDrc": {
+    "returnedItems": 0,
+    "result": [],
+    "rerunDate": "2026-10-24"
+  },
+  "pcbSourceRecordsUnchangedAcrossExports": true,
+  "coldNativeImportVerified": false,
+  "newPhysicalMeasurementsClaimed": false,
+  "previews": "Unmodified saved previews extracted from the native archive; not a new rendered/physical validation",
+  "thirdPartyLibraryData": "Preserved inside the original native archive; original rights remain",
+  "ownerPhysicalSuccessConfirmation": "release-confirmation.json"
+}
